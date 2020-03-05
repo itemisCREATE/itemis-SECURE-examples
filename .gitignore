@@ -1,0 +1,66 @@
+# -----------------------------------------------------------
+# General
+
+.ant_targets
+.DS_Store
+.metadata
+.svn
+*.class
+
+.idea
+workspace.xml
+libraries.xml
+/projectlibraries.overrides.properties
+
+build.properties
+TEST-*.xml
+junit*.properties
+
+classes_gen
+source_gen
+source_gen.caches
+result_gen
+doc_gen
+
+# -----------------------------------------------------------
+# * build
+build/**
+code/**/out/
+
+# -----------------------------------------------------------
+# * tests
+test_gen
+test_gen.caches
+analyses_results
+
+# -----------------------------------------------------------
+# * gradle
+.gradle/*
+
+# -----------------------------------------------------------
+# tests
+code/**/test_gen.caches/
+code/**/test_gen/
+
+# -----------------------------------------------------------
+# uwanted stuff from examples etc.
+**/examples/**/vcs.xml
+**/doc/**/UserGuide_tmp.*
+
+# -----------------------------------------------------------
+# jars for stubs fetched from nexus
+
+xdiagram-core.jar
+xdiagram-elk.jar
+xdiagram-resources.jar
+curvesapi-*.jar
+ooxml-schemas-*.jar
+poi-*.jar
+poi-ooxml-*.jar
+xmlbeans-*.jar
+commons-*.jar
+jodconverter-*.jar
+juh-*.jar
+jurt-*.jar
+ridl-*.jar
+unoil-*.jar
