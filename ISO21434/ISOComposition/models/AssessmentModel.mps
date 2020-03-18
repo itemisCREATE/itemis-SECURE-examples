@@ -13,6 +13,18 @@
         <property id="1225456424731" name="value" index="1iTho6" />
       </concept>
     </language>
+    <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
+      <concept id="8926592809623411165" name="de.itemis.mps.editor.freetext.structure.BasicParagraph" flags="ng" index="3VMn$0">
+        <child id="8926592809623411166" name="runs" index="3VMn$3" />
+      </concept>
+      <concept id="8926592809623411162" name="de.itemis.mps.editor.freetext.structure.WordRun" flags="ng" index="3VMn$7" />
+      <concept id="8926592809623411159" name="de.itemis.mps.editor.freetext.structure.Freetext" flags="ng" index="3VMn$a">
+        <child id="8926592809623411163" name="paragraphs" index="3VMn$6" />
+      </concept>
+      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
+        <property id="8926592809623411171" name="text" index="3VMn$Y" />
+      </concept>
+    </language>
     <language id="7181c8c9-3335-44a5-b8b8-c9883c6a4425" name="de.itemis.mps.terminology">
       <concept id="4060178329348968423" name="de.itemis.mps.terminology.structure.ITerminologyProfile" flags="ng" index="3XNi_a">
         <reference id="4326626152485306882" name="baseProfile" index="3iLw6d" />
@@ -149,6 +161,9 @@
       </concept>
       <concept id="1929268400528593250" name="com.moraad.core.structure.TransferedByRelation" flags="ng" index="1z8F81" />
       <concept id="1929268400528594018" name="com.moraad.core.structure.DataFlowRuleElement" flags="ng" index="1z8Fs1" />
+      <concept id="2596867816763073964" name="com.moraad.core.structure.IDescribed" flags="ng" index="1ALOwD">
+        <child id="7057631560081871838" name="description" index="2JHqPs" />
+      </concept>
       <concept id="2596867816763073961" name="com.moraad.core.structure.ITitled" flags="ng" index="1ALOwG">
         <property id="1729603031951941283" name="Title" index="DVXpC" />
       </concept>
@@ -305,135 +320,1068 @@
         <property role="DVXpC" value="Critical" />
       </node>
     </node>
-    <node concept="2vMkC4" id="4CQftq3lQia" role="_H2pa">
+    <node concept="2vMkC4" id="49aGL_C49No" role="_H2pa">
       <property role="TrG5h" value="S'" />
       <property role="DVXpC" value="Safety" />
       <ref role="i9Qb4" node="4CQftq3lQjp" resolve="S" />
-      <node concept="2vPyy4" id="4CQftq3lQib" role="2vMkDN">
+      <node concept="2vPyy4" id="49aGL_C49Np" role="2vMkDN">
         <property role="TrG5h" value="S0" />
-        <property role="DVXpC" value="No injuries." />
-        <node concept="fNHgS" id="5wtRytMI6YW" role="fNCXo">
+        <property role="DVXpC" value="No Injuries" />
+        <node concept="fNHgS" id="49aGL_C49Nq" role="fNCXo">
           <ref role="fNHgV" node="4CQftq3lQjf" resolve="NEG" />
         </node>
       </node>
-      <node concept="2vPyy4" id="4CQftq3lQid" role="2vMkDN">
+      <node concept="2vPyy4" id="49aGL_C49Nr" role="2vMkDN">
         <property role="TrG5h" value="S1" />
-        <property role="DVXpC" value="Light and moderate injury." />
-        <node concept="fNHgS" id="5wtRytMI7ki" role="fNCXo">
+        <property role="DVXpC" value="Light Injury" />
+        <node concept="fNHgS" id="49aGL_C49Ns" role="fNCXo">
           <ref role="fNHgV" node="5wtRytMI7e7" resolve="MOD" />
         </node>
-      </node>
-      <node concept="2vPyy4" id="4CQftq3lQif" role="2vMkDN">
-        <property role="TrG5h" value="S2" />
-        <property role="DVXpC" value="Severe and life-threatening injury (survival probable)." />
-        <node concept="fNHgS" id="5wtRytMI7kO" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7cv" resolve="SER" />
+        <node concept="3VMn$a" id="7_7plVRhNUS" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNUT" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNUU" role="3VMn$3">
+              <property role="3VMn$Y" value="Light" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNV0" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNV1" role="3VMn$3">
+              <property role="3VMn$Y" value="moderate" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNV2" role="3VMn$3">
+              <property role="3VMn$Y" value="injury." />
+            </node>
+          </node>
         </node>
       </node>
-      <node concept="2vPyy4" id="5wtRytMI6YD" role="2vMkDN">
-        <property role="DVXpC" value="Life-threatening injuries (i.e., survival uncertain, fatal injuries)" />
+      <node concept="2vPyy4" id="49aGL_C49Nt" role="2vMkDN">
+        <property role="TrG5h" value="S2" />
+        <property role="DVXpC" value="Severe Injury" />
+        <node concept="fNHgS" id="49aGL_C49Nu" role="fNCXo">
+          <ref role="fNHgV" node="5wtRytMI7cv" resolve="SER" />
+        </node>
+        <node concept="3VMn$a" id="7_7plVRhNBk" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNBl" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNBm" role="3VMn$3">
+              <property role="3VMn$Y" value="Severe" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNBs" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNBt" role="3VMn$3">
+              <property role="3VMn$Y" value="life-threatening" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNBu" role="3VMn$3">
+              <property role="3VMn$Y" value="injury" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNBv" role="3VMn$3">
+              <property role="3VMn$Y" value="(survival" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNBw" role="3VMn$3">
+              <property role="3VMn$Y" value="probable)." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2vPyy4" id="49aGL_C49Nv" role="2vMkDN">
         <property role="TrG5h" value="S3" />
-        <node concept="fNHgS" id="5wtRytMI7lm" role="fNCXo">
+        <property role="DVXpC" value="Life Threatening" />
+        <node concept="fNHgS" id="49aGL_C49Nw" role="fNCXo">
           <ref role="fNHgV" node="5wtRytMI7aX" resolve="SEV" />
+        </node>
+        <node concept="3VMn$a" id="7_7plVRhNnK" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNnL" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNnM" role="3VMn$3">
+              <property role="3VMn$Y" value="Life-threatening" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNnN" role="3VMn$3">
+              <property role="3VMn$Y" value="injuries" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNnO" role="3VMn$3">
+              <property role="3VMn$Y" value="(i.e.," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNnP" role="3VMn$3">
+              <property role="3VMn$Y" value="survival" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNnQ" role="3VMn$3">
+              <property role="3VMn$Y" value="uncertain," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNnR" role="3VMn$3">
+              <property role="3VMn$Y" value="fatal" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNnS" role="3VMn$3">
+              <property role="3VMn$Y" value="injuries)" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
-    <node concept="2vMkC4" id="4CQftq3lQhU" role="_H2pa">
+    <node concept="2vMkC4" id="49aGL_C49Nx" role="_H2pa">
       <property role="TrG5h" value="F'" />
       <property role="DVXpC" value="Financial" />
       <ref role="i9Qb4" node="4CQftq3lQjq" resolve="F" />
-      <node concept="2vPyy4" id="4CQftq3lQhV" role="2vMkDN">
+      <node concept="2vPyy4" id="49aGL_C49Ny" role="2vMkDN">
         <property role="TrG5h" value="F0" />
-        <property role="DVXpC" value="Financial damage is limited to negligible financial losses." />
-        <node concept="fNHgS" id="5wtRytMI6Yt" role="fNCXo">
+        <property role="DVXpC" value="Negligible Losses" />
+        <node concept="fNHgS" id="49aGL_C49Nz" role="fNCXo">
           <ref role="fNHgV" node="4CQftq3lQjf" resolve="NEG" />
         </node>
+        <node concept="3VMn$a" id="7_7plVRhNAw" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNAx" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNAy" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNAC" role="3VMn$3">
+              <property role="3VMn$Y" value="financial" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNAD" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNAE" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNAF" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNAG" role="3VMn$3">
+              <property role="3VMn$Y" value="no" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNAH" role="3VMn$3">
+              <property role="3VMn$Y" value="effect," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNAI" role="3VMn$3">
+              <property role="3VMn$Y" value="negligible" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2R" role="3VMn$3">
+              <property role="3VMn$Y" value="consequences" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2S" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2T" role="3VMn$3">
+              <property role="3VMn$Y" value="is" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2U" role="3VMn$3">
+              <property role="3VMn$Y" value="irrelevant" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2V" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2W" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2X" role="3VMn$3">
+              <property role="3VMn$Y" value="stakeholder." />
+            </node>
+          </node>
+        </node>
       </node>
-      <node concept="2vPyy4" id="4CQftq3lQhZ" role="2vMkDN">
+      <node concept="2vPyy4" id="49aGL_C49N$" role="2vMkDN">
         <property role="TrG5h" value="F1" />
-        <property role="DVXpC" value="The financial damage is limited to the value of the vehicle sub-system." />
-        <node concept="fNHgS" id="5wtRytMI7iG" role="fNCXo">
+        <property role="DVXpC" value="Moderate Losses" />
+        <node concept="fNHgS" id="49aGL_C49N_" role="fNCXo">
           <ref role="fNHgV" node="5wtRytMI7e7" resolve="MOD" />
         </node>
-      </node>
-      <node concept="2vPyy4" id="4CQftq3lQi1" role="2vMkDN">
-        <property role="TrG5h" value="F2" />
-        <property role="DVXpC" value="The financial damage is limited to the value of the vehicle." />
-        <node concept="fNHgS" id="5wtRytMI7je" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7cv" resolve="SER" />
+        <node concept="3VMn$a" id="7_7plVRhNtl" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNtm" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNtn" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNto" role="3VMn$3">
+              <property role="3VMn$Y" value="financial" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNtp" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNtq" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNtr" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNts" role="3VMn$3">
+              <property role="3VMn$Y" value="inconvenient" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNtt" role="3VMn$3">
+              <property role="3VMn$Y" value="consequences" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNtu" role="3VMn$3">
+              <property role="3VMn$Y" value="which" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNtv" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNtw" role="3VMn$3">
+              <property role="3VMn$Y" value="affected" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNtx" role="3VMn$3">
+              <property role="3VMn$Y" value="stakeholder" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNty" role="3VMn$3">
+              <property role="3VMn$Y" value="will" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2k" role="3VMn$3">
+              <property role="3VMn$Y" value="be" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2l" role="3VMn$3">
+              <property role="3VMn$Y" value="able" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2m" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2n" role="3VMn$3">
+              <property role="3VMn$Y" value="overcome" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2o" role="3VMn$3">
+              <property role="3VMn$Y" value="with" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2p" role="3VMn$3">
+              <property role="3VMn$Y" value="limited" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO2q" role="3VMn$3">
+              <property role="3VMn$Y" value="resources." />
+            </node>
+          </node>
         </node>
       </node>
-      <node concept="2vPyy4" id="5wtRytMI6Yj" role="2vMkDN">
-        <property role="DVXpC" value="The financial damage goes beyond the value of the vehicle and may lead up to personal bankruptcy." />
+      <node concept="2vPyy4" id="49aGL_C49NA" role="2vMkDN">
+        <property role="TrG5h" value="F2" />
+        <property role="DVXpC" value="Substantial Losses" />
+        <node concept="fNHgS" id="49aGL_C49NB" role="fNCXo">
+          <ref role="fNHgV" node="5wtRytMI7cv" resolve="SER" />
+        </node>
+        <node concept="3VMn$a" id="7_7plVRhNAR" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNAS" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNAT" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNAZ" role="3VMn$3">
+              <property role="3VMn$Y" value="financial" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB0" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB1" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB2" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB3" role="3VMn$3">
+              <property role="3VMn$Y" value="substantial" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB4" role="3VMn$3">
+              <property role="3VMn$Y" value="consequences" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB5" role="3VMn$3">
+              <property role="3VMn$Y" value="which" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB6" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB7" role="3VMn$3">
+              <property role="3VMn$Y" value="affected" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNB8" role="3VMn$3">
+              <property role="3VMn$Y" value="stakeholder" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO1M" role="3VMn$3">
+              <property role="3VMn$Y" value="will" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO1N" role="3VMn$3">
+              <property role="3VMn$Y" value="be" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO1O" role="3VMn$3">
+              <property role="3VMn$Y" value="able" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO1P" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO1Q" role="3VMn$3">
+              <property role="3VMn$Y" value="overcome." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2vPyy4" id="49aGL_C49NC" role="2vMkDN">
         <property role="TrG5h" value="F3" />
-        <node concept="fNHgS" id="5wtRytMI7jK" role="fNCXo">
+        <property role="DVXpC" value="Personal Bankruptcy" />
+        <node concept="fNHgS" id="49aGL_C49ND" role="fNCXo">
           <ref role="fNHgV" node="5wtRytMI7aX" resolve="SEV" />
+        </node>
+        <node concept="3VMn$a" id="7_7plVRhNtY" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNtZ" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNu0" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu1" role="3VMn$3">
+              <property role="3VMn$Y" value="financial" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu2" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu3" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu4" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu5" role="3VMn$3">
+              <property role="3VMn$Y" value="catastrophic" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu6" role="3VMn$3">
+              <property role="3VMn$Y" value="consequences" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu7" role="3VMn$3">
+              <property role="3VMn$Y" value="which" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu8" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNu9" role="3VMn$3">
+              <property role="3VMn$Y" value="affected" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNua" role="3VMn$3">
+              <property role="3VMn$Y" value="stakeholder" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNub" role="3VMn$3">
+              <property role="3VMn$Y" value="might" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNuc" role="3VMn$3">
+              <property role="3VMn$Y" value="not" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNud" role="3VMn$3">
+              <property role="3VMn$Y" value="overcome." />
+            </node>
+          </node>
         </node>
       </node>
     </node>
-    <node concept="2vMkC4" id="4CQftq3lQiz" role="_H2pa">
+    <node concept="2vMkC4" id="49aGL_C49NE" role="_H2pa">
       <property role="TrG5h" value="O'" />
       <property role="DVXpC" value="Operational" />
       <ref role="i9Qb4" node="4CQftq3lQjs" resolve="O" />
-      <node concept="2vPyy4" id="4CQftq3lQi$" role="2vMkDN">
+      <node concept="2vPyy4" id="49aGL_C49NF" role="2vMkDN">
         <property role="TrG5h" value="O0" />
-        <property role="DVXpC" value="The operational damage leads to indiscernible degradation of vehicle function, or performance." />
-        <node concept="fNHgS" id="5wtRytMI70D" role="fNCXo">
+        <property role="DVXpC" value="Negligible Disturbance" />
+        <node concept="fNHgS" id="49aGL_C49NG" role="fNCXo">
           <ref role="fNHgV" node="4CQftq3lQjf" resolve="NEG" />
         </node>
+        <node concept="3VMn$a" id="7_7plVRhNuQ" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNuR" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNuS" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNuT" role="3VMn$3">
+              <property role="3VMn$Y" value="operational" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNuU" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNuV" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNuW" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNuX" role="3VMn$3">
+              <property role="3VMn$Y" value="indiscernible" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNuY" role="3VMn$3">
+              <property role="3VMn$Y" value="degradation" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNuZ" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNv0" role="3VMn$3">
+              <property role="3VMn$Y" value="vehicle" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNv1" role="3VMn$3">
+              <property role="3VMn$Y" value="function," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNv2" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNv3" role="3VMn$3">
+              <property role="3VMn$Y" value="performance." />
+            </node>
+          </node>
+        </node>
       </node>
-      <node concept="2vPyy4" id="4CQftq3lQiA" role="2vMkDN">
+      <node concept="2vPyy4" id="49aGL_C49NH" role="2vMkDN">
         <property role="TrG5h" value="O1" />
-        <property role="DVXpC" value="The operational damage leads to partial degradation of vehicle function, or performance." />
-        <node concept="fNHgS" id="5wtRytMI7nu" role="fNCXo">
+        <property role="DVXpC" value="Vehicle mostly Operational" />
+        <node concept="fNHgS" id="49aGL_C49NI" role="fNCXo">
           <ref role="fNHgV" node="5wtRytMI7e7" resolve="MOD" />
         </node>
-      </node>
-      <node concept="2vPyy4" id="4CQftq3lQiC" role="2vMkDN">
-        <property role="TrG5h" value="O2" />
-        <property role="DVXpC" value="The operational damage leads to serious degradation of vehicle function, or performance." />
-        <node concept="fNHgS" id="5wtRytMI7o0" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7cv" resolve="SER" />
+        <node concept="3VMn$a" id="7_7plVRhNvv" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNvw" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNvx" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvy" role="3VMn$3">
+              <property role="3VMn$Y" value="operational" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvz" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNv$" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNv_" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvA" role="3VMn$3">
+              <property role="3VMn$Y" value="partial" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvB" role="3VMn$3">
+              <property role="3VMn$Y" value="degradation" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvC" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvD" role="3VMn$3">
+              <property role="3VMn$Y" value="vehicle" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvE" role="3VMn$3">
+              <property role="3VMn$Y" value="function," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvF" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNvG" role="3VMn$3">
+              <property role="3VMn$Y" value="performance." />
+            </node>
+          </node>
         </node>
       </node>
-      <node concept="2vPyy4" id="5wtRytMI70m" role="2vMkDN">
-        <property role="DVXpC" value="The operational damage leads to a vehicle not working, from mom-intended operation up to vehicle being non-operational" />
+      <node concept="2vPyy4" id="49aGL_C49NJ" role="2vMkDN">
+        <property role="TrG5h" value="O2" />
+        <property role="DVXpC" value="Serious Limitation in Vehicle Operation" />
+        <node concept="fNHgS" id="49aGL_C49NK" role="fNCXo">
+          <ref role="fNHgV" node="5wtRytMI7cv" resolve="SER" />
+        </node>
+        <node concept="3VMn$a" id="7_7plVRhNw8" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNw9" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNwa" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwb" role="3VMn$3">
+              <property role="3VMn$Y" value="operational" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwc" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwd" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwe" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwf" role="3VMn$3">
+              <property role="3VMn$Y" value="serious" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwg" role="3VMn$3">
+              <property role="3VMn$Y" value="degradation" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwh" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwi" role="3VMn$3">
+              <property role="3VMn$Y" value="vehicle" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwj" role="3VMn$3">
+              <property role="3VMn$Y" value="function," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwk" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwl" role="3VMn$3">
+              <property role="3VMn$Y" value="performance." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2vPyy4" id="49aGL_C49NL" role="2vMkDN">
         <property role="TrG5h" value="O3" />
-        <node concept="fNHgS" id="5wtRytMI7oy" role="fNCXo">
+        <property role="DVXpC" value="Vehicle not Operational" />
+        <node concept="fNHgS" id="49aGL_C49NM" role="fNCXo">
           <ref role="fNHgV" node="5wtRytMI7aX" resolve="SEV" />
+        </node>
+        <node concept="3VMn$a" id="7_7plVRhNwL" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNwM" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNwN" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwO" role="3VMn$3">
+              <property role="3VMn$Y" value="operational" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwP" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwQ" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwR" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwS" role="3VMn$3">
+              <property role="3VMn$Y" value="a" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwT" role="3VMn$3">
+              <property role="3VMn$Y" value="vehicle" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwU" role="3VMn$3">
+              <property role="3VMn$Y" value="not" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwV" role="3VMn$3">
+              <property role="3VMn$Y" value="working," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwW" role="3VMn$3">
+              <property role="3VMn$Y" value="from" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwX" role="3VMn$3">
+              <property role="3VMn$Y" value="non-intended" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwY" role="3VMn$3">
+              <property role="3VMn$Y" value="operation" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNwZ" role="3VMn$3">
+              <property role="3VMn$Y" value="up" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNx0" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNx1" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNx2" role="3VMn$3">
+              <property role="3VMn$Y" value="vehicle" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNx3" role="3VMn$3">
+              <property role="3VMn$Y" value="being" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO0Q" role="3VMn$3">
+              <property role="3VMn$Y" value="non-operational." />
+            </node>
+          </node>
         </node>
       </node>
     </node>
-    <node concept="2vMkC4" id="4CQftq3lQiq" role="_H2pa">
+    <node concept="2vMkC4" id="49aGL_C49NN" role="_H2pa">
       <property role="TrG5h" value="P'" />
       <property role="DVXpC" value="Privacy" />
       <ref role="i9Qb4" node="4CQftq3lQjr" resolve="P" />
-      <node concept="2vPyy4" id="4CQftq3lQir" role="2vMkDN">
+      <node concept="2vPyy4" id="49aGL_C49NO" role="2vMkDN">
         <property role="TrG5h" value="P0" />
-        <property role="DVXpC" value="Road users either will not be affected (only anonymized, or no PII at all invol...y encounter a few inconveniences which they will overcome without any problem." />
-        <node concept="fNHgS" id="4CQftq3lQis" role="fNCXo">
+        <property role="DVXpC" value="Few Inconveniences" />
+        <node concept="fNHgS" id="49aGL_C49NP" role="fNCXo">
           <ref role="fNHgV" node="4CQftq3lQjf" resolve="NEG" />
         </node>
+        <node concept="3VMn$a" id="7_7plVRhNxD" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNxE" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNxF" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxG" role="3VMn$3">
+              <property role="3VMn$Y" value="privacy" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxH" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxI" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxJ" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxK" role="3VMn$3">
+              <property role="3VMn$Y" value="no" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxL" role="3VMn$3">
+              <property role="3VMn$Y" value="effect" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxM" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxN" role="3VMn$3">
+              <property role="3VMn$Y" value="can" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxO" role="3VMn$3">
+              <property role="3VMn$Y" value="create" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxP" role="3VMn$3">
+              <property role="3VMn$Y" value="few" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxQ" role="3VMn$3">
+              <property role="3VMn$Y" value="inconveniencies" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxR" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxS" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxT" role="3VMn$3">
+              <property role="3VMn$Y" value="road" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxU" role="3VMn$3">
+              <property role="3VMn$Y" value="user." />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxV" role="3VMn$3">
+              <property role="3VMn$Y" value="In" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxW" role="3VMn$3">
+              <property role="3VMn$Y" value="this" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxX" role="3VMn$3">
+              <property role="3VMn$Y" value="case," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxY" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNxZ" role="3VMn$3">
+              <property role="3VMn$Y" value="information" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNy0" role="3VMn$3">
+              <property role="3VMn$Y" value="regarding" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNy1" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNy2" role="3VMn$3">
+              <property role="3VMn$Y" value="road" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNy3" role="3VMn$3">
+              <property role="3VMn$Y" value="user" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNy4" role="3VMn$3">
+              <property role="3VMn$Y" value="is" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNW3" role="3VMn$3">
+              <property role="3VMn$Y" value="not" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNW4" role="3VMn$3">
+              <property role="3VMn$Y" value="sensitive" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNW5" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNW6" role="3VMn$3">
+              <property role="3VMn$Y" value="difficult" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNW7" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNW8" role="3VMn$3">
+              <property role="3VMn$Y" value="link" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNW9" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNWa" role="3VMn$3">
+              <property role="3VMn$Y" value="a" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO6K" role="3VMn$3">
+              <property role="3VMn$Y" value="PII" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO6L" role="3VMn$3">
+              <property role="3VMn$Y" value="principal." />
+            </node>
+          </node>
+        </node>
       </node>
-      <node concept="2vPyy4" id="4CQftq3lQit" role="2vMkDN">
+      <node concept="2vPyy4" id="49aGL_C49NQ" role="2vMkDN">
         <property role="TrG5h" value="P1" />
-        <property role="DVXpC" value="Road users may encounter significant inconveniences, which they will be able to overcome despite a few difficulties upon a privacy breach of PII." />
-        <node concept="fNHgS" id="5wtRytMI7lS" role="fNCXo">
+        <property role="DVXpC" value="Significant Inconveniences" />
+        <node concept="fNHgS" id="49aGL_C49NR" role="fNCXo">
           <ref role="fNHgV" node="5wtRytMI7e7" resolve="MOD" />
         </node>
-      </node>
-      <node concept="2vPyy4" id="4CQftq3lQiv" role="2vMkDN">
-        <property role="TrG5h" value="P2" />
-        <property role="DVXpC" value="Road users may encounter significant impact, which they should be able to overcome albeit with serious difficulties upon a privacy breach of PII." />
-        <node concept="fNHgS" id="5wtRytMI7mq" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7cv" resolve="SER" />
+        <node concept="3VMn$a" id="7_7plVRhNyW" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhNyX" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhNyY" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNyZ" role="3VMn$3">
+              <property role="3VMn$Y" value="privacy" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz0" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz1" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz2" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz3" role="3VMn$3">
+              <property role="3VMn$Y" value="significant" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz4" role="3VMn$3">
+              <property role="3VMn$Y" value="inconveniences" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz5" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz6" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz7" role="3VMn$3">
+              <property role="3VMn$Y" value="road" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz8" role="3VMn$3">
+              <property role="3VMn$Y" value="user." />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNz9" role="3VMn$3">
+              <property role="3VMn$Y" value="In" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNza" role="3VMn$3">
+              <property role="3VMn$Y" value="this" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzb" role="3VMn$3">
+              <property role="3VMn$Y" value="case," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzc" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzd" role="3VMn$3">
+              <property role="3VMn$Y" value="information" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNze" role="3VMn$3">
+              <property role="3VMn$Y" value="regarding" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzf" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzg" role="3VMn$3">
+              <property role="3VMn$Y" value="road" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzh" role="3VMn$3">
+              <property role="3VMn$Y" value="user" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzi" role="3VMn$3">
+              <property role="3VMn$Y" value="is:" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzj" role="3VMn$3">
+              <property role="3VMn$Y" value="a)" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNzk" role="3VMn$3">
+              <property role="3VMn$Y" value="sensitive" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNX9" role="3VMn$3">
+              <property role="3VMn$Y" value="but" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXa" role="3VMn$3">
+              <property role="3VMn$Y" value="difficult" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXb" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXc" role="3VMn$3">
+              <property role="3VMn$Y" value="link" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXd" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXe" role="3VMn$3">
+              <property role="3VMn$Y" value="a" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXf" role="3VMn$3">
+              <property role="3VMn$Y" value="PII" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXg" role="3VMn$3">
+              <property role="3VMn$Y" value="principal," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXh" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXi" role="3VMn$3">
+              <property role="3VMn$Y" value="b)" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXj" role="3VMn$3">
+              <property role="3VMn$Y" value="not" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXk" role="3VMn$3">
+              <property role="3VMn$Y" value="sensitive" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXl" role="3VMn$3">
+              <property role="3VMn$Y" value="but" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXm" role="3VMn$3">
+              <property role="3VMn$Y" value="easy" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXn" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXo" role="3VMn$3">
+              <property role="3VMn$Y" value="link" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXp" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXq" role="3VMn$3">
+              <property role="3VMn$Y" value="a" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXr" role="3VMn$3">
+              <property role="3VMn$Y" value="PII" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNXs" role="3VMn$3">
+              <property role="3VMn$Y" value="principal." />
+            </node>
+          </node>
         </node>
       </node>
-      <node concept="2vPyy4" id="5wtRytMI6YZ" role="2vMkDN">
-        <property role="DVXpC" value="Road users, i.e. vehicle occupants, incl. driver may encounter significant, or even irreversible impact, which they may not overcome upon a privacy breach of PII." />
+      <node concept="2vPyy4" id="49aGL_C49NS" role="2vMkDN">
+        <property role="TrG5h" value="P2" />
+        <property role="DVXpC" value="Serious Impact on PII" />
+        <node concept="fNHgS" id="49aGL_C49NT" role="fNCXo">
+          <ref role="fNHgV" node="5wtRytMI7cv" resolve="SER" />
+        </node>
+        <node concept="3VMn$a" id="7_7plVRhN$6" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhN$7" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhN$8" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$9" role="3VMn$3">
+              <property role="3VMn$Y" value="privacy" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$a" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$b" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$c" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$d" role="3VMn$3">
+              <property role="3VMn$Y" value="serious" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$e" role="3VMn$3">
+              <property role="3VMn$Y" value="impact" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$f" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$g" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$h" role="3VMn$3">
+              <property role="3VMn$Y" value="road" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$i" role="3VMn$3">
+              <property role="3VMn$Y" value="user." />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$j" role="3VMn$3">
+              <property role="3VMn$Y" value="In" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$k" role="3VMn$3">
+              <property role="3VMn$Y" value="this" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$l" role="3VMn$3">
+              <property role="3VMn$Y" value="case," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$m" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$n" role="3VMn$3">
+              <property role="3VMn$Y" value="information" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$o" role="3VMn$3">
+              <property role="3VMn$Y" value="regarding" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$p" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$q" role="3VMn$3">
+              <property role="3VMn$Y" value="road" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$r" role="3VMn$3">
+              <property role="3VMn$Y" value="user" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$s" role="3VMn$3">
+              <property role="3VMn$Y" value="is:" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$t" role="3VMn$3">
+              <property role="3VMn$Y" value="a)" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN$u" role="3VMn$3">
+              <property role="3VMn$Y" value="highly" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYw" role="3VMn$3">
+              <property role="3VMn$Y" value="sensitive" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYx" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYy" role="3VMn$3">
+              <property role="3VMn$Y" value="difficult" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYz" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNY$" role="3VMn$3">
+              <property role="3VMn$Y" value="link" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNY_" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYA" role="3VMn$3">
+              <property role="3VMn$Y" value="a" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYB" role="3VMn$3">
+              <property role="3VMn$Y" value="PII" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYC" role="3VMn$3">
+              <property role="3VMn$Y" value="principal," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYD" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYE" role="3VMn$3">
+              <property role="3VMn$Y" value="b)" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYF" role="3VMn$3">
+              <property role="3VMn$Y" value="sensitive" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYG" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYH" role="3VMn$3">
+              <property role="3VMn$Y" value="easy" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYI" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYJ" role="3VMn$3">
+              <property role="3VMn$Y" value="link" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYK" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYL" role="3VMn$3">
+              <property role="3VMn$Y" value="a" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYM" role="3VMn$3">
+              <property role="3VMn$Y" value="PII" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhNYN" role="3VMn$3">
+              <property role="3VMn$Y" value="principal." />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2vPyy4" id="49aGL_C49NU" role="2vMkDN">
         <property role="TrG5h" value="P3" />
-        <node concept="fNHgS" id="5wtRytMI7mW" role="fNCXo">
+        <property role="DVXpC" value="Irreversible Impact on PII" />
+        <node concept="fNHgS" id="49aGL_C49NV" role="fNCXo">
           <ref role="fNHgV" node="5wtRytMI7aX" resolve="SEV" />
+        </node>
+        <node concept="3VMn$a" id="7_7plVRhN_g" role="2JHqPs">
+          <node concept="3VMn$0" id="7_7plVRhN_h" role="3VMn$6">
+            <node concept="3VMn$7" id="7_7plVRhN_i" role="3VMn$3">
+              <property role="3VMn$Y" value="The" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_j" role="3VMn$3">
+              <property role="3VMn$Y" value="privacy" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_k" role="3VMn$3">
+              <property role="3VMn$Y" value="damage" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_l" role="3VMn$3">
+              <property role="3VMn$Y" value="leads" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_m" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_n" role="3VMn$3">
+              <property role="3VMn$Y" value="significant" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_o" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_p" role="3VMn$3">
+              <property role="3VMn$Y" value="even" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_q" role="3VMn$3">
+              <property role="3VMn$Y" value="irreversible" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_r" role="3VMn$3">
+              <property role="3VMn$Y" value="impact" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_s" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_t" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_u" role="3VMn$3">
+              <property role="3VMn$Y" value="road" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_v" role="3VMn$3">
+              <property role="3VMn$Y" value="user." />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_w" role="3VMn$3">
+              <property role="3VMn$Y" value="In" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_x" role="3VMn$3">
+              <property role="3VMn$Y" value="this" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_y" role="3VMn$3">
+              <property role="3VMn$Y" value="case," />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_z" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_$" role="3VMn$3">
+              <property role="3VMn$Y" value="information" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN__" role="3VMn$3">
+              <property role="3VMn$Y" value="regarding" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_A" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_B" role="3VMn$3">
+              <property role="3VMn$Y" value="road" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_C" role="3VMn$3">
+              <property role="3VMn$Y" value="user" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_D" role="3VMn$3">
+              <property role="3VMn$Y" value="is" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhN_E" role="3VMn$3">
+              <property role="3VMn$Y" value="highly" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4a" role="3VMn$3">
+              <property role="3VMn$Y" value="sensitive" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4b" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4c" role="3VMn$3">
+              <property role="3VMn$Y" value="easy" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4d" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4e" role="3VMn$3">
+              <property role="3VMn$Y" value="link" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4f" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4g" role="3VMn$3">
+              <property role="3VMn$Y" value="a" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4h" role="3VMn$3">
+              <property role="3VMn$Y" value="PII" />
+            </node>
+            <node concept="3VMn$7" id="7_7plVRhO4i" role="3VMn$3">
+              <property role="3VMn$Y" value="principal." />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -687,7 +1635,7 @@
       </node>
       <node concept="pj9wL" id="4ZGXb7g6ddi" role="2TPNDU">
         <property role="TrG5h" value="MAX" />
-        <property role="DVXpC" value="accumulate risk factors and damage transformations" />
+        <property role="DVXpC" value="Takes maximum for each impact category" />
         <node concept="20pd6G" id="4ZGXb7g6ddk" role="2CuJ$8" />
         <node concept="20pd6J" id="4ZGXb7g6ddl" role="2kr7gk" />
       </node>
@@ -696,7 +1644,7 @@
       </node>
       <node concept="1I_0pG" id="4ZGXb7g6ddn" role="2TPNDS">
         <property role="TrG5h" value="ACCU" />
-        <property role="DVXpC" value="takes maximum for each damage class" />
+        <property role="DVXpC" value="Accumulates feasibility options and impact transformations" />
         <node concept="20pd6W" id="4ZGXb7g6ddo" role="1I_0pF" />
         <node concept="20pd6h" id="4ZGXb7g6ddp" role="1I_0pE" />
         <node concept="20pd6I" id="4ZGXb7g6ddq" role="1ev5d9" />
