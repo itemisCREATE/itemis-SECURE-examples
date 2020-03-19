@@ -44,7 +44,7 @@
         <child id="8675225129778034533" name="factories" index="2Q$E0J" />
       </concept>
       <concept id="8675225129768254214" name="com.moraad.suggestions.structure.WSuggestionQueryResult" flags="ng" index="2Q16Lc">
-        <property id="8675225129775903756" name="link" index="2QGid6" />
+        <property id="8675225129775903756" name="linkIdentifier" index="2QGid6" />
         <reference id="8675225129798856842" name="consultedNode" index="2ClQv0" />
         <child id="8675225129775903758" name="suggestions" index="2QGid4" />
       </concept>
@@ -1558,23 +1558,23 @@
       </node>
       <node concept="zGsxD" id="4JRgg6uJaj7" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484.4040116179075422027.out" />
-        <property role="zGsxJ" value="134.0;63.75;12.0;12.0" />
+        <property role="zGsxJ" value="-12.0;13.25;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJaj8" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484.4040116179075422018.in" />
-        <property role="zGsxJ" value="-12.0;21.666666666666664;12.0;12.0" />
+        <property role="zGsxJ" value="-12.0;63.75;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJaj9" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484.4040116179075422036.out" />
-        <property role="zGsxJ" value="134.0;13.25;12.0;12.0" />
+        <property role="zGsxJ" value="134.0;21.666666666666664;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJaja" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484.4040116179075422009.out" />
-        <property role="zGsxJ" value="134.0;38.5;12.0;12.0" />
+        <property role="zGsxJ" value="134.0;55.33333333333333;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajb" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774325" />
-        <property role="zGsxJ" value="357.0;20.0;777.0;212.41666666666666" />
+        <property role="zGsxJ" value="72.0;62.0;725.0;172.41666666666669" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajc" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484_4040116179075422045" />
@@ -1582,23 +1582,23 @@
       </node>
       <node concept="zGsxD" id="4JRgg6uJajd" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774381" />
-        <property role="zGsxJ" value="72.0;102.41666666666666;73.0;48.0" />
+        <property role="zGsxJ" value="20.0;50.41666666666667;73.0;54.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJaje" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774345.4040116179075422009.in" />
-        <property role="zGsxJ" value="-12.0;38.5;12.0;12.0" />
+        <property role="zGsxJ" value="-12.0;55.33333333333333;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajf" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774325.4040116179075422018.in" />
-        <property role="zGsxJ" value="-12.0;75.41666666666666;12.0;12.0" />
+        <property role="zGsxJ" value="-12.0;124.41666666666667;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajg" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774325.4040116179075422009.out" />
-        <property role="zGsxJ" value="777.0;111.0;12.0;12.0" />
+        <property role="zGsxJ" value="725.0;116.0;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajh" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774381.4040116179069267316.out" />
-        <property role="zGsxJ" value="73.0;18.0;12.0;12.0" />
+        <property role="zGsxJ" value="73.0;32.0;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJaji" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484#4040116179075422027_1920203432910774804" />
@@ -1606,15 +1606,15 @@
       </node>
       <node concept="zGsxD" id="4JRgg6uJajj" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774345.4040116179075422018.out" />
-        <property role="zGsxJ" value="134.0;38.5;12.0;12.0" />
+        <property role="zGsxJ" value="-12.0;21.666666666666664;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajk" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484" />
-        <property role="zGsxJ" value="345.0;53.75;134.0;89.0" />
+        <property role="zGsxJ" value="293.0;60.66666666666667;134.0;89.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajl" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774554" />
-        <property role="zGsxJ" value="667.0;49.0;90.0;48.0" />
+        <property role="zGsxJ" value="615.0;49.0;90.0;53.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajm" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774325#4040116179075422009_1920203432910774738" />
@@ -1626,7 +1626,7 @@
       </node>
       <node concept="zGsxD" id="4JRgg6uJajo" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774345" />
-        <property role="zGsxJ" value="72.0;56.91666666666666;134.0;89.0" />
+        <property role="zGsxJ" value="948.0;122.66666666666667;134.0;89.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajp" role="zGsxH">
         <property role="2MHvPS" value="root.1920203432910773854" />
@@ -1634,7 +1634,7 @@
       </node>
       <node concept="zGsxD" id="4JRgg6uJajq" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484.4040116179069267316.in" />
-        <property role="zGsxJ" value="-12.0;55.33333333333333;12.0;12.0" />
+        <property role="zGsxJ" value="-12.0;38.5;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajr" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484#4040116179075422009_1920203432910774738" />
@@ -1646,7 +1646,7 @@
       </node>
       <node concept="zGsxD" id="4JRgg6uJajt" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774554.4040116179075422036.in" />
-        <property role="zGsxJ" value="-12.0;18.0;12.0;12.0" />
+        <property role="zGsxJ" value="-12.0;20.5;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJaju" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484#4040116179075422036_1920203432910774846" />
@@ -1654,7 +1654,7 @@
       </node>
       <node concept="zGsxD" id="4JRgg6uJajv" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774381.4040116179075422027.in" />
-        <property role="zGsxJ" value="-12.0;18.0;12.0;12.0" />
+        <property role="zGsxJ" value="73.0;10.0;12.0;12.0" />
       </node>
       <node concept="zGsxD" id="4JRgg6uJajw" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774345_4040116179075422046" />
@@ -1687,6 +1687,165 @@
       <node concept="zGsxD" id="4JRgg6uJao0" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774345#4040116179075422018" />
         <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpM0" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774325.1920203432910774484#4040116179075422018_1920203432910774768" />
+        <property role="zGsxJ" value="40.5;133.41666666666669;44.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpM1" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774554#4040116179075422036_1920203432910774846" />
+        <property role="zGsxJ" value="479.0;54.5;84.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpM2" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774345.1920203432910774325#4040116179075422018_1920203432910774768" />
+        <property role="zGsxJ" value="412.5;20.0;44.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpM3" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774381#4040116179075422027_1920203432910774804" />
+        <property role="zGsxJ" value="145.0;56.41666666666667;96.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpM4" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774325.1920203432910774345#4040116179075422009_1920203432910774738" />
+        <property role="zGsxJ" value="849.0;187.0;47.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpM5" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774325#4040116179075422009_1920203432910774738" />
+        <property role="zGsxJ" value="497.5;125.0;47.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpM6" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774381.1920203432910774484#4040116179069267316_1920203432910774705" />
+        <property role="zGsxJ" value="169.5;91.41666666666667;47.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpRS" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774554#4040116179075422036" />
+        <property role="zGsxJ" value="459.0;88.33333333333334;459.0;75.5" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpSz" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774325.1920203432910774484#4040116179075422018" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpTf" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774381.1920203432910774484#4040116179069267316" />
+        <property role="zGsxJ" value="261.0;88.41666666666667;261.0;105.16666666666667" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpTW" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774345.1920203432910774325#4040116179075422018" />
+        <property role="zGsxJ" value="916.0;150.33333333333334;916.0;41.0;20.0;41.0;20.0;192.41666666666669" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpUE" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774381#4040116179075422027" />
+        <property role="zGsxJ" value="261.0;79.91666666666667;261.0;77.41666666666667;125.0;77.41666666666667;125.0;66.41666666666667" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpVp" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774325.1920203432910774345#4040116179075422009" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpW9" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774325#4040116179075422009" />
+        <property role="zGsxJ" value="" />
+      </node>
+    </node>
+    <node concept="zGsxE" id="5pKEgM6KpWU" role="zGsxT">
+      <property role="1ueiNO" value="root.1920203432910774325" />
+      <node concept="zGsxD" id="5pKEgM6KpWV" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774381.4040116179075422027.in" />
+        <property role="zGsxJ" value="73.0;10.0;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpWW" role="zGsxH">
+        <property role="2MHvPS" value="root.1920203432910774325.4040116179075422009.out" />
+        <property role="zGsxJ" value="725.0;78.5;88.0;29.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpWX" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774554.4040116179075422036.in" />
+        <property role="zGsxJ" value="-12.0;20.5;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpWY" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.4040116179075422027.out" />
+        <property role="zGsxJ" value="-12.0;13.25;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpWZ" role="zGsxH">
+        <property role="2MHvPS" value="root.1920203432910774325.4040116179075422018.in" />
+        <property role="zGsxJ" value="-88.0;86.91666666666667;88.0;29.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX0" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.4040116179069267316.in" />
+        <property role="zGsxJ" value="-12.0;38.5;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX1" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.root.1920203432910774325#4040116179075422009_1920203432910774738" />
+        <property role="zGsxJ" value="497.5;96.0;47.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX2" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774381" />
+        <property role="zGsxJ" value="20.0;21.41666666666667;73.0;54.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX3" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774554#4040116179075422036_1920203432910774846" />
+        <property role="zGsxJ" value="479.0;25.5;84.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX4" role="zGsxH">
+        <property role="2MHvPS" value="root.1920203432910774325" />
+        <property role="zGsxJ" value="0.0;0.0;0.0;0.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX5" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774381.4040116179069267316.out" />
+        <property role="zGsxJ" value="73.0;32.0;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX6" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774554" />
+        <property role="zGsxJ" value="615.0;20.0;90.0;53.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX7" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.4040116179075422018.in" />
+        <property role="zGsxJ" value="-12.0;63.75;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX8" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.4040116179075422036.out" />
+        <property role="zGsxJ" value="134.0;21.666666666666664;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpX9" role="zGsxH">
+        <property role="2MHvPS" value="root.1920203432910774325.1920203432910774484#4040116179075422018_1920203432910774768" />
+        <property role="zGsxJ" value="40.5;104.41666666666667;44.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpXa" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.4040116179075422009.out" />
+        <property role="zGsxJ" value="134.0;55.33333333333333;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpXb" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484_4040116179075422045" />
+        <property role="zGsxJ" value="20.0;49.0;94.0;20.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpXc" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774381#4040116179075422027_1920203432910774804" />
+        <property role="zGsxJ" value="145.0;27.41666666666667;96.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpXd" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774381.1920203432910774484#4040116179069267316_1920203432910774705" />
+        <property role="zGsxJ" value="169.5;62.41666666666667;47.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpXe" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484" />
+        <property role="zGsxJ" value="293.0;31.66666666666667;134.0;89.0" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpZk" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.root.1920203432910774325#4040116179075422009" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6KpZE" role="zGsxH">
+        <property role="2MHvPS" value="root.1920203432910774325.1920203432910774484#4040116179075422018" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6Kq01" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774381.1920203432910774484#4040116179069267316" />
+        <property role="zGsxJ" value="261.0;59.41666666666667;261.0;76.16666666666667" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6Kq0p" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774554#4040116179075422036" />
+        <property role="zGsxJ" value="459.0;59.333333333333336;459.0;46.5" />
+      </node>
+      <node concept="zGsxD" id="5pKEgM6Kq0M" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484.1920203432910774381#4040116179075422027" />
+        <property role="zGsxJ" value="261.0;50.91666666666667;261.0;48.41666666666667;125.0;48.41666666666667;125.0;37.41666666666667" />
       </node>
     </node>
   </node>
