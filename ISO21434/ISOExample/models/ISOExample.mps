@@ -67,28 +67,21 @@
       </concept>
     </language>
     <language id="2283d35c-b541-4c39-bf04-8310ba3f92ff" name="com.moraad.reports">
-      <concept id="5638758366197687768" name="com.moraad.reports.structure.RiskTreatmentTableReportItem" flags="ng" index="21ek43" />
       <concept id="6986877318773217091" name="com.moraad.reports.structure.TextReportItem" flags="ng" index="yg4y$">
         <property id="6986877318773333397" name="text" index="ygo9M" />
       </concept>
       <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
         <reference id="1019912726748740255" name="diagram" index="2HTkYB" />
       </concept>
-      <concept id="6986877318773203687" name="com.moraad.reports.structure.SecurityGoalTableReportItem" flags="ng" index="ygVO0">
-        <property id="6986877318783274648" name="exportRationale" index="zIt5Z" />
-      </concept>
+      <concept id="6986877318773203687" name="com.moraad.reports.structure.SecurityGoalTableReportItem" flags="ng" index="ygVO0" />
       <concept id="6986877318773203685" name="com.moraad.reports.structure.RiskTableReportItem" flags="ng" index="ygVO2" />
       <concept id="6986877318773203683" name="com.moraad.reports.structure.ControlsTableReportItem" flags="ng" index="ygVO4" />
       <concept id="6986877318773203681" name="com.moraad.reports.structure.ThreatTableReportItem" flags="ng" index="ygVO6" />
-      <concept id="6986877318773203653" name="com.moraad.reports.structure.AssumptionTableReportItem" flags="ng" index="ygVOy" />
       <concept id="6986877318772884603" name="com.moraad.reports.structure.RiskDistributionChartReportItem" flags="ng" index="yhPIs">
         <property id="6552748594463309586" name="showPreview" index="2DBfkM" />
       </concept>
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
-        <property id="6937682328230931204" name="showStatus" index="2iWz9l" />
         <property id="6937682328230931199" name="showData" index="2iWzeI" />
-        <property id="7972951805104472636" name="showDocuments" index="3Oa_Xg" />
-        <property id="7972951805104472639" name="showWorkshops" index="3Oa_Xj" />
         <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
       </concept>
       <concept id="6986877318772759009" name="com.moraad.reports.structure.EmptyReportItem" flags="ng" index="ymko6" />
@@ -98,7 +91,6 @@
       <concept id="1488669593885577694" name="com.moraad.reports.structure.CommentReportItem" flags="ng" index="2JOk35">
         <property id="1488669593885577696" name="text" index="2JOk3V" />
       </concept>
-      <concept id="5952104409253523121" name="com.moraad.reports.structure.TableOfContentsReportItem" flags="ng" index="3x3r7t" />
       <concept id="2129184553233376960" name="com.moraad.reports.structure.FuncAssignmentSmartTableReportItem" flags="ng" index="3xdgjh" />
       <concept id="2129184553237592657" name="com.moraad.reports.structure.DataTableReportItem" flags="ng" index="3xttx0" />
       <concept id="2129184553237592667" name="com.moraad.reports.structure.DataFlowsTableReportItem" flags="ng" index="3xttxa" />
@@ -106,6 +98,20 @@
       <concept id="2129184553237592677" name="com.moraad.reports.structure.ChannelsTableReportItem" flags="ng" index="3xttxO" />
       <concept id="2129184553237375048" name="com.moraad.reports.structure.FunctionTableReportItem" flags="ng" index="3xuwDp" />
       <concept id="2129184553228409378" name="com.moraad.reports.structure.FuncAssignmentSimpleTableReportItem" flags="ng" index="3xSvwN" />
+      <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1" />
+    </language>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
+    <language id="2374bc90-7e37-41f1-a9c4-c2e35194c36a" name="com.mbeddr.doc">
+      <concept id="3350625596580089586" name="com.mbeddr.doc.structure.TextParagraph" flags="ng" index="1_0LV8">
+        <child id="3350625596580089613" name="text" index="1_0LWR" />
+      </concept>
     </language>
     <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
       <concept id="8926592809623411165" name="de.itemis.mps.editor.freetext.structure.BasicParagraph" flags="ng" index="3VMn$0">
@@ -193,6 +199,9 @@
       </concept>
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
         <property id="8248636797981549231" name="status" index="22BIBp" />
+        <child id="7449413747451492172" name="targetOfEvaluation" index="3eC5kp" />
+        <child id="7449413747451492174" name="project" index="3eC5kr" />
+        <child id="8248803110782721507" name="versions" index="3qbJXq" />
       </concept>
       <concept id="8109589388698363074" name="com.moraad.core.structure.AllSecurityControlsSelector" flags="ng" index="1jbUxn" />
       <concept id="8109589388695833370" name="com.moraad.core.structure.Scenario" flags="ng" index="1jXguf">
@@ -211,6 +220,12 @@
       </concept>
       <concept id="330802076190598253" name="com.moraad.core.structure.RiskTreatmentChunk" flags="ng" index="1mQ_Fh">
         <child id="330802076191738029" name="riskTreatments" index="1mMvoh" />
+      </concept>
+      <concept id="8248803110782721529" name="com.moraad.core.structure.ProjectVersion" flags="ng" index="3qbJX0">
+        <property id="8248803110782722961" name="description" index="3qbG4C" />
+        <property id="8248803110782721533" name="revision" index="3qbJX4" />
+        <property id="8248803110782721532" name="date" index="3qbJX5" />
+        <property id="8248803110782721534" name="authors" index="3qbJX7" />
       </concept>
       <concept id="8278271381841453282" name="com.moraad.core.structure.SecurityControlClassRef" flags="ng" index="1u4Rck" />
       <concept id="7050052209577206632" name="com.moraad.core.structure.SecurityGoalContentSelector" flags="ng" index="3u6799" />
@@ -295,6 +310,26 @@
   <node concept="3eC5pO" id="5wtRytMI6ho">
     <property role="TrG5h" value="ProjectInfo" />
     <property role="22BIBp" value="in development" />
+    <node concept="3qbJX0" id="188s5gx22W$" role="3qbJXq">
+      <property role="3qbJX4" value="1.0" />
+      <property role="3qbJX5" value="2020-03-16" />
+      <property role="3qbJX7" value="itemis" />
+      <property role="3qbG4C" value="Created initial example" />
+    </node>
+    <node concept="1_0LV8" id="188s5gx22Wm" role="3eC5kp">
+      <node concept="19SGf9" id="188s5gx22Wn" role="1_0LWR">
+        <node concept="19SUe$" id="188s5gx22Wo" role="19SJt6">
+          <property role="19SUeA" value="Headlamp System" />
+        </node>
+      </node>
+    </node>
+    <node concept="1_0LV8" id="188s5gx22Wt" role="3eC5kr">
+      <node concept="19SGf9" id="188s5gx22Wu" role="1_0LWR">
+        <node concept="19SUe$" id="188s5gx22Wv" role="19SJt6">
+          <property role="19SUeA" value="ISO 21434 Annex G" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1mQ_Fh" id="5wtRytMI6hp">
     <property role="TrG5h" value="Risk Treatment" />
@@ -1825,13 +1860,9 @@
   </node>
   <node concept="ypf9M" id="5wtRytMI6hL">
     <property role="TrG5h" value="Result Report" />
-    <node concept="3x3r7t" id="5wtRytMI6hM" role="yp9Ks" />
     <node concept="ym6bn" id="5wtRytMI6hN" role="yp9Ks">
       <property role="2iWzeI" value="true" />
-      <property role="3Oa_Xg" value="true" />
-      <property role="2iWz9l" value="true" />
       <property role="3Oa_Xm" value="true" />
-      <property role="3Oa_Xj" value="true" />
     </node>
     <node concept="yhPIs" id="5wtRytMI6hO" role="yp9Ks">
       <property role="2DBfkM" value="false" />
@@ -1846,14 +1877,11 @@
     <node concept="2JOk35" id="5wtRytMI6hS" role="yp9Ks">
       <property role="2JOk3V" value=" security elements" />
     </node>
-    <node concept="ygVOy" id="5wtRytMI6hT" role="yp9Ks" />
-    <node concept="ygVO0" id="5wtRytMI6hU" role="yp9Ks">
-      <property role="zIt5Z" value="true" />
-    </node>
+    <node concept="ygVO0" id="5wtRytMI6hU" role="yp9Ks" />
+    <node concept="3UIwP1" id="188s5gx22P_" role="yp9Ks" />
     <node concept="ygVO6" id="5wtRytMI6hV" role="yp9Ks" />
     <node concept="ygVO4" id="5wtRytMI6hW" role="yp9Ks" />
     <node concept="ygVO2" id="5wtRytMI6hX" role="yp9Ks" />
-    <node concept="21ek43" id="5wtRytMI6hY" role="yp9Ks" />
     <node concept="ymko6" id="5wtRytMI6hZ" role="yp9Ks" />
     <node concept="2JOk35" id="5wtRytMI6i0" role="yp9Ks">
       <property role="2JOk3V" value=" system elements" />
