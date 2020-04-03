@@ -41,9 +41,7 @@
       <concept id="6635950350405320702" name="com.moraad.core.structure.IColored" flags="ng" index="b7xTh">
         <child id="8150812653237852773" name="color" index="E7tE9" />
       </concept>
-      <concept id="3766652101586518553" name="com.moraad.core.structure.DamagePotentialRef" flags="ng" index="fNHgS">
-        <reference id="3766652101586518554" name="target" index="fNHgV" />
-      </concept>
+      <concept id="3766652101586518553" name="com.moraad.core.structure.DamagePotentialRef" flags="ng" index="fNHgS" />
       <concept id="4497791247486336887" name="com.moraad.core.structure.DamageClass" flags="ng" index="i8Y8S" />
       <concept id="1983173996191207122" name="com.moraad.core.structure.PropagationOperation" flags="ng" index="pgmzG">
         <child id="3683206315848241737" name="modeForThreat" index="9wnbC" />
@@ -145,6 +143,9 @@
         <reference id="8127657721944936034" name="combinedAttackEffort" index="2WHzf0" />
         <reference id="8127657721944936026" name="initialAttackEffort" index="2WHzfS" />
         <reference id="8127657721944936029" name="consecutiveAttackEffort" index="2WHzfZ" />
+      </concept>
+      <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
+        <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
       <concept id="3384350556533323994" name="com.moraad.core.structure.DataSecurityTarget" flags="ng" index="13pXwW" />
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
@@ -328,14 +329,14 @@
         <property role="TrG5h" value="S0" />
         <property role="DVXpC" value="No Injuries" />
         <node concept="fNHgS" id="49aGL_C49Nq" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjf" resolve="Neg" />
+          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
         </node>
       </node>
       <node concept="2vPyy4" id="49aGL_C49Nr" role="2vMkDN">
         <property role="TrG5h" value="S1" />
         <property role="DVXpC" value="Light Injury" />
         <node concept="fNHgS" id="49aGL_C49Ns" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7e7" resolve="Mod" />
+          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNUS" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNUT" role="3VMn$6">
@@ -358,7 +359,7 @@
         <property role="TrG5h" value="S2" />
         <property role="DVXpC" value="Severe Injury" />
         <node concept="fNHgS" id="49aGL_C49Nu" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7cv" resolve="Ser" />
+          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Ser" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNBk" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNBl" role="3VMn$6">
@@ -387,7 +388,7 @@
         <property role="TrG5h" value="S3" />
         <property role="DVXpC" value="Life Threatening" />
         <node concept="fNHgS" id="49aGL_C49Nw" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7aX" resolve="Sev" />
+          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNnK" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNnL" role="3VMn$6">
@@ -424,7 +425,7 @@
         <property role="TrG5h" value="F0" />
         <property role="DVXpC" value="Negligible Losses" />
         <node concept="fNHgS" id="49aGL_C49Nz" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjf" resolve="Neg" />
+          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNAw" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNAx" role="3VMn$6">
@@ -480,7 +481,7 @@
         <property role="TrG5h" value="F1" />
         <property role="DVXpC" value="Moderate Losses" />
         <node concept="fNHgS" id="49aGL_C49N_" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7e7" resolve="Mod" />
+          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNtl" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNtm" role="3VMn$6">
@@ -548,7 +549,7 @@
         <property role="TrG5h" value="F2" />
         <property role="DVXpC" value="Substantial Losses" />
         <node concept="fNHgS" id="49aGL_C49NB" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7cv" resolve="Ser" />
+          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Ser" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNAR" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNAS" role="3VMn$6">
@@ -607,7 +608,7 @@
         <property role="TrG5h" value="F3" />
         <property role="DVXpC" value="Personal Bankruptcy" />
         <node concept="fNHgS" id="49aGL_C49ND" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7aX" resolve="Sev" />
+          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNtY" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNtZ" role="3VMn$6">
@@ -665,7 +666,7 @@
         <property role="TrG5h" value="O0" />
         <property role="DVXpC" value="Negligible Disturbance" />
         <node concept="fNHgS" id="49aGL_C49NG" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjf" resolve="Neg" />
+          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNuQ" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNuR" role="3VMn$6">
@@ -712,7 +713,7 @@
         <property role="TrG5h" value="O1" />
         <property role="DVXpC" value="Vehicle mostly Operational" />
         <node concept="fNHgS" id="49aGL_C49NI" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7e7" resolve="Mod" />
+          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNvv" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNvw" role="3VMn$6">
@@ -759,7 +760,7 @@
         <property role="TrG5h" value="O2" />
         <property role="DVXpC" value="Serious Limitation in Vehicle Operation" />
         <node concept="fNHgS" id="49aGL_C49NK" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7cv" resolve="Ser" />
+          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Ser" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNw8" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNw9" role="3VMn$6">
@@ -806,7 +807,7 @@
         <property role="TrG5h" value="O3" />
         <property role="DVXpC" value="Vehicle not Operational" />
         <node concept="fNHgS" id="49aGL_C49NM" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7aX" resolve="Sev" />
+          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNwL" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNwM" role="3VMn$6">
@@ -876,7 +877,7 @@
         <property role="TrG5h" value="P0" />
         <property role="DVXpC" value="Few Inconveniences" />
         <node concept="fNHgS" id="49aGL_C49NP" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjf" resolve="Neg" />
+          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNxD" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNxE" role="3VMn$6">
@@ -995,7 +996,7 @@
         <property role="TrG5h" value="P1" />
         <property role="DVXpC" value="Significant Inconveniences" />
         <node concept="fNHgS" id="49aGL_C49NR" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7e7" resolve="Mod" />
+          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhNyW" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhNyX" role="3VMn$6">
@@ -1135,7 +1136,7 @@
         <property role="TrG5h" value="P2" />
         <property role="DVXpC" value="Serious Impact on PII" />
         <node concept="fNHgS" id="49aGL_C49NT" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7cv" resolve="Ser" />
+          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Ser" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhN$6" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhN$7" role="3VMn$6">
@@ -1275,7 +1276,7 @@
         <property role="TrG5h" value="P3" />
         <property role="DVXpC" value="Irreversible Impact on PII" />
         <node concept="fNHgS" id="49aGL_C49NV" role="fNCXo">
-          <ref role="fNHgV" node="5wtRytMI7aX" resolve="Sev" />
+          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
         </node>
         <node concept="3VMn$a" id="7_7plVRhN_g" role="2JHqPs">
           <node concept="3VMn$0" id="7_7plVRhN_h" role="3VMn$6">
