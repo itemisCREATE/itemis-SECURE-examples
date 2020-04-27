@@ -41,9 +41,7 @@
       <concept id="6635950350405320702" name="com.moraad.core.structure.IColored" flags="ng" index="b7xTh">
         <child id="8150812653237852773" name="color" index="E7tE9" />
       </concept>
-      <concept id="3766652101586518553" name="com.moraad.core.structure.DamagePotentialRef" flags="ng" index="fNHgS">
-        <reference id="3766652101586518554" name="target" index="fNHgV" />
-      </concept>
+      <concept id="3766652101586518553" name="com.moraad.core.structure.DamagePotentialRef" flags="ng" index="fNHgS" />
       <concept id="4497791247486336887" name="com.moraad.core.structure.DamageClass" flags="ng" index="i8Y8S" />
       <concept id="1983173996191207122" name="com.moraad.core.structure.PropagationOperation" flags="ng" index="pgmzG">
         <child id="3683206315848241737" name="modeForThreat" index="9wnbC" />
@@ -145,6 +143,9 @@
         <reference id="8127657721944936034" name="combinedAttackEffort" index="2WHzf0" />
         <reference id="8127657721944936026" name="initialAttackEffort" index="2WHzfS" />
         <reference id="8127657721944936029" name="consecutiveAttackEffort" index="2WHzfZ" />
+      </concept>
+      <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
+        <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
       <concept id="3384350556533323994" name="com.moraad.core.structure.DataSecurityTarget" flags="ng" index="13pXwW" />
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
@@ -452,28 +453,28 @@
         <property role="TrG5h" value="LLO" />
         <property role="DVXpC" value="No or tolerable financial damage." />
         <node concept="fNHgS" id="6ZpACE_zlVF" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjh" resolve="LOW" />
+          <ref role="122Z_O" node="4CQftq3lQjh" resolve="LOW" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQhZ" role="2vMkDN">
         <property role="TrG5h" value="LMO" />
         <property role="DVXpC" value="Undesirable financial damage." />
         <node concept="fNHgS" id="6ZpACE_zlVC" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjj" resolve="MOD" />
+          <ref role="122Z_O" node="4CQftq3lQjj" resolve="MOD" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQi1" role="2vMkDN">
         <property role="TrG5h" value="LHI" />
         <property role="DVXpC" value="Substantial financial damage, but yet not existence-threatening." />
         <node concept="fNHgS" id="6ZpACE_zlV_" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjl" resolve="HIG" />
+          <ref role="122Z_O" node="4CQftq3lQjl" resolve="HIG" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQi3" role="2vMkDN">
         <property role="TrG5h" value="LVH" />
         <property role="DVXpC" value="Existence-threatening financial damage." />
         <node concept="fNHgS" id="6ZpACE_zlVy" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjn" resolve="VHI" />
+          <ref role="122Z_O" node="4CQftq3lQjn" resolve="VHI" />
         </node>
       </node>
     </node>
@@ -485,28 +486,28 @@
         <property role="TrG5h" value="ILI" />
         <property role="DVXpC" value="Potentially dangerous situation." />
         <node concept="fNHgS" id="4CQftq3lQic" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjh" resolve="LOW" />
+          <ref role="122Z_O" node="4CQftq3lQjh" resolve="LOW" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQid" role="2vMkDN">
         <property role="TrG5h" value="IMO" />
         <property role="DVXpC" value="Light and moderate injury." />
         <node concept="fNHgS" id="4CQftq3lQie" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjj" resolve="MOD" />
+          <ref role="122Z_O" node="4CQftq3lQjj" resolve="MOD" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQif" role="2vMkDN">
         <property role="TrG5h" value="ISL" />
         <property role="DVXpC" value="Severe and life-threatening injury (survival probable)." />
         <node concept="fNHgS" id="4CQftq3lQig" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjl" resolve="HIG" />
+          <ref role="122Z_O" node="4CQftq3lQjl" resolve="HIG" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQih" role="2vMkDN">
         <property role="TrG5h" value="ILF" />
         <property role="DVXpC" value="Life-threatening injury (survival uncertain), fatal injury." />
         <node concept="fNHgS" id="4CQftq3lQii" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjn" resolve="VHI" />
+          <ref role="122Z_O" node="4CQftq3lQjn" resolve="VHI" />
         </node>
       </node>
     </node>
@@ -518,28 +519,28 @@
         <property role="TrG5h" value="DPI" />
         <property role="DVXpC" value="Personally identifiable information affected." />
         <node concept="fNHgS" id="4CQftq3lQis" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjf" resolve="VLO" />
+          <ref role="122Z_O" node="4CQftq3lQjf" resolve="VLO" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQit" role="2vMkDN">
         <property role="TrG5h" value="DPE" />
         <property role="DVXpC" value="Personal data affected." />
         <node concept="fNHgS" id="4CQftq3lQiu" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjh" resolve="LOW" />
+          <ref role="122Z_O" node="4CQftq3lQjh" resolve="LOW" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiv" role="2vMkDN">
         <property role="TrG5h" value="DID" />
         <property role="DVXpC" value="Identity compromised." />
         <node concept="fNHgS" id="2i_9lLtSBjV" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjj" resolve="MOD" />
+          <ref role="122Z_O" node="4CQftq3lQjj" resolve="MOD" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQix" role="2vMkDN">
         <property role="TrG5h" value="DMI" />
         <property role="DVXpC" value="Multiple identities compromised." />
         <node concept="fNHgS" id="4CQftq3lQiy" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjl" resolve="HIG" />
+          <ref role="122Z_O" node="4CQftq3lQjl" resolve="HIG" />
         </node>
       </node>
     </node>
@@ -551,28 +552,28 @@
         <property role="TrG5h" value="NLD" />
         <property role="DVXpC" value="No relevant effects, i.e., at most, an unimportant function is affected and the vehicle can be used without restrictions." />
         <node concept="fNHgS" id="4CQftq3lQi_" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjf" resolve="VLO" />
+          <ref role="122Z_O" node="4CQftq3lQjf" resolve="VLO" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiA" role="2vMkDN">
         <property role="TrG5h" value="NSD" />
         <property role="DVXpC" value="Comfort affected, i.e., a function is affected. The vehicle can be used with some restrictions." />
         <node concept="fNHgS" id="4CQftq3lQiB" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjf" resolve="VLO" />
+          <ref role="122Z_O" node="4CQftq3lQjf" resolve="VLO" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiC" role="2vMkDN">
         <property role="TrG5h" value="NSR" />
         <property role="DVXpC" value="Service required, i.e., an important function is affected. The vehicle can be used only with massive restrictions." />
         <node concept="fNHgS" id="4CQftq3lQiD" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjh" resolve="LOW" />
+          <ref role="122Z_O" node="4CQftq3lQjh" resolve="LOW" />
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiE" role="2vMkDN">
         <property role="TrG5h" value="NFV" />
         <property role="DVXpC" value="Vehicle unusable, i.e., one or more fundamental functions are affected. The vehicle usage is infeasible." />
         <node concept="fNHgS" id="4CQftq3lQiF" role="fNCXo">
-          <ref role="fNHgV" node="4CQftq3lQjj" resolve="MOD" />
+          <ref role="122Z_O" node="4CQftq3lQjj" resolve="MOD" />
         </node>
       </node>
     </node>

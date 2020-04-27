@@ -124,7 +124,6 @@
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
       <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU">
         <property id="4497791247487639139" name="rationale" index="idWcG" />
-        <reference id="3766652101586479967" name="damageCriterion" index="fNVPY" />
       </concept>
       <concept id="4497791247482840273" name="com.moraad.core.structure.SecurityGoalRef" flags="ng" index="iu3Au" />
       <concept id="1983173996191207106" name="com.moraad.core.structure.PropagationOperationExpr" flags="ng" index="pgmzW">
@@ -187,7 +186,6 @@
         <property id="2029770070284670441" name="accountForPropagatedDP_old" index="3N8EjQ" />
       </concept>
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
-        <reference id="709149415121878130" name="damageClass" index="3cP9Jg" />
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
       </concept>
       <concept id="7659415166187771033" name="com.moraad.core.structure.RiskTreatmentEntry_Readonly" flags="ng" index="1d_M4q">
@@ -212,16 +210,12 @@
         <property id="8109589388695884763" name="isDefault" index="1jXtXe" />
         <child id="8109589388695884756" name="controls" index="1jXtX1" />
       </concept>
-      <concept id="330802076194464405" name="com.moraad.core.structure.RiskRef" flags="ng" index="1m7PKD">
-        <reference id="330802076194464433" name="ref" index="1m7PKd" />
-      </concept>
+      <concept id="330802076194464405" name="com.moraad.core.structure.RiskRef" flags="ng" index="1m7PKD" />
       <concept id="330802076194464398" name="com.moraad.core.structure.RiskTreatmentEntry_Editable" flags="ng" index="1m7PKM">
         <child id="330802076194471419" name="risk" index="1m7Od7" />
         <child id="330802076194489771" name="treatments" index="1m7ZGn" />
       </concept>
-      <concept id="330802076194485305" name="com.moraad.core.structure.RiskTreatmentRef" flags="ng" index="1m7SE5">
-        <reference id="330802076194485306" name="ref" index="1m7SE6" />
-      </concept>
+      <concept id="330802076194485305" name="com.moraad.core.structure.RiskTreatmentRef" flags="ng" index="1m7SE5" />
       <concept id="330802076191738031" name="com.moraad.core.structure.RiskTreatmentEvaluation" flags="ng" index="1mMvoj">
         <property id="330802076205393173" name="closedTimestamp" index="1nI1ID" />
         <property id="330802076205393171" name="lastUpdatedTimestamp" index="1nI1IJ" />
@@ -247,9 +241,7 @@
         <child id="3440241848482952018" name="refinedBy" index="37Z4bD" />
         <child id="3440241848482952013" name="mitigatedBy" index="37Z4bQ" />
       </concept>
-      <concept id="6006699537885391512" name="com.moraad.core.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ">
-        <reference id="6006699537885391513" name="target" index="3RtnZY" />
-      </concept>
+      <concept id="6006699537885391512" name="com.moraad.core.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
       <concept id="6006699537885399164" name="com.moraad.core.structure.RiskFactorLevelAssignment" flags="ng" index="3RtpOr">
         <reference id="6006699537885399165" name="riskFactor" index="3RtpOq" />
         <reference id="6006699537885399168" name="riskFactorLevel" index="3RtpRB" />
@@ -323,9 +315,7 @@
       <concept id="2560071392251274778" name="com.moraad.components.structure.TOEFunction" flags="ng" index="Hgtl4">
         <child id="2560071392251424218" name="subFunctions" index="HjxU4" />
       </concept>
-      <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W">
-        <reference id="8675533035673365865" name="function" index="347S8X" />
-      </concept>
+      <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W" />
       <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
         <child id="6569433384300427095" name="assignedFunctions" index="lYIuc" />
       </concept>
@@ -361,7 +351,7 @@
       <property role="TrG5h" value="G.1" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="1UEFqBLBoOW" role="29ds7n">
-        <ref role="3RtnZY" to="uj4r:4CQftq3lQjc" resolve="INT" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
       </node>
       <node concept="Cna2q" id="1UEFqBLBoOX" role="CnckG">
         <ref role="122Z_O" node="1E_VH$V8u6n" resolve="SW Update" />
@@ -382,7 +372,7 @@
       <property role="TrG5h" value="G.2" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="1UEFqBLBoP9" role="29ds7n">
-        <ref role="3RtnZY" to="uj4r:4CQftq3lQjc" resolve="INT" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
       </node>
       <node concept="Cna2q" id="1UEFqBLBoPa" role="CnckG">
         <ref role="122Z_O" node="1E_VH$V8u6b" resolve="Weather data" />
@@ -403,7 +393,7 @@
       <property role="TrG5h" value="G.3" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="1UEFqBLBrNt" role="29ds7n">
-        <ref role="3RtnZY" to="uj4r:4CQftq3lQjc" resolve="INT" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
       </node>
       <node concept="Cna2q" id="1UEFqBLBrNu" role="CnckG">
         <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
@@ -421,7 +411,7 @@
       <property role="TrG5h" value="G.4" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="1UEFqBLBrNQ" role="29ds7n">
-        <ref role="3RtnZY" to="uj4r:4CQftq3lQjb" resolve="AVA" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjb" resolve="AVA" />
       </node>
       <node concept="Cna2q" id="1UEFqBLBrNR" role="CnckG">
         <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
@@ -442,7 +432,7 @@
       <property role="TrG5h" value="G.5" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="1UEFqBLBrOl" role="29ds7n">
-        <ref role="3RtnZY" to="uj4r:4CQftq3lQja" resolve="CON" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQja" resolve="CON" />
       </node>
       <node concept="Cna2q" id="1UEFqBLBrOm" role="CnckG">
         <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
@@ -463,7 +453,7 @@
       <property role="TrG5h" value="G.6" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="1UEFqBLBu0F" role="29ds7n">
-        <ref role="3RtnZY" to="uj4r:4CQftq3lQja" resolve="CON" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQja" resolve="CON" />
       </node>
       <node concept="Cna2q" id="1UEFqBLBu0G" role="CnckG">
         <ref role="122Z_O" node="1UEFqBLBtUe" resolve="AES key" />
@@ -936,7 +926,7 @@
           <property role="DVXpC" value="Head Unit" />
           <property role="29uaSM" value="" />
           <node concept="347S8W" id="3who49CIQqu" role="lYIuc">
-            <ref role="347S8X" node="1E_VH$V8uh3" resolve="DL User Data" />
+            <ref role="122Z_O" node="1E_VH$V8uh3" resolve="DL User Data" />
           </node>
         </node>
         <node concept="2lbezN" id="1E_VH$V8u3k" role="1b_L45">
@@ -947,10 +937,10 @@
             <ref role="122Z_O" node="1UEFqBLBtUe" resolve="AES key" />
           </node>
           <node concept="347S8W" id="3who49CIQqv" role="lYIuc">
-            <ref role="347S8X" node="1E_VH$V8uh3" resolve="DL User Data" />
+            <ref role="122Z_O" node="1E_VH$V8uh3" resolve="DL User Data" />
           </node>
           <node concept="347S8W" id="3who49CIQqw" role="lYIuc">
-            <ref role="347S8X" node="1E_VH$V8uhb" resolve="DL SW-Update" />
+            <ref role="122Z_O" node="1E_VH$V8uhb" resolve="DL SW-Update" />
           </node>
         </node>
         <node concept="2lbezN" id="1E_VH$V8u4q" role="1b_L45">
@@ -958,14 +948,14 @@
           <property role="DVXpC" value="Steering ECU" />
           <property role="29uaSM" value="" />
           <node concept="347S8W" id="3who49CIQqx" role="lYIuc">
-            <ref role="347S8X" node="1E_VH$V8uhb" resolve="DL SW-Update" />
+            <ref role="122Z_O" node="1E_VH$V8uhb" resolve="DL SW-Update" />
           </node>
         </node>
         <node concept="347S8W" id="3who49CIQqs" role="lYIuc">
-          <ref role="347S8X" node="1E_VH$V8uh3" resolve="DL User Data" />
+          <ref role="122Z_O" node="1E_VH$V8uh3" resolve="DL User Data" />
         </node>
         <node concept="347S8W" id="3who49CIQqt" role="lYIuc">
-          <ref role="347S8X" node="1E_VH$V8uhb" resolve="DL SW-Update" />
+          <ref role="122Z_O" node="1E_VH$V8uhb" resolve="DL SW-Update" />
         </node>
       </node>
       <node concept="2lbezN" id="1E_VH$V8u19" role="1b_L45">
@@ -976,10 +966,10 @@
           <ref role="122Z_O" node="1UEFqBLBtUe" resolve="AES key" />
         </node>
         <node concept="347S8W" id="3who49CIQqy" role="lYIuc">
-          <ref role="347S8X" node="1E_VH$V8uh3" resolve="DL User Data" />
+          <ref role="122Z_O" node="1E_VH$V8uh3" resolve="DL User Data" />
         </node>
         <node concept="347S8W" id="3who49CIQqz" role="lYIuc">
-          <ref role="347S8X" node="1E_VH$V8uhb" resolve="DL SW-Update" />
+          <ref role="122Z_O" node="1E_VH$V8uhb" resolve="DL SW-Update" />
         </node>
       </node>
       <node concept="3VMn$a" id="5C7wBxL3UGu" role="2JHqPs">
@@ -1940,42 +1930,42 @@
       <property role="1nI1IJ" value="1541592467712" />
       <node concept="1m7PKM" id="1UEFqBLBtQL" role="1m7PKN">
         <node concept="1m7PKD" id="1UEFqBLBtQM" role="1m7Od7">
-          <ref role="1m7PKd" node="1UEFqBLBtKK" resolve="R.1" />
+          <ref role="122Z_O" node="1UEFqBLBtKK" resolve="R.1" />
         </node>
         <node concept="1m7SE5" id="1UEFqBLBtQN" role="1m7ZGn">
-          <ref role="1m7SE6" to="uj4r:infFLiKfdq" resolve="M" />
+          <ref role="122Z_O" to="uj4r:infFLiKfdq" resolve="M" />
         </node>
       </node>
       <node concept="1m7PKM" id="1UEFqBLBtQO" role="1m7PKN">
         <node concept="1m7PKD" id="1UEFqBLBtQP" role="1m7Od7">
-          <ref role="1m7PKd" node="1UEFqBLBtKQ" resolve="R.2" />
+          <ref role="122Z_O" node="1UEFqBLBtKQ" resolve="R.2" />
         </node>
         <node concept="1m7SE5" id="1UEFqBLBtQQ" role="1m7ZGn">
-          <ref role="1m7SE6" to="uj4r:infFLiKfdt" resolve="Ac" />
+          <ref role="122Z_O" to="uj4r:infFLiKfdt" resolve="Ac" />
         </node>
       </node>
       <node concept="1m7PKM" id="1UEFqBLBtQR" role="1m7PKN">
         <node concept="1m7PKD" id="1UEFqBLBtQS" role="1m7Od7">
-          <ref role="1m7PKd" node="1UEFqBLBtKZ" resolve="R.3" />
+          <ref role="122Z_O" node="1UEFqBLBtKZ" resolve="R.3" />
         </node>
         <node concept="1m7SE5" id="1UEFqBLBtQT" role="1m7ZGn">
-          <ref role="1m7SE6" to="uj4r:infFLiKfdq" resolve="M" />
+          <ref role="122Z_O" to="uj4r:infFLiKfdq" resolve="M" />
         </node>
       </node>
       <node concept="1m7PKM" id="1UEFqBLBtQU" role="1m7PKN">
         <node concept="1m7PKD" id="1UEFqBLBtQV" role="1m7Od7">
-          <ref role="1m7PKd" node="1UEFqBLBtLb" resolve="R.4" />
+          <ref role="122Z_O" node="1UEFqBLBtLb" resolve="R.4" />
         </node>
         <node concept="1m7SE5" id="1UEFqBLBtQW" role="1m7ZGn">
-          <ref role="1m7SE6" to="uj4r:infFLiKfdt" resolve="Ac" />
+          <ref role="122Z_O" to="uj4r:infFLiKfdt" resolve="Ac" />
         </node>
       </node>
       <node concept="1m7PKM" id="1UEFqBLBtQX" role="1m7PKN">
         <node concept="1m7PKD" id="1UEFqBLBtQY" role="1m7Od7">
-          <ref role="1m7PKd" node="1UEFqBLBtLs" resolve="R.5" />
+          <ref role="122Z_O" node="1UEFqBLBtLs" resolve="R.5" />
         </node>
         <node concept="1m7SE5" id="1UEFqBLBtQZ" role="1m7ZGn">
-          <ref role="1m7SE6" to="uj4r:infFLiKfdq" resolve="M" />
+          <ref role="122Z_O" to="uj4r:infFLiKfdq" resolve="M" />
         </node>
       </node>
     </node>
@@ -2857,17 +2847,17 @@
       <property role="DVXpC" value="DS for Integrity Software-Updates for ECUs" />
       <property role="TrG5h" value="DS.7" />
       <node concept="3cP9l3" id="1UEFqBLBrUs" role="1WV2zz">
-        <ref role="3cP9Jg" to="uj4r:4CQftq3lQjp" resolve="SAF" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjp" resolve="SAF" />
         <node concept="fNVPU" id="1UEFqBLBrUu" role="3cP9Jm">
           <property role="idWcG" value="Manipulated breaking system, steering system, ..." />
-          <ref role="fNVPY" to="uj4r:4CQftq3lQih" resolve="ILF" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQih" resolve="ILF" />
         </node>
       </node>
       <node concept="3cP9l3" id="1UEFqBLBsbC" role="1WV2zz">
-        <ref role="3cP9Jg" to="uj4r:4CQftq3lQjs" resolve="QUA" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjs" resolve="QUA" />
         <node concept="fNVPU" id="1UEFqBLBsbG" role="3cP9Jm">
           <property role="idWcG" value="Manipulated breaking system, steering system, ..." />
-          <ref role="fNVPY" to="uj4r:4CQftq3lQiE" resolve="NFV" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQiE" resolve="NFV" />
         </node>
       </node>
     </node>
@@ -2875,10 +2865,10 @@
       <property role="DVXpC" value="DS for Integrity Weather forecast for the current region" />
       <property role="TrG5h" value="DS.8" />
       <node concept="3cP9l3" id="1UEFqBLBsbI" role="1WV2zz">
-        <ref role="3cP9Jg" to="uj4r:4CQftq3lQjs" resolve="QUA" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjs" resolve="QUA" />
         <node concept="fNVPU" id="1UEFqBLBsbK" role="3cP9Jm">
           <property role="idWcG" value="No or wrong weather forecast" />
-          <ref role="fNVPY" to="uj4r:4CQftq3lQiA" resolve="NSD" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQiA" resolve="NSD" />
         </node>
       </node>
     </node>
@@ -2886,10 +2876,10 @@
       <property role="DVXpC" value="DS for Availability Server Response" />
       <property role="TrG5h" value="DS.9" />
       <node concept="3cP9l3" id="1UEFqBLBsc8" role="1WV2zz">
-        <ref role="3cP9Jg" to="uj4r:4CQftq3lQjs" resolve="QUA" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjs" resolve="QUA" />
         <node concept="fNVPU" id="1UEFqBLBsca" role="3cP9Jm">
           <property role="idWcG" value="No weather forecasts or software updates, similar to a lack of cellular coverage" />
-          <ref role="fNVPY" to="uj4r:4CQftq3lQiA" resolve="NSD" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQiA" resolve="NSD" />
         </node>
       </node>
     </node>
@@ -2897,17 +2887,17 @@
       <property role="DVXpC" value="DS for Confidentiality Server Response" />
       <property role="TrG5h" value="DS.10" />
       <node concept="3cP9l3" id="1UEFqBLBscc" role="1WV2zz">
-        <ref role="3cP9Jg" to="uj4r:4CQftq3lQjq" resolve="FIA" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjq" resolve="FIA" />
         <node concept="fNVPU" id="1UEFqBLBsce" role="3cP9Jm">
           <property role="idWcG" value="Intellectual property" />
-          <ref role="fNVPY" to="uj4r:4CQftq3lQhV" resolve="LLO" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQhV" resolve="LLO" />
         </node>
       </node>
       <node concept="3cP9l3" id="1UEFqBLBscg" role="1WV2zz">
-        <ref role="3cP9Jg" to="uj4r:4CQftq3lQjr" resolve="LAW" />
+        <ref role="122Z_O" to="uj4r:4CQftq3lQjr" resolve="LAW" />
         <node concept="fNVPU" id="1UEFqBLBsck" role="3cP9Jm">
           <property role="idWcG" value="Personal data, such as the vehicle's position" />
-          <ref role="fNVPY" to="uj4r:4CQftq3lQit" resolve="DPE" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQit" resolve="DPE" />
         </node>
       </node>
     </node>

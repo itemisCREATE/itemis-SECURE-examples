@@ -121,9 +121,7 @@
       <concept id="8142618915233841375" name="com.moraad.sequences.structure.SequencesChunk" flags="ng" index="1YSUgs" />
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
-      <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU">
-        <reference id="3766652101586479967" name="damageCriterion" index="fNVPY" />
-      </concept>
+      <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU" />
       <concept id="4497791247482840273" name="com.moraad.core.structure.SecurityGoalRef" flags="ng" index="iu3Au" />
       <concept id="1983173996191207106" name="com.moraad.core.structure.PropagationOperationExpr" flags="ng" index="pgmzW">
         <child id="1983173996191207107" name="arguments" index="pgmzX" />
@@ -185,7 +183,6 @@
         <property id="2029770070284670441" name="accountForPropagatedDP_old" index="3N8EjQ" />
       </concept>
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
-        <reference id="709149415121878130" name="damageClass" index="3cP9Jg" />
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
       </concept>
       <concept id="7080375185222125713" name="com.moraad.core.structure.SecurityControl" flags="ng" index="3dTkcA">
@@ -223,9 +220,7 @@
         <child id="3440241848482952018" name="refinedBy" index="37Z4bD" />
         <child id="3440241848482952013" name="mitigatedBy" index="37Z4bQ" />
       </concept>
-      <concept id="6006699537885391512" name="com.moraad.core.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ">
-        <reference id="6006699537885391513" name="target" index="3RtnZY" />
-      </concept>
+      <concept id="6006699537885391512" name="com.moraad.core.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
       <concept id="6006699537885399164" name="com.moraad.core.structure.RiskFactorLevelAssignment" flags="ng" index="3RtpOr">
         <reference id="6006699537885399165" name="riskFactor" index="3RtpOq" />
         <reference id="6006699537885399168" name="riskFactorLevel" index="3RtpRB" />
@@ -300,7 +295,6 @@
       <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W">
         <property id="8675533035673365869" name="isLockedDeassigned" index="347S8T" />
         <property id="8675533035673365867" name="isLockedAssigned" index="347S8Z" />
-        <reference id="8675533035673365865" name="function" index="347S8X" />
       </concept>
       <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
         <child id="6569433384300427095" name="assignedFunctions" index="lYIuc" />
@@ -340,7 +334,7 @@
       <property role="TrG5h" value="G.1" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="7h0aj9pwZHu" role="29ds7n">
-        <ref role="3RtnZY" to="72tq:4CQftq3lQjc" resolve="INT" />
+        <ref role="122Z_O" to="72tq:4CQftq3lQjc" resolve="INT" />
       </node>
       <node concept="Cna2q" id="7h0aj9pwZHv" role="CnckG">
         <ref role="122Z_O" node="5W_1Y9DMIVI" resolve="ESP-FW" />
@@ -361,7 +355,7 @@
       <property role="TrG5h" value="G.2" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="7h0aj9pwZHN" role="29ds7n">
-        <ref role="3RtnZY" to="72tq:4CQftq3lQja" resolve="CON" />
+        <ref role="122Z_O" to="72tq:4CQftq3lQja" resolve="CON" />
       </node>
       <node concept="Cna2q" id="7h0aj9pwZHO" role="CnckG">
         <ref role="122Z_O" node="5W_1Y9DMIW8" resolve="NavFav" />
@@ -390,7 +384,7 @@
       <property role="TrG5h" value="G.3" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="2Bvf77vYiw$" role="29ds7n">
-        <ref role="3RtnZY" to="72tq:4CQftq3lQja" resolve="CON" />
+        <ref role="122Z_O" to="72tq:4CQftq3lQja" resolve="CON" />
       </node>
       <node concept="Cna2q" id="2Bvf77vYiw_" role="CnckG">
         <ref role="122Z_O" node="2Bvf77vYioF" resolve="AESKey" />
@@ -408,7 +402,7 @@
       <property role="TrG5h" value="G.4" />
       <property role="29uaSM" value="" />
       <node concept="3RtnZZ" id="2Bvf77vYjKu" role="29ds7n">
-        <ref role="3RtnZY" to="72tq:4CQftq3lQjb" resolve="AVA" />
+        <ref role="122Z_O" to="72tq:4CQftq3lQjb" resolve="AVA" />
       </node>
       <node concept="Cna2q" id="2Bvf77vYjKv" role="CnckG">
         <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
@@ -724,12 +718,12 @@
           <node concept="347S8W" id="6oAaSFUtlx" role="lYIuc">
             <property role="347S8T" value="false" />
             <property role="347S8Z" value="false" />
-            <ref role="347S8X" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+            <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
           </node>
           <node concept="347S8W" id="6oAaSFUtl$" role="lYIuc">
             <property role="347S8T" value="false" />
             <property role="347S8Z" value="false" />
-            <ref role="347S8X" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+            <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
           </node>
         </node>
         <node concept="2lbezN" id="5W_1Y9DMIS8" role="1b_L45">
@@ -742,7 +736,7 @@
           <node concept="347S8W" id="6oAaSFUtl_" role="lYIuc">
             <property role="347S8T" value="false" />
             <property role="347S8Z" value="false" />
-            <ref role="347S8X" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+            <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
           </node>
         </node>
         <node concept="2lbezN" id="5W_1Y9DMITd" role="1b_L45">
@@ -752,18 +746,18 @@
           <node concept="347S8W" id="6oAaSFUtly" role="lYIuc">
             <property role="347S8T" value="false" />
             <property role="347S8Z" value="false" />
-            <ref role="347S8X" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+            <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
           </node>
         </node>
         <node concept="347S8W" id="6oAaSFUtlC" role="lYIuc">
           <property role="347S8T" value="false" />
           <property role="347S8Z" value="false" />
-          <ref role="347S8X" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+          <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
         </node>
         <node concept="347S8W" id="6oAaSFUtlE" role="lYIuc">
           <property role="347S8T" value="false" />
           <property role="347S8Z" value="false" />
-          <ref role="347S8X" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+          <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
         </node>
       </node>
       <node concept="2lbezN" id="5W_1Y9DMIQH" role="1b_L45">
@@ -779,23 +773,23 @@
         <node concept="347S8W" id="6oAaSFUtlA" role="lYIuc">
           <property role="347S8T" value="false" />
           <property role="347S8Z" value="false" />
-          <ref role="347S8X" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+          <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
         </node>
         <node concept="347S8W" id="6oAaSFUtlD" role="lYIuc">
           <property role="347S8T" value="false" />
           <property role="347S8Z" value="false" />
-          <ref role="347S8X" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+          <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
         </node>
       </node>
       <node concept="347S8W" id="6oAaSFUtlB" role="lYIuc">
         <property role="347S8T" value="false" />
         <property role="347S8Z" value="false" />
-        <ref role="347S8X" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+        <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
       </node>
       <node concept="347S8W" id="6oAaSFUtlF" role="lYIuc">
         <property role="347S8T" value="false" />
         <property role="347S8Z" value="false" />
-        <ref role="347S8X" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+        <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
       </node>
       <node concept="3VMn$a" id="5C7wBxL3UmP" role="2JHqPs">
         <node concept="3VMn$0" id="5C7wBxL3UmQ" role="3VMn$6">
@@ -834,12 +828,12 @@
         <node concept="347S8W" id="6oAaSFUtih" role="lYIuc">
           <property role="347S8Z" value="false" />
           <property role="347S8T" value="false" />
-          <ref role="347S8X" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+          <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
         </node>
         <node concept="347S8W" id="6oAaSFUtii" role="lYIuc">
           <property role="347S8Z" value="false" />
           <property role="347S8T" value="false" />
-          <ref role="347S8X" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+          <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
         </node>
       </node>
       <node concept="3$0O7b" id="3yB3VT5FQxG" role="38xWUi">
@@ -863,7 +857,7 @@
         <node concept="347S8W" id="6oAaSFUtij" role="lYIuc">
           <property role="347S8Z" value="false" />
           <property role="347S8T" value="false" />
-          <ref role="347S8X" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+          <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
         </node>
       </node>
       <node concept="3$0O7b" id="3yB3VT5FQxI" role="38xWUi">
@@ -887,7 +881,7 @@
         <node concept="347S8W" id="6oAaSFUtik" role="lYIuc">
           <property role="347S8Z" value="false" />
           <property role="347S8T" value="false" />
-          <ref role="347S8X" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+          <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
         </node>
       </node>
       <node concept="3$0O7b" id="3yB3VT5FQxK" role="38xWUi">
@@ -909,7 +903,7 @@
       <node concept="347S8W" id="6oAaSFUtlS" role="lYIuc">
         <property role="347S8T" value="false" />
         <property role="347S8Z" value="false" />
-        <ref role="347S8X" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+        <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
       </node>
     </node>
     <node concept="2zhWjs" id="5W_1Y9DMIW8" role="2lbk3h">
@@ -919,7 +913,7 @@
       <node concept="347S8W" id="6oAaSFUtlz" role="lYIuc">
         <property role="347S8T" value="false" />
         <property role="347S8Z" value="false" />
-        <ref role="347S8X" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+        <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
       </node>
     </node>
     <node concept="2zhWjs" id="2Bvf77vYioF" role="2lbk3h">
@@ -1998,15 +1992,15 @@
       <property role="DVXpC" value="DS for Integrity ESP Firmware Binary" />
       <property role="TrG5h" value="DS.7" />
       <node concept="3cP9l3" id="7h0aj9px1bN" role="1WV2zz">
-        <ref role="3cP9Jg" to="72tq:4CQftq3lQjp" resolve="SAF" />
+        <ref role="122Z_O" to="72tq:4CQftq3lQjp" resolve="SAF" />
         <node concept="fNVPU" id="7h0aj9px1bP" role="3cP9Jm">
-          <ref role="fNVPY" to="72tq:4CQftq3lQih" resolve="ILF" />
+          <ref role="122Z_O" to="72tq:4CQftq3lQih" resolve="ILF" />
         </node>
       </node>
       <node concept="3cP9l3" id="7h0aj9px1bR" role="1WV2zz">
-        <ref role="3cP9Jg" to="72tq:4CQftq3lQjs" resolve="QUA" />
+        <ref role="122Z_O" to="72tq:4CQftq3lQjs" resolve="QUA" />
         <node concept="fNVPU" id="7h0aj9px1bV" role="3cP9Jm">
-          <ref role="fNVPY" to="72tq:4CQftq3lQiE" resolve="NFV" />
+          <ref role="122Z_O" to="72tq:4CQftq3lQiE" resolve="NFV" />
         </node>
       </node>
     </node>
@@ -2014,9 +2008,9 @@
       <property role="DVXpC" value="DS for Confidentiality Favorite Navigation Destinations" />
       <property role="TrG5h" value="DS.8" />
       <node concept="3cP9l3" id="7h0aj9px1bX" role="1WV2zz">
-        <ref role="3cP9Jg" to="72tq:4CQftq3lQjr" resolve="LAW" />
+        <ref role="122Z_O" to="72tq:4CQftq3lQjr" resolve="LAW" />
         <node concept="fNVPU" id="7h0aj9px1c2" role="3cP9Jm">
-          <ref role="fNVPY" to="72tq:4CQftq3lQit" resolve="DPE" />
+          <ref role="122Z_O" to="72tq:4CQftq3lQit" resolve="DPE" />
         </node>
       </node>
     </node>
@@ -2024,9 +2018,9 @@
       <property role="DVXpC" value="DS for Availability Synchronize Favorite Navigation Destinations" />
       <property role="TrG5h" value="DS.9" />
       <node concept="3cP9l3" id="2Bvf77vYjLM" role="1WV2zz">
-        <ref role="3cP9Jg" to="72tq:4CQftq3lQjs" resolve="QUA" />
+        <ref role="122Z_O" to="72tq:4CQftq3lQjs" resolve="QUA" />
         <node concept="fNVPU" id="2Bvf77vYjLW" role="3cP9Jm">
-          <ref role="fNVPY" to="72tq:4CQftq3lQiA" resolve="NSD" />
+          <ref role="122Z_O" to="72tq:4CQftq3lQiA" resolve="NSD" />
         </node>
       </node>
     </node>
