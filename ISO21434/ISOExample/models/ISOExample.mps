@@ -181,6 +181,7 @@
       <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ng" index="37AdO$">
         <child id="3440241848481148064" name="expression" index="37AdOr" />
       </concept>
+      <concept id="4601417698506916745" name="com.moraad.core.structure.EmptyStandardElement" flags="ng" index="19qcqd" />
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
       </concept>
@@ -1574,7 +1575,7 @@
     <property role="TrG5h" value="Damage Scenarios" />
     <node concept="U8VUI" id="702oElbSw1F" role="2xH1$J" />
     <node concept="2AH0t1" id="702oElbSw1D" role="2vPz$N">
-      <property role="DVXpC" value="Headlamp turns of unexpectedly" />
+      <property role="DVXpC" value="Headlamp turns off unexpectedly" />
       <property role="TrG5h" value="DS.1" />
       <node concept="3cP9l3" id="5wtRytMI6W1" role="1WV2zz">
         <ref role="122Z_O" to="xz8e:4CQftq3lQjp" resolve="S" />
@@ -1703,10 +1704,27 @@
         <ref role="122Z_O" node="1eUj96eGPLj" resolve="NavECU" />
       </node>
       <node concept="3VMn$a" id="6SOv2Wub$KP" role="2JHqPs" />
+      <node concept="3RtpOr" id="54s24WY_DrS" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
+      </node>
+      <node concept="3RtpOr" id="54s24WY_Dvr" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
+      </node>
+      <node concept="3RtpOr" id="54s24WY_DzV" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
+      </node>
+      <node concept="3RtpOr" id="54s24WY_DBw" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhK" resolve="Eq" />
+      </node>
+      <node concept="3RtpOr" id="54s24WY_DGY" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="K2" />
+      </node>
     </node>
     <node concept="3Rc6Py" id="6SOv2WubxKM" role="2vPz$N">
       <property role="TrG5h" value="AS.2" />
-      <property role="DVXpC" value="Compromise Nav. from Cellular interface" />
+      <property role="DVXpC" value="Compromise Nav. from Cellular Interface" />
       <node concept="37A2tY" id="6SOv2WubxKN" role="37Z4bQ" />
       <node concept="37A2tX" id="6SOv2WubxKO" role="37Z4bD" />
       <node concept="122ZmF" id="6SOv2Wub$EG" role="Oro34">
@@ -1718,12 +1736,24 @@
       </node>
       <node concept="3RtpOr" id="6SOv2WubAhH" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
+      </node>
+      <node concept="3RtpOr" id="54s24WY_DK_" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhR" resolve="K1" />
+      </node>
+      <node concept="3RtpOr" id="54s24WY_DUx" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhC" resolve="W2" />
+      </node>
+      <node concept="3RtpOr" id="54s24WY_DZ2" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhI" resolve="T2" />
       </node>
     </node>
     <node concept="3Rc6Py" id="6SOv2Wub$SC" role="2vPz$N">
       <property role="TrG5h" value="AS.3" />
-      <property role="DVXpC" value="Compromise Nav. from Bluetooth interface" />
+      <property role="DVXpC" value="Compromise Nav. from Bluetooth Interface" />
       <node concept="37A2tY" id="6SOv2Wub$SD" role="37Z4bQ" />
       <node concept="37A2tX" id="6SOv2Wub$SE" role="37Z4bD" />
       <node concept="122ZmF" id="6SOv2Wub$SF" role="Oro34">
@@ -1737,7 +1767,19 @@
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
+      <node concept="3RtpOr" id="54s24WY_DO9" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhT" resolve="K3" />
+      </node>
+      <node concept="3RtpOr" id="54s24WY_E2C" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhH" resolve="T1" />
+      </node>
     </node>
+    <node concept="19qcqd" id="54s24WY_Dc2" role="2vPz$N" />
+    <node concept="19qcqd" id="54s24WY_DfY" role="2vPz$N" />
+    <node concept="19qcqd" id="54s24WY_DjV" role="2vPz$N" />
+    <node concept="19qcqd" id="54s24WY_DnT" role="2vPz$N" />
     <node concept="3Rc6Py" id="1kMJkOan9bt" role="2vPz$N">
       <property role="TrG5h" value="AS.7" />
       <property role="29uaSM" value="" />
