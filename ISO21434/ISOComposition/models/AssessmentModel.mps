@@ -1404,7 +1404,7 @@
         <property role="TrG5h" value="Sev" />
         <property role="uPLpr" value="3" />
         <node concept="1iSF2X" id="5wtRytMI7bY" role="E7tE9">
-          <property role="1iTho6" value="FF6600" />
+          <property role="1iTho6" value="FFAAAA" />
         </node>
       </node>
       <node concept="2vP_BY" id="5wtRytMI7cv" role="OYqhc">
@@ -1552,13 +1552,13 @@
       <node concept="E7tEd" id="4CQftq3lQjY" role="E7uUa">
         <property role="TrG5h" value="4" />
         <node concept="1iSF2X" id="4CQftq3lQjZ" role="E7tE9">
-          <property role="1iTho6" value="FF9933" />
+          <property role="1iTho6" value="FFCC99" />
         </node>
       </node>
       <node concept="E7tEd" id="5wtRytMI6QF" role="E7uUa">
         <property role="TrG5h" value="5" />
         <node concept="1iSF2X" id="5wtRytMI6QS" role="E7tE9">
-          <property role="1iTho6" value="FF6633" />
+          <property role="1iTho6" value="FFAAAA" />
         </node>
       </node>
     </node>
@@ -1588,7 +1588,7 @@
         <property role="KQXJv" value="0" />
         <property role="TrG5h" value="High" />
         <node concept="1iSF2X" id="4CQftq3lQl7" role="E7tE9">
-          <property role="1iTho6" value="FF6600" />
+          <property role="1iTho6" value="FFAAAA" />
         </node>
       </node>
     </node>
