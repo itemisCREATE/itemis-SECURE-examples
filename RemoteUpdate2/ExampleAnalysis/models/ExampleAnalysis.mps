@@ -344,7 +344,7 @@
     <node concept="2xx57M" id="702oElbSvKe" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="1E_VH$V8tTn">
-    <property role="TrG5h" value="Assets" />
+    <property role="TrG5h" value="Security Objectives" />
     <property role="3GE5qa" value="securityAnalysis" />
     <node concept="2vM170" id="1UEFqBLBoOR" role="2vPz$N">
       <property role="3N8EjQ" value="true" />

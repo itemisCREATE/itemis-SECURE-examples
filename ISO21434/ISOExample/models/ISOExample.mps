@@ -1701,7 +1701,7 @@
     </node>
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hD">
-    <property role="TrG5h" value="Attack Steps" />
+    <property role="TrG5h" value="Threat Scenarios" />
     <property role="3GE5qa" value="securityAnalysis" />
     <node concept="3Rc6Py" id="1kMJkOan7YM" role="2vPz$N">
       <property role="TrG5h" value="AS.1" />
