@@ -201,7 +201,9 @@
       <concept id="330802076194464405" name="com.moraad.core.structure.RiskRef" flags="ng" index="1m7PKD" />
       <concept id="330802076194464398" name="com.moraad.core.structure.RiskTreatmentEntry_Editable" flags="ng" index="1m7PKM">
         <child id="330802076194471419" name="risk" index="1m7Od7" />
+        <child id="330802076194489771" name="treatments" index="1m7ZGn" />
       </concept>
+      <concept id="330802076194485305" name="com.moraad.core.structure.RiskTreatmentRef" flags="ng" index="1m7SE5" />
       <concept id="330802076191738031" name="com.moraad.core.structure.RiskTreatmentEvaluation" flags="ng" index="1mMvoj">
         <property id="330802076205393171" name="lastUpdatedTimestamp" index="1nI1IJ" />
         <child id="330802076194464399" name="entries" index="1m7PKN" />
@@ -295,6 +297,9 @@
       <node concept="1m7PKM" id="21hb9eTOxDa" role="1m7PKN">
         <node concept="1m7PKD" id="21hb9eTOxDb" role="1m7Od7">
           <ref role="122Z_O" node="1eUj96eGRhm" resolve="R.1" />
+        </node>
+        <node concept="1m7SE5" id="7gwHXNztLJr" role="1m7ZGn">
+          <ref role="122Z_O" to="xz8e:infFLiKfdq" resolve="R" />
         </node>
       </node>
       <node concept="1m7PKM" id="21hb9eTOxDc" role="1m7PKN">
@@ -501,7 +506,7 @@
     </node>
     <node concept="2zhWjs" id="7gwHXNztHdJ" role="2lbk3h">
       <property role="TrG5h" value="NavECU-CAN-WHL" />
-      <property role="DVXpC" value="Whitelist of CAN- Messages the Nav-ECU is allowed to send" />
+      <property role="DVXpC" value="Whitelist of CAN-Messages the Nav-ECU is allowed to send" />
       <node concept="3VMn$a" id="7gwHXNztHdK" role="2JHqPs" />
     </node>
     <node concept="2x4$T9" id="702oElbSvJ$" role="2xH1$J" />
@@ -1414,6 +1419,9 @@
       <node concept="Cna2q" id="5wtRytMI6Se" role="CnckG">
         <ref role="122Z_O" node="5wtRytMI6S9" resolve="SwReqOff" />
       </node>
+      <node concept="2AI9xH" id="7gwHXNztLag" role="3D3iv$">
+        <ref role="122Z_O" node="702oElbSw1D" resolve="DS.1" />
+      </node>
     </node>
     <node concept="19qcqd" id="54s24WYAqXW" role="2vPz$N" />
     <node concept="19qcqd" id="54s24WYAr1F" role="2vPz$N" />
@@ -1704,8 +1712,12 @@
     <node concept="3Rc6Py" id="1kMJkOan7YM" role="2vPz$N">
       <property role="TrG5h" value="AS.1" />
       <property role="29uaSM" value="" />
-      <property role="DVXpC" value="Send CAN message from compromised Navigation System" />
-      <node concept="37A2tY" id="1kMJkOan7YN" role="37Z4bQ" />
+      <property role="DVXpC" value="Send HeadlampOff CAN message from compromised Navigation System" />
+      <node concept="37A2tY" id="1kMJkOan7YN" role="37Z4bQ">
+        <node concept="pgv_Y" id="7gwHXNztLJR" role="37AdOr">
+          <ref role="122Z_O" node="7gwHXNztH6S" resolve="C.2" />
+        </node>
+      </node>
       <node concept="37A2tX" id="1kMJkOan7YO" role="37Z4bD" />
       <node concept="122ZmF" id="4NcsJzPXq$d" role="Oro34">
         <ref role="122Z_O" to="julz:4CQftq3lQli" resolve="TC.1" />
@@ -1715,7 +1727,7 @@
       </node>
       <node concept="3VMn$a" id="6SOv2Wub$KP" role="2JHqPs" />
       <node concept="3RtpOr" id="54s24WY_DrS" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
       </node>
       <node concept="3RtpOr" id="54s24WY_Dvr" role="3RtpOm">
@@ -1753,8 +1765,8 @@
         <ref role="122Z_O" node="1eUj96eGPLj" resolve="NavECU" />
       </node>
       <node concept="3RtpOr" id="6SOv2WubAhH" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
       </node>
       <node concept="3RtpOr" id="54s24WY_DK_" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
@@ -1781,7 +1793,7 @@
         <ref role="122Z_O" node="1eUj96eGPLj" resolve="NavECU" />
       </node>
       <node concept="3RtpOr" id="6SOv2WubAmr" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
       <node concept="3RtpOr" id="54s24WY_DO9" role="3RtpOm">
@@ -1826,7 +1838,7 @@
         <ref role="122Z_O" to="julz:4CQftq3lQmG" resolve="TC.2" />
       </node>
       <node concept="3RtpOr" id="54s24WYDM5y" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
       </node>
       <node concept="3RtpOr" id="54s24WYDM90" role="3RtpOm">
@@ -1855,7 +1867,7 @@
         <ref role="122Z_O" to="julz:4CQftq3lQrx" resolve="TC.5a" />
       </node>
       <node concept="3RtpOr" id="54s24WYDLQ5" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
       <node concept="3RtpOr" id="54s24WYDLTp" role="3RtpOm">
@@ -1884,7 +1896,7 @@
         <ref role="122Z_O" to="julz:4CQftq3lQqK" resolve="TC.5" />
       </node>
       <node concept="3RtpOr" id="54s24WYDMks" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
       </node>
       <node concept="3RtpOr" id="54s24WYDMnA" role="3RtpOm">
@@ -1916,7 +1928,7 @@
         <ref role="122Z_O" to="julz:4CQftq3lQsu" resolve="TC.6" />
       </node>
       <node concept="3RtpOr" id="1Fx8SOU6MDR" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
       <node concept="3RtpOr" id="1Fx8SOU6MEK" role="3RtpOm">
@@ -2022,6 +2034,7 @@
     </node>
     <node concept="3xSvwN" id="5wtRytMI6i1" role="yp9Ks" />
     <node concept="3xdgjh" id="5wtRytMI6i2" role="yp9Ks" />
+    <node concept="ygVO2" id="7gwHXNztMj1" role="yp9Ks" />
     <node concept="3xuwDp" id="5wtRytMI6i3" role="yp9Ks" />
     <node concept="3xttx0" id="5wtRytMI6i4" role="yp9Ks" />
     <node concept="3xttxm" id="5wtRytMI6i5" role="yp9Ks" />
@@ -3239,12 +3252,12 @@
         </node>
       </node>
       <node concept="37A2tS" id="7gwHXNztH7g" role="37YKS4">
-        <node concept="pgv_Y" id="7gwHXNztHxo" role="37AdOr">
+        <node concept="pgv_Y" id="7gwHXNztLLN" role="37AdOr">
           <ref role="122Z_O" node="7gwHXNztHc8" resolve="SO.9" />
         </node>
       </node>
       <node concept="3RtpOr" id="7gwHXNztHy_" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQh$" resolve="Ex3" />
       </node>
       <node concept="3RtpOr" id="7gwHXNztH$1" role="3RtpOm">
@@ -3261,6 +3274,10 @@
       </node>
       <node concept="3RtpOr" id="7gwHXNztHCr" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
+      </node>
+      <node concept="3RtpOr" id="7gwHXNztJSm" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhQ" resolve="K0" />
       </node>
     </node>
     <node concept="2vM170" id="7gwHXNztHc8" role="2vPz$N">
@@ -3282,20 +3299,9 @@
     </node>
     <node concept="3Rc6Py" id="7gwHXNztHdV" role="2vPz$N">
       <property role="TrG5h" value="AS.9" />
+      <property role="DVXpC" value="Add HeadlampOff to Whitelist" />
       <node concept="37A2tY" id="7gwHXNztHdW" role="37Z4bQ" />
-      <node concept="37A2tX" id="7gwHXNztHdX" role="37Z4bD">
-        <node concept="pgmzW" id="7gwHXNztHl1" role="37AdOr">
-          <node concept="37eGqF" id="7gwHXNztHl2" role="37eMcl">
-            <ref role="37eGqE" to="xz8e:fvGRIU9zAR" resolve="or" />
-          </node>
-          <node concept="pgv_Y" id="7gwHXNztHl0" role="pgmzX">
-            <ref role="122Z_O" node="6SOv2WubxKM" resolve="AS.2" />
-          </node>
-          <node concept="pgv_Y" id="7gwHXNztHmf" role="pgmzX">
-            <ref role="122Z_O" node="6SOv2Wub$SC" resolve="AS.3" />
-          </node>
-        </node>
-      </node>
+      <node concept="37A2tX" id="7gwHXNztHdX" role="37Z4bD" />
       <node concept="3VMn$a" id="7gwHXNztHdY" role="2JHqPs" />
       <node concept="122ZmF" id="7gwHXNztHgi" role="Oro34">
         <ref role="122Z_O" to="julz:4CQftq3lQmG" resolve="TC.2" />
