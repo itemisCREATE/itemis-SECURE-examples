@@ -722,7 +722,7 @@
     <property role="3GE5qa" value="system" />
     <property role="TrG5h" value="System Diagram" />
     <node concept="3$0O7b" id="5wtRytMI6hx" role="3Vepgw">
-      <ref role="122Z_O" node="1eUj96eGPL1" resolve="ItemBound" />
+      <ref role="122Z_O" node="5wtRytMI6ht" resolve="SYS" />
     </node>
     <node concept="3$0O6U" id="5wtRytMI6hy" role="1BT5$_">
       <ref role="3$0O6B" node="5wtRytMI6hv" resolve="Channels" />
