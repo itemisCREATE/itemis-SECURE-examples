@@ -62,6 +62,7 @@
         <reference id="6006699537885399165" name="riskFactor" index="3RtpOq" />
         <reference id="6006699537885399168" name="riskFactorLevel" index="3RtpRB" />
       </concept>
+      <concept id="8677481601268483478" name="com.moraad.core.structure.ChannelSecurityTarget" flags="ng" index="3WX1Ss" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -80,7 +81,7 @@
       <property role="DVXpC" value="Spoofing" />
       <node concept="3RtpOr" id="4CQftq3lQlo" role="3RtpOm">
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQlp" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
@@ -196,6 +197,7 @@
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhG" resolve="T0" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyij" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQlv" role="3RoD5G">
       <property role="TrG5h" value="TC.1a" />
@@ -203,7 +205,7 @@
       <property role="29uaSM" value="" />
       <ref role="323Bpw" node="4CQftq3lQli" resolve="TC.1" />
       <node concept="3RtpOr" id="4CQftq3lQl_" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
       </node>
       <node concept="3RtnZZ" id="4CQftq3lQlE" role="3Rtpal">
@@ -213,6 +215,7 @@
         <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
       </node>
       <node concept="3h3ntD" id="3JPVaN3cLY4" role="3Rtpag" />
+      <node concept="3WX1Ss" id="75wqdixoyik" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQlG" role="3RoD5G">
       <property role="TrG5h" value="TC.1b" />
@@ -220,7 +223,7 @@
       <ref role="323Bpw" node="4CQftq3lQli" resolve="TC.1" />
       <node concept="3RtpOr" id="4CQftq3lQlM" role="3RtpOm">
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
       </node>
       <node concept="3RtnZZ" id="4CQftq3lQlR" role="3Rtpal">
         <ref role="122Z_O" to="xz8e:4CQftq3lQja" resolve="C" />
@@ -302,6 +305,7 @@
           </node>
         </node>
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyil" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQmG" role="3RoD5G">
       <property role="TrG5h" value="TC.2" />
@@ -309,7 +313,7 @@
       <node concept="13pXwX" id="4CQftq3lQmM" role="3Rtpag" />
       <node concept="3RtpOr" id="4CQftq3lQmN" role="3RtpOm">
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQmO" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
@@ -365,6 +369,7 @@
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhG" resolve="T0" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyim" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQnw" role="3RoD5G">
       <property role="TrG5h" value="TC.2a" />
@@ -373,7 +378,7 @@
       <node concept="13pXwX" id="4CQftq3lQny" role="3Rtpag" />
       <node concept="3RtpOr" id="4CQftq3lQnB" role="3RtpOm">
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQnF" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
@@ -447,13 +452,14 @@
           </node>
         </node>
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyin" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQpf" role="3RoD5G">
       <property role="TrG5h" value="TC.3" />
       <property role="DVXpC" value="Repudiation" />
       <node concept="3h3ntD" id="6ytiexnPZIS" role="3Rtpag" />
       <node concept="3RtpOr" id="4CQftq3lQpi" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQpj" role="3RtpOm">
@@ -482,6 +488,7 @@
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhG" resolve="T0" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyio" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQpp" role="3RoD5G">
       <property role="TrG5h" value="TC.4" />
@@ -489,7 +496,7 @@
       <node concept="13pXwX" id="4CQftq3lQpv" role="3Rtpag" />
       <node concept="3RtpOr" id="4CQftq3lQpw" role="3RtpOm">
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQpx" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
@@ -542,6 +549,7 @@
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhG" resolve="T0" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyip" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQpA" role="3RoD5G">
       <property role="TrG5h" value="TC.4a" />
@@ -600,6 +608,7 @@
           </node>
         </node>
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyiq" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="2Wj3TpYBON8" role="3RoD5G">
       <property role="TrG5h" value="TC.4b" />
@@ -682,7 +691,7 @@
       </node>
       <node concept="13pXwX" id="2Wj3TpYBP5h" role="3Rtpag" />
       <node concept="3RtpOr" id="2Wj3TpYBP5i" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
       <node concept="3RtpOr" id="2Wj3TpYBP5j" role="3RtpOm">
@@ -798,6 +807,7 @@
           </node>
         </node>
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyir" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQqK" role="3RoD5G">
       <property role="TrG5h" value="TC.5" />
@@ -805,7 +815,7 @@
       <node concept="13pXwX" id="4CQftq3lQqQ" role="3Rtpag" />
       <node concept="3RtpOr" id="4CQftq3lQqR" role="3RtpOm">
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQqS" role="3RtpOm">
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhA" resolve="W0" />
@@ -873,6 +883,7 @@
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhG" resolve="T0" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixnJt7" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQrx" role="3RoD5G">
       <property role="TrG5h" value="TC.5a" />
@@ -1001,6 +1012,7 @@
           </node>
         </node>
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyis" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQrH" role="3RoD5G">
       <property role="TrG5h" value="TC.5b" />
@@ -1078,13 +1090,14 @@
           </node>
         </node>
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyit" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQs5" role="3RoD5G">
       <property role="TrG5h" value="TC.5c" />
       <property role="DVXpC" value="Excessive Allocation of Resources" />
       <ref role="323Bpw" node="4CQftq3lQqK" resolve="TC.5" />
       <node concept="3RtpOr" id="4CQftq3lQsb" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQsd" role="3RtpOm">
@@ -1355,13 +1368,14 @@
           </node>
         </node>
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyiu" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQsu" role="3RoD5G">
       <property role="TrG5h" value="TC.6" />
       <property role="DVXpC" value="Elevation of privilege" />
       <node concept="3RtpOr" id="4CQftq3lQsv" role="3RtpOm">
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQsw" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
@@ -1466,6 +1480,7 @@
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhG" resolve="T0" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyiv" role="3Rtpag" />
     </node>
     <node concept="3Rgaea" id="4CQftq3lQto" role="3RoD5G">
       <property role="TrG5h" value="TC.6a" />
@@ -1656,6 +1671,7 @@
           </node>
         </node>
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyiw" role="3Rtpag" />
     </node>
   </node>
   <node concept="1u4Pp1" id="4CQftq3lQtA">
@@ -1666,7 +1682,7 @@
       <property role="DVXpC" value="Symmetric encryption" />
       <property role="29uaSM" value="" />
       <node concept="3RtpOr" id="4CQftq3lQwn" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQwo" role="3RtpOm">
@@ -1696,6 +1712,7 @@
       <node concept="3RtnZZ" id="6ytiexnPZIW" role="1u4RdF">
         <ref role="122Z_O" to="xz8e:4CQftq3lQja" resolve="C" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyix" role="1u4RdC" />
     </node>
     <node concept="EbI1Y" id="4CQftq3lQwU" role="1u4Ppf">
       <property role="TrG5h" value="CC.1a" />
@@ -1704,7 +1721,7 @@
       <ref role="323Bpw" node="4CQftq3lQwm" resolve="CC.1" />
       <node concept="13pXwX" id="4CQftq3lQwZ" role="1u4RdC" />
       <node concept="3RtpOr" id="4CQftq3lQx1" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQx3" role="3RtpOm">
@@ -1725,6 +1742,7 @@
       <node concept="3RtnZZ" id="6ytiexnPZIZ" role="1u4RdF">
         <ref role="122Z_O" to="xz8e:4CQftq3lQja" resolve="C" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyiy" role="1u4RdC" />
     </node>
     <node concept="EbI1Y" id="1Hnh$uA1dV" role="1u4Ppf">
       <property role="TrG5h" value="CC.2" />
@@ -1738,7 +1756,7 @@
       </node>
       <node concept="3h3ntD" id="1Hnh$uA1dZ" role="1u4RdC" />
       <node concept="3RtpOr" id="1Hnh$uA1e0" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
       <node concept="3RtpOr" id="1Hnh$uA1e1" role="3RtpOm">
@@ -1763,13 +1781,14 @@
       <node concept="3RtnZZ" id="6ytiexnPZJn" role="1u4RdF">
         <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
       </node>
+      <node concept="3WX1Ss" id="75wqdixoyiz" role="1u4RdC" />
     </node>
     <node concept="EbI1Y" id="4CQftq3lQtB" role="1u4Ppf">
       <property role="TrG5h" value="CC.3" />
       <property role="DVXpC" value="Hash function" />
       <property role="29uaSM" value="" />
       <node concept="3RtpOr" id="4CQftq3lQtC" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Education" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
       <node concept="3RtpOr" id="4CQftq3lQtD" role="3RtpOm">
@@ -1790,6 +1809,7 @@
       </node>
       <node concept="13pXwX" id="4CQftq3lQtL" role="1u4RdC" />
       <node concept="3h3ntD" id="3JPVaN3cLYh" role="1u4RdC" />
+      <node concept="3WX1Ss" id="75wqdixoyi$" role="1u4RdC" />
     </node>
   </node>
   <node concept="1EwOn2" id="4NAzM1S$HE4">

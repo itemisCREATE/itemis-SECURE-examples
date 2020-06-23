@@ -25,7 +25,7 @@
     <language slang="l:7a060fae-09e0-4372-be36-6696d6554c0e:com.mbeddr.mpsutil.review.annotation" version="0" />
     <language slang="l:2bee351d-bcec-4897-88ae-1eb8b271032f:com.moraad.assessmentcatalog.descriptor" version="0" />
     <language slang="l:c1497963-7ffd-4da0-9a4d-74675c5ab7e2:com.moraad.components" version="16" />
-    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="55" />
+    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="58" />
     <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="0" />
     <language slang="l:a97beefa-b088-4bdb-8ed8-6b4e554b6264:com.moraad.sequences" version="0" />
     <language slang="l:8aedd025-5f31-4a1e-81a1-4c5345407211:com.moraad.suggestions" version="1" />
