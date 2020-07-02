@@ -1694,7 +1694,31 @@
           <ref role="122Z_O" node="1kMJkOan7YM" resolve="AS.1" />
         </node>
       </node>
-      <node concept="3VMn$a" id="5U29EQHaT4f" role="2JHqPs" />
+      <node concept="3VMn$a" id="5U29EQHaT4f" role="2JHqPs">
+        <node concept="3VMn$0" id="5560MFOMDOd" role="3VMn$6">
+          <node concept="3VMn$7" id="5560MFOMDOe" role="3VMn$3">
+            <property role="3VMn$Y" value="Messages" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDOf" role="3VMn$3">
+            <property role="3VMn$Y" value="on" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDOg" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDOh" role="3VMn$3">
+            <property role="3VMn$Y" value="CAN" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDOi" role="3VMn$3">
+            <property role="3VMn$Y" value="bus" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDOj" role="3VMn$3">
+            <property role="3VMn$Y" value="are" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDOk" role="3VMn$3">
+            <property role="3VMn$Y" value="spoofed" />
+          </node>
+        </node>
+      </node>
       <node concept="122ZmF" id="5U29EQHaTnZ" role="Oro34">
         <ref role="122Z_O" to="julz:4CQftq3lQli" resolve="TC.1" />
       </node>
@@ -1705,7 +1729,7 @@
     <node concept="3Rc6Py" id="1kMJkOan7YM" role="2vPz$N">
       <property role="TrG5h" value="AS.1" />
       <property role="29uaSM" value="" />
-      <property role="DVXpC" value="Send HeadlampOff CAN message via Gateway" />
+      <property role="DVXpC" value="Send CAN Msg via Gateway" />
       <node concept="37A2tY" id="1kMJkOan7YN" role="37Z4bQ">
         <node concept="pgv_Y" id="7gwHXNztLJR" role="37AdOr">
           <ref role="122Z_O" node="7gwHXNztH6S" resolve="C.2" />
@@ -1724,10 +1748,43 @@
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="6SOv2Wub$KP" role="2JHqPs" />
+      <node concept="3VMn$a" id="6SOv2Wub$KP" role="2JHqPs">
+        <node concept="3VMn$0" id="5560MFOMDKh" role="3VMn$6">
+          <node concept="3VMn$7" id="5560MFOMDKi" role="3VMn$3">
+            <property role="3VMn$Y" value="Send" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKj" role="3VMn$3">
+            <property role="3VMn$Y" value="malicious" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKk" role="3VMn$3">
+            <property role="3VMn$Y" value="CAN" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKl" role="3VMn$3">
+            <property role="3VMn$Y" value="message" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKm" role="3VMn$3">
+            <property role="3VMn$Y" value="via" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKn" role="3VMn$3">
+            <property role="3VMn$Y" value="gateway" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKo" role="3VMn$3">
+            <property role="3VMn$Y" value="from" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKp" role="3VMn$3">
+            <property role="3VMn$Y" value="compromised" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKq" role="3VMn$3">
+            <property role="3VMn$Y" value="navigation" />
+          </node>
+          <node concept="3VMn$7" id="5560MFOMDKr" role="3VMn$3">
+            <property role="3VMn$Y" value="system" />
+          </node>
+        </node>
+      </node>
       <node concept="3RtpOr" id="54s24WY_DrS" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
       </node>
       <node concept="3RtpOr" id="54s24WY_Dvr" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
@@ -1740,7 +1797,7 @@
       </node>
       <node concept="3RtpOr" id="54s24WY_DGY" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="K2" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhR" resolve="K1" />
       </node>
       <node concept="3RtpOr" id="54s24WYDN9b" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
@@ -1771,7 +1828,7 @@
       </node>
       <node concept="3RtpOr" id="6SOv2WubAhH" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
       </node>
       <node concept="3RtpOr" id="54s24WY_DK_" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
@@ -1782,7 +1839,7 @@
       </node>
       <node concept="3RtpOr" id="54s24WY_DZ2" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhI" resolve="T2" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhH" resolve="T1" />
       </node>
     </node>
     <node concept="3Rc6Py" id="6SOv2Wub$SC" role="2vPz$N">
@@ -1811,6 +1868,14 @@
       </node>
       <node concept="3RtpOr" id="7gwHXNztGO_" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhK" resolve="Eq" />
+      </node>
+      <node concept="3RtpOr" id="5560MFOMDPR" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhC" resolve="W2" />
+      </node>
+      <node concept="3RtpOr" id="5560MFOMDRZ" role="3RtpOm">
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhK" resolve="Eq" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhM" resolve="Eq1" />
       </node>
     </node>
     <node concept="3Rc6Py" id="7gwHXNztHdV" role="2vPz$N">
