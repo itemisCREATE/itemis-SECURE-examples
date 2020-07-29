@@ -67,13 +67,13 @@
       </concept>
     </language>
     <language id="2283d35c-b541-4c39-bf04-8310ba3f92ff" name="com.moraad.reports">
+      <concept id="2050517468709281410" name="com.moraad.reports.structure.AssetsAndDamageScenariosTableReportItem" flags="ng" index="ckFx4" />
       <concept id="6986877318773217091" name="com.moraad.reports.structure.TextReportItem" flags="ng" index="yg4y$">
         <property id="6986877318773333397" name="text" index="ygo9M" />
       </concept>
       <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
         <reference id="1019912726748740255" name="diagram" index="2HTkYB" />
       </concept>
-      <concept id="6986877318773203687" name="com.moraad.reports.structure.SecurityGoalTableReportItem" flags="ng" index="ygVO0" />
       <concept id="6986877318773203685" name="com.moraad.reports.structure.RiskTableReportItem" flags="ng" index="ygVO2" />
       <concept id="6986877318773203683" name="com.moraad.reports.structure.ControlsTableReportItem" flags="ng" index="ygVO4" />
       <concept id="6986877318773203681" name="com.moraad.reports.structure.ThreatTableReportItem" flags="ng" index="ygVO6" />
@@ -89,13 +89,13 @@
       <concept id="1488669593885577694" name="com.moraad.reports.structure.CommentReportItem" flags="ng" index="2JOk35">
         <property id="1488669593885577696" name="text" index="2JOk3V" />
       </concept>
-      <concept id="2129184553233376960" name="com.moraad.reports.structure.FuncAssignmentSmartTableReportItem" flags="ng" index="3xdgjh" />
       <concept id="2129184553237592657" name="com.moraad.reports.structure.DataTableReportItem" flags="ng" index="3xttx0" />
       <concept id="2129184553237592667" name="com.moraad.reports.structure.DataFlowsTableReportItem" flags="ng" index="3xttxa" />
       <concept id="2129184553237592647" name="com.moraad.reports.structure.ComponentsTableReportItem" flags="ng" index="3xttxm" />
       <concept id="2129184553237592677" name="com.moraad.reports.structure.ChannelsTableReportItem" flags="ng" index="3xttxO" />
       <concept id="2129184553237375048" name="com.moraad.reports.structure.FunctionTableReportItem" flags="ng" index="3xuwDp" />
       <concept id="2129184553228409378" name="com.moraad.reports.structure.FuncAssignmentSimpleTableReportItem" flags="ng" index="3xSvwN" />
+      <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1" />
     </language>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
@@ -1992,8 +1992,9 @@
     <node concept="2JOk35" id="5wtRytMI6hS" role="yp9Ks">
       <property role="2JOk3V" value=" security elements" />
     </node>
-    <node concept="ygVO0" id="5wtRytMI6hU" role="yp9Ks" />
+    <node concept="ckFx4" id="6Q4ACdYFHyb" role="yp9Ks" />
     <node concept="3UIwP1" id="188s5gx22P_" role="yp9Ks" />
+    <node concept="3yVM0i" id="6Q4ACdYFHza" role="yp9Ks" />
     <node concept="ygVO6" id="5wtRytMI6hV" role="yp9Ks" />
     <node concept="ygVO4" id="5wtRytMI6hW" role="yp9Ks" />
     <node concept="ygVO2" id="5wtRytMI6hX" role="yp9Ks" />
@@ -2001,13 +2002,12 @@
     <node concept="2JOk35" id="5wtRytMI6i0" role="yp9Ks">
       <property role="2JOk3V" value=" system elements" />
     </node>
-    <node concept="3xSvwN" id="5wtRytMI6i1" role="yp9Ks" />
-    <node concept="3xdgjh" id="5wtRytMI6i2" role="yp9Ks" />
     <node concept="3xuwDp" id="5wtRytMI6i3" role="yp9Ks" />
     <node concept="3xttx0" id="5wtRytMI6i4" role="yp9Ks" />
     <node concept="3xttxm" id="5wtRytMI6i5" role="yp9Ks" />
     <node concept="3xttxO" id="5wtRytMI6i6" role="yp9Ks" />
     <node concept="3xttxa" id="5wtRytMI6i7" role="yp9Ks" />
+    <node concept="3xSvwN" id="5wtRytMI6i1" role="yp9Ks" />
   </node>
   <node concept="2Q15JU" id="5wtRytMI6i8">
     <property role="3GE5qa" value="assistants" />
