@@ -67,7 +67,9 @@
       </concept>
     </language>
     <language id="2283d35c-b541-4c39-bf04-8310ba3f92ff" name="com.moraad.reports">
-      <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA" />
+      <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA">
+        <property id="5844418852561495228" name="numberOfApsPerGroup" index="1CBqX7" />
+      </concept>
       <concept id="2050517468709281410" name="com.moraad.reports.structure.AssetsAndDamageScenariosTableReportItem" flags="ng" index="ckFx4" />
       <concept id="6986877318773217091" name="com.moraad.reports.structure.TextReportItem" flags="ng" index="yg4y$">
         <property id="6986877318773333397" name="text" index="ygo9M" />
@@ -1996,7 +1998,9 @@
     <node concept="ckFx4" id="6Q4ACdYFHyb" role="yp9Ks" />
     <node concept="3UIwP1" id="188s5gx22P_" role="yp9Ks" />
     <node concept="3yVM0i" id="6Q4ACdYFHza" role="yp9Ks" />
-    <node concept="28bWPA" id="4UmZxJ78Apf" role="yp9Ks" />
+    <node concept="28bWPA" id="4UmZxJ78Apf" role="yp9Ks">
+      <property role="1CBqX7" value="2147483647" />
+    </node>
     <node concept="ygVO6" id="5wtRytMI6hV" role="yp9Ks" />
     <node concept="ygVO4" id="5wtRytMI6hW" role="yp9Ks" />
     <node concept="ygVO2" id="5wtRytMI6hX" role="yp9Ks" />
