@@ -122,6 +122,9 @@
       <concept id="8926592809623411159" name="de.itemis.mps.editor.freetext.structure.Freetext" flags="ng" index="3VMn$a">
         <child id="8926592809623411163" name="paragraphs" index="3VMn$6" />
       </concept>
+      <concept id="8926592809623411173" name="de.itemis.mps.editor.freetext.structure.LinkRun" flags="ng" index="3VMn$S">
+        <reference id="8926592809623411179" name="target" index="3VMn$Q" />
+      </concept>
       <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
         <property id="8926592809623411171" name="text" index="3VMn$Y" />
       </concept>
@@ -261,6 +264,16 @@
       <concept id="6006699537885399164" name="com.moraad.core.structure.RiskFactorLevelAssignment" flags="ng" index="3RtpOr">
         <reference id="6006699537885399165" name="riskFactor" index="3RtpOq" />
         <reference id="6006699537885399168" name="riskFactorLevel" index="3RtpRB" />
+      </concept>
+    </language>
+    <language id="b65d571f-daea-41e5-99be-6168217ee77f" name="de.itemis.mps.todos">
+      <concept id="954825237962042866" name="de.itemis.mps.todos.structure.Todo" flags="ng" index="2Q3xmc">
+        <property id="954825237962042867" name="done" index="2Q3xmd" />
+        <property id="954825237966346050" name="groupId" index="2QNYWW" />
+        <child id="954825237962042872" name="text" index="2Q3xm6" />
+      </concept>
+      <concept id="954825237962042865" name="de.itemis.mps.todos.structure.ICanHaveTodos" flags="ng" index="2Q3xmf">
+        <child id="954825237966346035" name="todos" index="2QNYXd" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -1552,6 +1565,34 @@
         <ref role="122Z_O" node="7gwHXNztHdJ" resolve="WhtLst" />
       </node>
       <node concept="3VMn$a" id="5U29EQHaYno" role="2JHqPs" />
+      <node concept="2Q3xmc" id="35bN1QYCMB4" role="2QNYXd">
+        <property role="2QNYWW" value="TODO" />
+        <node concept="3VMn$a" id="35bN1QYCMB5" role="2Q3xm6">
+          <node concept="3VMn$0" id="35bN1QYCMBx" role="3VMn$6">
+            <node concept="3VMn$7" id="35bN1QYCMBy" role="3VMn$3">
+              <property role="3VMn$Y" value="Assign" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMBz" role="3VMn$3">
+              <property role="3VMn$Y" value="DamageScenario" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMB$" role="3VMn$3">
+              <property role="3VMn$Y" value="(create" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMB_" role="3VMn$3">
+              <property role="3VMn$Y" value="new" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMBA" role="3VMn$3">
+              <property role="3VMn$Y" value="one," />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMBB" role="3VMn$3">
+              <property role="3VMn$Y" value="if" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMBC" role="3VMn$3">
+              <property role="3VMn$Y" value="required)." />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3u6799" id="702oElbSvJB" role="2xH1$J" />
     <node concept="2vM170" id="5U29EQHaVYR" role="2vPz$N">
@@ -1566,6 +1607,34 @@
         <ref role="122Z_O" to="xz8e:4CQftq3lQjb" resolve="A" />
       </node>
       <node concept="3VMn$a" id="5U29EQHaVYX" role="2JHqPs" />
+      <node concept="2Q3xmc" id="35bN1QYCMCJ" role="2QNYXd">
+        <property role="2QNYWW" value="TODO" />
+        <node concept="3VMn$a" id="35bN1QYCMCK" role="2Q3xm6">
+          <node concept="3VMn$0" id="35bN1QYCMCL" role="3VMn$6">
+            <node concept="3VMn$7" id="35bN1QYCMCM" role="3VMn$3">
+              <property role="3VMn$Y" value="Assign" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMCN" role="3VMn$3">
+              <property role="3VMn$Y" value="DamageScenario" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMCO" role="3VMn$3">
+              <property role="3VMn$Y" value="(create" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMCP" role="3VMn$3">
+              <property role="3VMn$Y" value="new" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMCQ" role="3VMn$3">
+              <property role="3VMn$Y" value="one," />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMCR" role="3VMn$3">
+              <property role="3VMn$Y" value="if" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMCS" role="3VMn$3">
+              <property role="3VMn$Y" value="required)." />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="2vPz$R" id="702oElbSw1E">
@@ -1970,6 +2039,40 @@
         </node>
         <node concept="3KzYab" id="2PoiAbvMB3d" role="2eWf89">
           <ref role="122Z_O" node="1eUj96eGQ3O" resolve="OffMsg" />
+        </node>
+      </node>
+      <node concept="2Q3xmc" id="35bN1QY_Xj3" role="2QNYXd">
+        <property role="2QNYWW" value="TODO" />
+        <node concept="3VMn$a" id="35bN1QY_Xj4" role="2Q3xm6">
+          <node concept="3VMn$0" id="35bN1QY_Xj7" role="3VMn$6">
+            <node concept="3VMn$7" id="35bN1QY_Xj8" role="3VMn$3">
+              <property role="3VMn$Y" value="Add" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QY_Xj9" role="3VMn$3">
+              <property role="3VMn$Y" value="missing" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QY_Xja" role="3VMn$3">
+              <property role="3VMn$Y" value="dataflows:" />
+            </node>
+            <node concept="3VMn$S" id="35bN1QY_Xjb" role="3VMn$3">
+              <property role="3VMn$Y" value="DF.1: [No Data]: NavECU -&gt; GateECU [-]" />
+              <ref role="3VMn$Q" node="1eUj96eGPOq" resolve="DF.1" />
+            </node>
+            <node concept="3VMn$S" id="35bN1QYCv8t" role="3VMn$3">
+              <property role="3VMn$Y" value="DF.4: [No Data]: HLswit -&gt; BodyECU [-]" />
+              <ref role="3VMn$Q" node="1eUj96eGPUe" resolve="DF.4" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMAn" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$S" id="35bN1QYCMAo" role="3VMn$3">
+              <property role="3VMn$Y" value="DF.6: OnMsg, OffMsg: BodyECU -&gt; PowSwitAct [-]" />
+              <ref role="3VMn$Q" node="1eUj96eGQ6h" resolve="DF.6" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMAp" role="3VMn$3">
+              <property role="3VMn$Y" value="" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -2862,6 +2965,50 @@
       <property role="29uaSM" value="" />
       <node concept="2WIsl9" id="5U29EQHb1Iy" role="2WIsl4">
         <ref role="122Z_O" node="7gwHXNztHdV" resolve="TS.2" />
+      </node>
+      <node concept="2Q3xmc" id="35bN1QYCMEG" role="2QNYXd">
+        <property role="2QNYWW" value="TODO" />
+        <property role="2Q3xmd" value="true" />
+        <node concept="3VMn$a" id="35bN1QYCMEH" role="2Q3xm6">
+          <node concept="3VMn$0" id="35bN1QYCMFB" role="3VMn$6">
+            <node concept="3VMn$7" id="35bN1QYCMFC" role="3VMn$3">
+              <property role="3VMn$Y" value="Why" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMFD" role="3VMn$3">
+              <property role="3VMn$Y" value="is" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMFE" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMFF" role="3VMn$3">
+              <property role="3VMn$Y" value="RL" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMFG" role="3VMn$3">
+              <property role="3VMn$Y" value="&quot;none&quot;" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMFH" role="3VMn$3">
+              <property role="3VMn$Y" value="here?" />
+            </node>
+          </node>
+          <node concept="3VMn$0" id="35bN1QYCMFI" role="3VMn$6">
+            <node concept="3VMn$7" id="35bN1QYCMFJ" role="3VMn$3">
+              <property role="3VMn$Y" value="-&gt;" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMFK" role="3VMn$3">
+              <property role="3VMn$Y" value="Because" />
+            </node>
+            <node concept="3VMn$S" id="35bN1QYCMFL" role="3VMn$3">
+              <property role="3VMn$Y" value="TS.2: Tampering - Gateway ECU" />
+              <ref role="3VMn$Q" node="7gwHXNztHdV" resolve="TS.2" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMFM" role="3VMn$3">
+              <property role="3VMn$Y" value="is" />
+            </node>
+            <node concept="3VMn$7" id="35bN1QYCMFN" role="3VMn$3">
+              <property role="3VMn$Y" value="impossible." />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2xx57O" id="702oElbSvJF" role="2xH1$J" />
