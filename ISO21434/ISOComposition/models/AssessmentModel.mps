@@ -663,7 +663,7 @@
     <node concept="2vMkC4" id="49aGL_C49NE" role="_H2pa">
       <property role="TrG5h" value="O'" />
       <property role="DVXpC" value="Operational" />
-      <ref role="i9Qb4" node="4CQftq3lQjs" resolve="O" />
+      <ref role="i9Qb4" node="4CQftq3lQjs" resolve="Q" />
       <node concept="2vPyy4" id="49aGL_C49NF" role="2vMkDN">
         <property role="TrG5h" value="O0" />
         <property role="DVXpC" value="Negligible Disturbance" />
@@ -874,7 +874,7 @@
     <node concept="2vMkC4" id="49aGL_C49NN" role="_H2pa">
       <property role="TrG5h" value="P'" />
       <property role="DVXpC" value="Privacy" />
-      <ref role="i9Qb4" node="4CQftq3lQjr" resolve="P" />
+      <ref role="i9Qb4" node="4CQftq3lQjr" resolve="L" />
       <node concept="2vPyy4" id="49aGL_C49NO" role="2vMkDN">
         <property role="TrG5h" value="P0" />
         <property role="DVXpC" value="Few Inconveniences" />
@@ -1448,12 +1448,12 @@
       <property role="DVXpC" value="Financial" />
     </node>
     <node concept="i8Y8S" id="4CQftq3lQjs" role="ictEx">
-      <property role="TrG5h" value="O" />
-      <property role="DVXpC" value="Operational" />
+      <property role="TrG5h" value="Q" />
+      <property role="DVXpC" value="Quality" />
     </node>
     <node concept="i8Y8S" id="4CQftq3lQjr" role="ictEx">
-      <property role="TrG5h" value="P" />
-      <property role="DVXpC" value="Privacy" />
+      <property role="TrG5h" value="L" />
+      <property role="DVXpC" value="Law" />
     </node>
     <node concept="2WHYjH" id="4CQftq3lQjt" role="2WHCcS">
       <node concept="2WHYjM" id="4CQftq3lQju" role="2WHw5$">
