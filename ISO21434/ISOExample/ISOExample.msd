@@ -24,7 +24,7 @@
     <language slang="l:7a060fae-09e0-4372-be36-6696d6554c0e:com.mbeddr.mpsutil.review.annotation" version="0" />
     <language slang="l:2bee351d-bcec-4897-88ae-1eb8b271032f:com.moraad.assessmentcatalog.descriptor" version="0" />
     <language slang="l:c1497963-7ffd-4da0-9a4d-74675c5ab7e2:com.moraad.components" version="16" />
-    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="58" />
+    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="59" />
     <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="0" />
     <language slang="l:a97beefa-b088-4bdb-8ed8-6b4e554b6264:com.moraad.sequences" version="0" />
     <language slang="l:8aedd025-5f31-4a1e-81a1-4c5345407211:com.moraad.suggestions" version="1" />
@@ -33,6 +33,7 @@
     <language slang="l:048a18dc-8dce-4fe2-8e99-0a16464f630c:de.itemis.mps.editor.freetext" version="0" />
     <language slang="l:23c9b2af-fa11-470e-a8b5-5aae9105f1b0:de.itemis.mps.serialization" version="0" />
     <language slang="l:7181c8c9-3335-44a5-b8b8-c9883c6a4425:de.itemis.mps.terminology" version="0" />
+    <language slang="l:b65d571f-daea-41e5-99be-6168217ee77f:de.itemis.mps.todos" version="0" />
     <language slang="l:d8c07454-d390-4e04-8826-d25e86f59134:de.itemis.mps.xdiagram" version="0" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
