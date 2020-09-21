@@ -152,6 +152,9 @@
       <concept id="7050052209586915341" name="com.moraad.core.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
         <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
       </concept>
+      <concept id="1223902958963665749" name="com.moraad.core.structure.ITransformDamage" flags="ng" index="2$q0ok">
+        <child id="1223902958963665858" name="effects" index="2$q0q3" />
+      </concept>
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
@@ -191,6 +194,7 @@
         <child id="9215747686496427837" name="controlClass" index="3AQVqc" />
       </concept>
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO" />
+      <concept id="3111020255348736466" name="com.moraad.core.structure.RemoveAllDamageTransformation" flags="ng" index="1idX6y" />
       <concept id="8109589388700677735" name="com.moraad.core.structure.SecurityControlSelector" flags="ng" index="1jjfFM" />
       <concept id="3517148917927860064" name="com.moraad.core.structure.ITaggedWithTechnologies" flags="ng" index="1jWzGI">
         <child id="3260991312724860420" name="technologies" index="1BQc1m" />
@@ -273,7 +277,7 @@
       </concept>
     </language>
     <language id="c1497963-7ffd-4da0-9a4d-74675c5ab7e2" name="com.moraad.components">
-      <concept id="4903305818773966639" name="com.moraad.components.structure.SystemSpecificationChunk" flags="ng" index="2lbcm6" />
+      <concept id="4903305818773966639" name="com.moraad.components.structure.TOEChunk" flags="ng" index="2lbcm6" />
       <concept id="4903305818773971546" name="com.moraad.components.structure.TOEComponent" flags="ng" index="2lbezN">
         <child id="1808727333797819112" name="subComponents" index="1b_L45" />
         <child id="1808727333797819114" name="storedData" index="1b_L47" />
@@ -304,7 +308,7 @@
         <child id="6453420821188241049" name="endPoints" index="38xWUi" />
         <child id="7233123248602290786" name="dataFlows" index="3XVyOB" />
       </concept>
-      <concept id="4250072277178649485" name="com.moraad.components.structure.SystemSpecificationChunkRef" flags="ng" index="3$0O6U">
+      <concept id="4250072277178649485" name="com.moraad.components.structure.TOEChunkRef" flags="ng" index="3$0O6U">
         <reference id="4250072277178649488" name="target" index="3$0O6B" />
       </concept>
       <concept id="4250072277178649596" name="com.moraad.components.structure.TOEComponentRef" flags="ng" index="3$0O7b" />
@@ -528,6 +532,7 @@
       <node concept="1u4Rck" id="7Z$Ur6pAYZX" role="3AQVqc">
         <ref role="122Z_O" to="7el1:2Bvf77vYhwH" resolve="CC.2" />
       </node>
+      <node concept="1idX6y" id="2EbCEoi8_2O" role="2$q0q3" />
     </node>
     <node concept="3dTkcA" id="2Bvf77vYinX" role="2vPz$N">
       <property role="3N8EjQ" value="true" />
@@ -562,6 +567,7 @@
       <node concept="1u4Rck" id="7Z$Ur6pAYZY" role="3AQVqc">
         <ref role="122Z_O" to="7el1:4CQftq3lQwU" resolve="CC.1a" />
       </node>
+      <node concept="1idX6y" id="2EbCEoi8_2P" role="2$q0q3" />
     </node>
     <node concept="2xx57K" id="702oElbSvJX" role="2xH1$J" />
   </node>
