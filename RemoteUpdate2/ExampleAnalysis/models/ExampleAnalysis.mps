@@ -337,8 +337,6 @@
         <reference id="549470471296403036" name="targetRef" index="27$5CB" />
         <reference id="549470471296403025" name="sourceRef" index="27$5CE" />
         <child id="6545108961612779646" name="transferredData" index="bWNmi" />
-        <child id="9034427618896264042" name="sourceComponent" index="3KaCtB" />
-        <child id="9034427618896264051" name="targetComponent" index="3KaCtY" />
       </concept>
       <concept id="9034427618907086470" name="com.moraad.components.structure.TOEDataRef" flags="ng" index="3KzYab" />
     </language>
@@ -583,26 +581,6 @@
       <property role="TrG5h" value="AES" />
       <property role="DVXpC" value="AES in GCM mode with a single shared key" />
       <property role="29uaSM" value="" />
-      <node concept="3RtpOr" id="122DDYGH5zs" role="3RtpOm">
-        <ref role="3RtpOq" to="uj4r:4CQftq3lQhw" resolve="SPEX" />
-        <ref role="3RtpRB" to="uj4r:4CQftq3lQhz" resolve="EXPT" />
-      </node>
-      <node concept="3RtpOr" id="122DDYGH5zt" role="3RtpOm">
-        <ref role="3RtpOq" to="uj4r:4CQftq3lQh_" resolve="ACCS" />
-        <ref role="3RtpRB" to="uj4r:4CQftq3lQhA" resolve="RMAC" />
-      </node>
-      <node concept="3RtpOr" id="122DDYGH5zu" role="3RtpOm">
-        <ref role="3RtpOq" to="uj4r:4CQftq3lQhE" resolve="TIME" />
-        <ref role="3RtpRB" to="uj4r:6LOW4IwXsbN" resolve="DCDS" />
-      </node>
-      <node concept="3RtpOr" id="122DDYGH5zv" role="3RtpOm">
-        <ref role="3RtpOq" to="uj4r:4CQftq3lQhK" resolve="EQUIP" />
-        <ref role="3RtpRB" to="uj4r:4CQftq3lQhO" resolve="MBSP" />
-      </node>
-      <node concept="3RtpOr" id="122DDYGH5zw" role="3RtpOm">
-        <ref role="3RtpOq" to="uj4r:4CQftq3lQhP" resolve="KNOW" />
-        <ref role="3RtpRB" to="uj4r:4CQftq3lQhQ" resolve="PUBL" />
-      </node>
       <node concept="37A2tS" id="5xKerYxTPEb" role="37YKS4">
         <node concept="pgv_Y" id="5xKerYxTPEc" role="37AdOr">
           <ref role="122Z_O" node="1UEFqBLBu0A" resolve="G.6" />
@@ -1018,12 +996,6 @@
         <node concept="1EY2vJ" id="1E_VH$V8u8m" role="1BQc1m">
           <ref role="122Z_O" to="28fr:4NAzM1S$I_U" resolve="CAN" />
         </node>
-        <node concept="3$0O7b" id="3who49D6ltg" role="3KaCtB">
-          <ref role="122Z_O" node="1E_VH$V8u3k" resolve="ConECU" />
-        </node>
-        <node concept="3$0O7b" id="3who49D6lti" role="3KaCtY">
-          <ref role="122Z_O" node="1E_VH$V8u1H" resolve="HU" />
-        </node>
         <node concept="3KzYab" id="1E_VH$V8u8k" role="bWNmi">
           <ref role="122Z_O" node="1E_VH$V8u6b" resolve="Weather data" />
         </node>
@@ -1059,12 +1031,6 @@
         <ref role="27$5CB" node="3yB3VT5FQxU" />
         <node concept="1EY2vJ" id="122DDYGH5vt" role="1BQc1m">
           <ref role="122Z_O" to="28fr:4NAzM1S$I_u" resolve="mobile" />
-        </node>
-        <node concept="3$0O7b" id="3who49D6lt7" role="3KaCtB">
-          <ref role="122Z_O" node="1E_VH$V8u19" resolve="Server" />
-        </node>
-        <node concept="3$0O7b" id="3who49D6lt9" role="3KaCtY">
-          <ref role="122Z_O" node="1E_VH$V8u3k" resolve="ConECU" />
         </node>
         <node concept="3KzYab" id="1E_VH$V8u7K" role="bWNmi">
           <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />

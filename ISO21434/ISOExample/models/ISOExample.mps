@@ -702,7 +702,7 @@
     <node concept="2x4$Td" id="702oElbSvJ_" role="2xH1$J" />
   </node>
   <node concept="2ndE_3" id="5wtRytMI6hw">
-    <property role="2zzwJW" value="-1" />
+    <property role="2zzwJW" value="2" />
     <property role="3GE5qa" value="system" />
     <property role="TrG5h" value="System Diagram" />
     <node concept="3$0O7b" id="5wtRytMI6hx" role="3Vepgw">
@@ -1809,14 +1809,6 @@
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="K2" />
       </node>
-      <node concept="3RtpOr" id="54s24WYDN9b" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhG" resolve="T0" />
-      </node>
-      <node concept="3RtpOr" id="54s24WYDNcq" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhK" resolve="Eq" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhL" resolve="Eq0" />
-      </node>
       <node concept="122ZmF" id="5U29EQHaV7I" role="Oro34">
         <ref role="122Z_O" to="julz:4CQftq3lQmG" resolve="TC.2" />
       </node>
@@ -1835,10 +1827,6 @@
       <node concept="3VMn$a" id="6SOv2Wub$NR" role="2JHqPs" />
       <node concept="3$0O7b" id="6SOv2Wub_08" role="2NPTNf">
         <ref role="122Z_O" node="1eUj96eGPLj" resolve="NavECU" />
-      </node>
-      <node concept="3RtpOr" id="6SOv2WubAhH" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhy" resolve="Ex1" />
       </node>
       <node concept="3RtpOr" id="54s24WY_DK_" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
