@@ -227,7 +227,6 @@
       </concept>
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
         <child id="9003278715588858344" name="entries_todo_naming" index="$s4ey" />
-        <child id="8248803110782721507" name="versions" index="3qbJXq" />
       </concept>
       <concept id="3111020255348736466" name="com.moraad.core.structure.RemoveAllDamageTransformation" flags="ng" index="1idX6y" />
       <concept id="8109589388698363074" name="com.moraad.core.structure.AllSecurityControlsSelector" flags="ng" index="1jbUxn" />
@@ -248,12 +247,6 @@
       </concept>
       <concept id="330802076190598253" name="com.moraad.core.structure.RiskTreatmentChunk" flags="ng" index="1mQ_Fh">
         <child id="330802076191738029" name="riskTreatments" index="1mMvoh" />
-      </concept>
-      <concept id="8248803110782721529" name="com.moraad.core.structure.ProjectVersion" flags="ng" index="3qbJX0">
-        <property id="8248803110782722961" name="description" index="3qbG4C" />
-        <property id="8248803110782721533" name="revision" index="3qbJX4" />
-        <property id="8248803110782721532" name="date" index="3qbJX5" />
-        <property id="8248803110782721534" name="authors" index="3qbJX7" />
       </concept>
       <concept id="8278271381841453282" name="com.moraad.core.structure.SecurityControlClassRef" flags="ng" index="1u4Rck" />
       <concept id="7050052209577206632" name="com.moraad.core.structure.SecurityGoalContentSelector" flags="ng" index="3u6799" />
@@ -334,12 +327,6 @@
   </registry>
   <node concept="3eC5pO" id="5wtRytMI6ho">
     <property role="TrG5h" value="ProjectInfo" />
-    <node concept="3qbJX0" id="188s5gx22W$" role="3qbJXq">
-      <property role="3qbJX4" value="1.0" />
-      <property role="3qbJX5" value="2020-03-16" />
-      <property role="3qbJX7" value="itemis" />
-      <property role="3qbG4C" value="Created initial example" />
-    </node>
     <node concept="$sJSu" id="4Ej1pzLVWy7" role="$s4ey">
       <property role="TrG5h" value="Project Data" />
       <node concept="$sJSp" id="4Ej1pzLVWy8" role="$tzTT">
