@@ -663,30 +663,6 @@
         <property role="TrG5h" value="Origin" />
       </node>
     </node>
-    <node concept="$sJSh" id="4Ej1pzLVWzC" role="$s4ey" />
-    <node concept="39leHu" id="4Ej1pzLVWzD" role="$s4ey">
-      <property role="TrG5h" value="Workshops" />
-      <node concept="2mR0d" id="4Ej1pzLVWzE" role="2mR6f">
-        <node concept="2mR0e" id="4Ej1pzLVWzG" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWzF" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWzI" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWzH" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWzK" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWzJ" role="2hY46" />
-        </node>
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWzL" role="2hO6J">
-        <property role="TrG5h" value="Appointment" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWzM" role="2hO6J">
-        <property role="TrG5h" value="Participants" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWzN" role="2hO6J">
-        <property role="TrG5h" value="Activities" />
-      </node>
-    </node>
     <node concept="$sJSh" id="s0n7qhBgqi" role="$s4ey" />
   </node>
   <node concept="1mQ_Fh" id="5wtRytMI6hp">

@@ -9,12 +9,6 @@
   </imports>
   <registry>
     <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
-      <concept id="9003278715588766803" name="com.moraad.projectinfo.structure.ProjectInfoListEntry" flags="ng" index="$sJSp">
-        <child id="459042386150007873" name="freetextValue" index="X3RNv" />
-      </concept>
-      <concept id="9003278715588766804" name="com.moraad.projectinfo.structure.ProjectInfoList" flags="ng" index="$sJSu">
-        <child id="9003278715588979763" name="listEntries" index="$tzTT" />
-      </concept>
       <concept id="4299407153799527256" name="com.moraad.projectinfo.structure.ProjectInfoTable" flags="ng" index="39leHu" />
     </language>
     <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
@@ -1939,21 +1933,6 @@
   </node>
   <node concept="3eC5pO" id="zhVUb1DY8y">
     <property role="TrG5h" value="Project Info" />
-    <node concept="$sJSu" id="zhVUb1E00O" role="$s4ey">
-      <property role="TrG5h" value="Status" />
-      <node concept="$sJSp" id="zhVUb1E00P" role="$tzTT">
-        <property role="TrG5h" value="Risk Analyis Status" />
-        <node concept="38D_9Z" id="zhVUb1E00Q" role="X3RNv">
-          <node concept="3VMn$a" id="zhVUb1E00R" role="38D_my">
-            <node concept="3VMn$0" id="zhVUb1E00S" role="3VMn$6">
-              <node concept="3VMn$7" id="zhVUb1E00T" role="3VMn$3">
-                <property role="3VMn$Y" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="$sJSh" id="zhVUb1E00h" role="$s4ey" />
     <node concept="39leHu" id="zhVUb1E02a" role="$s4ey">
       <property role="TrG5h" value="Version History" />
