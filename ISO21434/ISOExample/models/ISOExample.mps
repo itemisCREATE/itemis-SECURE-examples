@@ -83,8 +83,10 @@
       <concept id="6986877318772884603" name="com.moraad.reports.structure.RiskDistributionChartReportItem" flags="ng" index="yhPIs" />
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
         <property id="6937682328230931199" name="showData" index="2iWzeI" />
+        <property id="5209880561345542957" name="showEmptyLines" index="XuSRD" />
         <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
         <reference id="635552504747772140" name="projectInfo" index="39i2te" />
+        <child id="5209880561343743749" name="contentItems" index="XlB71" />
       </concept>
       <concept id="6986877318772759009" name="com.moraad.reports.structure.EmptyReportItem" flags="ng" index="ymko6" />
       <concept id="6986877318770896277" name="com.moraad.reports.structure.ResultReportChunk" flags="ng" index="ypf9M">
@@ -92,6 +94,10 @@
       </concept>
       <concept id="1488669593885577694" name="com.moraad.reports.structure.CommentReportItem" flags="ng" index="2JOk35">
         <property id="1488669593885577696" name="text" index="2JOk3V" />
+      </concept>
+      <concept id="5209880561343667327" name="com.moraad.reports.structure.PIContentItem" flags="ng" index="XlMEV">
+        <property id="5209880561343667337" name="export" index="XlMDd" />
+        <reference id="5209880561343674428" name="target" index="XlKVS" />
       </concept>
       <concept id="2129184553237592657" name="com.moraad.reports.structure.DataTableReportItem" flags="ng" index="3xttx0" />
       <concept id="2129184553237592667" name="com.moraad.reports.structure.DataFlowsTableReportItem" flags="ng" index="3xttxa" />
@@ -2331,10 +2337,31 @@
     <node concept="ym6bn" id="5wtRytMI6hN" role="yp9Ks">
       <property role="2iWzeI" value="true" />
       <property role="3Oa_Xm" value="true" />
+      <property role="XuSRD" value="true" />
       <ref role="39i2te" node="5wtRytMI6ho" resolve="Project Info: ISOExample [ISOExample]" />
+      <node concept="XlMEV" id="zhVUb1NXeP" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" node="4Ej1pzLVWy7" resolve="Project Data" />
+      </node>
+      <node concept="XlMEV" id="zhVUb1NXeQ" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" node="4Ej1pzLVWyN" resolve="Status" />
+      </node>
+      <node concept="XlMEV" id="zhVUb1NXeR" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" node="4Ej1pzLVWyW" resolve="Version History" />
+      </node>
+      <node concept="XlMEV" id="zhVUb1NXeS" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" node="4Ej1pzLVWzn" resolve="Documents" />
+      </node>
     </node>
     <node concept="ym6bn" id="zhVUb1E0aW" role="yp9Ks">
       <ref role="39i2te" to="julz:zhVUb1DY8y" resolve="Project Info: Catalog [ISOComposition]" />
+      <node concept="XlMEV" id="zhVUb1NXeN" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" to="julz:zhVUb1E02a" resolve="Version History" />
+      </node>
     </node>
     <node concept="ymko6" id="zhVUb1E0az" role="yp9Ks" />
     <node concept="yhPIs" id="5wtRytMI6hO" role="yp9Ks" />
