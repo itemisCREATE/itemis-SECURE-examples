@@ -89,6 +89,7 @@
         <property id="7972951805104472636" name="showDocuments" index="3Oa_Xg" />
         <property id="7972951805104472639" name="showWorkshops" index="3Oa_Xj" />
         <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
+        <reference id="635552504747772140" name="projectInfo" index="39i2te" />
       </concept>
       <concept id="6986877318772759009" name="com.moraad.reports.structure.EmptyReportItem" flags="ng" index="ymko6" />
       <concept id="6986877318770896277" name="com.moraad.reports.structure.ResultReportChunk" flags="ng" index="ypf9M">
@@ -108,10 +109,10 @@
     </language>
     <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
       <concept id="9003278715588766803" name="com.moraad.projectinfo.structure.ProjectInfoListEntry" flags="ng" index="$sJSp">
-        <child id="459042386150007873" name="ft" index="X3RNv" />
+        <child id="459042386150007873" name="freetextValue" index="X3RNv" />
       </concept>
       <concept id="9003278715588766804" name="com.moraad.projectinfo.structure.ProjectInfoList" flags="ng" index="$sJSu">
-        <child id="9003278715588979763" name="entries_todo_naming" index="$tzTT" />
+        <child id="9003278715588979763" name="listEntries" index="$tzTT" />
       </concept>
       <concept id="4299407153799527256" name="com.moraad.projectinfo.structure.ProjectInfoTable" flags="ng" index="39leHu" />
     </language>
@@ -144,7 +145,7 @@
       <concept id="312446707540923383" name="de.itemis.vcs_text.tables.structure.EmptyCell" flags="ng" index="2opHn" />
       <concept id="312446707540702486" name="de.itemis.vcs_text.tables.structure.HeaderNameCellEntry" flags="ng" index="2ozQQ" />
       <concept id="4299407153800462969" name="de.itemis.vcs_text.tables.structure.FreetextCellEntry" flags="ng" index="38D_9Z">
-        <child id="4299407153800463780" name="freetext" index="38D_my" />
+        <child id="4299407153800463780" name="value" index="38D_my" />
       </concept>
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
@@ -221,7 +222,7 @@
         <child id="9215747686496427837" name="controlClass" index="3AQVqc" />
       </concept>
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
-        <child id="9003278715588858344" name="entries_todo_naming" index="$s4ey" />
+        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
       </concept>
       <concept id="3111020255348736466" name="com.moraad.core.structure.RemoveAllDamageTransformation" flags="ng" index="1idX6y" />
       <concept id="8109589388700677735" name="com.moraad.core.structure.SecurityControlSelector" flags="ng" index="1jjfFM" />
@@ -2206,6 +2207,7 @@
       <property role="2iWz9l" value="true" />
       <property role="3Oa_Xm" value="true" />
       <property role="3Oa_Xj" value="true" />
+      <ref role="39i2te" node="5W_1Y9DMGvI" resolve="Project Info: ExampleAnalysis [ExampleAnalysis]" />
     </node>
     <node concept="yhPIs" id="4zEluziIFsG" role="yp9Ks">
       <property role="2DBfkM" value="true" />
