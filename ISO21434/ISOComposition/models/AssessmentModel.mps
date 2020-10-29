@@ -134,6 +134,9 @@
         <child id="279139045903730944" name="defaultPropagationOperation" index="2TPNDV" />
         <child id="279139045903730948" name="defaultAEDTAggregator" index="2TPNDZ" />
         <child id="279139045903730943" name="propagationOperations" index="2TPNI4" />
+        <child id="7712103759295966721" name="defaultOperationForDependence" index="1oN8I3" />
+        <child id="7712103759295966736" name="defaultOperationForThreat" index="1oN8Ii" />
+        <child id="7712103759295966753" name="defaultOperationForMitigation" index="1oN8Iz" />
       </concept>
       <concept id="8127657721944922447" name="com.moraad.core.structure.AttackEffortTable" flags="ng" index="2WHYjH">
         <child id="8127657721944947910" name="content" index="2WHw5$" />
@@ -1648,6 +1651,15 @@
       </node>
       <node concept="1I$CJy" id="4ZGXb7g6ddr" role="2TPNDZ">
         <ref role="1I$CJt" node="4ZGXb7g6ddn" resolve="Acc" />
+      </node>
+      <node concept="37eGqF" id="5jiP5TkIJul" role="1oN8I3">
+        <ref role="37eGqE" node="fvGRIU9zAR" resolve="or" />
+      </node>
+      <node concept="37eGqF" id="5jiP5TkIJum" role="1oN8Ii">
+        <ref role="37eGqE" node="fvGRIU9zAR" resolve="or" />
+      </node>
+      <node concept="37eGqF" id="5jiP5TkIJun" role="1oN8Iz">
+        <ref role="37eGqE" node="fvGRIU9zAR" resolve="or" />
       </node>
     </node>
     <node concept="E7tER" id="5wtRytMI7qq" role="E0BHG">
