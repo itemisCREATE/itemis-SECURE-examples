@@ -1019,23 +1019,6 @@
       </node>
     </node>
     <node concept="2TPNI5" id="fvGRIU9zAx" role="2TPNWx">
-      <node concept="pgmzG" id="fvGRIU9zAR" role="2TPNI4">
-        <property role="TrG5h" value="or" />
-        <property role="DVXpC" value="expresses independence of referenced elements" />
-        <node concept="9wlO_" id="fvGRIU9zAS" role="9wnbC" />
-        <node concept="9wnjK" id="fvGRIU9zAT" role="9wnbG" />
-        <node concept="9wlO_" id="fvGRIU9zAU" role="2nXh66" />
-      </node>
-      <node concept="pgmzG" id="fvGRIU9zAV" role="2TPNI4">
-        <property role="TrG5h" value="and" />
-        <property role="DVXpC" value="expresses dependene between referenced elements" />
-        <node concept="9wnjK" id="fvGRIU9zAW" role="9wnbC" />
-        <node concept="9wlO_" id="fvGRIU9zAX" role="9wnbG" />
-        <node concept="9wnjK" id="fvGRIU9zAY" role="2nXh66" />
-      </node>
-      <node concept="37eGqF" id="fvGRIUehkn" role="2TPNDV">
-        <ref role="37eGqE" node="fvGRIU9zAR" resolve="or" />
-      </node>
       <node concept="pj9wL" id="4ZGXb7g6dgi" role="2TPNDU">
         <property role="TrG5h" value="MAX" />
         <property role="DVXpC" value="accumulate risk factors and damage transformations" />
@@ -1056,13 +1039,30 @@
         <ref role="1I$CJt" node="4ZGXb7g6dgn" resolve="ACCU" />
       </node>
       <node concept="37eGqF" id="5jiP5TkIJur" role="1oN8I3">
-        <ref role="37eGqE" node="fvGRIU9zAR" resolve="or" />
+        <ref role="37eGqE" node="5jiP5TkSR2s" resolve="may" />
       </node>
       <node concept="37eGqF" id="5jiP5TkIJus" role="1oN8Ii">
-        <ref role="37eGqE" node="fvGRIU9zAR" resolve="or" />
+        <ref role="37eGqE" node="5jiP5TkSR2s" resolve="may" />
       </node>
       <node concept="37eGqF" id="5jiP5TkIJut" role="1oN8Iz">
-        <ref role="37eGqE" node="fvGRIU9zAR" resolve="or" />
+        <ref role="37eGqE" node="5jiP5TkSR2x" resolve="must" />
+      </node>
+      <node concept="pgmzG" id="5jiP5TkSR2s" role="2TPNI4">
+        <property role="TrG5h" value="may" />
+        <property role="DVXpC" value="attacker may choose weakest attack effort" />
+        <node concept="9wlO_" id="5jiP5TkSR2t" role="2nXh66" />
+        <node concept="9wlO_" id="5jiP5TkSR2u" role="9wnbG" />
+        <node concept="9wlO_" id="5jiP5TkSR2v" role="9wnbC" />
+      </node>
+      <node concept="pgmzG" id="5jiP5TkSR2x" role="2TPNI4">
+        <property role="TrG5h" value="must" />
+        <property role="DVXpC" value="attacker must overcome combination of attack efforts" />
+        <node concept="9wnjK" id="5jiP5TkSR2y" role="2nXh66" />
+        <node concept="9wnjK" id="5jiP5TkSR2z" role="9wnbG" />
+        <node concept="9wnjK" id="5jiP5TkSR2$" role="9wnbC" />
+      </node>
+      <node concept="37eGqF" id="5jiP5TkSR2_" role="2TPNDV">
+        <ref role="37eGqE" node="5jiP5TkSR2s" resolve="may" />
       </node>
     </node>
   </node>
