@@ -106,6 +106,7 @@
       <concept id="2129184553237375048" name="com.moraad.reports.structure.FunctionTableReportItem" flags="ng" index="3xuwDp" />
       <concept id="2129184553228409378" name="com.moraad.reports.structure.FuncAssignmentSimpleTableReportItem" flags="ng" index="3xSvwN" />
       <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
+      <concept id="6201211625638961343" name="com.moraad.reports.structure.TARASheetReportItem" flags="ng" index="1Hd86x" />
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1" />
     </language>
     <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
@@ -3289,6 +3290,10 @@
       </node>
     </node>
     <node concept="2xx57O" id="702oElbSvJF" role="2xH1$J" />
+  </node>
+  <node concept="ypf9M" id="4Y95JFqurxe">
+    <property role="TrG5h" value="21434-fashioned TARA Report" />
+    <node concept="1Hd86x" id="4Y95JFqury2" role="yp9Ks" />
   </node>
 </model>
 
