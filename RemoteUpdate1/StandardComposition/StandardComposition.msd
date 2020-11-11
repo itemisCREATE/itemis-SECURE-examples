@@ -24,8 +24,9 @@
     <language slang="l:7a060fae-09e0-4372-be36-6696d6554c0e:com.mbeddr.mpsutil.review.annotation" version="0" />
     <language slang="l:2bee351d-bcec-4897-88ae-1eb8b271032f:com.moraad.assessmentcatalog.descriptor" version="0" />
     <language slang="l:c1497963-7ffd-4da0-9a4d-74675c5ab7e2:com.moraad.components" version="16" />
-    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="59" />
-    <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="0" />
+    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="63" />
+    <language slang="l:d66daea8-e7a8-4305-aeaa-7ca535d07bd3:com.moraad.projectinfo" version="1" />
+    <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="1" />
     <language slang="l:c68d0460-5886-45c2-81db-64ec5eed0b19:com.moraad.reports.html" version="0" />
     <language slang="l:a97beefa-b088-4bdb-8ed8-6b4e554b6264:com.moraad.sequences" version="0" />
     <language slang="l:8aedd025-5f31-4a1e-81a1-4c5345407211:com.moraad.suggestions" version="1" />
@@ -36,6 +37,7 @@
     <language slang="l:7181c8c9-3335-44a5-b8b8-c9883c6a4425:de.itemis.mps.terminology" version="0" />
     <language slang="l:b65d571f-daea-41e5-99be-6168217ee77f:de.itemis.mps.todos" version="0" />
     <language slang="l:d8c07454-d390-4e04-8826-d25e86f59134:de.itemis.mps.xdiagram" version="0" />
+    <language slang="l:174fc1bc-8a89-4d07-8636-8bc5dc4757e4:de.itemis.vcs_text.tables" version="0" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -51,21 +53,6 @@
     <language slang="l:1a8554c4-eb84-43ba-8c34-6f0d90c6e75a:jetbrains.mps.lang.smodel.query" version="3" />
     <language slang="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" version="7" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
-    <language slang="l:db8bd035-3f51-41d8-8fed-954c202d18be:org.iets3.analysis.base" version="0" />
-    <language slang="l:64cec9cf-f998-418c-830c-383b6bfdadb0:org.iets3.analysis.solversupport" version="1" />
-    <language slang="l:f0fd486f-8577-43e9-b671-3d118449c6e7:org.iets3.components.core" version="7" />
-    <language slang="l:25797606-3fb6-47b8-bc3c-b4384df7da44:org.iets3.components.functional" version="2" />
-    <language slang="l:583939be-ded0-4735-a055-a74f8477fc34:org.iets3.core.attributes" version="0" />
-    <language slang="l:7b68d745-a7b8-48b9-bd9c-05c0f8725a35:org.iets3.core.base" version="0" />
-    <language slang="l:cfaa4966-b7d5-4b69-b66a-309a6e1a7290:org.iets3.core.expr.base" version="3" />
-    <language slang="l:2f7e2e35-6e74-4c43-9fa5-2465d68f5996:org.iets3.core.expr.collections" version="5" />
-    <language slang="l:9464fa06-5ab9-409b-9274-64ab29588457:org.iets3.core.expr.lambda" version="1" />
-    <language slang="l:f3eafff0-30d2-46d6-9150-f0f3b880ce27:org.iets3.core.expr.path" version="0" />
-    <language slang="l:6b277d9a-d52d-416f-a209-1919bd737f50:org.iets3.core.expr.simpleTypes" version="1" />
-    <language slang="l:71934284-d7d1-45ee-a054-8c072591085f:org.iets3.core.expr.toplevel" version="4" />
-    <language slang="l:8bb1251e-eae5-47ab-9843-33adfae8edaa:org.iets3.core.expr.util" version="2" />
-    <language slang="l:f95247f1-a285-4e98-864f-7f4b1723a807:org.iets3.core.users" version="0" />
-    <language slang="l:a3c6f642-41b7-44cb-951b-463b8427a245:org.iets3.req.core" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />

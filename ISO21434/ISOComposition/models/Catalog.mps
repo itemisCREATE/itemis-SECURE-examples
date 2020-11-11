@@ -8,6 +8,9 @@
     <import index="xz8e" ref="r:9e0bf89b-7c83-426e-8e13-cd21fab7b94a(AssessmentModel)" />
   </imports>
   <registry>
+    <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
+      <concept id="4299407153799527256" name="com.moraad.projectinfo.structure.ProjectInfoTable" flags="ng" index="39leHu" />
+    </language>
     <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
       <concept id="8926592809623411165" name="de.itemis.mps.editor.freetext.structure.BasicParagraph" flags="ng" index="3VMn$0">
         <child id="8926592809623411166" name="runs" index="3VMn$3" />
@@ -16,11 +19,32 @@
       <concept id="8926592809623411159" name="de.itemis.mps.editor.freetext.structure.Freetext" flags="ng" index="3VMn$a">
         <child id="8926592809623411163" name="paragraphs" index="3VMn$6" />
       </concept>
+      <concept id="8926592809623411173" name="de.itemis.mps.editor.freetext.structure.LinkRun" flags="ng" index="3VMn$S">
+        <reference id="8926592809623411179" name="target" index="3VMn$Q" />
+      </concept>
       <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
+        <property id="6594393893355296108" name="punctuationLeft" index="3DWmGy" />
         <property id="8926592809623411171" name="text" index="3VMn$Y" />
       </concept>
     </language>
+    <language id="174fc1bc-8a89-4d07-8636-8bc5dc4757e4" name="de.itemis.vcs_text.tables">
+      <concept id="312446707538163884" name="de.itemis.vcs_text.tables.structure.SimpleTable" flags="ng" index="2mR0c">
+        <child id="312446707538413839" name="header" index="2hO6J" />
+        <child id="312446707538164015" name="rows" index="2mR6f" />
+      </concept>
+      <concept id="312446707538163885" name="de.itemis.vcs_text.tables.structure.SimpleRow" flags="ng" index="2mR0d">
+        <child id="312446707538164018" name="cells" index="2mR6i" />
+      </concept>
+      <concept id="312446707538163886" name="de.itemis.vcs_text.tables.structure.SimpleCell" flags="ng" index="2mR0e">
+        <child id="312446707538454950" name="entry" index="2hY46" />
+      </concept>
+      <concept id="312446707540702486" name="de.itemis.vcs_text.tables.structure.HeaderNameCellEntry" flags="ng" index="2ozQQ" />
+      <concept id="4299407153800462969" name="de.itemis.vcs_text.tables.structure.FreetextCellEntry" flags="ng" index="38D_9Z">
+        <child id="4299407153800463780" name="value" index="38D_my" />
+      </concept>
+    </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
+      <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
       <concept id="8150812653241196690" name="com.moraad.core.structure.SecurityControlClass" flags="ng" index="EbI1Y">
         <child id="8278271381841453218" name="protectsAgainst" index="1u4Rdk" />
         <child id="8278271381841453214" name="architectureElements" index="1u4RdC" />
@@ -35,6 +59,9 @@
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
+      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
+        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
+      </concept>
       <concept id="6793729118883371978" name="com.moraad.core.structure.DataFlowSecurityTarget" flags="ng" index="3h3ntD" />
       <concept id="8278271381841446327" name="com.moraad.core.structure.SecurityControlsCatalog" flags="ng" index="1u4Pp1">
         <child id="8278271381841446329" name="controlClasses" index="1u4Ppf" />
@@ -1903,6 +1930,120 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3eC5pO" id="zhVUb1DY8y">
+    <property role="TrG5h" value="Project Info" />
+    <node concept="$sJSh" id="zhVUb1E00h" role="$s4ey" />
+    <node concept="39leHu" id="zhVUb1E02a" role="$s4ey">
+      <property role="TrG5h" value="Version History" />
+      <node concept="2mR0d" id="zhVUb1E02b" role="2mR6f">
+        <node concept="2mR0e" id="zhVUb1E02c" role="2mR6i">
+          <node concept="38D_9Z" id="zhVUb1E08j" role="2hY46">
+            <node concept="3VMn$a" id="zhVUb1E08n" role="38D_my">
+              <node concept="3VMn$0" id="zhVUb1E08o" role="3VMn$6">
+                <node concept="3VMn$7" id="zhVUb1E08p" role="3VMn$3">
+                  <property role="3VMn$Y" value="1.0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2mR0e" id="zhVUb1E02e" role="2mR6i">
+          <node concept="38D_9Z" id="zhVUb1E08u" role="2hY46">
+            <node concept="3VMn$a" id="zhVUb1E08y" role="38D_my">
+              <node concept="3VMn$0" id="zhVUb1E08z" role="3VMn$6">
+                <node concept="3VMn$7" id="zhVUb1E08$" role="3VMn$3">
+                  <property role="3VMn$Y" value="2020-10-15" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2mR0e" id="zhVUb1E02g" role="2mR6i">
+          <node concept="38D_9Z" id="zhVUb1E08D" role="2hY46">
+            <node concept="3VMn$a" id="zhVUb1E08H" role="38D_my">
+              <node concept="3VMn$0" id="zhVUb1E08I" role="3VMn$6">
+                <node concept="3VMn$7" id="zhVUb1E08J" role="3VMn$3">
+                  <property role="3VMn$Y" value="itemis" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2mR0e" id="zhVUb1E02i" role="2mR6i">
+          <node concept="38D_9Z" id="zhVUb1E08O" role="2hY46">
+            <node concept="3VMn$a" id="zhVUb1E08S" role="38D_my">
+              <node concept="3VMn$0" id="zhVUb1E08T" role="3VMn$6">
+                <node concept="3VMn$7" id="zhVUb1E08U" role="3VMn$3">
+                  <property role="3VMn$Y" value="Added" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E091" role="3VMn$3">
+                  <property role="3VMn$Y" value="Project-Info" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E092" role="3VMn$3">
+                  <property role="3VMn$Y" value="to" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E093" role="3VMn$3">
+                  <property role="3VMn$Y" value="Catalogs" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E094" role="3VMn$3">
+                  <property role="3VMn$Y" value="model" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E095" role="3VMn$3">
+                  <property role="3VMn$Y" value="(" />
+                </node>
+                <node concept="3VMn$S" id="zhVUb1E096" role="3VMn$3">
+                  <property role="3VMn$Y" value="ControlClasses" />
+                  <property role="3DWmGy" value="true" />
+                  <ref role="3VMn$Q" node="4CQftq3lQtA" resolve="ControlClasses" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E098" role="3VMn$3">
+                  <property role="3VMn$Y" value="," />
+                  <property role="3DWmGy" value="true" />
+                </node>
+                <node concept="3VMn$S" id="zhVUb1E099" role="3VMn$3">
+                  <property role="3VMn$Y" value="ThreatClasses" />
+                  <ref role="3VMn$Q" node="4CQftq3lQlh" resolve="ThreatClasses" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E09b" role="3VMn$3">
+                  <property role="3VMn$Y" value="and" />
+                </node>
+                <node concept="3VMn$S" id="zhVUb1E09c" role="3VMn$3">
+                  <property role="3VMn$Y" value="Technologies" />
+                  <ref role="3VMn$Q" node="4NAzM1S$HE4" resolve="Technologies" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E09e" role="3VMn$3">
+                  <property role="3VMn$Y" value="are" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E09f" role="3VMn$3">
+                  <property role="3VMn$Y" value="in" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E09g" role="3VMn$3">
+                  <property role="3VMn$Y" value="this" />
+                </node>
+                <node concept="3VMn$7" id="zhVUb1E09h" role="3VMn$3">
+                  <property role="3VMn$Y" value="model)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2ozQQ" id="zhVUb1E02k" role="2hO6J">
+        <property role="TrG5h" value="Revision" />
+      </node>
+      <node concept="2ozQQ" id="zhVUb1E02l" role="2hO6J">
+        <property role="TrG5h" value="Date" />
+      </node>
+      <node concept="2ozQQ" id="zhVUb1E02m" role="2hO6J">
+        <property role="TrG5h" value="Authors" />
+      </node>
+      <node concept="2ozQQ" id="zhVUb1E02n" role="2hO6J">
+        <property role="TrG5h" value="Description" />
+      </node>
+    </node>
+    <node concept="$sJSh" id="zhVUb1E03d" role="$s4ey" />
+    <node concept="$sJSh" id="zhVUb1E07a" role="$s4ey" />
   </node>
 </model>
 
