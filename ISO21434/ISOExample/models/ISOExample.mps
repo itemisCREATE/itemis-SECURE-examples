@@ -67,19 +67,37 @@
       </concept>
     </language>
     <language id="2283d35c-b541-4c39-bf04-8310ba3f92ff" name="com.moraad.reports">
+      <concept id="5638758366197687768" name="com.moraad.reports.structure.RiskTreatmentTableReportItem" flags="ng" index="21ek43">
+        <child id="5638758366197962492" name="riskTreatmentChunk" index="21fj8B" />
+      </concept>
       <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA">
         <property id="5844418852561495228" name="numberOfApsPerGroup" index="1CBqX7" />
       </concept>
-      <concept id="2050517468709281410" name="com.moraad.reports.structure.AssetsAndDamageScenariosTableReportItem" flags="ng" index="ckFx4" />
+      <concept id="7385129922939695098" name="com.moraad.reports.structure.AttackEffortsMatrixReportItem" flags="ng" index="a$eXN" />
+      <concept id="7385129922949653722" name="com.moraad.reports.structure.RiskLevelMatrixReportItem" flags="ng" index="bYehj" />
+      <concept id="2050517468709281410" name="com.moraad.reports.structure.AssetsAndDamageScenariosTableReportItem" flags="ng" index="ckFx4">
+        <property id="8417410718506888096" name="showNonAssets" index="9YSRj" />
+      </concept>
+      <concept id="288157383581295240" name="com.moraad.reports.structure.DamagePotentialsTableReportItem" flags="ng" index="kePWl">
+        <property id="288157383582288859" name="showDamageSubClassAndCriterion" index="kaVp6" />
+      </concept>
+      <concept id="288157383577698444" name="com.moraad.reports.structure.SecurityGoalClassesTableReportItem" flags="ng" index="ksrOh" />
+      <concept id="288157383598696227" name="com.moraad.reports.structure.RiskLevelsTableReportItem" flags="ng" index="rctEY" />
+      <concept id="288157383594267526" name="com.moraad.reports.structure.AttackEffortLevelsTableReportItem" flags="ng" index="rtmSr" />
       <concept id="6986877318773217091" name="com.moraad.reports.structure.TextReportItem" flags="ng" index="yg4y$">
         <property id="6986877318773333397" name="text" index="ygo9M" />
       </concept>
       <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
         <reference id="1019912726748740255" name="diagram" index="2HTkYB" />
       </concept>
+      <concept id="6986877318773203687" name="com.moraad.reports.structure.SecurityGoalTableReportItem" flags="ng" index="ygVO0" />
       <concept id="6986877318773203685" name="com.moraad.reports.structure.RiskTableReportItem" flags="ng" index="ygVO2" />
-      <concept id="6986877318773203683" name="com.moraad.reports.structure.ControlsTableReportItem" flags="ng" index="ygVO4" />
+      <concept id="6986877318773203683" name="com.moraad.reports.structure.ControlsTableReportItem" flags="ng" index="ygVO4">
+        <property id="3868026684445433283" name="showRationaleKeyword" index="2DHY05" />
+        <property id="3868026684445433281" name="exportRationale" index="2DHY07" />
+      </concept>
       <concept id="6986877318773203681" name="com.moraad.reports.structure.ThreatTableReportItem" flags="ng" index="ygVO6" />
+      <concept id="6986877318773203653" name="com.moraad.reports.structure.AssumptionTableReportItem" flags="ng" index="ygVOy" />
       <concept id="6986877318772884603" name="com.moraad.reports.structure.RiskDistributionChartReportItem" flags="ng" index="yhPIs" />
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
         <property id="6937682328230931199" name="showData" index="2iWzeI" />
@@ -92,6 +110,8 @@
       <concept id="6986877318770896277" name="com.moraad.reports.structure.ResultReportChunk" flags="ng" index="ypf9M">
         <child id="6986877318770902011" name="items" index="yp9Ks" />
       </concept>
+      <concept id="9125927369354634356" name="com.moraad.reports.structure.RiskFactorsTableReportItem" flags="ng" index="AK2Fz" />
+      <concept id="9125927369345168869" name="com.moraad.reports.structure.DamageClassesTableReportItem" flags="ng" index="DsbHM" />
       <concept id="1488669593885577694" name="com.moraad.reports.structure.CommentReportItem" flags="ng" index="2JOk35">
         <property id="1488669593885577696" name="text" index="2JOk3V" />
       </concept>
@@ -99,6 +119,8 @@
         <property id="5209880561343667337" name="export" index="XlMDd" />
         <reference id="5209880561343674428" name="target" index="XlKVS" />
       </concept>
+      <concept id="5952104409253523121" name="com.moraad.reports.structure.TableOfContentsReportItem" flags="ng" index="3x3r7t" />
+      <concept id="2129184553233376960" name="com.moraad.reports.structure.FuncAssignmentSmartTableReportItem" flags="ng" index="3xdgjh" />
       <concept id="2129184553237592657" name="com.moraad.reports.structure.DataTableReportItem" flags="ng" index="3xttx0" />
       <concept id="2129184553237592667" name="com.moraad.reports.structure.DataFlowsTableReportItem" flags="ng" index="3xttxa" />
       <concept id="2129184553237592647" name="com.moraad.reports.structure.ComponentsTableReportItem" flags="ng" index="3xttxm" />
@@ -107,7 +129,10 @@
       <concept id="2129184553228409378" name="com.moraad.reports.structure.FuncAssignmentSimpleTableReportItem" flags="ng" index="3xSvwN" />
       <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
       <concept id="6201211625638961343" name="com.moraad.reports.structure.TARASheetReportItem" flags="ng" index="1Hd86x" />
-      <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1" />
+      <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1">
+        <property id="8588388912954702330" name="exportRationale" index="3UCmZc" />
+        <property id="8588388912954702331" name="showRationaleKeyWord" index="3UCmZd" />
+      </concept>
     </language>
     <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
       <concept id="9003278715588766803" name="com.moraad.projectinfo.structure.ProjectInfoListEntry" flags="ng" index="$sJSp">
@@ -169,6 +194,9 @@
       </concept>
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
+      <concept id="5638758366198115319" name="com.moraad.core.structure.RiskTreatmentChunkRef" flags="ng" index="21KcWG">
+        <reference id="5638758366198115320" name="target" index="21KcWz" />
+      </concept>
       <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU" />
       <concept id="4497791247482840273" name="com.moraad.core.structure.SecurityGoalRef" flags="ng" index="iu3Au" />
       <concept id="1983173996191207106" name="com.moraad.core.structure.PropagationOperationExpr" flags="ng" index="pgmzW">
@@ -3294,6 +3322,121 @@
   <node concept="ypf9M" id="4Y95JFqurxe">
     <property role="TrG5h" value="21434-fashioned TARA Report" />
     <node concept="1Hd86x" id="4Y95JFqury2" role="yp9Ks" />
+  </node>
+  <node concept="ypf9M" id="1k$QKsQQXoh">
+    <property role="TrG5h" value="All in one Report example" />
+    <node concept="3x3r7t" id="1k$QKsQRSsY" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQRZ8Y" role="yp9Ks" />
+    <node concept="ckFx4" id="1k$QKsQS08g" role="yp9Ks" />
+    <node concept="ckFx4" id="1k$QKsQS1AL" role="yp9Ks">
+      <property role="9YSRj" value="true" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQS25Z" role="yp9Ks" />
+    <node concept="ygVOy" id="1k$QKsQS2Aj" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQS35y" role="yp9Ks" />
+    <node concept="rtmSr" id="1k$QKsQS458" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQS4_A" role="yp9Ks" />
+    <node concept="a$eXN" id="1k$QKsQS554" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQS5_$" role="yp9Ks" />
+    <node concept="ygVO6" id="1k$QKsQS6_a" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSLLM" role="yp9Ks" />
+    <node concept="2JOk35" id="1k$QKsQSitH" role="yp9Ks">
+      <property role="2JOk3V" value="BUG: cannot click set &quot;export rationale&quot;!" />
+    </node>
+    <node concept="ygVO6" id="1k$QKsQS7zX" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQS8zI" role="yp9Ks" />
+    <node concept="3xttxO" id="1k$QKsQS93e" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQS9zN" role="yp9Ks" />
+    <node concept="2JOk35" id="1k$QKsQSa4$" role="yp9Ks">
+      <property role="2JOk3V" value="my dummy comment" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQSa_b" role="yp9Ks" />
+    <node concept="3xttxm" id="1k$QKsQSb68" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSbAD" role="yp9Ks" />
+    <node concept="ygVO4" id="1k$QKsQSc7y" role="yp9Ks" />
+    <node concept="ygVO4" id="1k$QKsQScB0" role="yp9Ks">
+      <property role="2DHY07" value="true" />
+    </node>
+    <node concept="ygVO4" id="1k$QKsQSd7$" role="yp9Ks">
+      <property role="2DHY07" value="true" />
+      <property role="2DHY05" value="true" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQSiXe" role="yp9Ks" />
+    <node concept="3UIwP1" id="1k$QKsQSjuh" role="yp9Ks" />
+    <node concept="3UIwP1" id="1k$QKsQSjXO" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+    </node>
+    <node concept="3UIwP1" id="1k$QKsQSku_" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="3UCmZd" value="true" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQSkYa" role="yp9Ks" />
+    <node concept="3yVM0i" id="1k$QKsQSlXK" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSmtg" role="yp9Ks" />
+    <node concept="3xttxa" id="1k$QKsQSmXk" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSnsY" role="yp9Ks" />
+    <node concept="3xttx0" id="1k$QKsQSnXe" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSosU" role="yp9Ks" />
+    <node concept="AK2Fz" id="1k$QKsQSoXe" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSpsW" role="yp9Ks" />
+    <node concept="3xSvwN" id="1k$QKsQSpXk" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSqu9" role="yp9Ks" />
+    <node concept="3xdgjh" id="1k$QKsQSqY_" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSrun" role="yp9Ks" />
+    <node concept="3xuwDp" id="1k$QKsQSs04" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSsvK" role="yp9Ks" />
+    <node concept="DsbHM" id="1k$QKsQSt1x" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSty$" role="yp9Ks" />
+    <node concept="kePWl" id="1k$QKsQSule" role="yp9Ks" />
+    <node concept="kePWl" id="1k$QKsQSuQj" role="yp9Ks">
+      <property role="kaVp6" value="true" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQSkYD" role="yp9Ks" />
+    <node concept="ym6bn" id="1k$QKsQSvmc" role="yp9Ks">
+      <ref role="39i2te" node="5wtRytMI6ho" resolve="Project Info: ISOExample [ISOExample]" />
+    </node>
+    <node concept="ym6bn" id="1k$QKsQSwQj" role="yp9Ks">
+      <ref role="39i2te" to="julz:zhVUb1DY8y" resolve="Project Info: Catalog [ISOComposition]" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQS$lf" role="yp9Ks" />
+    <node concept="yhPIs" id="1k$QKsQS_nk" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSxP4" role="yp9Ks" />
+    <node concept="2JOk35" id="1k$QKsQSMNo" role="yp9Ks">
+      <property role="2JOk3V" value="BUG: if there is a page-break, Risk-Levels it is possible that tailing Risk-Levels not displayed (on next page)!" />
+    </node>
+    <node concept="rctEY" id="1k$QKsQS_RF" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSAoI" role="yp9Ks" />
+    <node concept="bYehj" id="1k$QKsQSAUN" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSBrS" role="yp9Ks" />
+    <node concept="21ek43" id="1k$QKsQSBY1" role="yp9Ks" />
+    <node concept="21ek43" id="1k$QKsQSD08" role="yp9Ks">
+      <node concept="21KcWG" id="1k$QKsQSDxq" role="21fj8B">
+        <ref role="21KcWz" node="5wtRytMI6hp" resolve="Risk Treatment" />
+      </node>
+    </node>
+    <node concept="ymko6" id="1k$QKsQSDxs" role="yp9Ks" />
+    <node concept="ygVO2" id="1k$QKsQSE2$" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSEyG" role="yp9Ks" />
+    <node concept="ygVO0" id="1k$QKsQSF4X" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSFAc" role="yp9Ks" />
+    <node concept="ksrOh" id="1k$QKsQSG8x" role="yp9Ks" />
+    <node concept="ymko6" id="1k$QKsQSGDM" role="yp9Ks" />
+    <node concept="yg4y$" id="1k$QKsQSHb6" role="yp9Ks">
+      <property role="ygo9M" value="Just line of simple text to be exported." />
+    </node>
+    <node concept="ymko6" id="1k$QKsQSHGp" role="yp9Ks" />
+    <node concept="ygSqK" id="1k$QKsQSIeY" role="yp9Ks" />
+    <node concept="ygSqK" id="1k$QKsQSJg$" role="yp9Ks">
+      <ref role="2HTkYB" node="5wtRytMI6hw" resolve="System Diagram" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQSIKj" role="yp9Ks" />
+    <node concept="2JOk35" id="1k$QKsQSLhv" role="yp9Ks">
+      <property role="2JOk3V" value="BUG: highlight number, so that it is obvious that it is editable" />
+    </node>
+    <node concept="28bWPA" id="1k$QKsQSKfP" role="yp9Ks">
+      <property role="1CBqX7" value="2147483647" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQSCw4" role="yp9Ks" />
   </node>
 </model>
 
