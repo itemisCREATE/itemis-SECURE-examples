@@ -155,6 +155,7 @@
         <reference id="8926592809623411179" name="target" index="3VMn$Q" />
       </concept>
       <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
+        <property id="6594393893355296108" name="punctuationLeft" index="3DWmGy" />
         <property id="8926592809623411171" name="text" index="3VMn$Y" />
       </concept>
     </language>
@@ -643,6 +644,145 @@
                 </node>
                 <node concept="3VMn$7" id="zhVUb1Mfch" role="3VMn$3">
                   <property role="3VMn$Y" value="it." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2mR0d" id="1k$QKsQTm$b" role="2mR6f">
+        <node concept="2mR0e" id="1k$QKsQTm$c" role="2mR6i">
+          <node concept="38D_9Z" id="1k$QKsQTm_K" role="2hY46">
+            <node concept="3VMn$a" id="1k$QKsQTm_O" role="38D_my">
+              <node concept="3VMn$0" id="1k$QKsQTm_P" role="3VMn$6">
+                <node concept="3VMn$7" id="1k$QKsQTm_Q" role="3VMn$3">
+                  <property role="3VMn$Y" value="1.3" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2mR0e" id="1k$QKsQTm$e" role="2mR6i">
+          <node concept="38D_9Z" id="1k$QKsQTm_V" role="2hY46">
+            <node concept="3VMn$a" id="1k$QKsQTm_Z" role="38D_my">
+              <node concept="3VMn$0" id="1k$QKsQTmA0" role="3VMn$6">
+                <node concept="3VMn$7" id="1k$QKsQTmA1" role="3VMn$3">
+                  <property role="3VMn$Y" value="2020-11-16" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2mR0e" id="1k$QKsQTm$g" role="2mR6i">
+          <node concept="38D_9Z" id="1k$QKsQTmA6" role="2hY46">
+            <node concept="3VMn$a" id="1k$QKsQTmAa" role="38D_my">
+              <node concept="3VMn$0" id="1k$QKsQTmAb" role="3VMn$6">
+                <node concept="3VMn$7" id="1k$QKsQTmAc" role="3VMn$3">
+                  <property role="3VMn$Y" value="itemis" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2mR0e" id="1k$QKsQTm$i" role="2mR6i">
+          <node concept="38D_9Z" id="1k$QKsQTmAj" role="2hY46">
+            <node concept="3VMn$a" id="1k$QKsQTmAn" role="38D_my">
+              <node concept="3VMn$0" id="1k$QKsQTmAo" role="3VMn$6">
+                <node concept="3VMn$7" id="1k$QKsQTmAp" role="3VMn$3">
+                  <property role="3VMn$Y" value="Added" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmAw" role="3VMn$3">
+                  <property role="3VMn$Y" value="a" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmAx" role="3VMn$3">
+                  <property role="3VMn$Y" value="new" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmAy" role="3VMn$3">
+                  <property role="3VMn$Y" value="Result" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmAz" role="3VMn$3">
+                  <property role="3VMn$Y" value="Report" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmA$" role="3VMn$3">
+                  <property role="3VMn$Y" value="Chunk" />
+                </node>
+                <node concept="3VMn$S" id="1k$QKsQTmA_" role="3VMn$3">
+                  <property role="3VMn$Y" value="All in one Report example" />
+                  <ref role="3VMn$Q" node="1k$QKsQQXoh" resolve="All in one Report example" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmAB" role="3VMn$3">
+                  <property role="3VMn$Y" value="," />
+                  <property role="3DWmGy" value="true" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmAC" role="3VMn$3">
+                  <property role="3VMn$Y" value="" />
+                </node>
+              </node>
+              <node concept="3VMn$0" id="1k$QKsQTmBM" role="3VMn$6">
+                <node concept="3VMn$7" id="1k$QKsQTmBN" role="3VMn$3">
+                  <property role="3VMn$Y" value="It" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBO" role="3VMn$3">
+                  <property role="3VMn$Y" value="displays" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBP" role="3VMn$3">
+                  <property role="3VMn$Y" value="all" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBQ" role="3VMn$3">
+                  <property role="3VMn$Y" value="available" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBR" role="3VMn$3">
+                  <property role="3VMn$Y" value="docx-report" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBS" role="3VMn$3">
+                  <property role="3VMn$Y" value="items" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBT" role="3VMn$3">
+                  <property role="3VMn$Y" value="in" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBU" role="3VMn$3">
+                  <property role="3VMn$Y" value="all" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBV" role="3VMn$3">
+                  <property role="3VMn$Y" value="permutations." />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBW" role="3VMn$3">
+                  <property role="3VMn$Y" value="" />
+                </node>
+              </node>
+              <node concept="3VMn$0" id="1k$QKsQTmBX" role="3VMn$6">
+                <node concept="3VMn$7" id="1k$QKsQTmBY" role="3VMn$3">
+                  <property role="3VMn$Y" value="There" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmBZ" role="3VMn$3">
+                  <property role="3VMn$Y" value="are" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmC0" role="3VMn$3">
+                  <property role="3VMn$Y" value="also" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmC1" role="3VMn$3">
+                  <property role="3VMn$Y" value="some" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmC2" role="3VMn$3">
+                  <property role="3VMn$Y" value="comments" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmC3" role="3VMn$3">
+                  <property role="3VMn$Y" value="included," />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmDz" role="3VMn$3">
+                  <property role="3VMn$Y" value="explaining" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmD$" role="3VMn$3">
+                  <property role="3VMn$Y" value="the" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmD_" role="3VMn$3">
+                  <property role="3VMn$Y" value="Result" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmDA" role="3VMn$3">
+                  <property role="3VMn$Y" value="Report" />
+                </node>
+                <node concept="3VMn$7" id="1k$QKsQTmDB" role="3VMn$3">
+                  <property role="3VMn$Y" value="Chunk." />
                 </node>
               </node>
             </node>
@@ -3325,6 +3465,13 @@
   </node>
   <node concept="ypf9M" id="1k$QKsQQXoh">
     <property role="TrG5h" value="All in one Report example" />
+    <node concept="2JOk35" id="1k$QKsQTiXu" role="yp9Ks">
+      <property role="2JOk3V" value="This Report lists all available Docx-Report-Items in all permutations" />
+    </node>
+    <node concept="2JOk35" id="1k$QKsQTjY3" role="yp9Ks">
+      <property role="2JOk3V" value="If an item is listed multiple times, it provides different settings" />
+    </node>
+    <node concept="ymko6" id="1k$QKsQTirV" role="yp9Ks" />
     <node concept="3x3r7t" id="1k$QKsQRSsY" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQRZ8Y" role="yp9Ks" />
     <node concept="ckFx4" id="1k$QKsQS08g" role="yp9Ks" />
@@ -3340,9 +3487,6 @@
     <node concept="ymko6" id="1k$QKsQS5_$" role="yp9Ks" />
     <node concept="ygVO6" id="1k$QKsQS6_a" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSLLM" role="yp9Ks" />
-    <node concept="2JOk35" id="1k$QKsQSitH" role="yp9Ks">
-      <property role="2JOk3V" value="BUG: cannot click set &quot;export rationale&quot;!" />
-    </node>
     <node concept="ygVO6" id="1k$QKsQS7zX" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQS8zI" role="yp9Ks" />
     <node concept="3xttxO" id="1k$QKsQS93e" role="yp9Ks" />
@@ -3401,9 +3545,6 @@
     <node concept="ymko6" id="1k$QKsQS$lf" role="yp9Ks" />
     <node concept="yhPIs" id="1k$QKsQS_nk" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSxP4" role="yp9Ks" />
-    <node concept="2JOk35" id="1k$QKsQSMNo" role="yp9Ks">
-      <property role="2JOk3V" value="BUG: if there is a page-break, Risk-Levels it is possible that tailing Risk-Levels not displayed (on next page)!" />
-    </node>
     <node concept="rctEY" id="1k$QKsQS_RF" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSAoI" role="yp9Ks" />
     <node concept="bYehj" id="1k$QKsQSAUN" role="yp9Ks" />
@@ -3430,13 +3571,13 @@
       <ref role="2HTkYB" node="5wtRytMI6hw" resolve="System Diagram" />
     </node>
     <node concept="ymko6" id="1k$QKsQSIKj" role="yp9Ks" />
-    <node concept="2JOk35" id="1k$QKsQSLhv" role="yp9Ks">
-      <property role="2JOk3V" value="BUG: highlight number, so that it is obvious that it is editable" />
-    </node>
     <node concept="28bWPA" id="1k$QKsQSKfP" role="yp9Ks">
       <property role="1CBqX7" value="2147483647" />
     </node>
     <node concept="ymko6" id="1k$QKsQSCw4" role="yp9Ks" />
+    <node concept="2JOk35" id="1k$QKsQTm2C" role="yp9Ks">
+      <property role="2JOk3V" value="Below you see the current &quot;default&quot; Control Scenario." />
+    </node>
   </node>
 </model>
 
