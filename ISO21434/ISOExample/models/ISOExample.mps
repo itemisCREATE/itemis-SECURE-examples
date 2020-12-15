@@ -692,7 +692,7 @@
     </node>
   </node>
   <node concept="2lbcm6" id="5wtRytMI6hr">
-    <property role="3GE5qa" value="system" />
+    <property role="3GE5qa" value="Item Definition" />
     <property role="TrG5h" value="Functions" />
     <node concept="Hgtl4" id="5wtRytMI6S9" role="2lbk3h">
       <property role="TrG5h" value="OffFunc" />
@@ -738,7 +738,7 @@
   </node>
   <node concept="2lbcm6" id="5wtRytMI6hs">
     <property role="TrG5h" value="Components" />
-    <property role="3GE5qa" value="system" />
+    <property role="3GE5qa" value="Item Definition" />
     <node concept="2lbezN" id="5wtRytMI6ht" role="2lbk3h">
       <property role="TrG5h" value="SYS" />
       <property role="DVXpC" value="System" />
@@ -804,7 +804,7 @@
     <node concept="2x4$Tb" id="702oElbSvJz" role="2xH1$J" />
   </node>
   <node concept="2lbcm6" id="5wtRytMI6hu">
-    <property role="3GE5qa" value="system" />
+    <property role="3GE5qa" value="Item Definition" />
     <property role="TrG5h" value="Data" />
     <node concept="2zhWjs" id="1eUj96eGQ3J" role="2lbk3h">
       <property role="TrG5h" value="OnMsg" />
@@ -879,7 +879,7 @@
   </node>
   <node concept="2lbcm6" id="5wtRytMI6hv">
     <property role="TrG5h" value="Channels" />
-    <property role="3GE5qa" value="system" />
+    <property role="3GE5qa" value="Item Definition" />
     <node concept="3mlHNJ" id="75wqdiwEFag" role="2lbk3h">
       <property role="TrG5h" value="Ch.1" />
       <property role="DVXpC" value="CAN Bus" />
@@ -968,7 +968,7 @@
   </node>
   <node concept="2ndE_3" id="5wtRytMI6hw">
     <property role="2zzwJW" value="2" />
-    <property role="3GE5qa" value="system" />
+    <property role="3GE5qa" value="Item Definition" />
     <property role="TrG5h" value="System Diagram" />
     <node concept="3$0O7b" id="5wtRytMI6hx" role="3Vepgw">
       <ref role="122Z_O" node="5wtRytMI6ht" resolve="SYS" />
@@ -1772,7 +1772,7 @@
     </node>
   </node>
   <node concept="2zckJ6" id="5wtRytMI6hA">
-    <property role="3GE5qa" value="system" />
+    <property role="3GE5qa" value="Item Definition" />
     <node concept="3KzJKc" id="1kMJkOan9PI" role="3KzJKe">
       <ref role="3KzJK7" node="1eUj96eGQ3O" resolve="OffMsg" />
       <ref role="3KzJK9" node="1eUj96eGQ6h" resolve="DF.6" />
@@ -1786,11 +1786,11 @@
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hB">
     <property role="TrG5h" value="Assumptions" />
-    <property role="3GE5qa" value="securityAnalysis" />
+    <property role="3GE5qa" value="Security Analysis" />
     <node concept="2xx57M" id="702oElbSvJA" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hC">
-    <property role="3GE5qa" value="securityAnalysis" />
+    <property role="3GE5qa" value="Security Analysis" />
     <property role="TrG5h" value="Security Objectives" />
     <node concept="2vM170" id="5wtRytMI6Rb" role="2vPz$N">
       <property role="TrG5h" value="SO.1" />
@@ -1954,7 +1954,7 @@
     </node>
   </node>
   <node concept="2vPz$R" id="702oElbSw1E">
-    <property role="3GE5qa" value="securityAnalysis" />
+    <property role="3GE5qa" value="Security Analysis" />
     <property role="TrG5h" value="Damage Scenarios" />
     <node concept="U8VUI" id="702oElbSw1F" role="2xH1$J" />
     <node concept="2AH0t1" id="702oElbSw1D" role="2vPz$N">
@@ -2073,7 +2073,7 @@
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hD">
     <property role="TrG5h" value="Threat Scenarios" />
-    <property role="3GE5qa" value="securityAnalysis" />
+    <property role="3GE5qa" value="Security Analysis" />
     <node concept="3Rc6Py" id="5U29EQHaT4c" role="2vPz$N">
       <property role="TrG5h" value="TS.1" />
       <node concept="37A2tY" id="5U29EQHaT4d" role="37Z4bQ" />
@@ -2218,7 +2218,7 @@
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hE">
     <property role="TrG5h" value="Controls" />
-    <property role="3GE5qa" value="securityAnalysis" />
+    <property role="3GE5qa" value="Security Analysis" />
     <node concept="3dTkcA" id="7gwHXNztH6S" role="2vPz$N">
       <property role="TrG5h" value="C.2" />
       <property role="DVXpC" value="Whitelisting CAN Messages" />
@@ -2250,7 +2250,7 @@
     <node concept="2xx57K" id="702oElbSvJD" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hF">
-    <property role="3GE5qa" value="securityAnalysis" />
+    <property role="3GE5qa" value="Security Analysis" />
     <property role="TrG5h" value="Control Scenarios" />
     <node concept="1jXguf" id="6SOv2Wub_fI" role="2vPz$N">
       <property role="TrG5h" value="Sc.1" />
@@ -2268,7 +2268,7 @@
     <node concept="2xx57Q" id="702oElbSvJE" role="2xH1$J" />
   </node>
   <node concept="1YSUgs" id="5wtRytMI6hJ">
-    <property role="3GE5qa" value="system" />
+    <property role="3GE5qa" value="Item Definition" />
     <property role="TrG5h" value="Sequences" />
     <node concept="1YSUgz" id="75wqdiwEFgu" role="T3T1x">
       <property role="TrG5h" value="Seq.1" />
@@ -2330,7 +2330,7 @@
     </node>
   </node>
   <node concept="3lAO7T" id="5wtRytMI6hK">
-    <property role="3GE5qa" value="system" />
+    <property role="3GE5qa" value="Item Definition" />
     <property role="TrG5h" value="Stakeholders" />
   </node>
   <node concept="ypf9M" id="5wtRytMI6hL">
@@ -2397,7 +2397,7 @@
     <node concept="3xSvwN" id="5wtRytMI6i1" role="yp9Ks" />
   </node>
   <node concept="2Q15JU" id="5wtRytMI6i8">
-    <property role="3GE5qa" value="assistants" />
+    <property role="3GE5qa" value="Assistants" />
     <node concept="khATU" id="5wtRytMI6i9" role="kmFqQ" />
     <node concept="3aivMl" id="5wtRytMI6ia" role="2Q$E0J">
       <node concept="3aHhih" id="2hp1HvFHlSF" role="3N3N22">
@@ -2643,7 +2643,7 @@
     </node>
   </node>
   <node concept="2Q15JU" id="5wtRytMI6ib">
-    <property role="3GE5qa" value="assistants" />
+    <property role="3GE5qa" value="Assistants" />
     <node concept="khC4Q" id="5wtRytMI6ic" role="kmFqQ" />
     <node concept="k5Jq$" id="5wtRytMI6id" role="2Q$E0J">
       <node concept="3aHhih" id="2hp1HvFHmzT" role="3N3N22">
@@ -2998,7 +2998,7 @@
     </node>
   </node>
   <node concept="2Q15JU" id="5wtRytMI6ie">
-    <property role="3GE5qa" value="assistants" />
+    <property role="3GE5qa" value="Assistants" />
     <node concept="khAwF" id="5wtRytMI6if" role="kmFqQ" />
     <node concept="2Fpy1u" id="5wtRytMI6ig" role="2Q$E0J" />
     <node concept="2FpSCn" id="5wtRytMI6ih" role="2Q$E0J">
@@ -3230,7 +3230,7 @@
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hH">
     <property role="TrG5h" value="Risks" />
-    <property role="3GE5qa" value="securityAnalysis" />
+    <property role="3GE5qa" value="Security Analysis" />
     <node concept="KYrDe" id="1eUj96eGRhm" role="2vPz$N">
       <property role="TrG5h" value="R.1" />
       <property role="29uaSM" value="" />
