@@ -31,6 +31,7 @@
     <language slang="l:a97beefa-b088-4bdb-8ed8-6b4e554b6264:com.moraad.sequences" version="0" />
     <language slang="l:8aedd025-5f31-4a1e-81a1-4c5345407211:com.moraad.suggestions" version="1" />
     <language slang="l:3b2e8e7c-a0de-4faa-ad48-1ee43c2e27ac:com.moraad.userScripts" version="0" />
+    <language slang="l:e8cdedba-17d0-43f7-902f-38efdcd30769:de.itemis.mps.commons" version="0" />
     <language slang="l:8ca79d43-eb45-4791-bdd4-0d6130ff895b:de.itemis.mps.editor.diagram.layout" version="0" />
     <language slang="l:048a18dc-8dce-4fe2-8e99-0a16464f630c:de.itemis.mps.editor.freetext" version="0" />
     <language slang="l:23c9b2af-fa11-470e-a8b5-5aae9105f1b0:de.itemis.mps.serialization" version="0" />
