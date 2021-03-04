@@ -206,6 +206,9 @@
         <child id="3440241848487318190" name="operation" index="37eMcl" />
       </concept>
       <concept id="1983173996191178560" name="com.moraad.core.structure.PropagationParticipantExpr" flags="ng" index="pgv_Y" />
+      <concept id="1983173996191485494" name="com.moraad.core.structure.Assumption" flags="ng" index="pjaw8">
+        <child id="6109063348035932978" name="minAE" index="ANped" />
+      </concept>
       <concept id="4718052244458697284" name="com.moraad.core.structure.SecurityGoal" flags="ng" index="2vM170">
         <child id="3124030863032911955" name="securityGoalClasses" index="29ds7n" />
         <child id="7843867905904591201" name="concerns" index="CnckG" />
@@ -239,7 +242,6 @@
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
       <concept id="7843867905904583895" name="com.moraad.core.structure.TOEObjectRef" flags="ng" index="Cna2q" />
       <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ng" index="KYrDd">
-        <property id="481666006483525579" name="isImpossible" index="1muYt_" />
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
       <concept id="227120341088952049" name="com.moraad.core.structure.Risk" flags="ng" index="KYrDe">
@@ -294,6 +296,7 @@
       </concept>
       <concept id="8278271381841453282" name="com.moraad.core.structure.SecurityControlClassRef" flags="ng" index="1u4Rck" />
       <concept id="7050052209577206632" name="com.moraad.core.structure.SecurityGoalContentSelector" flags="ng" index="3u6799" />
+      <concept id="8278271381845378605" name="com.moraad.core.structure.AttackEffortRef" flags="ng" index="1vNPnr" />
       <concept id="2596867816763073964" name="com.moraad.core.structure.IDescribed" flags="ng" index="1ALOwD">
         <property id="2205165404930899058" name="description_old_2" index="29uaSM" />
         <child id="7057631560081871838" name="description" index="2JHqPs" />
@@ -2172,6 +2175,65 @@
   <node concept="2vPz$R" id="5wtRytMI6hB">
     <property role="TrG5h" value="Assumptions" />
     <property role="3GE5qa" value="Security Analysis" />
+    <node concept="pjaw8" id="2VUdYcMms9T" role="2vPz$N">
+      <property role="TrG5h" value="A.1" />
+      <property role="DVXpC" value="Physical Protection" />
+      <node concept="3VMn$a" id="2VUdYcMms9U" role="2JHqPs">
+        <node concept="3VMn$0" id="2VUdYcMmslN" role="3VMn$6">
+          <node concept="3VMn$7" id="2VUdYcMmslO" role="3VMn$3">
+            <property role="3VMn$Y" value="The" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslP" role="3VMn$3">
+            <property role="3VMn$Y" value="item" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslQ" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslR" role="3VMn$3">
+            <property role="3VMn$Y" value="physically" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslS" role="3VMn$3">
+            <property role="3VMn$Y" value="protected" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslT" role="3VMn$3">
+            <property role="3VMn$Y" value="by" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslU" role="3VMn$3">
+            <property role="3VMn$Y" value="anti-tamper" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslV" role="3VMn$3">
+            <property role="3VMn$Y" value="enclosures," />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslW" role="3VMn$3">
+            <property role="3VMn$Y" value="which" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslX" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslY" role="3VMn$3">
+            <property role="3VMn$Y" value="an" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmslZ" role="3VMn$3">
+            <property role="3VMn$Y" value="assumption" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsm0" role="3VMn$3">
+            <property role="3VMn$Y" value="on" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsm1" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsm2" role="3VMn$3">
+            <property role="3VMn$Y" value="operational" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsm3" role="3VMn$3">
+            <property role="3VMn$Y" value="environment." />
+          </node>
+        </node>
+      </node>
+      <node concept="1vNPnr" id="2VUdYcMmslj" role="ANped">
+        <ref role="122Z_O" to="xz8e:4CQftq3lQl0" resolve="Very Low" />
+      </node>
+    </node>
     <node concept="2xx57M" id="702oElbSvJA" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hC">
@@ -2588,8 +2650,11 @@
     </node>
     <node concept="3Rc6Py" id="7gwHXNztHdV" role="2vPz$N">
       <property role="TrG5h" value="TS.2" />
-      <property role="1muYt_" value="true" />
-      <node concept="37A2tY" id="7gwHXNztHdW" role="37Z4bQ" />
+      <node concept="37A2tY" id="7gwHXNztHdW" role="37Z4bQ">
+        <node concept="pgv_Y" id="2VUdYcMmsiL" role="37AdOr">
+          <ref role="122Z_O" node="2VUdYcMms9T" resolve="A.1" />
+        </node>
+      </node>
       <node concept="37A2tX" id="7gwHXNztHdX" role="37Z4bD" />
       <node concept="122ZmF" id="7gwHXNztHgi" role="Oro34">
         <ref role="122Z_O" to="julz:4CQftq3lQmG" resolve="TC.2" />
@@ -2640,13 +2705,13 @@
     <node concept="1jXguf" id="6SOv2Wub_fI" role="2vPz$N">
       <property role="TrG5h" value="Sc.1" />
       <property role="DVXpC" value="None" />
-      <property role="1jXtXe" value="true" />
       <node concept="3VMn$a" id="6SOv2Wub_fJ" role="2JHqPs" />
     </node>
     <node concept="1jXguf" id="5wtRytMI6hG" role="2vPz$N">
       <property role="TrG5h" value="Sc.2" />
       <property role="DVXpC" value="All Controls" />
       <property role="29uaSM" value="" />
+      <property role="1jXtXe" value="true" />
       <node concept="1jbUxn" id="4NcsJzPXx4f" role="1jXtX1" />
       <node concept="3VMn$a" id="7gwHXNztHXQ" role="2JHqPs" />
     </node>
