@@ -2431,6 +2431,82 @@
           <ref role="122Z_O" to="xz8e:49aGL_C49NO" resolve="P0" />
         </node>
       </node>
+      <node concept="3VMn$a" id="2VUdYcMmst1" role="2JHqPs">
+        <node concept="3VMn$0" id="2VUdYcMmst2" role="3VMn$6">
+          <node concept="3VMn$7" id="2VUdYcMmst3" role="3VMn$3">
+            <property role="3VMn$Y" value="Unexpected" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstB" role="3VMn$3">
+            <property role="3VMn$Y" value="loss" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstD" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstF" role="3VMn$3">
+            <property role="3VMn$Y" value="your" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstH" role="3VMn$3">
+            <property role="3VMn$Y" value="lamps" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstJ" role="3VMn$3">
+            <property role="3VMn$Y" value="during" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstL" role="3VMn$3">
+            <property role="3VMn$Y" value="adverse" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstN" role="3VMn$3">
+            <property role="3VMn$Y" value="conditions" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstP" role="3VMn$3">
+            <property role="3VMn$Y" value="during" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstR" role="3VMn$3">
+            <property role="3VMn$Y" value="driving" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstT" role="3VMn$3">
+            <property role="3VMn$Y" value="may" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstV" role="3VMn$3">
+            <property role="3VMn$Y" value="cause" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmstX" role="3VMn$3">
+            <property role="3VMn$Y" value="a" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsuq" role="3VMn$3">
+            <property role="3VMn$Y" value="crash," />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsus" role="3VMn$3">
+            <property role="3VMn$Y" value="severe" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsuu" role="3VMn$3">
+            <property role="3VMn$Y" value="safety" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsuw" role="3VMn$3">
+            <property role="3VMn$Y" value="impact" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsuy" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsu$" role="3VMn$3">
+            <property role="3VMn$Y" value="degradation" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmswj" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmswl" role="3VMn$3">
+            <property role="3VMn$Y" value="functionality," />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmswn" role="3VMn$3">
+            <property role="3VMn$Y" value="but" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsx6" role="3VMn$3">
+            <property role="3VMn$Y" value="survival" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsx8" role="3VMn$3">
+            <property role="3VMn$Y" value="likely." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2AH0t1" id="702oElbSw1J" role="2vPz$N">
       <property role="DVXpC" value="Headlamps turns on unexpectedly" />
@@ -2459,7 +2535,58 @@
           <ref role="122Z_O" to="xz8e:49aGL_C49NO" resolve="P0" />
         </node>
       </node>
-      <node concept="3VMn$a" id="6SOv2WubwkD" role="2JHqPs" />
+      <node concept="3VMn$a" id="6SOv2WubwkD" role="2JHqPs">
+        <node concept="3VMn$0" id="2VUdYcMms_j" role="3VMn$6">
+          <node concept="3VMn$7" id="2VUdYcMms_k" role="3VMn$3">
+            <property role="3VMn$Y" value="Serious" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_l" role="3VMn$3">
+            <property role="3VMn$Y" value="impact" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_m" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_n" role="3VMn$3">
+            <property role="3VMn$Y" value="functionality" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_o" role="3VMn$3">
+            <property role="3VMn$Y" value="as" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_p" role="3VMn$3">
+            <property role="3VMn$Y" value="you" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_q" role="3VMn$3">
+            <property role="3VMn$Y" value="can't" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_r" role="3VMn$3">
+            <property role="3VMn$Y" value="turn" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_s" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_t" role="3VMn$3">
+            <property role="3VMn$Y" value="lamps" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_u" role="3VMn$3">
+            <property role="3VMn$Y" value="off," />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_v" role="3VMn$3">
+            <property role="3VMn$Y" value="but" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_w" role="3VMn$3">
+            <property role="3VMn$Y" value="no" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_x" role="3VMn$3">
+            <property role="3VMn$Y" value="impact" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_y" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms_z" role="3VMn$3">
+            <property role="3VMn$Y" value="safety." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2AH0t1" id="702oElbSw1H" role="2vPz$N">
       <property role="DVXpC" value="Headlamp cannot be turned off" />
@@ -2488,6 +2615,49 @@
           <ref role="122Z_O" to="xz8e:49aGL_C49NO" resolve="P0" />
         </node>
       </node>
+      <node concept="3VMn$a" id="2VUdYcMmszR" role="2JHqPs">
+        <node concept="3VMn$0" id="2VUdYcMmszS" role="3VMn$6">
+          <node concept="3VMn$7" id="2VUdYcMmszT" role="3VMn$3">
+            <property role="3VMn$Y" value="Serious" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmszZ" role="3VMn$3">
+            <property role="3VMn$Y" value="impact" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$1" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$3" role="3VMn$3">
+            <property role="3VMn$Y" value="functionality" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$5" role="3VMn$3">
+            <property role="3VMn$Y" value="as" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$7" role="3VMn$3">
+            <property role="3VMn$Y" value="you" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$9" role="3VMn$3">
+            <property role="3VMn$Y" value="can't" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$b" role="3VMn$3">
+            <property role="3VMn$Y" value="turn" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$d" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$x" role="3VMn$3">
+            <property role="3VMn$Y" value="lamps" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$z" role="3VMn$3">
+            <property role="3VMn$Y" value="but" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$_" role="3VMn$3">
+            <property role="3VMn$Y" value="impact" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMms$B" role="3VMn$3">
+            <property role="3VMn$Y" value="safety." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2AH0t1" id="702oElbSw1L" role="2vPz$N">
       <property role="DVXpC" value="Headlamp cannot be turned on" />
@@ -2514,6 +2684,97 @@
         <ref role="122Z_O" to="xz8e:4CQftq3lQjr" resolve="P" />
         <node concept="fNVPU" id="5wtRytMI71Y" role="3cP9Jm">
           <ref role="122Z_O" to="xz8e:49aGL_C49NO" resolve="P0" />
+        </node>
+      </node>
+      <node concept="3VMn$a" id="2VUdYcMmsA6" role="2JHqPs">
+        <node concept="3VMn$0" id="2VUdYcMmsA7" role="3VMn$6">
+          <node concept="3VMn$7" id="2VUdYcMmsA8" role="3VMn$3">
+            <property role="3VMn$Y" value="This" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAe" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAg" role="3VMn$3">
+            <property role="3VMn$Y" value="not" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAi" role="3VMn$3">
+            <property role="3VMn$Y" value="sudden." />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAk" role="3VMn$3">
+            <property role="3VMn$Y" value="It's" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAm" role="3VMn$3">
+            <property role="3VMn$Y" value="expected" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAo" role="3VMn$3">
+            <property role="3VMn$Y" value="that" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAq" role="3VMn$3">
+            <property role="3VMn$Y" value="you're" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAs" role="3VMn$3">
+            <property role="3VMn$Y" value="in" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAu" role="3VMn$3">
+            <property role="3VMn$Y" value="park" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAw" role="3VMn$3">
+            <property role="3VMn$Y" value="or" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAy" role="3VMn$3">
+            <property role="3VMn$Y" value="are" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsA$" role="3VMn$3">
+            <property role="3VMn$Y" value="driving" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAA" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAC" role="3VMn$3">
+            <property role="3VMn$Y" value="it's" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAE" role="3VMn$3">
+            <property role="3VMn$Y" value="getting" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAG" role="3VMn$3">
+            <property role="3VMn$Y" value="dark," />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAI" role="3VMn$3">
+            <property role="3VMn$Y" value="but" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAK" role="3VMn$3">
+            <property role="3VMn$Y" value="not" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsAM" role="3VMn$3">
+            <property role="3VMn$Y" value="as" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsBs" role="3VMn$3">
+            <property role="3VMn$Y" value="severe" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsBu" role="3VMn$3">
+            <property role="3VMn$Y" value="driving" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsBw" role="3VMn$3">
+            <property role="3VMn$Y" value="night" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsBy" role="3VMn$3">
+            <property role="3VMn$Y" value="a" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsB$" role="3VMn$3">
+            <property role="3VMn$Y" value="turning" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsBA" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsBC" role="3VMn$3">
+            <property role="3VMn$Y" value="lamps." />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsBE" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="2VUdYcMmsBG" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
         </node>
       </node>
     </node>
