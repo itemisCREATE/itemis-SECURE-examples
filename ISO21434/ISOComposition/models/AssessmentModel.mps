@@ -327,7 +327,7 @@
       </node>
     </node>
     <node concept="2vMkC4" id="49aGL_C49No" role="_H2pa">
-      <property role="TrG5h" value="S'" />
+      <property role="TrG5h" value="S" />
       <property role="DVXpC" value="Safety" />
       <ref role="i9Qb4" node="4CQftq3lQjp" resolve="S" />
       <node concept="2vPyy4" id="49aGL_C49Np" role="2vMkDN">
@@ -423,7 +423,7 @@
       </node>
     </node>
     <node concept="2vMkC4" id="49aGL_C49Nx" role="_H2pa">
-      <property role="TrG5h" value="F'" />
+      <property role="TrG5h" value="F" />
       <property role="DVXpC" value="Financial" />
       <ref role="i9Qb4" node="4CQftq3lQjq" resolve="F" />
       <node concept="2vPyy4" id="49aGL_C49Ny" role="2vMkDN">
@@ -664,7 +664,7 @@
       </node>
     </node>
     <node concept="2vMkC4" id="49aGL_C49NE" role="_H2pa">
-      <property role="TrG5h" value="O'" />
+      <property role="TrG5h" value="O" />
       <property role="DVXpC" value="Operational" />
       <ref role="i9Qb4" node="4CQftq3lQjs" resolve="O" />
       <node concept="2vPyy4" id="49aGL_C49NF" role="2vMkDN">
@@ -875,7 +875,7 @@
       </node>
     </node>
     <node concept="2vMkC4" id="49aGL_C49NN" role="_H2pa">
-      <property role="TrG5h" value="P'" />
+      <property role="TrG5h" value="P" />
       <property role="DVXpC" value="Privacy" />
       <ref role="i9Qb4" node="4CQftq3lQjr" resolve="P" />
       <node concept="2vPyy4" id="49aGL_C49NO" role="2vMkDN">
