@@ -241,6 +241,7 @@
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
       <concept id="7843867905904583895" name="com.moraad.core.structure.TOEObjectRef" flags="ng" index="Cna2q" />
       <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ng" index="KYrDd">
+        <property id="481666006483525579" name="isImpossible" index="1muYt_" />
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
       <concept id="227120341088952049" name="com.moraad.core.structure.Risk" flags="ng" index="KYrDe">
@@ -2927,11 +2928,7 @@
     </node>
     <node concept="3Rc6Py" id="7gwHXNztHdV" role="2vPz$N">
       <property role="TrG5h" value="TS.2" />
-      <node concept="37A2tY" id="7gwHXNztHdW" role="37Z4bQ">
-        <node concept="pgv_Y" id="2VUdYcMmsiL" role="37AdOr">
-          <ref role="122Z_O" node="2VUdYcMms9T" resolve="A.1" />
-        </node>
-      </node>
+      <node concept="37A2tY" id="7gwHXNztHdW" role="37Z4bQ" />
       <node concept="37A2tX" id="7gwHXNztHdX" role="37Z4bD" />
       <node concept="122ZmF" id="7gwHXNztHgi" role="Oro34">
         <ref role="122Z_O" to="julz:4CQftq3lQmG" resolve="TC.2" />
@@ -2943,6 +2940,7 @@
     </node>
     <node concept="3Rc6Py" id="6IMAd$NiFVi" role="2vPz$N">
       <property role="TrG5h" value="TS.3" />
+      <property role="1muYt_" value="true" />
       <node concept="3VMn$a" id="6IMAd$NiFVj" role="2JHqPs" />
       <node concept="37A2tY" id="6IMAd$NiFVk" role="37Z4bQ" />
       <node concept="37A2tX" id="6IMAd$NiFVl" role="37Z4bD" />
@@ -3003,13 +3001,13 @@
     <node concept="1jXguf" id="6SOv2Wub_fI" role="2vPz$N">
       <property role="TrG5h" value="Sc.1" />
       <property role="DVXpC" value="None" />
+      <property role="1jXtXe" value="true" />
       <node concept="3VMn$a" id="6SOv2Wub_fJ" role="2JHqPs" />
     </node>
     <node concept="1jXguf" id="5wtRytMI6hG" role="2vPz$N">
       <property role="TrG5h" value="Sc.2" />
       <property role="DVXpC" value="All Controls" />
       <property role="29uaSM" value="" />
-      <property role="1jXtXe" value="true" />
       <node concept="1jbUxn" id="4NcsJzPXx4f" role="1jXtX1" />
       <node concept="3VMn$a" id="7gwHXNztHXQ" role="2JHqPs" />
     </node>
