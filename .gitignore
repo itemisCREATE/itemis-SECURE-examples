@@ -10,7 +10,6 @@
 .idea
 workspace.xml
 libraries.xml
-vcs.xml
 /projectlibraries.overrides.properties
 
 build.properties
