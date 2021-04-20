@@ -113,6 +113,7 @@
       <concept id="5759247068028216608" name="com.moraad.core.structure.DefaultCombineDTFunction" flags="ng" index="20pd6h" />
       <concept id="5759247068028216605" name="com.moraad.core.structure.DefaultAdjustDPFunction" flags="ng" index="20pd6G" />
       <concept id="5759247068028216606" name="com.moraad.core.structure.DefaultAggregateDCFunction" flags="ng" index="20pd6J" />
+      <concept id="5759247068028216589" name="com.moraad.core.structure.DefaultCombineAEFunction" flags="ng" index="20pd6W" />
       <concept id="3683206315848252804" name="com.moraad.core.structure.AttackerMayChooseWeakest" flags="ng" index="9wlO_" />
       <concept id="3683206315848242257" name="com.moraad.core.structure.AttackerMustOvercomeCombination" flags="ng" index="9wnjK" />
       <concept id="1983173996191207122" name="com.moraad.core.structure.PropagationOperation" flags="ng" index="pgmzG">
@@ -185,7 +186,6 @@
         <child id="7712103759295966736" name="defaultOperationForThreat" index="1oN8Ii" />
         <child id="7712103759295966753" name="defaultOperationForMitigation" index="1oN8Iz" />
       </concept>
-      <concept id="6835849901053696431" name="com.moraad.core.structure.DefaultCvssAvCombineAEFunction" flags="ng" index="WV0zF" />
       <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
@@ -2947,7 +2947,7 @@
       <node concept="1I_0pG" id="4ZGXb7g6ddn" role="2TPNDS">
         <property role="DVXpC" value="Accumulates CVSS 3.0 specific feasibility options and impact transformations" />
         <property role="TrG5h" value="Acc_CVSS_3.0" />
-        <node concept="WV0zF" id="4DMK3dTzWDb" role="1I_0pF" />
+        <node concept="20pd6W" id="WmFTiCXrek" role="1I_0pF" />
         <node concept="20pd6h" id="4ZGXb7g6ddp" role="1I_0pE" />
         <node concept="2EZlau" id="7nllqeVEXCg" role="1ev5d9">
           <property role="3ewg7F" value="true" />
