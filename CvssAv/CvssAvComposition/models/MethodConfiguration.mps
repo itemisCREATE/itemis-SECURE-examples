@@ -3270,10 +3270,10 @@
     <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
     <ref role="3iLw6d" to="j5s2:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
     <node concept="3XNixs" id="20HkN2s1_BR" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYYs8s" resolve="AssessmentModel" />
+      <ref role="3XNEje" to="kc1e:5ZaGJmYYs8s" resolve="MethodConfiguration" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_CI" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESpX$S" resolve="AssessmentModels" />
+      <ref role="3XNEje" to="kc1e:3wMg8ESpX$S" resolve="MethodConfigurations" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_D1" role="3XNixv">
       <ref role="3XNEje" to="kc1e:6y8BU_MeIMf" resolve="RiskModel" />
@@ -3731,9 +3731,6 @@
     <node concept="3XNixs" id="20HkN2s1_CA" role="3XNixv">
       <ref role="3XNEje" to="kc1e:28R_jYk3lhx" resolve="Checklist" />
     </node>
-    <node concept="3XNixs" id="20HkN2s1_Bw" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5VPkz36YTrp" resolve="ChecklistGroup" />
-    </node>
     <node concept="3XNixs" id="20HkN2s1_Bg" role="3XNixv">
       <ref role="3XNEje" to="kc1e:2GG$71Up9Ga" resolve="Assumption_effect" />
     </node>
@@ -3918,7 +3915,7 @@
       <ref role="3XNEje" to="kc1e:3GefDSXlrkG" resolve="Assets" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_CJ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1ZE7Y0_V5RL" resolve="ReportGroup_AssessmentModel" />
+      <ref role="3XNEje" to="kc1e:1ZE7Y0_V5RL" resolve="ReportGroup_MethodConfiguration" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_DL" role="3XNixv">
       <ref role="3XNEje" to="kc1e:7_7plVRakKo" resolve="ReportGroup_Other" />
