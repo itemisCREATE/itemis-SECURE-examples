@@ -13,6 +13,48 @@
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
       <concept id="6006699537885391512" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
     </language>
+    <language id="8aedd025-5f31-4a1e-81a1-4c5345407211" name="com.moraad.suggestions">
+      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.WSAcceptedThreatAssistantSuggestion" flags="ng" index="k5Jqw">
+        <child id="1744555010771063083" name="actingThreats" index="k5Jqx" />
+      </concept>
+      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.WSThreatAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
+      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.WSAdditionThreatAssistantSuggestion" flags="ng" index="k5JqA" />
+      <concept id="1744555010776338337" name="com.moraad.suggestions.structure.RelationAssistantSelector" flags="ng" index="khAwF" />
+      <concept id="1744555010776336880" name="com.moraad.suggestions.structure.SecGoalAssistantSelector" flags="ng" index="khATU" />
+      <concept id="1744555010776327868" name="com.moraad.suggestions.structure.ThreatAssistantSelector" flags="ng" index="khC4Q" />
+      <concept id="7912218231014613968" name="com.moraad.suggestions.structure.WSAcceptedSuggestion" flags="ng" index="pcNHv" />
+      <concept id="114192864337941166" name="com.moraad.suggestions.structure.WSAdditionSecGoalAssistantSuggestion" flags="ng" index="raIdw" />
+      <concept id="8675225129802302574" name="com.moraad.suggestions.structure.TraversalPathElement" flags="ng" index="2C31c$">
+        <reference id="8675225129802302575" name="target" index="2C31c_" />
+      </concept>
+      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.WSecGoalDependsOnSuggestionFactory" flags="ng" index="2Fpy1u" />
+      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.WSecGoalThreatenedBySuggestionFactory" flags="ng" index="2FpSCn" />
+      <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
+        <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
+        <child id="8675225129778034533" name="factories" index="2Q$E0J" />
+      </concept>
+      <concept id="8675225129768254214" name="com.moraad.suggestions.structure.WSuggestionQueryResult" flags="ng" index="2Q16Lc">
+        <reference id="8675225129798856842" name="consultedNode" index="2ClQv0" />
+        <child id="8675225129775903758" name="suggestions" index="2QGid4" />
+      </concept>
+      <concept id="8675225129768254215" name="com.moraad.suggestions.structure.WSuggestion" flags="ng" index="2Q16Ld">
+        <reference id="8675225129798855691" name="suggestedEntity" index="2ClRH1" />
+        <reference id="8675225129815039074" name="consultedNode" index="2Dj$GC" />
+        <child id="8675225129775944446" name="traversalPath" index="2QGGmO" />
+      </concept>
+      <concept id="8675225129768254213" name="com.moraad.suggestions.structure.WSuggestionFactory" flags="ng" index="2Q16Lf">
+        <child id="2567848404456432646" name="groups" index="3N3N22" />
+      </concept>
+      <concept id="446196523655023050" name="com.moraad.suggestions.structure.WSSecGoalAssistantSuggestionFactory" flags="ng" index="3aivMl" />
+      <concept id="446196523655757402" name="com.moraad.suggestions.structure.WSAcceptedSecGoalAssistantSuggestion" flags="ng" index="3aGGG5">
+        <child id="2567848404451557629" name="concerningSecGoals" index="3NKlhT" />
+      </concept>
+      <concept id="446196523655766478" name="com.moraad.suggestions.structure.WSResultGroup" flags="ng" index="3aHhih">
+        <property id="6842080042029996409" name="identifier" index="133MFP" />
+        <property id="446196523655779532" name="heading" index="3aHm6j" />
+        <child id="446196523655778962" name="results" index="3aHmvd" />
+      </concept>
+    </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
       <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ng" index="1ALOwD">
         <child id="7057631560081871838" name="description" index="2JHqPs" />
@@ -64,6 +106,7 @@
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
       <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU" />
+      <concept id="4497791247482840273" name="com.moraad.core.structure.SecurityGoalRef" flags="ng" index="iu3Au" />
       <concept id="1983173996191178560" name="com.moraad.core.structure.PropagationParticipantExpr" flags="ng" index="pgv_Y" />
       <concept id="4718052244458697284" name="com.moraad.core.structure.SecurityGoal" flags="ng" index="2vM170">
         <child id="3124030863032911955" name="securityGoalClasses" index="29ds7n" />
@@ -84,6 +127,7 @@
       <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ng" index="KYrDd">
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
+      <concept id="8127657721944275179" name="com.moraad.core.structure.ThreatRef" flags="ng" index="2WIsl9" />
       <concept id="3384350556523615565" name="com.moraad.core.structure.ThreatClassRef" flags="ng" index="122ZmF" />
       <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
@@ -739,6 +783,192 @@
   <node concept="2vPz$R" id="5a5CPNXLFPo">
     <property role="TrG5h" value="Risks" />
     <property role="3GE5qa" value="Security Analysis" />
+  </node>
+  <node concept="2Q15JU" id="3zsVGcV60rJ">
+    <property role="3GE5qa" value="assistants" />
+    <node concept="khATU" id="3zsVGcV60rK" role="kmFqQ" />
+    <node concept="3aivMl" id="6dRph0_Z9i8" role="2Q$E0J">
+      <node concept="3aHhih" id="6dRph0_Z9i9" role="3N3N22">
+        <property role="3aHm6j" value="Components" />
+        <property role="133MFP" value="Component" />
+        <node concept="2Q16Lc" id="6dRph0_Z9ii" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFeWJa" resolve="Cmp.1" />
+          <node concept="3aGGG5" id="6dRph0_Z9ij" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQja" resolve="C" />
+            <ref role="2Dj$GC" node="1c2jTNFeWJa" resolve="Cmp.1" />
+            <node concept="iu3Au" id="6dRph0_Z9ik" role="3NKlhT">
+              <ref role="122Z_O" node="1c2jTNFeWJh" resolve="SO.CVE-2020-27524" />
+            </node>
+          </node>
+          <node concept="raIdw" id="6dRph0_Z9il" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQjc" resolve="I" />
+            <ref role="2Dj$GC" node="1c2jTNFeWJa" resolve="Cmp.1" />
+          </node>
+          <node concept="3aGGG5" id="6dRph0_Z9im" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQjb" resolve="A" />
+            <ref role="2Dj$GC" node="1c2jTNFeWJa" resolve="Cmp.1" />
+            <node concept="iu3Au" id="6dRph0_Z9in" role="3NKlhT">
+              <ref role="122Z_O" node="1c2jTNFeWJh" resolve="SO.CVE-2020-27524" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="6dRph0_Z9io" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFhLbE" resolve="Cmp.2" />
+          <node concept="raIdw" id="6dRph0_Z9ip" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQja" resolve="C" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbE" resolve="Cmp.2" />
+          </node>
+          <node concept="raIdw" id="6dRph0_Z9iq" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQjc" resolve="I" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbE" resolve="Cmp.2" />
+          </node>
+          <node concept="3aGGG5" id="6dRph0_Z9ir" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQjb" resolve="A" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbE" resolve="Cmp.2" />
+            <node concept="iu3Au" id="6dRph0_Z9is" role="3NKlhT">
+              <ref role="122Z_O" node="1c2jTNFhKVX" resolve="SO.CVE-2017-9212" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="6dRph0_Z9it" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFhLbK" resolve="Cmp.3" />
+          <node concept="raIdw" id="6dRph0_Z9iu" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQja" resolve="C" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbK" resolve="Cmp.3" />
+          </node>
+          <node concept="raIdw" id="6dRph0_Z9iv" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQjc" resolve="I" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbK" resolve="Cmp.3" />
+          </node>
+          <node concept="3aGGG5" id="6dRph0_Z9iw" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQjb" resolve="A" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbK" resolve="Cmp.3" />
+            <node concept="iu3Au" id="6dRph0_Z9ix" role="3NKlhT">
+              <ref role="122Z_O" node="1c2jTNFhKXi" resolve="SO.CVE-2020-16142" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="6dRph0_Z9ie" role="3aHmvd">
+          <ref role="2ClQv0" node="5a5CPNXLFO9" resolve="SYS" />
+          <node concept="raIdw" id="6dRph0_Z9if" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQja" resolve="C" />
+            <ref role="2Dj$GC" node="5a5CPNXLFO9" resolve="SYS" />
+          </node>
+          <node concept="raIdw" id="6dRph0_Z9ig" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQjc" resolve="I" />
+            <ref role="2Dj$GC" node="5a5CPNXLFO9" resolve="SYS" />
+          </node>
+          <node concept="raIdw" id="6dRph0_Z9ih" role="2QGid4">
+            <ref role="2ClRH1" to="nb9t:4CQftq3lQjb" resolve="A" />
+            <ref role="2Dj$GC" node="5a5CPNXLFO9" resolve="SYS" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2Q15JU" id="3zsVGcV60rL">
+    <property role="3GE5qa" value="assistants" />
+    <node concept="khC4Q" id="3zsVGcV60rM" role="kmFqQ" />
+    <node concept="k5Jq$" id="6dRph0_Z9o5" role="2Q$E0J">
+      <node concept="3aHhih" id="6dRph0_Z9o6" role="3N3N22">
+        <property role="3aHm6j" value="Components" />
+        <property role="133MFP" value="Component" />
+        <node concept="2Q16Lc" id="6dRph0_Z9oe" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFeWJa" resolve="Cmp.1" />
+          <node concept="k5JqA" id="6dRph0_Z9of" role="2QGid4">
+            <ref role="2ClRH1" to="wb2r:1c2jTNFhLmo" resolve="TC.CWE-20" />
+            <ref role="2Dj$GC" node="1c2jTNFeWJa" resolve="Cmp.1" />
+          </node>
+          <node concept="k5Jqw" id="6dRph0_Z9og" role="2QGid4">
+            <ref role="2ClRH1" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
+            <ref role="2Dj$GC" node="1c2jTNFeWJa" resolve="Cmp.1" />
+            <node concept="2WIsl9" id="6dRph0_Z9oh" role="k5Jqx">
+              <ref role="122Z_O" node="1c2jTNFeVOl" resolve="AS.CWE-134_Car-A" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="6dRph0_Z9oi" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFhLbE" resolve="Cmp.2" />
+          <node concept="k5Jqw" id="6dRph0_Z9oj" role="2QGid4">
+            <ref role="2ClRH1" to="wb2r:1c2jTNFhLmo" resolve="TC.CWE-20" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbE" resolve="Cmp.2" />
+            <node concept="2WIsl9" id="6dRph0_Z9ok" role="k5Jqx">
+              <ref role="122Z_O" node="1c2jTNFhL0k" resolve="AS.CWE-134_Car-B" />
+            </node>
+          </node>
+          <node concept="k5JqA" id="6dRph0_Z9ol" role="2QGid4">
+            <ref role="2ClRH1" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbE" resolve="Cmp.2" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="6dRph0_Z9om" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFhLbK" resolve="Cmp.3" />
+          <node concept="k5JqA" id="6dRph0_Z9on" role="2QGid4">
+            <ref role="2ClRH1" to="wb2r:1c2jTNFhLmo" resolve="TC.CWE-20" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbK" resolve="Cmp.3" />
+          </node>
+          <node concept="k5Jqw" id="6dRph0_Z9oo" role="2QGid4">
+            <ref role="2ClRH1" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
+            <ref role="2Dj$GC" node="1c2jTNFhLbK" resolve="Cmp.3" />
+            <node concept="2WIsl9" id="6dRph0_Z9op" role="k5Jqx">
+              <ref role="122Z_O" node="1c2jTNFhL5r" resolve="AS.CWE-134_Car-C" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="6dRph0_Z9ob" role="3aHmvd">
+          <ref role="2ClQv0" node="5a5CPNXLFO9" resolve="SYS" />
+          <node concept="k5JqA" id="6dRph0_Z9oc" role="2QGid4">
+            <ref role="2ClRH1" to="wb2r:1c2jTNFhLmo" resolve="TC.CWE-20" />
+            <ref role="2Dj$GC" node="5a5CPNXLFO9" resolve="SYS" />
+          </node>
+          <node concept="k5JqA" id="6dRph0_Z9od" role="2QGid4">
+            <ref role="2ClRH1" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
+            <ref role="2Dj$GC" node="5a5CPNXLFO9" resolve="SYS" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2Q15JU" id="3zsVGcV60rN">
+    <property role="3GE5qa" value="assistants" />
+    <node concept="khAwF" id="3zsVGcV60rO" role="kmFqQ" />
+    <node concept="2Fpy1u" id="6dRph0_Z9rX" role="2Q$E0J" />
+    <node concept="2FpSCn" id="6dRph0_Z9rY" role="2Q$E0J">
+      <node concept="3aHhih" id="6dRph0_Z9rZ" role="3N3N22">
+        <property role="3aHm6j" value="" />
+        <property role="133MFP" value="" />
+        <node concept="2Q16Lc" id="6dRph0_Z9s6" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFhKVX" resolve="SO.CVE-2017-9212" />
+          <node concept="pcNHv" id="6dRph0_Z9s7" role="2QGid4">
+            <ref role="2ClRH1" node="1c2jTNFhL0k" resolve="AS.CWE-134_Car-B" />
+            <ref role="2Dj$GC" node="1c2jTNFhKVX" resolve="SO.CVE-2017-9212" />
+            <node concept="2C31c$" id="6dRph0_Z9s8" role="2QGGmO">
+              <ref role="2C31c_" node="1c2jTNFhLbE" resolve="Cmp.2" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="6dRph0_Z9s9" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFhKXi" resolve="SO.CVE-2020-16142" />
+          <node concept="pcNHv" id="6dRph0_Z9sa" role="2QGid4">
+            <ref role="2ClRH1" node="1c2jTNFhL5r" resolve="AS.CWE-134_Car-C" />
+            <ref role="2Dj$GC" node="1c2jTNFhKXi" resolve="SO.CVE-2020-16142" />
+            <node concept="2C31c$" id="6dRph0_Z9sb" role="2QGGmO">
+              <ref role="2C31c_" node="1c2jTNFhLbK" resolve="Cmp.3" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="6dRph0_Z9s3" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFeWJh" resolve="SO.CVE-2020-27524" />
+          <node concept="pcNHv" id="6dRph0_Z9s4" role="2QGid4">
+            <ref role="2ClRH1" node="1c2jTNFeVOl" resolve="AS.CWE-134_Car-A" />
+            <ref role="2Dj$GC" node="1c2jTNFeWJh" resolve="SO.CVE-2020-27524" />
+            <node concept="2C31c$" id="6dRph0_Z9s5" role="2QGGmO">
+              <ref role="2C31c_" node="1c2jTNFeWJa" resolve="Cmp.1" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
