@@ -261,6 +261,8 @@
       </concept>
       <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
+        <property id="4056312742470029003" name="normalBehavior" index="28AYgT" />
+        <property id="4056312742470029176" name="operationSituation" index="28AYma" />
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
@@ -2437,6 +2439,8 @@
     <node concept="2AH0t1" id="702oElbSw1D" role="2vPz$N">
       <property role="TrG5h" value="DS.1" />
       <property role="DVXpC" value="Headlamp turns off unexpectedly" />
+      <property role="28AYma" value="driving at highway" />
+      <property role="28AYgT" value="Headlamp stays on" />
       <node concept="3cP9l3" id="5wtRytMI6W1" role="1WV2zz">
         <ref role="122Z_O" to="xz8e:4CQftq3lQjp" resolve="SAF" />
         <node concept="fNVPU" id="5wtRytMI6W3" role="3cP9Jm">
@@ -2541,6 +2545,8 @@
     <node concept="2AH0t1" id="702oElbSw1J" role="2vPz$N">
       <property role="TrG5h" value="DS.2" />
       <property role="DVXpC" value="Headlamps turns on unexpectedly" />
+      <property role="28AYgT" value="Headlamp stays off" />
+      <property role="28AYma" value="Driving during daylight" />
       <node concept="3cP9l3" id="5wtRytMI718" role="1WV2zz">
         <ref role="122Z_O" to="xz8e:4CQftq3lQjp" resolve="SAF" />
         <node concept="fNVPU" id="5wtRytMI71a" role="3cP9Jm">
@@ -2568,52 +2574,37 @@
       <node concept="3VMn$a" id="7bZZv_jRVey" role="2JHqPs">
         <node concept="3VMn$0" id="7bZZv_jRVez" role="3VMn$6">
           <node concept="3VMn$7" id="7bZZv_jRVe$" role="3VMn$3">
-            <property role="3VMn$Y" value="Serious" />
+            <property role="3VMn$Y" value="Mainly" />
           </node>
           <node concept="3VMn$7" id="7bZZv_jRVe_" role="3VMn$3">
-            <property role="3VMn$Y" value="impact" />
+            <property role="3VMn$Y" value="operational" />
           </node>
           <node concept="3VMn$7" id="7bZZv_jRVeA" role="3VMn$3">
-            <property role="3VMn$Y" value="to" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeB" role="3VMn$3">
-            <property role="3VMn$Y" value="functionality" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeC" role="3VMn$3">
-            <property role="3VMn$Y" value="as" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeD" role="3VMn$3">
-            <property role="3VMn$Y" value="you" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeE" role="3VMn$3">
-            <property role="3VMn$Y" value="can't" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeF" role="3VMn$3">
-            <property role="3VMn$Y" value="turn" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeG" role="3VMn$3">
-            <property role="3VMn$Y" value="the" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeH" role="3VMn$3">
-            <property role="3VMn$Y" value="lamps" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeI" role="3VMn$3">
-            <property role="3VMn$Y" value="off," />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeJ" role="3VMn$3">
-            <property role="3VMn$Y" value="but" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeK" role="3VMn$3">
-            <property role="3VMn$Y" value="no" />
-          </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeL" role="3VMn$3">
             <property role="3VMn$Y" value="impact" />
           </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeM" role="3VMn$3">
-            <property role="3VMn$Y" value="to" />
+          <node concept="3VMn$7" id="7bZZv_jRVeB" role="3VMn$3">
+            <property role="3VMn$Y" value="as" />
           </node>
-          <node concept="3VMn$7" id="7bZZv_jRVeN" role="3VMn$3">
-            <property role="3VMn$Y" value="safety." />
+          <node concept="3VMn$7" id="7bZZv_jRVeC" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="7bZZv_jRVeD" role="3VMn$3">
+            <property role="3VMn$Y" value="lamp" />
+          </node>
+          <node concept="3VMn$7" id="7bZZv_jRVeE" role="3VMn$3">
+            <property role="3VMn$Y" value="won't" />
+          </node>
+          <node concept="3VMn$7" id="7bZZv_jRVeF" role="3VMn$3">
+            <property role="3VMn$Y" value="disturb" />
+          </node>
+          <node concept="3VMn$7" id="7bZZv_jRVeG" role="3VMn$3">
+            <property role="3VMn$Y" value="much" />
+          </node>
+          <node concept="3VMn$7" id="7bZZv_jRVeH" role="3VMn$3">
+            <property role="3VMn$Y" value="during" />
+          </node>
+          <node concept="3VMn$7" id="7bZZv_jRVeI" role="3VMn$3">
+            <property role="3VMn$Y" value="daylight" />
           </node>
         </node>
       </node>
@@ -2621,6 +2612,8 @@
     <node concept="2AH0t1" id="702oElbSw1H" role="2vPz$N">
       <property role="TrG5h" value="DS.3" />
       <property role="DVXpC" value="Headlamp cannot be turned off" />
+      <property role="28AYgT" value="Headlamp turns off" />
+      <property role="28AYma" value="Ending a drive" />
       <node concept="3cP9l3" id="5wtRytMI70Y" role="1WV2zz">
         <ref role="122Z_O" to="xz8e:4CQftq3lQjp" resolve="SAF" />
         <node concept="fNVPU" id="5wtRytMI716" role="3cP9Jm">
@@ -2692,6 +2685,8 @@
     <node concept="2AH0t1" id="702oElbSw1L" role="2vPz$N">
       <property role="TrG5h" value="DS.4" />
       <property role="DVXpC" value="Headlamp cannot be turned on" />
+      <property role="28AYgT" value="Headlamp turns on when requested" />
+      <property role="28AYma" value="Park or driving while its getting dark" />
       <node concept="3cP9l3" id="5wtRytMI71$" role="1WV2zz">
         <ref role="122Z_O" to="xz8e:4CQftq3lQjp" resolve="SAF" />
         <node concept="fNVPU" id="5wtRytMI71A" role="3cP9Jm">
