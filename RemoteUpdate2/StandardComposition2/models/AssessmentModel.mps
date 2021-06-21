@@ -2,7 +2,7 @@
 <model ref="r:900510b1-702c-4964-b406-35624d99d0ec(AssessmentModel)">
   <persistence version="9" />
   <languages>
-    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="0" />
+    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="2" />
     <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
   </languages>
   <imports>
@@ -20,6 +20,7 @@
       <concept id="4718052244458613120" name="de.itemis.ysec.methodConfiguration.structure.DamageSubClass" flags="ng" index="2vMkC4">
         <reference id="4497791247486566283" name="damageClass" index="i9Qb4" />
         <child id="4718052244458613239" name="criteria" index="2vMkDN" />
+        <child id="2317647640920546170" name="stakeholders" index="3vJEH5" />
       </concept>
       <concept id="4718052244458556160" name="de.itemis.ysec.methodConfiguration.structure.DamageCriterion" flags="ng" index="2vPyy4">
         <child id="3766652101586540921" name="damagePotential" index="fNCXo" />
@@ -28,12 +29,17 @@
       <concept id="4718052244458551930" name="de.itemis.ysec.methodConfiguration.structure.DamagePotential" flags="ng" index="2vP_BY">
         <property id="8045787582102992758" name="value" index="uPLpr" />
       </concept>
+      <concept id="5265403561757222969" name="de.itemis.ysec.methodConfiguration.structure.Stakeholder" flags="ng" index="CzX2t" />
       <concept id="1756525789544303273" name="de.itemis.ysec.methodConfiguration.structure.DamagePotentialsDefinition" flags="ng" index="OYqhf">
         <child id="1756525789544303274" name="values" index="OYqhc" />
+      </concept>
+      <concept id="2317647640920546129" name="de.itemis.ysec.methodConfiguration.structure.StakeholderReference" flags="ng" index="3vJEHI">
+        <reference id="2317647640920546130" name="target" index="3vJEHH" />
       </concept>
       <concept id="5139110253494370791" name="de.itemis.ysec.methodConfiguration.structure.ImpactModel" flags="ng" index="1Ai4xF">
         <child id="4497791247487502318" name="damageClasses" index="ictEx" />
         <child id="769212120764574739" name="damageSubClasses" index="_H2pa" />
+        <child id="5265403561760330255" name="stakeholders" index="CRQEF" />
         <child id="1756525789544304260" name="damagePotentials" index="OYq1y" />
         <child id="1756525789544302615" name="securityGoalClasses" index="OYqrL" />
       </concept>
@@ -3450,6 +3456,9 @@
         <node concept="3VMn$a" id="4O7c2ukuwsF" role="2JHqPs" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsB" role="2JHqPs" />
+      <node concept="3vJEHI" id="4SjRD0NVDYL" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYH" resolve="RU" />
+      </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQia" role="_H2pa">
       <property role="TrG5h" value="Potential harm" />
@@ -3488,6 +3497,9 @@
         <node concept="3VMn$a" id="4O7c2ukuwsK" role="2JHqPs" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsG" role="2JHqPs" />
+      <node concept="3vJEHI" id="4SjRD0NVDYM" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYH" resolve="RU" />
+      </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQiq" role="_H2pa">
       <property role="TrG5h" value="Privacy" />
@@ -3526,6 +3538,9 @@
         <node concept="3VMn$a" id="4O7c2ukuwsP" role="2JHqPs" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsL" role="2JHqPs" />
+      <node concept="3vJEHI" id="4SjRD0NVDYN" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYH" resolve="RU" />
+      </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQiz" role="_H2pa">
       <property role="TrG5h" value="Functionality" />
@@ -3564,6 +3579,19 @@
         <node concept="3VMn$a" id="4O7c2ukuwsU" role="2JHqPs" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsQ" role="2JHqPs" />
+      <node concept="3vJEHI" id="4SjRD0NVDYO" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYH" resolve="RU" />
+      </node>
+    </node>
+    <node concept="CzX2t" id="4SjRD0NVDYH" role="CRQEF">
+      <property role="TrG5h" value="RU" />
+      <property role="DVXpC" value="Road User" />
+      <node concept="3VMn$a" id="4SjRD0NVDYI" role="2JHqPs" />
+    </node>
+    <node concept="CzX2t" id="4SjRD0NVDYJ" role="CRQEF">
+      <property role="TrG5h" value="OEM" />
+      <property role="DVXpC" value="Original Equipment Manufacturer" />
+      <node concept="3VMn$a" id="4SjRD0NVDYK" role="2JHqPs" />
     </node>
   </node>
   <node concept="2tSmsI" id="4O7c2ukuwij">

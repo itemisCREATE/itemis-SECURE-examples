@@ -16,6 +16,7 @@
       <concept id="4718052244458613120" name="de.itemis.ysec.methodConfiguration.structure.DamageSubClass" flags="ng" index="2vMkC4">
         <reference id="4497791247486566283" name="damageClass" index="i9Qb4" />
         <child id="4718052244458613239" name="criteria" index="2vMkDN" />
+        <child id="2317647640920546170" name="stakeholders" index="3vJEH5" />
       </concept>
       <concept id="4718052244458556160" name="de.itemis.ysec.methodConfiguration.structure.DamageCriterion" flags="ng" index="2vPyy4">
         <child id="3766652101586540921" name="damagePotential" index="fNCXo" />
@@ -24,12 +25,17 @@
       <concept id="4718052244458551930" name="de.itemis.ysec.methodConfiguration.structure.DamagePotential" flags="ng" index="2vP_BY">
         <property id="8045787582102992758" name="value" index="uPLpr" />
       </concept>
+      <concept id="5265403561757222969" name="de.itemis.ysec.methodConfiguration.structure.Stakeholder" flags="ng" index="CzX2t" />
       <concept id="1756525789544303273" name="de.itemis.ysec.methodConfiguration.structure.DamagePotentialsDefinition" flags="ng" index="OYqhf">
         <child id="1756525789544303274" name="values" index="OYqhc" />
+      </concept>
+      <concept id="2317647640920546129" name="de.itemis.ysec.methodConfiguration.structure.StakeholderReference" flags="ng" index="3vJEHI">
+        <reference id="2317647640920546130" name="target" index="3vJEHH" />
       </concept>
       <concept id="5139110253494370791" name="de.itemis.ysec.methodConfiguration.structure.ImpactModel" flags="ng" index="1Ai4xF">
         <child id="4497791247487502318" name="damageClasses" index="ictEx" />
         <child id="769212120764574739" name="damageSubClasses" index="_H2pa" />
+        <child id="5265403561760330255" name="stakeholders" index="CRQEF" />
         <child id="1756525789544304260" name="damagePotentials" index="OYq1y" />
         <child id="1756525789544302615" name="securityGoalClasses" index="OYqrL" />
       </concept>
@@ -3056,22 +3062,13 @@
       <node concept="3VMn$a" id="4DMK3dTZ064" role="2JHqPs" />
     </node>
     <node concept="OYqhf" id="4CQftq3lQje" role="OYq1y">
-      <node concept="2vP_BY" id="5wtRytMI7aX" role="OYqhc">
-        <property role="TrG5h" value="Sev" />
-        <property role="DVXpC" value="Severe" />
-        <property role="uPLpr" value="3" />
-        <node concept="3VMn$a" id="4DMK3dTZ06a" role="2JHqPs" />
-        <node concept="1iSF2X" id="20HkN2s1rrh" role="E7tE9">
-          <property role="1iTho6" value="FFAAAA" />
-        </node>
-      </node>
-      <node concept="2vP_BY" id="5wtRytMI7cv" role="OYqhc">
-        <property role="TrG5h" value="Ser" />
-        <property role="DVXpC" value="Serious" />
-        <property role="uPLpr" value="2" />
-        <node concept="3VMn$a" id="4DMK3dTZ06e" role="2JHqPs" />
-        <node concept="1iSF2X" id="20HkN2s1rrj" role="E7tE9">
-          <property role="1iTho6" value="FFEB9C" />
+      <node concept="2vP_BY" id="4CQftq3lQjf" role="OYqhc">
+        <property role="TrG5h" value="Neg" />
+        <property role="DVXpC" value="Negligible" />
+        <property role="uPLpr" value="0" />
+        <node concept="3VMn$a" id="4DMK3dTZ06m" role="2JHqPs" />
+        <node concept="1iSF2X" id="20HkN2s1rrn" role="E7tE9">
+          <property role="1iTho6" value="C4D79B" />
         </node>
       </node>
       <node concept="2vP_BY" id="5wtRytMI7e7" role="OYqhc">
@@ -3083,13 +3080,22 @@
           <property role="1iTho6" value="FFFF99" />
         </node>
       </node>
-      <node concept="2vP_BY" id="4CQftq3lQjf" role="OYqhc">
-        <property role="TrG5h" value="Neg" />
-        <property role="DVXpC" value="Negligible" />
-        <property role="uPLpr" value="0" />
-        <node concept="3VMn$a" id="4DMK3dTZ06m" role="2JHqPs" />
-        <node concept="1iSF2X" id="20HkN2s1rrn" role="E7tE9">
-          <property role="1iTho6" value="C4D79B" />
+      <node concept="2vP_BY" id="5wtRytMI7cv" role="OYqhc">
+        <property role="TrG5h" value="Ser" />
+        <property role="DVXpC" value="Serious" />
+        <property role="uPLpr" value="2" />
+        <node concept="3VMn$a" id="4DMK3dTZ06e" role="2JHqPs" />
+        <node concept="1iSF2X" id="20HkN2s1rrj" role="E7tE9">
+          <property role="1iTho6" value="FFEB9C" />
+        </node>
+      </node>
+      <node concept="2vP_BY" id="5wtRytMI7aX" role="OYqhc">
+        <property role="TrG5h" value="Sev" />
+        <property role="DVXpC" value="Severe" />
+        <property role="uPLpr" value="3" />
+        <node concept="3VMn$a" id="4DMK3dTZ06a" role="2JHqPs" />
+        <node concept="1iSF2X" id="20HkN2s1rrh" role="E7tE9">
+          <property role="1iTho6" value="FFAAAA" />
         </node>
       </node>
     </node>
@@ -3150,6 +3156,9 @@
           <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
         </node>
       </node>
+      <node concept="3vJEHI" id="4SjRD0NVDYh" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYd" resolve="RU" />
+      </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQhU" role="_H2pa">
       <property role="TrG5h" value="F'" />
@@ -3187,6 +3196,9 @@
         <node concept="fNHgS" id="5wtRytMI7jK" role="fNCXo">
           <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
         </node>
+      </node>
+      <node concept="3vJEHI" id="4SjRD0NVDYi" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYd" resolve="RU" />
       </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQiz" role="_H2pa">
@@ -3226,6 +3238,9 @@
           <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
         </node>
       </node>
+      <node concept="3vJEHI" id="4SjRD0NVDYj" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYd" resolve="RU" />
+      </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQiq" role="_H2pa">
       <property role="TrG5h" value="P'" />
@@ -3264,6 +3279,19 @@
           <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
         </node>
       </node>
+      <node concept="3vJEHI" id="4SjRD0NVDYk" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYd" resolve="RU" />
+      </node>
+    </node>
+    <node concept="CzX2t" id="4SjRD0NVDYd" role="CRQEF">
+      <property role="TrG5h" value="RU" />
+      <property role="DVXpC" value="Road User" />
+      <node concept="3VMn$a" id="4SjRD0NVDYe" role="2JHqPs" />
+    </node>
+    <node concept="CzX2t" id="4SjRD0NVDYf" role="CRQEF">
+      <property role="TrG5h" value="OEM" />
+      <property role="DVXpC" value="Original Equipment Manufacturer" />
+      <node concept="3VMn$a" id="4SjRD0NVDYg" role="2JHqPs" />
     </node>
   </node>
   <node concept="3XX4$o" id="65pzHM4F7aL">
