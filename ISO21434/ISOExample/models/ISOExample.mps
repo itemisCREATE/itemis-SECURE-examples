@@ -2986,9 +2986,6 @@
           </node>
         </node>
       </node>
-      <node concept="3RtpOr" id="7gwHXNztHCr" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
-      </node>
       <node concept="3RtpOr" id="7gwHXNztJSm" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
       </node>
