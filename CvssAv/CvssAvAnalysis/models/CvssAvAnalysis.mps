@@ -146,7 +146,6 @@
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
         <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
       </concept>
-      <concept id="8248803110775087936" name="com.moraad.core.structure.StakeholderChunk" flags="ng" index="3lAO7T" />
       <concept id="330802076191738031" name="com.moraad.core.structure.RiskTreatmentEvaluation" flags="ng" index="1mMvoj">
         <property id="330802076205393171" name="lastUpdatedTimestamp" index="1nI1IJ" />
       </concept>
@@ -774,10 +773,6 @@
   </node>
   <node concept="1YSUgs" id="5a5CPNXLFOI">
     <property role="TrG5h" value="Sequences" />
-    <property role="3GE5qa" value="Item Definition" />
-  </node>
-  <node concept="3lAO7T" id="5a5CPNXLFOK">
-    <property role="TrG5h" value="Stakeholders" />
     <property role="3GE5qa" value="Item Definition" />
   </node>
   <node concept="2vPz$R" id="5a5CPNXLFPo">
