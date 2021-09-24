@@ -2,11 +2,11 @@
 <model ref="r:456a44a0-5a50-4759-bef1-740be9ff2670(ExampleAnalysis)">
   <persistence version="9" />
   <languages>
-    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="2" />
+    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="3" />
     <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
   </languages>
   <imports>
-    <import index="uj4r" ref="r:900510b1-702c-4964-b406-35624d99d0ec(AssessmentModel)" />
+    <import index="uj4r" ref="r:900510b1-702c-4964-b406-35624d99d0ec(MethodConfiguration)" />
     <import index="28fr" ref="r:4c12b84f-08ad-4b74-865e-0eabb75cd2a7(Catalog)" />
   </imports>
   <registry>
@@ -27,44 +27,44 @@
       </concept>
     </language>
     <language id="8aedd025-5f31-4a1e-81a1-4c5345407211" name="com.moraad.suggestions">
-      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.WSAcceptedThreatAssistantSuggestion" flags="ng" index="k5Jqw">
+      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.AssAcceptedThreatAssistantSuggestion" flags="ng" index="k5Jqw">
         <child id="1744555010771063083" name="actingThreats" index="k5Jqx" />
       </concept>
-      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.WSThreatAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
-      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.WSAdditionThreatAssistantSuggestion" flags="ng" index="k5JqA" />
+      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.AssThreatAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
+      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.AssAdditionThreatAssistantSuggestion" flags="ng" index="k5JqA" />
       <concept id="1744555010776338337" name="com.moraad.suggestions.structure.RelationAssistantSelector" flags="ng" index="khAwF" />
       <concept id="1744555010776336880" name="com.moraad.suggestions.structure.SecGoalAssistantSelector" flags="ng" index="khATU" />
       <concept id="1744555010776327868" name="com.moraad.suggestions.structure.ThreatAssistantSelector" flags="ng" index="khC4Q" />
-      <concept id="7912218231014618120" name="com.moraad.suggestions.structure.WSAdditionSuggestion" flags="ng" index="pcMM7" />
-      <concept id="7912218231014613968" name="com.moraad.suggestions.structure.WSAcceptedSuggestion" flags="ng" index="pcNHv" />
-      <concept id="114192864337941166" name="com.moraad.suggestions.structure.WSAdditionSecGoalAssistantSuggestion" flags="ng" index="raIdw" />
+      <concept id="7912218231014618120" name="com.moraad.suggestions.structure.AssAdditionSuggestion" flags="ng" index="pcMM7" />
+      <concept id="7912218231014613968" name="com.moraad.suggestions.structure.AssAcceptedSuggestion" flags="ng" index="pcNHv" />
+      <concept id="114192864337941166" name="com.moraad.suggestions.structure.AssAdditionSecGoalAssistantSuggestion" flags="ng" index="raIdw" />
       <concept id="8675225129802302574" name="com.moraad.suggestions.structure.TraversalPathElement" flags="ng" index="2C31c$">
         <reference id="8675225129802302575" name="target" index="2C31c_" />
       </concept>
-      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.WSecGoalDependsOnSuggestionFactory" flags="ng" index="2Fpy1u" />
-      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.WSecGoalThreatenedBySuggestionFactory" flags="ng" index="2FpSCn" />
+      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSecGoalDependsOnSuggestionFactory" flags="ng" index="2Fpy1u" />
+      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssSecGoalThreatenedBySuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
         <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
         <child id="8675225129778034533" name="factories" index="2Q$E0J" />
       </concept>
-      <concept id="8675225129768254214" name="com.moraad.suggestions.structure.WSuggestionQueryResult" flags="ng" index="2Q16Lc">
+      <concept id="8675225129768254214" name="com.moraad.suggestions.structure.AssSuggestionQueryResult" flags="ng" index="2Q16Lc">
         <property id="8675225129775903756" name="linkIdentifier" index="2QGid6" />
         <reference id="8675225129798856842" name="consultedNode" index="2ClQv0" />
         <child id="8675225129775903758" name="suggestions" index="2QGid4" />
       </concept>
-      <concept id="8675225129768254215" name="com.moraad.suggestions.structure.WSuggestion" flags="ng" index="2Q16Ld">
+      <concept id="8675225129768254215" name="com.moraad.suggestions.structure.AssSuggestion" flags="ng" index="2Q16Ld">
         <reference id="8675225129798855691" name="suggestedEntity" index="2ClRH1" />
         <reference id="8675225129815039074" name="consultedNode" index="2Dj$GC" />
         <child id="8675225129775944446" name="traversalPath" index="2QGGmO" />
       </concept>
-      <concept id="8675225129768254213" name="com.moraad.suggestions.structure.WSuggestionFactory" flags="ng" index="2Q16Lf">
+      <concept id="8675225129768254213" name="com.moraad.suggestions.structure.AssSuggestionFactory" flags="ng" index="2Q16Lf">
         <child id="2567848404456432646" name="groups" index="3N3N22" />
       </concept>
-      <concept id="446196523655023050" name="com.moraad.suggestions.structure.WSSecGoalAssistantSuggestionFactory" flags="ng" index="3aivMl" />
-      <concept id="446196523655757402" name="com.moraad.suggestions.structure.WSAcceptedSecGoalAssistantSuggestion" flags="ng" index="3aGGG5">
+      <concept id="446196523655023050" name="com.moraad.suggestions.structure.AssSecGoalAssistantSuggestionFactory" flags="ng" index="3aivMl" />
+      <concept id="446196523655757402" name="com.moraad.suggestions.structure.AssAcceptedSecGoalAssistantSuggestion" flags="ng" index="3aGGG5">
         <child id="2567848404451557629" name="concerningSecGoals" index="3NKlhT" />
       </concept>
-      <concept id="446196523655766478" name="com.moraad.suggestions.structure.WSResultGroup" flags="ng" index="3aHhih">
+      <concept id="446196523655766478" name="com.moraad.suggestions.structure.AssResultGroup" flags="ng" index="3aHhih">
         <property id="6842080042029996409" name="identifier" index="133MFP" />
         <property id="446196523655779532" name="heading" index="3aHm6j" />
         <child id="446196523655778962" name="results" index="3aHmvd" />
@@ -232,10 +232,10 @@
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
       </concept>
       <concept id="7659415166187771033" name="com.moraad.core.structure.RiskTreatmentEntry_Readonly" flags="ng" index="1d_M4q">
-        <property id="7659415166203115756" name="persistet_riskLevelColor" index="12zgPJ" />
-        <property id="7659415166187771034" name="persistet_risk" index="1d_M4p" />
-        <property id="7659415166187771039" name="persistet_treatments" index="1d_M4s" />
-        <property id="7659415166187771036" name="persistet_riskLevel" index="1d_M4v" />
+        <property id="7659415166203115756" name="persisted_riskLevelColor" index="12zgPJ" />
+        <property id="7659415166187771034" name="persisted_risk" index="1d_M4p" />
+        <property id="7659415166187771039" name="persisted_treatments" index="1d_M4s" />
+        <property id="7659415166187771036" name="persisted_riskLevel" index="1d_M4v" />
       </concept>
       <concept id="7659415166187772701" name="com.moraad.core.structure.IRiskTreatmentEntry" flags="ng" index="1d_MUu">
         <property id="7659415166187784301" name="rationale" index="1d_RRI" />
@@ -2884,14 +2884,14 @@
         <ref role="122Z_O" to="uj4r:4CQftq3lQjp" resolve="SAF" />
         <node concept="fNVPU" id="1UEFqBLBrUu" role="3cP9Jm">
           <property role="idWcG" value="Manipulated breaking system, steering system, ..." />
-          <ref role="122Z_O" to="uj4r:4CQftq3lQih" resolve="ILF" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQih" resolve="RU.SAF5" />
         </node>
       </node>
       <node concept="3cP9l3" id="1UEFqBLBsbC" role="1WV2zz">
         <ref role="122Z_O" to="uj4r:4CQftq3lQjs" resolve="QUA" />
         <node concept="fNVPU" id="1UEFqBLBsbG" role="3cP9Jm">
           <property role="idWcG" value="Manipulated breaking system, steering system, ..." />
-          <ref role="122Z_O" to="uj4r:4CQftq3lQiE" resolve="NFV" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQiE" resolve="RU.QUA3" />
         </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsi" role="2JHqPs" />
@@ -2903,7 +2903,7 @@
         <ref role="122Z_O" to="uj4r:4CQftq3lQjs" resolve="QUA" />
         <node concept="fNVPU" id="1UEFqBLBsbK" role="3cP9Jm">
           <property role="idWcG" value="No or wrong weather forecast" />
-          <ref role="122Z_O" to="uj4r:4CQftq3lQiA" resolve="NSD" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQiA" resolve="RU.QUA1b" />
         </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsj" role="2JHqPs" />
@@ -2915,7 +2915,7 @@
         <ref role="122Z_O" to="uj4r:4CQftq3lQjs" resolve="QUA" />
         <node concept="fNVPU" id="1UEFqBLBsca" role="3cP9Jm">
           <property role="idWcG" value="No weather forecasts or software updates, similar to a lack of cellular coverage" />
-          <ref role="122Z_O" to="uj4r:4CQftq3lQiA" resolve="NSD" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQiA" resolve="RU.QUA1b" />
         </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsk" role="2JHqPs" />
@@ -2927,14 +2927,14 @@
         <ref role="122Z_O" to="uj4r:4CQftq3lQjq" resolve="FIA" />
         <node concept="fNVPU" id="1UEFqBLBsce" role="3cP9Jm">
           <property role="idWcG" value="Intellectual property" />
-          <ref role="122Z_O" to="uj4r:4CQftq3lQhV" resolve="LLO" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQhV" resolve="RU.FIA2" />
         </node>
       </node>
       <node concept="3cP9l3" id="1UEFqBLBscg" role="1WV2zz">
         <ref role="122Z_O" to="uj4r:4CQftq3lQjr" resolve="LAW" />
         <node concept="fNVPU" id="1UEFqBLBsck" role="3cP9Jm">
           <property role="idWcG" value="Personal data, such as the vehicle's position" />
-          <ref role="122Z_O" to="uj4r:4CQftq3lQit" resolve="DPE" />
+          <ref role="122Z_O" to="uj4r:4CQftq3lQit" resolve="RU.LAW2" />
         </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsl" role="2JHqPs" />
