@@ -13,6 +13,19 @@
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
       <concept id="6006699537885391512" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
     </language>
+    <language id="d8c07454-d390-4e04-8826-d25e86f59134" name="de.itemis.mps.xdiagram">
+      <concept id="69042634962010496" name="de.itemis.mps.xdiagram.structure.XDiagramLayoutEntry" flags="ng" index="zGsxD">
+        <property id="69042634962010502" name="layoutString" index="zGsxJ" />
+        <property id="1174236820146112338" name="elementId" index="2MHvPS" />
+      </concept>
+      <concept id="69042634962010499" name="de.itemis.mps.xdiagram.structure.XDiagramLayoutStorage" flags="ng" index="zGsxE">
+        <property id="2498010886192733022" name="rootId" index="1ueiNO" />
+        <child id="69042634962010500" name="layoutEntries" index="zGsxH" />
+      </concept>
+      <concept id="280164805027066272" name="de.itemis.mps.xdiagram.structure.XDiagram" flags="ng" index="3xPMB7">
+        <child id="69042634962010512" name="layoutStorages" index="zGsxT" />
+      </concept>
+    </language>
     <language id="8aedd025-5f31-4a1e-81a1-4c5345407211" name="com.moraad.suggestions">
       <concept id="1744555010771063082" name="com.moraad.suggestions.structure.AssAcceptedThreatAssistantSuggestion" flags="ng" index="k5Jqw">
         <child id="1744555010771063083" name="actingThreats" index="k5Jqx" />
@@ -182,6 +195,16 @@
       </concept>
       <concept id="4903305818773998197" name="com.moraad.components.structure.ITOEElementContainer" flags="ng" index="2lbk3s">
         <child id="4903305818773998200" name="elements" index="2lbk3h" />
+      </concept>
+      <concept id="3911760519739995188" name="com.moraad.components.structure.SystemDiagram" flags="ng" index="2ndE_3">
+        <property id="1514418932059619330" name="hierarchyLevels" index="2zzwJW" />
+        <child id="3260991312725364852" name="newDataChunk" index="1BS0SA" />
+        <child id="3260991312725608311" name="newDataFlowsChunk" index="1BT5$_" />
+        <child id="7472593337833908268" name="rootComponent" index="3Vepgw" />
+      </concept>
+      <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6" />
+      <concept id="4250072277178649485" name="com.moraad.components.structure.TOEChunkRef" flags="ng" index="3$0O6U">
+        <reference id="4250072277178649488" name="target" index="3$0O6B" />
       </concept>
       <concept id="4250072277178649596" name="com.moraad.components.structure.TOEComponentRef" flags="ng" index="3$0O7b" />
     </language>
@@ -998,6 +1021,42 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="2ndE_3" id="1PEmpgFm6XX">
+    <property role="2zzwJW" value="0" />
+    <property role="3GE5qa" value="Item Definition" />
+    <property role="TrG5h" value="SystemDiagram" />
+    <node concept="3$0O7b" id="1PEmpgFm6XY" role="3Vepgw">
+      <ref role="122Z_O" node="5a5CPNXLFO9" resolve="SYS" />
+    </node>
+    <node concept="3$0O6U" id="1PEmpgFm6XZ" role="1BT5$_">
+      <ref role="3$0O6B" node="5a5CPNXLFOi" resolve="Channels" />
+    </node>
+    <node concept="3$0O6U" id="1PEmpgFm6Y1" role="1BS0SA">
+      <ref role="3$0O6B" node="5a5CPNXLFOf" resolve="Data" />
+    </node>
+    <node concept="zGsxE" id="1PEmpgFm6Y3" role="zGsxT">
+      <property role="1ueiNO" value="root.5946338502802586889" />
+      <node concept="zGsxD" id="1PEmpgFm6Y4" role="zGsxH">
+        <property role="2MHvPS" value="root.5946338502802586889" />
+        <property role="zGsxJ" value="0.0;0.0;0.0;0.0" />
+      </node>
+      <node concept="zGsxD" id="1PEmpgFm6Y5" role="zGsxH">
+        <property role="2MHvPS" value="1369744772054848234" />
+        <property role="zGsxJ" value="20.0;170.0;243.5;55.0" />
+      </node>
+      <node concept="zGsxD" id="1PEmpgFm6Y6" role="zGsxH">
+        <property role="2MHvPS" value="1369744772054848240" />
+        <property role="zGsxJ" value="20.0;95.0;231.0;55.0" />
+      </node>
+      <node concept="zGsxD" id="1PEmpgFm6Y7" role="zGsxH">
+        <property role="2MHvPS" value="1369744772054109130" />
+        <property role="zGsxJ" value="20.0;20.0;199.5;55.0" />
+      </node>
+    </node>
+  </node>
+  <node concept="2zckJ6" id="1PEmpgFm7ws">
+    <property role="3GE5qa" value="Item Definition" />
   </node>
 </model>
 
