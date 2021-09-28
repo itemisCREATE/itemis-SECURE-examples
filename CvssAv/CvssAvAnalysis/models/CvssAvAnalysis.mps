@@ -71,6 +71,45 @@
         <child id="446196523655778962" name="results" index="3aHmvd" />
       </concept>
     </language>
+    <language id="2283d35c-b541-4c39-bf04-8310ba3f92ff" name="com.moraad.reports">
+      <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA">
+        <property id="5844418852561495228" name="numberOfApsPerGroup" index="1CBqX7" />
+      </concept>
+      <concept id="2050517468709281410" name="com.moraad.reports.structure.AssetsAndDamageScenariosTableReportItem" flags="ng" index="ckFx4" />
+      <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
+        <reference id="1019912726748740255" name="diagram" index="2HTkYB" />
+      </concept>
+      <concept id="6986877318773203685" name="com.moraad.reports.structure.RiskTableReportItem" flags="ng" index="ygVO2" />
+      <concept id="6986877318773203683" name="com.moraad.reports.structure.ControlsTableReportItem" flags="ng" index="ygVO4" />
+      <concept id="6986877318773203681" name="com.moraad.reports.structure.ThreatTableReportItem" flags="ng" index="ygVO6" />
+      <concept id="6986877318773203653" name="com.moraad.reports.structure.AssumptionTableReportItem" flags="ng" index="ygVOy" />
+      <concept id="6986877318772884603" name="com.moraad.reports.structure.RiskDistributionChartReportItem" flags="ng" index="yhPIs" />
+      <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
+        <property id="6937682328230931199" name="showData" index="2iWzeI" />
+        <property id="5209880561345542957" name="showEmptyLines" index="XuSRD" />
+        <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
+        <reference id="635552504747772140" name="projectInfo" index="39i2te" />
+        <child id="5209880561343743749" name="contentItems" index="XlB71" />
+      </concept>
+      <concept id="6986877318772759009" name="com.moraad.reports.structure.EmptyReportItem" flags="ng" index="ymko6" />
+      <concept id="6986877318770896277" name="com.moraad.reports.structure.ResultReportChunk" flags="ng" index="ypf9M">
+        <child id="6986877318770902011" name="items" index="yp9Ks" />
+      </concept>
+      <concept id="1488669593885577694" name="com.moraad.reports.structure.CommentReportItem" flags="ng" index="2JOk35">
+        <property id="1488669593885577696" name="text" index="2JOk3V" />
+      </concept>
+      <concept id="5209880561343667327" name="com.moraad.reports.structure.PIContentItem" flags="ng" index="XlMEV">
+        <property id="5209880561343667337" name="export" index="XlMDd" />
+        <reference id="5209880561343674428" name="target" index="XlKVS" />
+      </concept>
+      <concept id="2129184553237592657" name="com.moraad.reports.structure.DataTableReportItem" flags="ng" index="3xttx0" />
+      <concept id="2129184553237592667" name="com.moraad.reports.structure.DataFlowsTableReportItem" flags="ng" index="3xttxa" />
+      <concept id="2129184553237592647" name="com.moraad.reports.structure.ComponentsTableReportItem" flags="ng" index="3xttxm" />
+      <concept id="2129184553237592677" name="com.moraad.reports.structure.ChannelsTableReportItem" flags="ng" index="3xttxO" />
+      <concept id="2129184553237375048" name="com.moraad.reports.structure.FunctionTableReportItem" flags="ng" index="3xuwDp" />
+      <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
+      <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1" />
+    </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
       <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ng" index="1ALOwD">
         <child id="7057631560081871838" name="description" index="2JHqPs" />
@@ -119,6 +158,19 @@
       <concept id="4299407153800462969" name="de.itemis.vcs_text.tables.structure.FreetextCellEntry" flags="ng" index="38D_9Z">
         <child id="4299407153800463780" name="value" index="38D_my" />
       </concept>
+    </language>
+    <language id="24e88a55-f0b5-4dc5-9077-49730e920865" name="de.itemis.ysec.checklist">
+      <concept id="6217398072109638567" name="de.itemis.ysec.checklist.structure.ChecklistItem" flags="ng" index="2H0S4X">
+        <child id="4258253476795566208" name="rationale" index="3GS99T" />
+      </concept>
+      <concept id="6217398072109638633" name="de.itemis.ysec.checklist.structure.ChecklistItemGroup" flags="ng" index="2H0S5N">
+        <child id="6217398072109638643" name="items" index="2H0S5D" />
+      </concept>
+      <concept id="6217398072109318275" name="de.itemis.ysec.checklist.structure.Checklist" flags="ng" index="2H3I8p">
+        <property id="117579728711752679" name="__ItemsTextReadOnly" index="3F1M74" />
+        <child id="6217398072109638590" name="groups" index="2H0S4$" />
+      </concept>
+      <concept id="4258253476795643009" name="de.itemis.ysec.checklist.structure.ChecklistItemHead" flags="ng" index="3GSqTS" />
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
       <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU" />
@@ -806,7 +858,7 @@
     <property role="3GE5qa" value="Security Analysis" />
   </node>
   <node concept="2Q15JU" id="3zsVGcV60rJ">
-    <property role="3GE5qa" value="assistants" />
+    <property role="3GE5qa" value="Assistants" />
     <node concept="khATU" id="3zsVGcV60rK" role="kmFqQ" />
     <node concept="3aivMl" id="6dRph0_Z9i8" role="2Q$E0J">
       <node concept="3aHhih" id="6dRph0_Z9i9" role="3N3N22">
@@ -888,7 +940,7 @@
     </node>
   </node>
   <node concept="2Q15JU" id="3zsVGcV60rL">
-    <property role="3GE5qa" value="assistants" />
+    <property role="3GE5qa" value="Assistants" />
     <node concept="khC4Q" id="3zsVGcV60rM" role="kmFqQ" />
     <node concept="k5Jq$" id="6dRph0_Z9o5" role="2Q$E0J">
       <node concept="3aHhih" id="6dRph0_Z9o6" role="3N3N22">
@@ -951,7 +1003,7 @@
     </node>
   </node>
   <node concept="2Q15JU" id="3zsVGcV60rN">
-    <property role="3GE5qa" value="assistants" />
+    <property role="3GE5qa" value="Assistants" />
     <node concept="khAwF" id="3zsVGcV60rO" role="kmFqQ" />
     <node concept="2Fpy1u" id="6dRph0_Z9rX" role="2Q$E0J" />
     <node concept="2FpSCn" id="6dRph0_Z9rY" role="2Q$E0J">
@@ -992,7 +1044,7 @@
     </node>
   </node>
   <node concept="2Q15JU" id="1PEmpgFm6q$">
-    <property role="3GE5qa" value="assistants" />
+    <property role="3GE5qa" value="Assistants" />
     <node concept="CEhHY" id="1PEmpgFm6qz" role="kmFqQ" />
     <node concept="CENT2" id="1PEmpgFm6q_" role="2Q$E0J">
       <node concept="3aHhih" id="1PEmpgFm6qA" role="3N3N22">
@@ -1057,6 +1109,461 @@
   </node>
   <node concept="2zckJ6" id="1PEmpgFm7ws">
     <property role="3GE5qa" value="Item Definition" />
+  </node>
+  <node concept="2H3I8p" id="1PEmpgFm8e1">
+    <property role="TrG5h" value="UN R155 Threats" />
+    <property role="3F1M74" value="true" />
+    <property role="3GE5qa" value="Checklists" />
+    <node concept="2H0S5N" id="1PEmpgFm8e2" role="2H0S4$">
+      <property role="TrG5h" value="Threats regarding back-end servers related to vehicles in the field" />
+      <node concept="3GSqTS" id="1PEmpgFm8e3" role="2H0S5D">
+        <property role="TrG5h" value="1 Back-end servers used as a means to attack a vehicle or extract data" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8e4" role="2H0S5D">
+        <property role="TrG5h" value="Abuse of privileges by staff (insider attack)" />
+        <node concept="3VMn$a" id="1PEmpgFm8e5" role="3GS99T" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8e6" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorised internet access to the server (enabled for example by backdoors, unpatched system software vulnerabilities, SQL attacks or other means)" />
+        <node concept="3VMn$a" id="1PEmpgFm8e7" role="3GS99T" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8e8" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorised physical access to the server (conducted by for example USB sticks or other media connecting to the server)" />
+        <node concept="3VMn$a" id="1PEmpgFm8e9" role="3GS99T" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8ea" role="2H0S5D">
+        <property role="TrG5h" value="2 Services from back-end server being disrupted, affecting the operation of a vehicle " />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eb" role="2H0S5D">
+        <property role="TrG5h" value="Attack on back-end server stops it functioning, for example it prevents it from interacting with vehicles and providing services they rely on" />
+        <node concept="3VMn$a" id="1PEmpgFm8ec" role="3GS99T" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8ed" role="2H0S5D">
+        <property role="TrG5h" value="3 Vehicle related data on back-end servers being lost or compromised" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ee" role="2H0S5D">
+        <property role="TrG5h" value="Abuse of privileges by staff (insider attack)" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ef" role="2H0S5D">
+        <property role="TrG5h" value="Loss of information in the cloud. Sensitive data may be lost due to attacks or accidents when data is stored by third-party cloud service providers" />
+        <node concept="3VMn$a" id="1PEmpgFm8eg" role="3GS99T" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eh" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorised internet access to the server (enabled for example by backdoors, unpatched system software vulnerabilities, SQL attacks or other means)" />
+        <node concept="3VMn$a" id="1PEmpgFm8ei" role="3GS99T" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ej" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorised physical access to the server (conducted for example by USB sticks or other media connecting to the server)" />
+        <node concept="3VMn$a" id="1PEmpgFm8ek" role="3GS99T" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8el" role="2H0S5D">
+        <property role="TrG5h" value="Information breach by unintended sharing of data (e.g. admin errors, storing data in servers in garages)" />
+        <node concept="3VMn$a" id="1PEmpgFm8em" role="3GS99T" />
+      </node>
+    </node>
+    <node concept="2H0S5N" id="1PEmpgFm8en" role="2H0S4$">
+      <property role="TrG5h" value="Threats to vehicle regarding their communication channel" />
+      <node concept="3GSqTS" id="1PEmpgFm8eo" role="2H0S5D">
+        <property role="TrG5h" value="4 Spoofing of messages or data received by the vehicle" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ep" role="2H0S5D">
+        <property role="TrG5h" value="Spoofing of messages by impersonation (e.g. 802.11p V2X during platooning, GNSS messages, etc.)" />
+        <node concept="3VMn$a" id="1PEmpgFm8eq" role="3GS99T" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8er" role="2H0S5D">
+        <property role="TrG5h" value="Sybil attack (in order to spoof other vehicles as if there are many vehicles on the road)" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8es" role="2H0S5D">
+        <property role="TrG5h" value="5 Communication channels used to conduct unauthorized manipulation, deletion or other amendments to vehicle held code/data" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8et" role="2H0S5D">
+        <property role="TrG5h" value="Communications channels permit code injection, for example tampered software binary might be injected into the communication stream" />
+        <node concept="3VMn$a" id="1PEmpgFm8eu" role="3GS99T" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ev" role="2H0S5D">
+        <property role="TrG5h" value="Communications channels permit manipulate of vehicle held data/code" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ew" role="2H0S5D">
+        <property role="TrG5h" value="Communication channels permit overwrite of vehicle held data/code" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ex" role="2H0S5D">
+        <property role="TrG5h" value="Communication channels permit erasure of vehicle held data/code" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ey" role="2H0S5D">
+        <property role="TrG5h" value="Communication channels permit introduction of data/code to the vehicle" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8ez" role="2H0S5D">
+        <property role="TrG5h" value="6 Communication channels permit untrusted/unreliable messages to be accepted or are vulnerable to session hijacking/replay attacks" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8e$" role="2H0S5D">
+        <property role="TrG5h" value="Accepting information from unreliable or untrusted source" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8e_" role="2H0S5D">
+        <property role="TrG5h" value="Man in the middle attack/ session hijacking" />
+        <node concept="3VMn$a" id="1PEmpgFm8eA" role="3GS99T" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eB" role="2H0S5D">
+        <property role="TrG5h" value="Replay attack, for example an attack against a communication gateway allows the attacker to downgrade software of an ECU or firmware of the gateway" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8eC" role="2H0S5D">
+        <property role="TrG5h" value="7 Information can be readily disclosed. For example through eavesdropping on communications or through allowing unauthorized access to sensitive files or folders" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eD" role="2H0S5D">
+        <property role="TrG5h" value="Interception of information / interfering radiations / monitoring communications" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eE" role="2H0S5D">
+        <property role="TrG5h" value="Gaining unauthorised access to files or data" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8eF" role="2H0S5D">
+        <property role="TrG5h" value="8 Denial of service attacks via communication channels to disrupt vehicle functions" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eG" role="2H0S5D">
+        <property role="TrG5h" value="Sending a large number of garbage data to vehicle information system, so that it is unable to provide services in the normal manner" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eH" role="2H0S5D">
+        <property role="TrG5h" value="Black hole attack, in order to disrupt communication between vehicles the attacker is able to block messages between the vehicles" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8eI" role="2H0S5D">
+        <property role="TrG5h" value="9 An unprivileged user is able to gain privileged access to vehicle systems" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eJ" role="2H0S5D">
+        <property role="TrG5h" value="An unprivileged user is able to gain privileged access, for example root access" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8eK" role="2H0S5D">
+        <property role="TrG5h" value="10 Viruses embedded in communication media are able to infect vehicle systems" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eL" role="2H0S5D">
+        <property role="TrG5h" value="Virus embedded in communication media infects vehicle systems" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8eM" role="2H0S5D">
+        <property role="TrG5h" value="11 Messages received by the vehicle (for example X2V or diagnostic messages), or transmitted within it, contain malicious content" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eN" role="2H0S5D">
+        <property role="TrG5h" value="Malicious internal (e.g. CAN) messages" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eO" role="2H0S5D">
+        <property role="TrG5h" value="Malicious V2X messages, e.g. infrastructure to vehicle or vehicle-vehicle messages (e.g. CAM, DENM)" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eP" role="2H0S5D">
+        <property role="TrG5h" value="Malicious diagnostic messages" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eQ" role="2H0S5D">
+        <property role="TrG5h" value="Malicious proprietary messages (e.g. those normally sent from OEM or component/system/function supplier)" />
+      </node>
+    </node>
+    <node concept="2H0S5N" id="1PEmpgFm8eR" role="2H0S4$">
+      <property role="TrG5h" value="Threats to vehicles regarding their update procedures" />
+      <node concept="3GSqTS" id="1PEmpgFm8eS" role="2H0S5D">
+        <property role="TrG5h" value="12 Misuse or compromise of update procedures" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eT" role="2H0S5D">
+        <property role="TrG5h" value="Compromise of over the air software update procedures, This includes fabricating system update program or firmware" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eU" role="2H0S5D">
+        <property role="TrG5h" value="Compromise of local/physical software update procedures. This includes fabricating system update program or firmware" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eV" role="2H0S5D">
+        <property role="TrG5h" value="The software is manipulated before the update process (and is therefore corrupted), although the update process is intact" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eW" role="2H0S5D">
+        <property role="TrG5h" value="Compromise of cryptographic keys of the software provider to allow invalid update" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8eX" role="2H0S5D">
+        <property role="TrG5h" value="13 It is possible to deny legitimate updates" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8eY" role="2H0S5D">
+        <property role="TrG5h" value="Denial of Service attack against update server or network to prevent rollout of critical software updates and/or unlock of customer specific features" />
+      </node>
+    </node>
+    <node concept="2H0S5N" id="1PEmpgFm8eZ" role="2H0S4$">
+      <property role="TrG5h" value="Threats to vehicles regarding unintended human actions" />
+      <node concept="3GSqTS" id="1PEmpgFm8f0" role="2H0S5D">
+        <property role="TrG5h" value="14 Misconfiguration of equipment or systems by legitimate actor, e.g. owner or maintenance community" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8f1" role="2H0S5D">
+        <property role="TrG5h" value="Misconfiguration of equipment by maintenance community or owner during installation/repair/use causing unintended consequence" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8f2" role="2H0S5D">
+        <property role="TrG5h" value="Erroneous use or administration of devices and systems (incl. OTA updates)" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8f3" role="2H0S5D">
+        <property role="TrG5h" value="15 Legitimate actors are able to take actions that would unwittingly facilitate a cyber-attack" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8f4" role="2H0S5D">
+        <property role="TrG5h" value="Innocent victim (e.g. owner, operator or maintenance engineer) being tricked into taking an action to unintentionally load malware or enable an attack" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8f5" role="2H0S5D">
+        <property role="TrG5h" value="Defined security procedures are not followed" />
+      </node>
+    </node>
+    <node concept="2H0S5N" id="1PEmpgFm8f6" role="2H0S4$">
+      <property role="TrG5h" value="Threats to vehicles regarding their external connectivity and connections" />
+      <node concept="3GSqTS" id="1PEmpgFm8f7" role="2H0S5D">
+        <property role="TrG5h" value="16 Manipulation of the connectivity of vehicle functions enables a cyber-attack, this can include telematics; systems that permit remote operations; and systems using short range wireless communications" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8f8" role="2H0S5D">
+        <property role="TrG5h" value="Manipulation of functions designed to remotely operate systems, such as remote key, immobiliser, and charging pile" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8f9" role="2H0S5D">
+        <property role="TrG5h" value="Manipulation of vehicle telematics (e.g. manipulate temperature measurement of sensitive goods, remotely unlock cargo doors)" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fa" role="2H0S5D">
+        <property role="TrG5h" value="Interference with short range wireless systems or sensors" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fb" role="2H0S5D">
+        <property role="TrG5h" value="17 Hosted 3rd party software, e.g. entertainment applications, used as a means to attack vehicle systems" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fc" role="2H0S5D">
+        <property role="TrG5h" value="Corrupted applications, or those with poor software security, used as a method to attack vehicle systems" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fd" role="2H0S5D">
+        <property role="TrG5h" value="18" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fe" role="2H0S5D">
+        <property role="TrG5h" value="External interfaces such as USB or other ports used as a point of attack, for example through code injection" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ff" role="2H0S5D">
+        <property role="TrG5h" value="Media infected with a virus connected to a vehicle system" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fg" role="2H0S5D">
+        <property role="TrG5h" value="Diagnostic access (e.g. dongles in OBD port) used to facilitate an attack, e.g. manipulate vehicle parameters (directly or indirectly)" />
+      </node>
+    </node>
+    <node concept="2H0S5N" id="1PEmpgFm8fh" role="2H0S4$">
+      <property role="TrG5h" value="Potential targets of, or motivations for, an attack" />
+      <node concept="3GSqTS" id="1PEmpgFm8fi" role="2H0S5D">
+        <property role="TrG5h" value="19 Extraction of vehicle data/code" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fj" role="2H0S5D">
+        <property role="TrG5h" value="Extraction of copyright or proprietary software from vehicle systems (product piracy)" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fk" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorized access to the owner’s privacy information such as personal identity, payment account information, address book information, location information, vehicle’s electronic ID, etc." />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fl" role="2H0S5D">
+        <property role="TrG5h" value="Extraction of cryptographic keys" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fm" role="2H0S5D">
+        <property role="TrG5h" value="20 Manipulation of vehicle data/code" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fn" role="2H0S5D">
+        <property role="TrG5h" value="Illegal/unauthorised changes to vehicle’s electronic ID" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fo" role="2H0S5D">
+        <property role="TrG5h" value="Identity fraud. For example if a user wants to display another identity when communicating with toll systems, manufacturer backend" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fp" role="2H0S5D">
+        <property role="TrG5h" value="Action to circumvent monitoring systems (e.g. hacking/ tampering/ blocking of messages such as ODR Tracker data, or number of runs)" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fq" role="2H0S5D">
+        <property role="TrG5h" value="Data manipulation to falsify vehicle’s driving data (e.g. mileage, driving speed, driving directions, etc.)" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fr" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorised changes to system diagnostic data" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fs" role="2H0S5D">
+        <property role="TrG5h" value="21 Erasure of data/code" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8ft" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorized deletion/manipulation of system event logs" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fu" role="2H0S5D">
+        <property role="TrG5h" value="22 Introduction of malware" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fv" role="2H0S5D">
+        <property role="TrG5h" value="Introduce malicious software or malicious software activity" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fw" role="2H0S5D">
+        <property role="TrG5h" value="23 Introduction of new software or overwrite existing software" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fx" role="2H0S5D">
+        <property role="TrG5h" value="Fabrication of software of the vehicle control system or information system" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fy" role="2H0S5D">
+        <property role="TrG5h" value="24 Disruption of systems or operations" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fz" role="2H0S5D">
+        <property role="TrG5h" value="Denial of service, for example this may be triggered on the internal network by flooding a CAN bus, or by provoking faults on an ECU via a high rate of messaging" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8f$" role="2H0S5D">
+        <property role="TrG5h" value="25 Manipulation of vehicle parameters" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8f_" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorized access of falsify the configuration parameters of vehicle’s key functions, such as brake data, airbag deployed threshold, etc." />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fA" role="2H0S5D">
+        <property role="TrG5h" value="Unauthorized access of falsify the charging parameters, such as charging voltage, charging power, battery temperature, etc." />
+      </node>
+    </node>
+    <node concept="2H0S5N" id="1PEmpgFm8fB" role="2H0S4$">
+      <property role="TrG5h" value="Potential vulnerabilities that could be exploited if not sufficiently protected or hardened" />
+      <node concept="3GSqTS" id="1PEmpgFm8fC" role="2H0S5D">
+        <property role="TrG5h" value="26 Cryptographic technologies can be compromised or are insufficiently applied" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fD" role="2H0S5D">
+        <property role="TrG5h" value="Combination of short encryption keys and long period of validity enables attacker to break encryption" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fE" role="2H0S5D">
+        <property role="TrG5h" value="Insufficient use of cryptographic algorithms to protect sensitive systems" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fF" role="2H0S5D">
+        <property role="TrG5h" value="Using already or soon to be deprecated cryptographic algorithms" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fG" role="2H0S5D">
+        <property role="TrG5h" value="27 Parts or supplies could be compromised to permit vehicles to be attacked" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fH" role="2H0S5D">
+        <property role="TrG5h" value="Hardware or software, engineered to enable an attack or fails to meet design criteria to stop an attack" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fI" role="2H0S5D">
+        <property role="TrG5h" value="28 Software or hardware development permits vulnerabilities" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fJ" role="2H0S5D">
+        <property role="TrG5h" value="Software bugs. The presence of software bugs can be a basis for potential exploitable vulnerabilities. This is particularly true if software has not been tested to verify that known bad code/bugs is not present and reduce the risk of unknown bad code/bugs being present." />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fK" role="2H0S5D">
+        <property role="TrG5h" value="Using remainders from development (e.g. debug ports, JTAG ports, microprocessors, development certificates, developer passwords, …) can permit access to ECUs or permit attackers to gain higher privileges" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fL" role="2H0S5D">
+        <property role="TrG5h" value="29 Network design introduces vulnerabilities" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fM" role="2H0S5D">
+        <property role="TrG5h" value="Superfluous internet ports left open, providing access to network systems" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fN" role="2H0S5D">
+        <property role="TrG5h" value="Circumvent network separation to gain control. Specific example is the use of unprotected gateways, or access points (such as truck-trailer gateways), to circumvent protections and gain access to other network segments to perform malicious acts, such as sending arbitrary CAN bus messages" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fO" role="2H0S5D">
+        <property role="TrG5h" value="30 Physical loss of data can occur" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fP" role="2H0S5D">
+        <property role="TrG5h" value="Damage caused by a third party. Sensitive data may be lost or compromised due to physical damages in cases of traffic accident or theft" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fQ" role="2H0S5D">
+        <property role="TrG5h" value="Loss from DRM (digital right management) conflicts. User data may be deleted due to DRM issues" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fR" role="2H0S5D">
+        <property role="TrG5h" value="The (integrity of) sensitive data may be lost due to IT components wear and tear, causing potential cascading issues (in case of key alteration, for example)" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fS" role="2H0S5D">
+        <property role="TrG5h" value="31 Unintended transfer of data can occur" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fT" role="2H0S5D">
+        <property role="TrG5h" value="Information breach. Private or sensitive data may be leaked when the car changes user (e.g. is sold or is used as hire vehicle with new hirers)" />
+      </node>
+      <node concept="3GSqTS" id="1PEmpgFm8fU" role="2H0S5D">
+        <property role="TrG5h" value="32 Physical manipulation of systems can enable an attack" />
+      </node>
+      <node concept="2H0S4X" id="1PEmpgFm8fV" role="2H0S5D">
+        <property role="TrG5h" value="Manipulation of OEM hardware, e.g. unauthorised hardware added to a vehicle to enable &quot;man-in-the-middle&quot; attack" />
+      </node>
+    </node>
+    <node concept="3VMn$a" id="1PEmpgFm8fW" role="2JHqPs">
+      <node concept="3VMn$0" id="1PEmpgFm8fX" role="3VMn$6">
+        <node concept="3VMn$7" id="1PEmpgFm8fY" role="3VMn$3">
+          <property role="3VMn$Y" value="List" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8fZ" role="3VMn$3">
+          <property role="3VMn$Y" value="of" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8g0" role="3VMn$3">
+          <property role="3VMn$Y" value="examples" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8g1" role="3VMn$3">
+          <property role="3VMn$Y" value="of" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8g2" role="3VMn$3">
+          <property role="3VMn$Y" value="vulnerability" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8g3" role="3VMn$3">
+          <property role="3VMn$Y" value="or" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8g4" role="3VMn$3">
+          <property role="3VMn$Y" value="attack" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8g5" role="3VMn$3">
+          <property role="3VMn$Y" value="method" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8g6" role="3VMn$3">
+          <property role="3VMn$Y" value="to" />
+        </node>
+        <node concept="3VMn$7" id="1PEmpgFm8g7" role="3VMn$3">
+          <property role="3VMn$Y" value="threats." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="ypf9M" id="5wtRytMI6hL">
+    <property role="TrG5h" value="Result Report (Word)" />
+    <node concept="ym6bn" id="5wtRytMI6hN" role="yp9Ks">
+      <property role="2iWzeI" value="true" />
+      <property role="3Oa_Xm" value="true" />
+      <property role="XuSRD" value="true" />
+      <ref role="39i2te" node="5a5CPNXLFMU" resolve="Project Info: CvssAvAnalysis [CvssAvAnalysis]" />
+      <node concept="XlMEV" id="1PEmpgFmc5H" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" node="5a5CPNXLFMV" resolve="Project Data" />
+      </node>
+      <node concept="XlMEV" id="1PEmpgFmc5I" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" node="5a5CPNXLFNr" resolve="Status" />
+      </node>
+      <node concept="XlMEV" id="1PEmpgFmc5J" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" node="5a5CPNXLFNy" resolve="Version History" />
+      </node>
+      <node concept="XlMEV" id="1PEmpgFmc5K" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" node="5a5CPNXLFNL" resolve="Documents" />
+      </node>
+    </node>
+    <node concept="ym6bn" id="zhVUb1E0aW" role="yp9Ks">
+      <ref role="39i2te" to="wb2r:zhVUb1E0IR" resolve="Project Info: Catalog [CvssAvComposition]" />
+      <node concept="XlMEV" id="1PEmpgFmc5P" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" to="wb2r:5a5CPNXLFLc" resolve="Notes on the CVSS 3.0 Method Configuration" />
+      </node>
+      <node concept="XlMEV" id="1PEmpgFmc5Q" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" to="wb2r:zhVUb1E0IX" resolve="Version History" />
+      </node>
+      <node concept="XlMEV" id="1PEmpgFmc5R" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" to="wb2r:5n5lVX35T_F" resolve="Project Data" />
+      </node>
+      <node concept="XlMEV" id="1PEmpgFmc5S" role="XlB71">
+        <property role="XlMDd" value="true" />
+        <ref role="XlKVS" to="wb2r:5n5lVX35TB7" resolve="Status" />
+      </node>
+    </node>
+    <node concept="ymko6" id="zhVUb1E0az" role="yp9Ks" />
+    <node concept="yhPIs" id="5wtRytMI6hO" role="yp9Ks" />
+    <node concept="ygSqK" id="5wtRytMI6hP" role="yp9Ks">
+      <ref role="2HTkYB" node="1PEmpgFm6XX" resolve="SystemDiagram" />
+    </node>
+    <node concept="ymko6" id="5wtRytMI6hR" role="yp9Ks" />
+    <node concept="2JOk35" id="5wtRytMI6hS" role="yp9Ks">
+      <property role="2JOk3V" value=" security elements" />
+    </node>
+    <node concept="ygVO2" id="5wtRytMI6hX" role="yp9Ks" />
+    <node concept="ckFx4" id="6Q4ACdYFHyb" role="yp9Ks" />
+    <node concept="3UIwP1" id="188s5gx22P_" role="yp9Ks" />
+    <node concept="3yVM0i" id="6Q4ACdYFHza" role="yp9Ks" />
+    <node concept="28bWPA" id="4UmZxJ78Apf" role="yp9Ks">
+      <property role="1CBqX7" value="2147483647" />
+    </node>
+    <node concept="ygVO6" id="5wtRytMI6hV" role="yp9Ks" />
+    <node concept="ygVO4" id="5wtRytMI6hW" role="yp9Ks" />
+    <node concept="ygVOy" id="6IMAd$NiGTx" role="yp9Ks" />
+    <node concept="ymko6" id="5wtRytMI6hZ" role="yp9Ks" />
+    <node concept="2JOk35" id="5wtRytMI6i0" role="yp9Ks">
+      <property role="2JOk3V" value=" system elements" />
+    </node>
+    <node concept="3xuwDp" id="5wtRytMI6i3" role="yp9Ks" />
+    <node concept="3xttx0" id="5wtRytMI6i4" role="yp9Ks" />
+    <node concept="3xttxm" id="5wtRytMI6i5" role="yp9Ks" />
+    <node concept="3xttxO" id="5wtRytMI6i6" role="yp9Ks" />
+    <node concept="3xttxa" id="5wtRytMI6i7" role="yp9Ks" />
   </node>
 </model>
 
