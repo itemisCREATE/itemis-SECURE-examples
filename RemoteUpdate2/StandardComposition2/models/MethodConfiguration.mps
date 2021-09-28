@@ -179,6 +179,7 @@
       <concept id="3440241848487300722" name="com.moraad.core.structure.DamageAggregatorRef" flags="ng" index="37eJZ9">
         <reference id="3440241848487300723" name="target" index="37eJZ8" />
       </concept>
+      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO" />
       <concept id="6793729118883371978" name="com.moraad.core.structure.DataFlowSecurityTarget" flags="ng" index="3h3ntD" />
       <concept id="330802076194471423" name="com.moraad.core.structure.RiskTreatment" flags="ng" index="1m7Od3" />
       <concept id="330802076194474985" name="com.moraad.core.structure.RiskTreatmentsDefinition" flags="ng" index="1m7Vll">
@@ -4041,6 +4042,9 @@
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwt9" role="2JHqPs" />
     </node>
+  </node>
+  <node concept="3eC5pO" id="1PEmpgFm5Sn">
+    <property role="TrG5h" value="Project Info" />
   </node>
 </model>
 

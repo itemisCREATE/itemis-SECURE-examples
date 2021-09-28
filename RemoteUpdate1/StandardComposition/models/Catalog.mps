@@ -47,6 +47,7 @@
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
+      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO" />
       <concept id="6793729118883371978" name="com.moraad.core.structure.DataFlowSecurityTarget" flags="ng" index="3h3ntD" />
       <concept id="3517148917927860064" name="com.moraad.core.structure.ITaggedWithTechnologies" flags="ng" index="1jWzGI">
         <child id="3260991312724860420" name="technologies" index="1BQc1m" />
@@ -1894,6 +1895,9 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3eC5pO" id="1PEmpgFm2Oo">
+    <property role="TrG5h" value="Project Info" />
   </node>
 </model>
 
