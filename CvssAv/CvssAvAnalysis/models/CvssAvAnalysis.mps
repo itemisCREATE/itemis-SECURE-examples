@@ -14,42 +14,45 @@
       <concept id="6006699537885391512" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
     </language>
     <language id="8aedd025-5f31-4a1e-81a1-4c5345407211" name="com.moraad.suggestions">
-      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.WSAcceptedThreatAssistantSuggestion" flags="ng" index="k5Jqw">
+      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.AssAcceptedThreatAssistantSuggestion" flags="ng" index="k5Jqw">
         <child id="1744555010771063083" name="actingThreats" index="k5Jqx" />
       </concept>
-      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.WSThreatAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
-      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.WSAdditionThreatAssistantSuggestion" flags="ng" index="k5JqA" />
+      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.AssThreatAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
+      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.AssAdditionThreatAssistantSuggestion" flags="ng" index="k5JqA" />
       <concept id="1744555010776338337" name="com.moraad.suggestions.structure.RelationAssistantSelector" flags="ng" index="khAwF" />
       <concept id="1744555010776336880" name="com.moraad.suggestions.structure.SecGoalAssistantSelector" flags="ng" index="khATU" />
       <concept id="1744555010776327868" name="com.moraad.suggestions.structure.ThreatAssistantSelector" flags="ng" index="khC4Q" />
-      <concept id="7912218231014613968" name="com.moraad.suggestions.structure.WSAcceptedSuggestion" flags="ng" index="pcNHv" />
-      <concept id="114192864337941166" name="com.moraad.suggestions.structure.WSAdditionSecGoalAssistantSuggestion" flags="ng" index="raIdw" />
+      <concept id="7912218231014613968" name="com.moraad.suggestions.structure.AssAcceptedSuggestion" flags="ng" index="pcNHv" />
+      <concept id="114192864337941166" name="com.moraad.suggestions.structure.AssAdditionSecGoalAssistantSuggestion" flags="ng" index="raIdw" />
       <concept id="8675225129802302574" name="com.moraad.suggestions.structure.TraversalPathElement" flags="ng" index="2C31c$">
         <reference id="8675225129802302575" name="target" index="2C31c_" />
       </concept>
-      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.WSecGoalDependsOnSuggestionFactory" flags="ng" index="2Fpy1u" />
-      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.WSecGoalThreatenedBySuggestionFactory" flags="ng" index="2FpSCn" />
+      <concept id="1920997147008949188" name="com.moraad.suggestions.structure.RiskAssistantSelector" flags="ng" index="CEhHY" />
+      <concept id="1920997147009089272" name="com.moraad.suggestions.structure.AssRiskSuggestionFactory" flags="ng" index="CENT2" />
+      <concept id="1920997147016143551" name="com.moraad.suggestions.structure.AssRiskAssistantNewRiskSuggestion" flags="ng" index="CLQ85" />
+      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSecGoalDependsOnSuggestionFactory" flags="ng" index="2Fpy1u" />
+      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssSecGoalThreatenedBySuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
         <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
         <child id="8675225129778034533" name="factories" index="2Q$E0J" />
       </concept>
-      <concept id="8675225129768254214" name="com.moraad.suggestions.structure.WSuggestionQueryResult" flags="ng" index="2Q16Lc">
+      <concept id="8675225129768254214" name="com.moraad.suggestions.structure.AssSuggestionQueryResult" flags="ng" index="2Q16Lc">
         <reference id="8675225129798856842" name="consultedNode" index="2ClQv0" />
         <child id="8675225129775903758" name="suggestions" index="2QGid4" />
       </concept>
-      <concept id="8675225129768254215" name="com.moraad.suggestions.structure.WSuggestion" flags="ng" index="2Q16Ld">
+      <concept id="8675225129768254215" name="com.moraad.suggestions.structure.AssSuggestion" flags="ng" index="2Q16Ld">
         <reference id="8675225129798855691" name="suggestedEntity" index="2ClRH1" />
         <reference id="8675225129815039074" name="consultedNode" index="2Dj$GC" />
         <child id="8675225129775944446" name="traversalPath" index="2QGGmO" />
       </concept>
-      <concept id="8675225129768254213" name="com.moraad.suggestions.structure.WSuggestionFactory" flags="ng" index="2Q16Lf">
+      <concept id="8675225129768254213" name="com.moraad.suggestions.structure.AssSuggestionFactory" flags="ng" index="2Q16Lf">
         <child id="2567848404456432646" name="groups" index="3N3N22" />
       </concept>
-      <concept id="446196523655023050" name="com.moraad.suggestions.structure.WSSecGoalAssistantSuggestionFactory" flags="ng" index="3aivMl" />
-      <concept id="446196523655757402" name="com.moraad.suggestions.structure.WSAcceptedSecGoalAssistantSuggestion" flags="ng" index="3aGGG5">
+      <concept id="446196523655023050" name="com.moraad.suggestions.structure.AssSecGoalAssistantSuggestionFactory" flags="ng" index="3aivMl" />
+      <concept id="446196523655757402" name="com.moraad.suggestions.structure.AssAcceptedSecGoalAssistantSuggestion" flags="ng" index="3aGGG5">
         <child id="2567848404451557629" name="concerningSecGoals" index="3NKlhT" />
       </concept>
-      <concept id="446196523655766478" name="com.moraad.suggestions.structure.WSResultGroup" flags="ng" index="3aHhih">
+      <concept id="446196523655766478" name="com.moraad.suggestions.structure.AssResultGroup" flags="ng" index="3aHhih">
         <property id="6842080042029996409" name="identifier" index="133MFP" />
         <property id="446196523655779532" name="heading" index="3aHm6j" />
         <child id="446196523655778962" name="results" index="3aHmvd" />
@@ -711,7 +714,7 @@
       <node concept="3cP9l3" id="1c2jTNFeWTm" role="1WV2zz">
         <ref role="122Z_O" to="nb9t:4CQftq3lQjs" resolve="O" />
         <node concept="fNVPU" id="1c2jTNFeWTu" role="3cP9Jm">
-          <ref role="122Z_O" to="nb9t:4CQftq3lQiA" resolve="O1" />
+          <ref role="122Z_O" to="nb9t:4CQftq3lQiA" resolve="RU.O1" />
         </node>
       </node>
     </node>
@@ -960,6 +963,37 @@
             <node concept="2C31c$" id="6dRph0_Z9s5" role="2QGGmO">
               <ref role="2C31c_" node="1c2jTNFeWJa" resolve="Cmp.1" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2Q15JU" id="1PEmpgFm6q$">
+    <property role="3GE5qa" value="assistants" />
+    <node concept="CEhHY" id="1PEmpgFm6qz" role="kmFqQ" />
+    <node concept="CENT2" id="1PEmpgFm6q_" role="2Q$E0J">
+      <node concept="3aHhih" id="1PEmpgFm6qA" role="3N3N22">
+        <property role="3aHm6j" value="" />
+        <property role="133MFP" value="" />
+        <node concept="2Q16Lc" id="1PEmpgFm6qE" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFeVOl" resolve="AS.CWE-134_Car-A" />
+          <node concept="CLQ85" id="1PEmpgFm6qF" role="2QGid4">
+            <ref role="2ClRH1" node="1c2jTNFeVOl" resolve="AS.CWE-134_Car-A" />
+            <ref role="2Dj$GC" node="1c2jTNFeVOl" resolve="AS.CWE-134_Car-A" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="1PEmpgFm6qG" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFhL0k" resolve="AS.CWE-134_Car-B" />
+          <node concept="CLQ85" id="1PEmpgFm6qH" role="2QGid4">
+            <ref role="2ClRH1" node="1c2jTNFhL0k" resolve="AS.CWE-134_Car-B" />
+            <ref role="2Dj$GC" node="1c2jTNFhL0k" resolve="AS.CWE-134_Car-B" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="1PEmpgFm6qI" role="3aHmvd">
+          <ref role="2ClQv0" node="1c2jTNFhL5r" resolve="AS.CWE-134_Car-C" />
+          <node concept="CLQ85" id="1PEmpgFm6qJ" role="2QGid4">
+            <ref role="2ClRH1" node="1c2jTNFhL5r" resolve="AS.CWE-134_Car-C" />
+            <ref role="2Dj$GC" node="1c2jTNFhL5r" resolve="AS.CWE-134_Car-C" />
           </node>
         </node>
       </node>
