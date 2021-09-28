@@ -42,6 +42,8 @@
       <concept id="8675225129802302574" name="com.moraad.suggestions.structure.TraversalPathElement" flags="ng" index="2C31c$">
         <reference id="8675225129802302575" name="target" index="2C31c_" />
       </concept>
+      <concept id="1920997147008949188" name="com.moraad.suggestions.structure.RiskAssistantSelector" flags="ng" index="CEhHY" />
+      <concept id="1920997147009089272" name="com.moraad.suggestions.structure.AssRiskSuggestionFactory" flags="ng" index="CENT2" />
       <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSecGoalDependsOnSuggestionFactory" flags="ng" index="2Fpy1u" />
       <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssSecGoalThreatenedBySuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
@@ -4670,6 +4672,37 @@
         </node>
         <node concept="3VMn$7" id="3L93fJiu$GO" role="3VMn$3">
           <property role="3VMn$Y" value="threats." />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2Q15JU" id="1PEmpgFfaJZ">
+    <property role="3GE5qa" value="Assistants" />
+    <node concept="CEhHY" id="1PEmpgFfaJY" role="kmFqQ" />
+    <node concept="CENT2" id="1PEmpgFfaK0" role="2Q$E0J">
+      <node concept="3aHhih" id="1PEmpgFfaK1" role="3N3N22">
+        <property role="3aHm6j" value="" />
+        <property role="133MFP" value="" />
+        <node concept="2Q16Lc" id="1PEmpgFfaK5" role="3aHmvd">
+          <ref role="2ClQv0" node="5U29EQHaT4c" resolve="TS.1" />
+          <node concept="pcNHv" id="1PEmpgFfaK6" role="2QGid4">
+            <ref role="2ClRH1" node="1eUj96eGRhm" resolve="R.2" />
+            <ref role="2Dj$GC" node="5U29EQHaT4c" resolve="TS.1" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="1PEmpgFfaK7" role="3aHmvd">
+          <ref role="2ClQv0" node="7gwHXNztHdV" resolve="TS.2" />
+          <node concept="pcNHv" id="1PEmpgFfaK8" role="2QGid4">
+            <ref role="2ClRH1" node="1eUj96eGRhq" resolve="R.3" />
+            <ref role="2Dj$GC" node="7gwHXNztHdV" resolve="TS.2" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="1PEmpgFfaK9" role="3aHmvd">
+          <ref role="2ClQv0" node="6IMAd$NiFVi" resolve="TS.3" />
+          <node concept="pcNHv" id="1PEmpgFfaKa" role="2QGid4">
+            <ref role="2ClRH1" node="6IMAd$NiG4n" resolve="R.1" />
+            <ref role="2Dj$GC" node="6IMAd$NiFVi" resolve="TS.3" />
+          </node>
         </node>
       </node>
     </node>
