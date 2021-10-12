@@ -808,9 +808,6 @@
       <node concept="3$0O7b" id="1c2jTNFeWVI" role="2NPTNf">
         <ref role="122Z_O" node="1c2jTNFeWJa" resolve="Cmp.1" />
       </node>
-      <node concept="3RtpOr" id="1c2jTNFfe8I" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" resolve="AV" />
-      </node>
     </node>
     <node concept="3Rc6Py" id="1c2jTNFhL0k" role="2vPz$N">
       <property role="TrG5h" value="AS.CWE-134_Car-B" />
