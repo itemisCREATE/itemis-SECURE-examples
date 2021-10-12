@@ -3688,7 +3688,112 @@
         <property role="DVXpC" value="&gt; 6 months" />
         <node concept="3VMn$a" id="7bZZv_jRVjH" role="2JHqPs" />
       </node>
-      <node concept="3VMn$a" id="7bZZv_jRVjC" role="2JHqPs" />
+      <node concept="3VMn$a" id="7bZZv_jRVjC" role="2JHqPs">
+        <node concept="3VMn$0" id="1PZOZuKhqKT" role="3VMn$6">
+          <node concept="3VMn$7" id="1PZOZuKhqKU" role="3VMn$3">
+            <property role="3VMn$Y" value="The" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqKV" role="3VMn$3">
+            <property role="3VMn$Y" value="elapsed" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqKW" role="3VMn$3">
+            <property role="3VMn$Y" value="time" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqKX" role="3VMn$3">
+            <property role="3VMn$Y" value="parameter" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqKY" role="3VMn$3">
+            <property role="3VMn$Y" value="includes" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqKZ" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL0" role="3VMn$3">
+            <property role="3VMn$Y" value="time" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL1" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL2" role="3VMn$3">
+            <property role="3VMn$Y" value="identify" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL3" role="3VMn$3">
+            <property role="3VMn$Y" value="a" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL4" role="3VMn$3">
+            <property role="3VMn$Y" value="vulnerability" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL5" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL6" role="3VMn$3">
+            <property role="3VMn$Y" value="develop" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL7" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL8" role="3VMn$3">
+            <property role="3VMn$Y" value="(successfully)" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqL9" role="3VMn$3">
+            <property role="3VMn$Y" value="apply" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLa" role="3VMn$3">
+            <property role="3VMn$Y" value="an" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLb" role="3VMn$3">
+            <property role="3VMn$Y" value="exploit." />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLc" role="3VMn$3">
+            <property role="3VMn$Y" value="Therefore," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLd" role="3VMn$3">
+            <property role="3VMn$Y" value="this" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLe" role="3VMn$3">
+            <property role="3VMn$Y" value="rating" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLf" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLg" role="3VMn$3">
+            <property role="3VMn$Y" value="based" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLh" role="3VMn$3">
+            <property role="3VMn$Y" value="on" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLi" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLj" role="3VMn$3">
+            <property role="3VMn$Y" value="state" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLk" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLl" role="3VMn$3">
+            <property role="3VMn$Y" value="expert" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLm" role="3VMn$3">
+            <property role="3VMn$Y" value="knowledge" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLn" role="3VMn$3">
+            <property role="3VMn$Y" value="at" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLo" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLp" role="3VMn$3">
+            <property role="3VMn$Y" value="time" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLq" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqLr" role="3VMn$3">
+            <property role="3VMn$Y" value="rating." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhw" role="3Rgdis">
       <property role="TrG5h" value="Ex" />
@@ -3697,27 +3802,536 @@
         <property role="TrG5h" value="Ex0" />
         <property role="3Rgaeq" value="0" />
         <property role="DVXpC" value="Layman" />
-        <node concept="3VMn$a" id="7bZZv_jRVjv" role="2JHqPs" />
+        <node concept="3VMn$a" id="7bZZv_jRVjv" role="2JHqPs">
+          <node concept="3VMn$0" id="1PZOZuKhqPb" role="3VMn$6">
+            <node concept="3VMn$7" id="1PZOZuKhqPc" role="3VMn$3">
+              <property role="3VMn$Y" value="Unknowledgeable" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPd" role="3VMn$3">
+              <property role="3VMn$Y" value="compared" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPe" role="3VMn$3">
+              <property role="3VMn$Y" value="to" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPf" role="3VMn$3">
+              <property role="3VMn$Y" value="experts" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPg" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPh" role="3VMn$3">
+              <property role="3VMn$Y" value="proficient" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPi" role="3VMn$3">
+              <property role="3VMn$Y" value="persons," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPj" role="3VMn$3">
+              <property role="3VMn$Y" value="with" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPk" role="3VMn$3">
+              <property role="3VMn$Y" value="no" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPl" role="3VMn$3">
+              <property role="3VMn$Y" value="particular" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPm" role="3VMn$3">
+              <property role="3VMn$Y" value="expertise." />
+            </node>
+          </node>
+          <node concept="3VMn$0" id="1PZOZuKhqPn" role="3VMn$6">
+            <node concept="3VMn$7" id="1PZOZuKhqPo" role="3VMn$3">
+              <property role="3VMn$Y" value="E.g." />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPp" role="3VMn$3">
+              <property role="3VMn$Y" value="Ordinary" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPq" role="3VMn$3">
+              <property role="3VMn$Y" value="person" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPr" role="3VMn$3">
+              <property role="3VMn$Y" value="using" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPs" role="3VMn$3">
+              <property role="3VMn$Y" value="step-by-step" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPt" role="3VMn$3">
+              <property role="3VMn$Y" value="descriptions" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPu" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPv" role="3VMn$3">
+              <property role="3VMn$Y" value="an" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPw" role="3VMn$3">
+              <property role="3VMn$Y" value="attack" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPx" role="3VMn$3">
+              <property role="3VMn$Y" value="that" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPy" role="3VMn$3">
+              <property role="3VMn$Y" value="is" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqPz" role="3VMn$3">
+              <property role="3VMn$Y" value="publicly" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqP$" role="3VMn$3">
+              <property role="3VMn$Y" value="available." />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhy" role="3RgdiP">
         <property role="TrG5h" value="Ex1" />
         <property role="3Rgaeq" value="3" />
         <property role="DVXpC" value="Proficient" />
-        <node concept="3VMn$a" id="7bZZv_jRVjw" role="2JHqPs" />
+        <node concept="3VMn$a" id="7bZZv_jRVjw" role="2JHqPs">
+          <node concept="3VMn$0" id="1PZOZuKhqRa" role="3VMn$6">
+            <node concept="3VMn$7" id="1PZOZuKhqRb" role="3VMn$3">
+              <property role="3VMn$Y" value="Knowledgeable" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRc" role="3VMn$3">
+              <property role="3VMn$Y" value="in" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRd" role="3VMn$3">
+              <property role="3VMn$Y" value="that" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRe" role="3VMn$3">
+              <property role="3VMn$Y" value="they" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRf" role="3VMn$3">
+              <property role="3VMn$Y" value="are" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRg" role="3VMn$3">
+              <property role="3VMn$Y" value="familiar" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRh" role="3VMn$3">
+              <property role="3VMn$Y" value="with" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRi" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRj" role="3VMn$3">
+              <property role="3VMn$Y" value="security" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRk" role="3VMn$3">
+              <property role="3VMn$Y" value="behaviour" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRl" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRm" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRn" role="3VMn$3">
+              <property role="3VMn$Y" value="product" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRo" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRp" role="3VMn$3">
+              <property role="3VMn$Y" value="system" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRq" role="3VMn$3">
+              <property role="3VMn$Y" value="type." />
+            </node>
+          </node>
+          <node concept="3VMn$0" id="1PZOZuKhqRr" role="3VMn$6">
+            <node concept="3VMn$7" id="1PZOZuKhqRs" role="3VMn$3">
+              <property role="3VMn$Y" value="E.g." />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRt" role="3VMn$3">
+              <property role="3VMn$Y" value="Experienced" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRu" role="3VMn$3">
+              <property role="3VMn$Y" value="owner," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRv" role="3VMn$3">
+              <property role="3VMn$Y" value="ordinary" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRw" role="3VMn$3">
+              <property role="3VMn$Y" value="technician" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRx" role="3VMn$3">
+              <property role="3VMn$Y" value="knowing" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRy" role="3VMn$3">
+              <property role="3VMn$Y" value="simple" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRz" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqR$" role="3VMn$3">
+              <property role="3VMn$Y" value="popular" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqR_" role="3VMn$3">
+              <property role="3VMn$Y" value="attacks" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRA" role="3VMn$3">
+              <property role="3VMn$Y" value="like" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRB" role="3VMn$3">
+              <property role="3VMn$Y" value="odometer" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRC" role="3VMn$3">
+              <property role="3VMn$Y" value="tuning," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRD" role="3VMn$3">
+              <property role="3VMn$Y" value="installation" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRE" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRF" role="3VMn$3">
+              <property role="3VMn$Y" value="counterfeit" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqRG" role="3VMn$3">
+              <property role="3VMn$Y" value="parts." />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhz" role="3RgdiP">
         <property role="TrG5h" value="Ex2" />
         <property role="3Rgaeq" value="6" />
         <property role="DVXpC" value="Expert" />
-        <node concept="3VMn$a" id="7bZZv_jRVjx" role="2JHqPs" />
+        <node concept="3VMn$a" id="7bZZv_jRVjx" role="2JHqPs">
+          <node concept="3VMn$0" id="1PZOZuKhqTr" role="3VMn$6">
+            <node concept="3VMn$7" id="1PZOZuKhqTs" role="3VMn$3">
+              <property role="3VMn$Y" value="Familiar" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTt" role="3VMn$3">
+              <property role="3VMn$Y" value="with" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTu" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTv" role="3VMn$3">
+              <property role="3VMn$Y" value="underlying" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTw" role="3VMn$3">
+              <property role="3VMn$Y" value="algorithms," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTx" role="3VMn$3">
+              <property role="3VMn$Y" value="protocols," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTy" role="3VMn$3">
+              <property role="3VMn$Y" value="hardware," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTz" role="3VMn$3">
+              <property role="3VMn$Y" value="structures," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqT$" role="3VMn$3">
+              <property role="3VMn$Y" value="security" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqT_" role="3VMn$3">
+              <property role="3VMn$Y" value="behaviour," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTA" role="3VMn$3">
+              <property role="3VMn$Y" value="principles" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTB" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTC" role="3VMn$3">
+              <property role="3VMn$Y" value="concepts" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTD" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTE" role="3VMn$3">
+              <property role="3VMn$Y" value="security" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTF" role="3VMn$3">
+              <property role="3VMn$Y" value="employed," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTG" role="3VMn$3">
+              <property role="3VMn$Y" value="techniques" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTH" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTI" role="3VMn$3">
+              <property role="3VMn$Y" value="tools" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTJ" role="3VMn$3">
+              <property role="3VMn$Y" value="for" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTK" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTL" role="3VMn$3">
+              <property role="3VMn$Y" value="definition" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTM" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTN" role="3VMn$3">
+              <property role="3VMn$Y" value="new" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTO" role="3VMn$3">
+              <property role="3VMn$Y" value="attacks," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTP" role="3VMn$3">
+              <property role="3VMn$Y" value="cryptography," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTQ" role="3VMn$3">
+              <property role="3VMn$Y" value="classical" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTR" role="3VMn$3">
+              <property role="3VMn$Y" value="attacks" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTS" role="3VMn$3">
+              <property role="3VMn$Y" value="for" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTT" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTU" role="3VMn$3">
+              <property role="3VMn$Y" value="product" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTV" role="3VMn$3">
+              <property role="3VMn$Y" value="type," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTW" role="3VMn$3">
+              <property role="3VMn$Y" value="attack" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTX" role="3VMn$3">
+              <property role="3VMn$Y" value="methods," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTY" role="3VMn$3">
+              <property role="3VMn$Y" value="etc." />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqTZ" role="3VMn$3">
+              <property role="3VMn$Y" value="implemented" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqU0" role="3VMn$3">
+              <property role="3VMn$Y" value="in" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqU1" role="3VMn$3">
+              <property role="3VMn$Y" value="the" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqU2" role="3VMn$3">
+              <property role="3VMn$Y" value="product" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqU3" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqU4" role="3VMn$3">
+              <property role="3VMn$Y" value="system" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqU5" role="3VMn$3">
+              <property role="3VMn$Y" value="type." />
+            </node>
+          </node>
+          <node concept="3VMn$0" id="1PZOZuKhqU6" role="3VMn$6">
+            <node concept="3VMn$7" id="1PZOZuKhqU7" role="3VMn$3">
+              <property role="3VMn$Y" value="E.g." />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqU8" role="3VMn$3">
+              <property role="3VMn$Y" value="Experienced" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqU9" role="3VMn$3">
+              <property role="3VMn$Y" value="technician" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqUa" role="3VMn$3">
+              <property role="3VMn$Y" value="or" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqUb" role="3VMn$3">
+              <property role="3VMn$Y" value="engineer." />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3Rgaek" id="4CQftq3lQh$" role="3RgdiP">
         <property role="TrG5h" value="Ex3" />
         <property role="3Rgaeq" value="8" />
         <property role="DVXpC" value="Multiple experts" />
-        <node concept="3VMn$a" id="7bZZv_jRVjy" role="2JHqPs" />
+        <node concept="3VMn$a" id="7bZZv_jRVjy" role="2JHqPs">
+          <node concept="3VMn$0" id="1PZOZuKhqW8" role="3VMn$6">
+            <node concept="3VMn$7" id="1PZOZuKhqW9" role="3VMn$3">
+              <property role="3VMn$Y" value="Different" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWa" role="3VMn$3">
+              <property role="3VMn$Y" value="fields" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWb" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWc" role="3VMn$3">
+              <property role="3VMn$Y" value="expertise" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWd" role="3VMn$3">
+              <property role="3VMn$Y" value="are" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWe" role="3VMn$3">
+              <property role="3VMn$Y" value="required" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWf" role="3VMn$3">
+              <property role="3VMn$Y" value="at" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWg" role="3VMn$3">
+              <property role="3VMn$Y" value="an" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWh" role="3VMn$3">
+              <property role="3VMn$Y" value="expert" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWi" role="3VMn$3">
+              <property role="3VMn$Y" value="level" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWj" role="3VMn$3">
+              <property role="3VMn$Y" value="for" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWk" role="3VMn$3">
+              <property role="3VMn$Y" value="distinct" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWl" role="3VMn$3">
+              <property role="3VMn$Y" value="steps" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWm" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWn" role="3VMn$3">
+              <property role="3VMn$Y" value="an" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWo" role="3VMn$3">
+              <property role="3VMn$Y" value="attack." />
+            </node>
+          </node>
+          <node concept="3VMn$0" id="1PZOZuKhqWp" role="3VMn$6">
+            <node concept="3VMn$7" id="1PZOZuKhqWq" role="3VMn$3">
+              <property role="3VMn$Y" value="E.g." />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWr" role="3VMn$3">
+              <property role="3VMn$Y" value="Multiple" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWs" role="3VMn$3">
+              <property role="3VMn$Y" value="highly" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWt" role="3VMn$3">
+              <property role="3VMn$Y" value="experienced" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWu" role="3VMn$3">
+              <property role="3VMn$Y" value="engineers" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWv" role="3VMn$3">
+              <property role="3VMn$Y" value="who" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWw" role="3VMn$3">
+              <property role="3VMn$Y" value="have" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWx" role="3VMn$3">
+              <property role="3VMn$Y" value="expertise" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWy" role="3VMn$3">
+              <property role="3VMn$Y" value="in" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWz" role="3VMn$3">
+              <property role="3VMn$Y" value="different" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqW$" role="3VMn$3">
+              <property role="3VMn$Y" value="fields," />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqW_" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWA" role="3VMn$3">
+              <property role="3VMn$Y" value="which" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWB" role="3VMn$3">
+              <property role="3VMn$Y" value="are" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWC" role="3VMn$3">
+              <property role="3VMn$Y" value="required" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWD" role="3VMn$3">
+              <property role="3VMn$Y" value="at" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWE" role="3VMn$3">
+              <property role="3VMn$Y" value="an" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWF" role="3VMn$3">
+              <property role="3VMn$Y" value="expert" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWG" role="3VMn$3">
+              <property role="3VMn$Y" value="level" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWH" role="3VMn$3">
+              <property role="3VMn$Y" value="for" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWI" role="3VMn$3">
+              <property role="3VMn$Y" value="distinct" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWJ" role="3VMn$3">
+              <property role="3VMn$Y" value="steps" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWK" role="3VMn$3">
+              <property role="3VMn$Y" value="of" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWL" role="3VMn$3">
+              <property role="3VMn$Y" value="an" />
+            </node>
+            <node concept="3VMn$7" id="1PZOZuKhqWM" role="3VMn$3">
+              <property role="3VMn$Y" value="attack." />
+            </node>
+          </node>
+        </node>
       </node>
-      <node concept="3VMn$a" id="7bZZv_jRVju" role="2JHqPs" />
+      <node concept="3VMn$a" id="7bZZv_jRVju" role="2JHqPs">
+        <node concept="3VMn$0" id="1PZOZuKhqJa" role="3VMn$6">
+          <node concept="3VMn$7" id="1PZOZuKhqJb" role="3VMn$3">
+            <property role="3VMn$Y" value="The" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJc" role="3VMn$3">
+            <property role="3VMn$Y" value="expertise" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJd" role="3VMn$3">
+            <property role="3VMn$Y" value="parameter" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJe" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJf" role="3VMn$3">
+            <property role="3VMn$Y" value="related" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJg" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJh" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJi" role="3VMn$3">
+            <property role="3VMn$Y" value="capabilities" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJj" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJk" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJl" role="3VMn$3">
+            <property role="3VMn$Y" value="attacker," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJm" role="3VMn$3">
+            <property role="3VMn$Y" value="relative" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJn" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJo" role="3VMn$3">
+            <property role="3VMn$Y" value="their" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJp" role="3VMn$3">
+            <property role="3VMn$Y" value="skill" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJq" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqJr" role="3VMn$3">
+            <property role="3VMn$Y" value="experience." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhP" role="3Rgdis">
       <property role="TrG5h" value="K" />
@@ -4219,7 +4833,82 @@
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="7bZZv_jRVjN" role="2JHqPs" />
+      <node concept="3VMn$a" id="7bZZv_jRVjN" role="2JHqPs">
+        <node concept="3VMn$0" id="1PZOZuKhqHd" role="3VMn$6">
+          <node concept="3VMn$7" id="1PZOZuKhqHe" role="3VMn$3">
+            <property role="3VMn$Y" value="The" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHf" role="3VMn$3">
+            <property role="3VMn$Y" value="knowledge" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHg" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHh" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHi" role="3VMn$3">
+            <property role="3VMn$Y" value="item" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHj" role="3VMn$3">
+            <property role="3VMn$Y" value="or" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHk" role="3VMn$3">
+            <property role="3VMn$Y" value="component" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHl" role="3VMn$3">
+            <property role="3VMn$Y" value="parameter" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHm" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHn" role="3VMn$3">
+            <property role="3VMn$Y" value="related" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHo" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHp" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHq" role="3VMn$3">
+            <property role="3VMn$Y" value="amount" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHr" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHs" role="3VMn$3">
+            <property role="3VMn$Y" value="information" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHt" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHu" role="3VMn$3">
+            <property role="3VMn$Y" value="attacker" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHv" role="3VMn$3">
+            <property role="3VMn$Y" value="has" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHw" role="3VMn$3">
+            <property role="3VMn$Y" value="acquired" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHx" role="3VMn$3">
+            <property role="3VMn$Y" value="about" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHy" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqHz" role="3VMn$3">
+            <property role="3VMn$Y" value="item" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqH$" role="3VMn$3">
+            <property role="3VMn$Y" value="or" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqH_" role="3VMn$3">
+            <property role="3VMn$Y" value="component." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Rgae8" id="4CQftq3lQh_" role="3Rgdis">
       <property role="TrG5h" value="W" />
@@ -4781,7 +5470,220 @@
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="7bZZv_jRVjz" role="2JHqPs" />
+      <node concept="3VMn$a" id="7bZZv_jRVjz" role="2JHqPs">
+        <node concept="3VMn$0" id="1PZOZuKhqBR" role="3VMn$6">
+          <node concept="3VMn$7" id="1PZOZuKhqBS" role="3VMn$3">
+            <property role="3VMn$Y" value="The" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqBT" role="3VMn$3">
+            <property role="3VMn$Y" value="window" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqBU" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqBV" role="3VMn$3">
+            <property role="3VMn$Y" value="opportunity" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqBW" role="3VMn$3">
+            <property role="3VMn$Y" value="parameter" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqBX" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqBY" role="3VMn$3">
+            <property role="3VMn$Y" value="related" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqBZ" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC0" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC1" role="3VMn$3">
+            <property role="3VMn$Y" value="access" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC2" role="3VMn$3">
+            <property role="3VMn$Y" value="conditions" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC3" role="3VMn$3">
+            <property role="3VMn$Y" value="(time," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC4" role="3VMn$3">
+            <property role="3VMn$Y" value="type)" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC5" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC6" role="3VMn$3">
+            <property role="3VMn$Y" value="successfully" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC7" role="3VMn$3">
+            <property role="3VMn$Y" value="perform" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC8" role="3VMn$3">
+            <property role="3VMn$Y" value="an" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC9" role="3VMn$3">
+            <property role="3VMn$Y" value="attack." />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCa" role="3VMn$3">
+            <property role="3VMn$Y" value="It" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCb" role="3VMn$3">
+            <property role="3VMn$Y" value="combines" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCc" role="3VMn$3">
+            <property role="3VMn$Y" value="access" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCd" role="3VMn$3">
+            <property role="3VMn$Y" value="type" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCe" role="3VMn$3">
+            <property role="3VMn$Y" value="(e.g." />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCf" role="3VMn$3">
+            <property role="3VMn$Y" value="logical" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCg" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCh" role="3VMn$3">
+            <property role="3VMn$Y" value="physical)" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCi" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCj" role="3VMn$3">
+            <property role="3VMn$Y" value="access" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCk" role="3VMn$3">
+            <property role="3VMn$Y" value="duration" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCl" role="3VMn$3">
+            <property role="3VMn$Y" value="(e.g." />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCm" role="3VMn$3">
+            <property role="3VMn$Y" value="unlimited" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCn" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCo" role="3VMn$3">
+            <property role="3VMn$Y" value="limited)." />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCp" role="3VMn$3">
+            <property role="3VMn$Y" value="Depending" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCq" role="3VMn$3">
+            <property role="3VMn$Y" value="on" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCr" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCs" role="3VMn$3">
+            <property role="3VMn$Y" value="type" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCt" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCu" role="3VMn$3">
+            <property role="3VMn$Y" value="attack" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCv" role="3VMn$3">
+            <property role="3VMn$Y" value="this" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCw" role="3VMn$3">
+            <property role="3VMn$Y" value="might" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCx" role="3VMn$3">
+            <property role="3VMn$Y" value="include" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCy" role="3VMn$3">
+            <property role="3VMn$Y" value="discovery" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCz" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC$" role="3VMn$3">
+            <property role="3VMn$Y" value="possible" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqC_" role="3VMn$3">
+            <property role="3VMn$Y" value="targets," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCA" role="3VMn$3">
+            <property role="3VMn$Y" value="access" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCB" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCC" role="3VMn$3">
+            <property role="3VMn$Y" value="a" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCD" role="3VMn$3">
+            <property role="3VMn$Y" value="target," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCE" role="3VMn$3">
+            <property role="3VMn$Y" value="exploit" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCF" role="3VMn$3">
+            <property role="3VMn$Y" value="works" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCG" role="3VMn$3">
+            <property role="3VMn$Y" value="on" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCH" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCI" role="3VMn$3">
+            <property role="3VMn$Y" value="target," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCJ" role="3VMn$3">
+            <property role="3VMn$Y" value="time" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCK" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCL" role="3VMn$3">
+            <property role="3VMn$Y" value="perform" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCM" role="3VMn$3">
+            <property role="3VMn$Y" value="attack" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCN" role="3VMn$3">
+            <property role="3VMn$Y" value="on" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCO" role="3VMn$3">
+            <property role="3VMn$Y" value="a" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCP" role="3VMn$3">
+            <property role="3VMn$Y" value="target," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCQ" role="3VMn$3">
+            <property role="3VMn$Y" value="remaining" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCR" role="3VMn$3">
+            <property role="3VMn$Y" value="undiscovered," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCS" role="3VMn$3">
+            <property role="3VMn$Y" value="circumventing" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCT" role="3VMn$3">
+            <property role="3VMn$Y" value="detections" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCU" role="3VMn$3">
+            <property role="3VMn$Y" value="and" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCV" role="3VMn$3">
+            <property role="3VMn$Y" value="cybersecurity" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCW" role="3VMn$3">
+            <property role="3VMn$Y" value="controls," />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqCX" role="3VMn$3">
+            <property role="3VMn$Y" value="etc." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhK" role="3Rgdis">
       <property role="TrG5h" value="Eq" />
@@ -5455,7 +6357,73 @@
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="7bZZv_jRVjI" role="2JHqPs" />
+      <node concept="3VMn$a" id="7bZZv_jRVjI" role="2JHqPs">
+        <node concept="3VMn$0" id="1PZOZuKhqA0" role="3VMn$6">
+          <node concept="3VMn$7" id="1PZOZuKhqA1" role="3VMn$3">
+            <property role="3VMn$Y" value="The" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqA2" role="3VMn$3">
+            <property role="3VMn$Y" value="equipment" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqA3" role="3VMn$3">
+            <property role="3VMn$Y" value="parameter" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqA4" role="3VMn$3">
+            <property role="3VMn$Y" value="is" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqA5" role="3VMn$3">
+            <property role="3VMn$Y" value="related" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqA6" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqA7" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqA8" role="3VMn$3">
+            <property role="3VMn$Y" value="tools" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqA9" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAa" role="3VMn$3">
+            <property role="3VMn$Y" value="attacker" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAb" role="3VMn$3">
+            <property role="3VMn$Y" value="has" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAc" role="3VMn$3">
+            <property role="3VMn$Y" value="available" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAd" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAe" role="3VMn$3">
+            <property role="3VMn$Y" value="discover" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAf" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAg" role="3VMn$3">
+            <property role="3VMn$Y" value="vulnerability" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAh" role="3VMn$3">
+            <property role="3VMn$Y" value="and/or" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAi" role="3VMn$3">
+            <property role="3VMn$Y" value="to" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAj" role="3VMn$3">
+            <property role="3VMn$Y" value="execute" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAk" role="3VMn$3">
+            <property role="3VMn$Y" value="the" />
+          </node>
+          <node concept="3VMn$7" id="1PZOZuKhqAl" role="3VMn$3">
+            <property role="3VMn$Y" value="attack." />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="3eC5pO" id="1PEmpgFm1T_">
