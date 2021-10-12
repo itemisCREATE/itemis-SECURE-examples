@@ -2,7 +2,7 @@
 <model ref="r:9e0bf89b-7c83-426e-8e13-cd21fab7b94a(MethodConfiguration)">
   <persistence version="9" />
   <languages>
-    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="2" />
+    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="3" />
     <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
   </languages>
   <imports>
@@ -178,6 +178,7 @@
       <concept id="3440241848487300722" name="com.moraad.core.structure.DamageAggregatorRef" flags="ng" index="37eJZ9">
         <reference id="3440241848487300723" name="target" index="37eJZ8" />
       </concept>
+      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO" />
       <concept id="6793729118883371978" name="com.moraad.core.structure.DataFlowSecurityTarget" flags="ng" index="3h3ntD" />
       <concept id="330802076194471423" name="com.moraad.core.structure.RiskTreatment" flags="ng" index="1m7Od3" />
       <concept id="330802076194474985" name="com.moraad.core.structure.RiskTreatmentsDefinition" flags="ng" index="1m7Vll">
@@ -2119,8 +2120,6 @@
       </node>
     </node>
     <node concept="2vMkC4" id="49aGL_C49No" role="_H2pa">
-      <property role="TrG5h" value="S_RU" />
-      <property role="DVXpC" value="Safety" />
       <ref role="i9Qb4" node="4CQftq3lQjp" resolve="S" />
       <node concept="2vPyy4" id="49aGL_C49Np" role="2vMkDN">
         <property role="TrG5h" value="RU.S0" />
@@ -2251,6 +2250,11 @@
         </node>
       </node>
       <node concept="3VMn$a" id="7bZZv_jRVjl" role="2JHqPs">
+        <node concept="3VMn$0" id="5dlb8kgOIRl" role="3VMn$6">
+          <node concept="3VMn$7" id="5dlb8kgOIRm" role="3VMn$3">
+            <property role="3VMn$Y" value="RU.S: Safety" />
+          </node>
+        </node>
         <node concept="3VMn$0" id="5sj6a$CKsh0" role="3VMn$6">
           <node concept="3VMn$7" id="5sj6a$CKsh1" role="3VMn$3">
             <property role="3VMn$Y" value="Safety" />
@@ -2352,8 +2356,6 @@
       </node>
     </node>
     <node concept="2vMkC4" id="49aGL_C49Nx" role="_H2pa">
-      <property role="TrG5h" value="F_RU" />
-      <property role="DVXpC" value="Financial" />
       <ref role="i9Qb4" node="4CQftq3lQjq" resolve="F" />
       <node concept="2vPyy4" id="49aGL_C49Ny" role="2vMkDN">
         <property role="TrG5h" value="RU.F0" />
@@ -2603,14 +2605,18 @@
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="7bZZv_jRVjn" role="2JHqPs" />
+      <node concept="3VMn$a" id="7bZZv_jRVjn" role="2JHqPs">
+        <node concept="3VMn$0" id="5dlb8kgOIRn" role="3VMn$6">
+          <node concept="3VMn$7" id="5dlb8kgOIRo" role="3VMn$3">
+            <property role="3VMn$Y" value="RU.F: Financial" />
+          </node>
+        </node>
+      </node>
       <node concept="3vJEHI" id="4SjRD0NVDYy" role="3vJEH5">
         <ref role="3vJEHH" node="4SjRD0NVDYt" resolve="RU" />
       </node>
     </node>
     <node concept="2vMkC4" id="49aGL_C49NE" role="_H2pa">
-      <property role="TrG5h" value="O_RU" />
-      <property role="DVXpC" value="Operational" />
       <ref role="i9Qb4" node="4CQftq3lQjs" resolve="O" />
       <node concept="2vPyy4" id="49aGL_C49NF" role="2vMkDN">
         <property role="TrG5h" value="RU.O0" />
@@ -2933,6 +2939,11 @@
         </node>
       </node>
       <node concept="3VMn$a" id="7bZZv_jRVjo" role="2JHqPs">
+        <node concept="3VMn$0" id="5dlb8kgOIRp" role="3VMn$6">
+          <node concept="3VMn$7" id="5dlb8kgOIRq" role="3VMn$3">
+            <property role="3VMn$Y" value="RU.O: Operational" />
+          </node>
+        </node>
         <node concept="3VMn$0" id="5sj6a$CKsvy" role="3VMn$6">
           <node concept="3VMn$7" id="5sj6a$CKsvz" role="3VMn$3">
             <property role="3VMn$Y" value="These" />
@@ -2974,8 +2985,6 @@
       </node>
     </node>
     <node concept="2vMkC4" id="49aGL_C49NN" role="_H2pa">
-      <property role="TrG5h" value="P_RU" />
-      <property role="DVXpC" value="Privacy" />
       <ref role="i9Qb4" node="4CQftq3lQjr" resolve="P" />
       <node concept="2vPyy4" id="49aGL_C49NO" role="2vMkDN">
         <property role="TrG5h" value="RU.P0" />
@@ -3459,6 +3468,11 @@
         </node>
       </node>
       <node concept="3VMn$a" id="7bZZv_jRVjp" role="2JHqPs">
+        <node concept="3VMn$0" id="5dlb8kgOIRr" role="3VMn$6">
+          <node concept="3VMn$7" id="5dlb8kgOIRs" role="3VMn$3">
+            <property role="3VMn$Y" value="RU.P: Privacy" />
+          </node>
+        </node>
         <node concept="3VMn$0" id="5sj6a$CKswq" role="3VMn$6">
           <node concept="3VMn$7" id="5sj6a$CKswr" role="3VMn$3">
             <property role="3VMn$Y" value="Personally" />
@@ -5443,6 +5457,9 @@
       </node>
       <node concept="3VMn$a" id="7bZZv_jRVjI" role="2JHqPs" />
     </node>
+  </node>
+  <node concept="3eC5pO" id="1PEmpgFm1T_">
+    <property role="TrG5h" value="Project Info" />
   </node>
 </model>
 

@@ -3120,12 +3120,16 @@
       <node concept="3VMn$a" id="4DMK3dTZ06z" role="2JHqPs" />
     </node>
     <node concept="2vMkC4" id="4CQftq3lQia" role="_H2pa">
-      <property role="TrG5h" value="S'" />
-      <property role="DVXpC" value="Safety" />
       <ref role="i9Qb4" node="4CQftq3lQjp" resolve="S" />
-      <node concept="3VMn$a" id="4DMK3dTZ06A" role="2JHqPs" />
+      <node concept="3VMn$a" id="4DMK3dTZ06A" role="2JHqPs">
+        <node concept="3VMn$0" id="5dlb8kgOIRd" role="3VMn$6">
+          <node concept="3VMn$7" id="5dlb8kgOIRe" role="3VMn$3">
+            <property role="3VMn$Y" value="RU.S: Safety" />
+          </node>
+        </node>
+      </node>
       <node concept="2vPyy4" id="4CQftq3lQib" role="2vMkDN">
-        <property role="TrG5h" value="S0" />
+        <property role="TrG5h" value="RU.S0" />
         <property role="DVXpC" value="No Injuries" />
         <node concept="3VMn$a" id="4DMK3dTZ06H" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI6YW" role="fNCXo">
@@ -3133,7 +3137,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQid" role="2vMkDN">
-        <property role="TrG5h" value="S1" />
+        <property role="TrG5h" value="RU.S1" />
         <property role="DVXpC" value="Light Injury" />
         <node concept="3VMn$a" id="4DMK3dTZ06N" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7ki" role="fNCXo">
@@ -3141,7 +3145,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQif" role="2vMkDN">
-        <property role="TrG5h" value="S2" />
+        <property role="TrG5h" value="RU.S2" />
         <property role="DVXpC" value="Severe Injury" />
         <node concept="3VMn$a" id="4DMK3dTZ06T" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7kO" role="fNCXo">
@@ -3149,7 +3153,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="5wtRytMI6YD" role="2vMkDN">
-        <property role="TrG5h" value="S3" />
+        <property role="TrG5h" value="RU.S3" />
         <property role="DVXpC" value="Life Threatening" />
         <node concept="3VMn$a" id="4DMK3dTZ06Z" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7lm" role="fNCXo">
@@ -3161,12 +3165,16 @@
       </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQhU" role="_H2pa">
-      <property role="TrG5h" value="F'" />
-      <property role="DVXpC" value="Financial" />
       <ref role="i9Qb4" node="4CQftq3lQjq" resolve="F" />
-      <node concept="3VMn$a" id="4DMK3dTZ075" role="2JHqPs" />
+      <node concept="3VMn$a" id="4DMK3dTZ075" role="2JHqPs">
+        <node concept="3VMn$0" id="5dlb8kgOIRf" role="3VMn$6">
+          <node concept="3VMn$7" id="5dlb8kgOIRg" role="3VMn$3">
+            <property role="3VMn$Y" value="RU.F: Financial" />
+          </node>
+        </node>
+      </node>
       <node concept="2vPyy4" id="4CQftq3lQhV" role="2vMkDN">
-        <property role="TrG5h" value="F0" />
+        <property role="TrG5h" value="RU.F0" />
         <property role="DVXpC" value="Negligible Losses" />
         <node concept="3VMn$a" id="4DMK3dTZ07c" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI6Yt" role="fNCXo">
@@ -3174,7 +3182,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQhZ" role="2vMkDN">
-        <property role="TrG5h" value="F1" />
+        <property role="TrG5h" value="RU.F1" />
         <property role="DVXpC" value="Moderate Losses" />
         <node concept="3VMn$a" id="4DMK3dTZ07i" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7iG" role="fNCXo">
@@ -3182,7 +3190,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQi1" role="2vMkDN">
-        <property role="TrG5h" value="F2" />
+        <property role="TrG5h" value="RU.F2" />
         <property role="DVXpC" value="Substantial Losses" />
         <node concept="3VMn$a" id="4DMK3dTZ07o" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7je" role="fNCXo">
@@ -3190,7 +3198,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="5wtRytMI6Yj" role="2vMkDN">
-        <property role="TrG5h" value="F3" />
+        <property role="TrG5h" value="RU.F3" />
         <property role="DVXpC" value="Personal Bankruptcy" />
         <node concept="3VMn$a" id="4DMK3dTZ07u" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7jK" role="fNCXo">
@@ -3202,12 +3210,16 @@
       </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQiz" role="_H2pa">
-      <property role="TrG5h" value="O'" />
-      <property role="DVXpC" value="Operational" />
       <ref role="i9Qb4" node="4CQftq3lQjs" resolve="O" />
-      <node concept="3VMn$a" id="4DMK3dTZ07$" role="2JHqPs" />
+      <node concept="3VMn$a" id="4DMK3dTZ07$" role="2JHqPs">
+        <node concept="3VMn$0" id="5dlb8kgOIRh" role="3VMn$6">
+          <node concept="3VMn$7" id="5dlb8kgOIRi" role="3VMn$3">
+            <property role="3VMn$Y" value="RU.O: Operational" />
+          </node>
+        </node>
+      </node>
       <node concept="2vPyy4" id="4CQftq3lQi$" role="2vMkDN">
-        <property role="TrG5h" value="O0" />
+        <property role="TrG5h" value="RU.O0" />
         <property role="DVXpC" value="Negligible Disturbance" />
         <node concept="3VMn$a" id="4DMK3dTZ07F" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI70D" role="fNCXo">
@@ -3215,7 +3227,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiA" role="2vMkDN">
-        <property role="TrG5h" value="O1" />
+        <property role="TrG5h" value="RU.O1" />
         <property role="DVXpC" value="Vehicle mostly Operational" />
         <node concept="3VMn$a" id="4DMK3dTZ07L" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7nu" role="fNCXo">
@@ -3223,7 +3235,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiC" role="2vMkDN">
-        <property role="TrG5h" value="O2" />
+        <property role="TrG5h" value="RU.O2" />
         <property role="DVXpC" value="Serious Limitation in Vehicle Operation" />
         <node concept="3VMn$a" id="4DMK3dTZ07R" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7o0" role="fNCXo">
@@ -3231,7 +3243,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="5wtRytMI70m" role="2vMkDN">
-        <property role="TrG5h" value="O3" />
+        <property role="TrG5h" value="RU.O3" />
         <property role="DVXpC" value="Vehicle not Operational" />
         <node concept="3VMn$a" id="4DMK3dTZ07X" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7oy" role="fNCXo">
@@ -3243,12 +3255,16 @@
       </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQiq" role="_H2pa">
-      <property role="TrG5h" value="P'" />
-      <property role="DVXpC" value="Privacy" />
       <ref role="i9Qb4" node="4CQftq3lQjr" resolve="P" />
-      <node concept="3VMn$a" id="4DMK3dTZ083" role="2JHqPs" />
+      <node concept="3VMn$a" id="4DMK3dTZ083" role="2JHqPs">
+        <node concept="3VMn$0" id="5dlb8kgOIRj" role="3VMn$6">
+          <node concept="3VMn$7" id="5dlb8kgOIRk" role="3VMn$3">
+            <property role="3VMn$Y" value="RU.P: Privacy" />
+          </node>
+        </node>
+      </node>
       <node concept="2vPyy4" id="4CQftq3lQir" role="2vMkDN">
-        <property role="TrG5h" value="P0" />
+        <property role="TrG5h" value="RU.P0" />
         <property role="DVXpC" value="Few Inconveniences" />
         <node concept="3VMn$a" id="4DMK3dTZ08a" role="2JHqPs" />
         <node concept="fNHgS" id="4CQftq3lQis" role="fNCXo">
@@ -3256,7 +3272,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQit" role="2vMkDN">
-        <property role="TrG5h" value="P1" />
+        <property role="TrG5h" value="RU.P1" />
         <property role="DVXpC" value="Significant Inconveniences" />
         <node concept="3VMn$a" id="4DMK3dTZ08g" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7lS" role="fNCXo">
@@ -3264,7 +3280,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiv" role="2vMkDN">
-        <property role="TrG5h" value="P2" />
+        <property role="TrG5h" value="RU.P2" />
         <property role="DVXpC" value="Serious Impact on PII" />
         <node concept="3VMn$a" id="4DMK3dTZ08m" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7mq" role="fNCXo">
@@ -3272,7 +3288,7 @@
         </node>
       </node>
       <node concept="2vPyy4" id="5wtRytMI6YZ" role="2vMkDN">
-        <property role="TrG5h" value="P3" />
+        <property role="TrG5h" value="RU.P3" />
         <property role="DVXpC" value="Irreversible Impact on PII" />
         <node concept="3VMn$a" id="4DMK3dTZ08s" role="2JHqPs" />
         <node concept="fNHgS" id="5wtRytMI7mW" role="fNCXo">
