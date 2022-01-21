@@ -401,7 +401,7 @@
       <property role="3te8Ie" value="true" />
       <node concept="37A2tZ" id="5xKerYxTPDG" role="37Y_fq">
         <node concept="pgv_Y" id="5xKerYxTPDH" role="37AdOr">
-          <ref role="122Z_O" node="1gd6fL4cfD4" resolve="TS.7" />
+          <ref role="122Z_O" node="1gd6fL4cfD4" resolve="TS.1" />
         </node>
       </node>
       <node concept="37A2tW" id="5xKerYxTPDI" role="37Y_fg" />
@@ -416,7 +416,7 @@
       <property role="3te8Ie" value="true" />
       <node concept="37A2tZ" id="5xKerYxTPDK" role="37Y_fq">
         <node concept="pgv_Y" id="5xKerYxTPDL" role="37AdOr">
-          <ref role="122Z_O" node="1gd6fL4cfDd" resolve="TS.8" />
+          <ref role="122Z_O" node="1gd6fL4cfDd" resolve="TS.2" />
         </node>
       </node>
       <node concept="37A2tW" id="5xKerYxTPDM" role="37Y_fg" />
@@ -431,7 +431,7 @@
       <property role="3te8Ie" value="true" />
       <node concept="37A2tZ" id="5xKerYxTPDO" role="37Y_fq">
         <node concept="pgv_Y" id="5xKerYxTPDP" role="37AdOr">
-          <ref role="122Z_O" node="1gd6fL4cfDm" resolve="TS.9" />
+          <ref role="122Z_O" node="1gd6fL4cfDm" resolve="TS.3" />
         </node>
       </node>
       <node concept="37A2tW" id="5xKerYxTPDQ" role="37Y_fg" />
@@ -446,7 +446,7 @@
       <property role="3te8Ie" value="true" />
       <node concept="37A2tZ" id="5xKerYxTPDS" role="37Y_fq">
         <node concept="pgv_Y" id="5xKerYxTPDT" role="37AdOr">
-          <ref role="122Z_O" node="1gd6fL4cfDv" resolve="TS.10" />
+          <ref role="122Z_O" node="1gd6fL4cfDv" resolve="TS.4" />
         </node>
       </node>
       <node concept="37A2tW" id="5xKerYxTPDU" role="37Y_fg" />
@@ -458,7 +458,7 @@
     <node concept="3u6799" id="702oElbSvKf" role="2xH1$J" />
     <node concept="2vM170" id="1gd6fL4cfD4" role="2vPz$N">
       <property role="DVXpC" value="Manipulation on mobile communication as MitM" />
-      <property role="TrG5h" value="TS.7" />
+      <property role="TrG5h" value="TS.1" />
       <node concept="37A2tZ" id="1gd6fL4cfD6" role="37Y_fq">
         <node concept="pgv_Y" id="1gd6fL4cfDc" role="37AdOr">
           <ref role="122Z_O" node="1UEFqBLBtFT" resolve="MitM (mobile)" />
@@ -478,7 +478,7 @@
     </node>
     <node concept="2vM170" id="1gd6fL4cfDd" role="2vPz$N">
       <property role="DVXpC" value="Jamming the mobile connection between vehicle and server" />
-      <property role="TrG5h" value="TS.8" />
+      <property role="TrG5h" value="TS.2" />
       <node concept="37A2tZ" id="1gd6fL4cfDf" role="37Y_fq">
         <node concept="pgv_Y" id="1gd6fL4cfDl" role="37AdOr">
           <ref role="122Z_O" node="1UEFqBLBtGl" resolve="Jamming (mobile)" />
@@ -498,7 +498,7 @@
     </node>
     <node concept="2vM170" id="1gd6fL4cfDm" role="2vPz$N">
       <property role="DVXpC" value="Eavesdropping on the mobile connection between vehicle and server" />
-      <property role="TrG5h" value="TS.9" />
+      <property role="TrG5h" value="TS.3" />
       <node concept="37A2tZ" id="1gd6fL4cfDo" role="37Y_fq">
         <node concept="pgv_Y" id="1gd6fL4cfDu" role="37AdOr">
           <ref role="122Z_O" node="1UEFqBLBtGV" resolve="Eavesdropping (mobile)" />
@@ -518,7 +518,7 @@
     </node>
     <node concept="2vM170" id="1gd6fL4cfDv" role="2vPz$N">
       <property role="DVXpC" value="Extracting the common secret from a single ECU" />
-      <property role="TrG5h" value="TS.10" />
+      <property role="TrG5h" value="TS.4" />
       <node concept="37A2tZ" id="1gd6fL4cfDx" role="37Y_fq">
         <node concept="pgv_Y" id="1gd6fL4cfDA" role="37AdOr">
           <ref role="122Z_O" node="1UEFqBLBu35" resolve="Key extraction" />

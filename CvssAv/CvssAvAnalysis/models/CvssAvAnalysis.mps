@@ -211,7 +211,6 @@
       <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ng" index="37AdO$">
         <child id="3440241848481148064" name="expression" index="37AdOr" />
       </concept>
-      <concept id="4601417698506916745" name="com.moraad.core.structure.EmptyAnalysisElement" flags="ng" index="19qcqd" />
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
       </concept>
@@ -1564,8 +1563,7 @@
   </node>
   <node concept="2vPz$R" id="1gd6fL4cfwC">
     <property role="3GE5qa" value="Security Analysis" />
-    <property role="TrG5h" value="Threat Scenarios" />
-    <node concept="19qcqd" id="1gd6fL4cfwD" role="2vPz$N" />
+    <property role="TrG5h" value="Migrated Threat Scenarios" />
     <node concept="3u6799" id="1gd6fL4cfwE" role="2xH1$J" />
     <node concept="2vM170" id="1gd6fL4cfww" role="2vPz$N">
       <property role="TrG5h" value="TS.4" />
