@@ -3476,7 +3476,7 @@
       <ref role="3XNEje" to="kc1e:5ZaGJmYxlG9" resolve="PropagationOperationMode" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_F9" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYxlHg" resolve="Mode_Threat" />
+      <ref role="3XNEje" to="kc1e:5ZaGJmYxlHg" resolve="Mode_AttackStep" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_EZ" role="3XNixv">
       <ref role="3XNEje" to="kc1e:5ZaGJmYxlHS" resolve="Mode_Mitigation" />
@@ -3611,7 +3611,7 @@
       <ref role="3XNEje" to="kc1e:1ZE7Y0_HczB" resolve="Stakeholders" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Dy" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIB1pMm" resolve="SecurityGoalAssistant" />
+      <ref role="3XNEje" to="kc1e:6YPQdIB1pMm" resolve="ThreatScenarioAssistant" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Fo" role="3XNixv">
       <ref role="3XNEje" to="kc1e:6YPQdIB1pKY" resolve="ThreatAsssistant" />
@@ -3734,28 +3734,19 @@
       <ref role="3XNEje" to="kc1e:6IPKVn$5i4z" resolve="AssumptionsCatalog" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_ER" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjUQ" resolve="SecurityGoal" />
+      <ref role="3XNEje" to="kc1e:3xoDER5AjUQ" resolve="ThreatScenario" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Cj" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlSADDz" resolve="SecurityGoal_Abbrev" />
+      <ref role="3XNEje" to="kc1e:3$wJFlSADDz" resolve="ThreatScenario_Abbrev" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_C4" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlS$GWv" resolve="SecurityGoals" />
+      <ref role="3XNEje" to="kc1e:3$wJFlS$GWv" resolve="ThreatScenarios" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_BO" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjUS" resolve="Threat" />
+      <ref role="3XNEje" to="kc1e:3xoDER5AjUS" resolve="AttackStep" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Ba" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlS$OrY" resolve="Threats" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E1" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:4v_wDhTbmOa" resolve="AlternativeThreatsChunkName" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E9" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:4TnpIjfV0Mj" resolve="ThreatScenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E7" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:4TnpIjfV0Qz" resolve="ThreatScenarios" />
+      <ref role="3XNEje" to="kc1e:3$wJFlS$OrY" resolve="AttackSteps" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_BU" role="3XNixv">
       <ref role="3XNEje" to="kc1e:3xoDER5AjUV" resolve="Control" />
@@ -4027,9 +4018,6 @@
     <node concept="3XNixs" id="20HkN2s1_CZ" role="3XNixv">
       <ref role="3XNEje" to="kc1e:4SCACCMPQ7H" resolve="DamageScenarios" />
     </node>
-    <node concept="3XNixs" id="20HkN2s1_Fm" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:7sK5zqd4eav" resolve="Derived_ThreatScenarios" />
-    </node>
     <node concept="3XNixs" id="20HkN2s1_EO" role="3XNixv">
       <ref role="3XNEje" to="kc1e:67mOi6ZOISe" resolve="DefaultContent" />
     </node>
@@ -4046,13 +4034,13 @@
       <ref role="3XNEje" to="kc1e:3WPvfJaFXcu" resolve="NamePattern_Technology" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_D2" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFVGM" resolve="NamePattern_SecurityGoal" />
+      <ref role="3XNEje" to="kc1e:3WPvfJaFVGM" resolve="NamePattern_ThreatScenario" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_BP" role="3XNixv">
       <ref role="3XNEje" to="kc1e:308xaqvfuvB" resolve="NamePattern_DamageScenario" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Bj" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFVK0" resolve="NamePattern_Threat" />
+      <ref role="3XNEje" to="kc1e:3WPvfJaFVK0" resolve="NamePattern_AttackStep" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_CG" role="3XNixv">
       <ref role="3XNEje" to="kc1e:3WPvfJaFWBR" resolve="NamePattern_Control" />
@@ -4142,10 +4130,10 @@
       <ref role="3XNEje" to="kc1e:3WPvfJaIfg0" resolve="TitlePattern_Data" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_EI" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaZpEj" resolve="TitlePattern_SecurityGoal" />
+      <ref role="3XNEje" to="kc1e:3WPvfJaZpEj" resolve="TitlePattern_ThreatScenario" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Dq" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaZpHU" resolve="TitlePattern_Threat" />
+      <ref role="3XNEje" to="kc1e:3WPvfJaZpHU" resolve="TitlePattern_AttackStep" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Ft" role="3XNixv">
       <ref role="3XNEje" to="kc1e:4m79sK2iw$" resolve="TitlePattern_Control" />
