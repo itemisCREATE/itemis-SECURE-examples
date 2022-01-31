@@ -188,8 +188,7 @@
       </concept>
       <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
-        <child id="5881212297626401390" name="csProperties" index="3Dc7$2" />
-        <child id="5881212297626401361" name="toees" index="3Dc7$X" />
+        <child id="6639352543897202452" name="concerns" index="1xHTzy" />
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
@@ -222,6 +221,10 @@
         <child id="330802076191738029" name="riskTreatments" index="1mMvoh" />
       </concept>
       <concept id="7050052209577206632" name="com.moraad.core.structure.ThreatScenarioContentSelector" flags="ng" index="3u6799" />
+      <concept id="6639352543897201246" name="com.moraad.core.structure.QualifiedAsset" flags="ng" index="1xHTQC">
+        <child id="6639352543897202354" name="toee" index="1xHT_4" />
+        <child id="6639352543897202338" name="csProperty" index="1xHT_k" />
+      </concept>
       <concept id="6006699537889785861" name="com.moraad.core.structure.Threat" flags="ng" index="3Rc6Py">
         <child id="8078319461080000624" name="actsOn" index="2NPTNf" />
         <child id="2490900209647547471" name="threatClass" index="Oro34" />
@@ -772,20 +775,53 @@
           <ref role="122Z_O" to="nb9t:4CQftq3lQiA" resolve="RU.O1" />
         </node>
       </node>
-      <node concept="3$0O7b" id="1gd6fL4cfwr" role="3Dc7$X">
-        <ref role="122Z_O" node="1c2jTNFeWJa" resolve="Cmp.1" />
+      <node concept="1xHTQC" id="4yGCEIRCGbP" role="1xHTzy">
+        <node concept="3RtnZZ" id="4yGCEIRCGbQ" role="1xHT_k">
+          <ref role="122Z_O" to="nb9t:4CQftq3lQjb" resolve="A" />
+        </node>
+        <node concept="3$0O7b" id="4yGCEIRCGbR" role="1xHT_4">
+          <ref role="122Z_O" node="1c2jTNFeWJa" resolve="Cmp.1" />
+        </node>
       </node>
-      <node concept="3$0O7b" id="1gd6fL4cfws" role="3Dc7$X">
-        <ref role="122Z_O" node="1c2jTNFhLbE" resolve="Cmp.2" />
+      <node concept="1xHTQC" id="4yGCEIRCGbS" role="1xHTzy">
+        <node concept="3RtnZZ" id="4yGCEIRCGbT" role="1xHT_k">
+          <ref role="122Z_O" to="nb9t:4CQftq3lQjb" resolve="A" />
+        </node>
+        <node concept="3$0O7b" id="4yGCEIRCGbU" role="1xHT_4">
+          <ref role="122Z_O" node="1c2jTNFhLbE" resolve="Cmp.2" />
+        </node>
       </node>
-      <node concept="3$0O7b" id="1gd6fL4cfwt" role="3Dc7$X">
-        <ref role="122Z_O" node="1c2jTNFhLbK" resolve="Cmp.3" />
+      <node concept="1xHTQC" id="4yGCEIRCGbV" role="1xHTzy">
+        <node concept="3RtnZZ" id="4yGCEIRCGbW" role="1xHT_k">
+          <ref role="122Z_O" to="nb9t:4CQftq3lQjb" resolve="A" />
+        </node>
+        <node concept="3$0O7b" id="4yGCEIRCGbX" role="1xHT_4">
+          <ref role="122Z_O" node="1c2jTNFhLbK" resolve="Cmp.3" />
+        </node>
       </node>
-      <node concept="3RtnZZ" id="1gd6fL4cfwu" role="3Dc7$2">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" resolve="A" />
+      <node concept="1xHTQC" id="4yGCEIRCGbY" role="1xHTzy">
+        <node concept="3RtnZZ" id="4yGCEIRCGbZ" role="1xHT_k">
+          <ref role="122Z_O" to="nb9t:4CQftq3lQja" resolve="C" />
+        </node>
+        <node concept="3$0O7b" id="4yGCEIRCGc0" role="1xHT_4">
+          <ref role="122Z_O" node="1c2jTNFeWJa" resolve="Cmp.1" />
+        </node>
       </node>
-      <node concept="3RtnZZ" id="1gd6fL4cfwv" role="3Dc7$2">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQja" resolve="C" />
+      <node concept="1xHTQC" id="4yGCEIRCGc1" role="1xHTzy">
+        <node concept="3RtnZZ" id="4yGCEIRCGc2" role="1xHT_k">
+          <ref role="122Z_O" to="nb9t:4CQftq3lQja" resolve="C" />
+        </node>
+        <node concept="3$0O7b" id="4yGCEIRCGc3" role="1xHT_4">
+          <ref role="122Z_O" node="1c2jTNFhLbE" resolve="Cmp.2" />
+        </node>
+      </node>
+      <node concept="1xHTQC" id="4yGCEIRCGc4" role="1xHTzy">
+        <node concept="3RtnZZ" id="4yGCEIRCGc5" role="1xHT_k">
+          <ref role="122Z_O" to="nb9t:4CQftq3lQja" resolve="C" />
+        </node>
+        <node concept="3$0O7b" id="4yGCEIRCGc6" role="1xHT_4">
+          <ref role="122Z_O" node="1c2jTNFhLbK" resolve="Cmp.3" />
+        </node>
       </node>
     </node>
   </node>
