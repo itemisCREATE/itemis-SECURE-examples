@@ -769,6 +769,56 @@
         <ref role="122Z_O" node="1c2jTNFeWTi" resolve="DS.1" />
       </node>
     </node>
+    <node concept="2vM170" id="60wEthBTKEB" role="2vPz$N">
+      <property role="TrG5h" value="TS.4" />
+      <node concept="37A2tZ" id="60wEthBTKED" role="37Y_fq">
+        <node concept="pgv_Y" id="60wEthBTKEI" role="37AdOr">
+          <ref role="122Z_O" node="1c2jTNFeVOl" resolve="AS.CWE-134_Car-A" />
+        </node>
+      </node>
+      <node concept="37A2tW" id="60wEthBTKEE" role="37Y_fg" />
+      <node concept="3$0O7b" id="60wEthBTKEF" role="3BFlIh">
+        <ref role="122Z_O" node="1c2jTNFeWJa" resolve="Cmp.1" />
+      </node>
+      <node concept="122ZmF" id="60wEthBTKEG" role="3BUDrm">
+        <ref role="122Z_O" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
+      </node>
+      <node concept="3VMn$a" id="60wEthBTKEH" role="2JHqPs" />
+    </node>
+    <node concept="2vM170" id="60wEthBTKEM" role="2vPz$N">
+      <property role="TrG5h" value="TS.5" />
+      <node concept="37A2tZ" id="60wEthBTKEO" role="37Y_fq">
+        <node concept="pgv_Y" id="60wEthBTKET" role="37AdOr">
+          <ref role="122Z_O" node="1c2jTNFhL0k" resolve="AS.CWE-134_Car-B" />
+        </node>
+      </node>
+      <node concept="37A2tW" id="60wEthBTKEP" role="37Y_fg" />
+      <node concept="3$0O7b" id="60wEthBTKEQ" role="3BFlIh">
+        <ref role="122Z_O" node="1c2jTNFhLbE" resolve="Cmp.2" />
+      </node>
+      <node concept="122ZmF" id="60wEthBTKER" role="3BUDrm">
+        <ref role="122Z_O" to="wb2r:1c2jTNFhLmo" resolve="TC.CWE-20" />
+      </node>
+      <node concept="3VMn$a" id="60wEthBTKES" role="2JHqPs" />
+    </node>
+    <node concept="2vM170" id="60wEthBTKEU" role="2vPz$N">
+      <property role="TrG5h" value="TS.6" />
+      <node concept="37A2tZ" id="60wEthBTKEW" role="37Y_fq">
+        <node concept="pgv_Y" id="60wEthBTKF1" role="37AdOr">
+          <ref role="122Z_O" node="1c2jTNFhL5r" resolve="AS.CWE-134_Car-C" />
+        </node>
+      </node>
+      <node concept="37A2tW" id="60wEthBTKEX" role="37Y_fg" />
+      <node concept="3$0O7b" id="60wEthBTKEY" role="3BFlIh">
+        <ref role="122Z_O" node="1c2jTNFhLbK" resolve="Cmp.3" />
+      </node>
+      <node concept="122ZmF" id="60wEthBTKEZ" role="3BUDrm">
+        <ref role="122Z_O" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
+      </node>
+      <node concept="3VMn$a" id="60wEthBTKF0" role="2JHqPs" />
+    </node>
+    <node concept="19qcqd" id="60wEthBVUsn" role="2vPz$N" />
+    <node concept="3u6799" id="60wEthBVUwd" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="5a5CPNXLFOy">
     <property role="TrG5h" value="Damage Scenarios" />
@@ -1584,60 +1634,6 @@
     <node concept="3xttxm" id="5wtRytMI6i5" role="yp9Ks" />
     <node concept="3xttxO" id="5wtRytMI6i6" role="yp9Ks" />
     <node concept="3xttxa" id="5wtRytMI6i7" role="yp9Ks" />
-  </node>
-  <node concept="2vPz$R" id="60wEthBTKEJ">
-    <property role="3GE5qa" value="Security Analysis" />
-    <property role="TrG5h" value="Threat Scenarios" />
-    <node concept="19qcqd" id="60wEthBTKEK" role="2vPz$N" />
-    <node concept="3u6799" id="60wEthBTKEL" role="2xH1$J" />
-    <node concept="2vM170" id="60wEthBTKEB" role="2vPz$N">
-      <property role="TrG5h" value="TS.4" />
-      <node concept="37A2tZ" id="60wEthBTKED" role="37Y_fq">
-        <node concept="pgv_Y" id="60wEthBTKEI" role="37AdOr">
-          <ref role="122Z_O" node="1c2jTNFeVOl" resolve="AS.CWE-134_Car-A" />
-        </node>
-      </node>
-      <node concept="37A2tW" id="60wEthBTKEE" role="37Y_fg" />
-      <node concept="3$0O7b" id="60wEthBTKEF" role="3BFlIh">
-        <ref role="122Z_O" node="1c2jTNFeWJa" resolve="Cmp.1" />
-      </node>
-      <node concept="122ZmF" id="60wEthBTKEG" role="3BUDrm">
-        <ref role="122Z_O" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
-      </node>
-      <node concept="3VMn$a" id="60wEthBTKEH" role="2JHqPs" />
-    </node>
-    <node concept="2vM170" id="60wEthBTKEM" role="2vPz$N">
-      <property role="TrG5h" value="TS.5" />
-      <node concept="37A2tZ" id="60wEthBTKEO" role="37Y_fq">
-        <node concept="pgv_Y" id="60wEthBTKET" role="37AdOr">
-          <ref role="122Z_O" node="1c2jTNFhL0k" resolve="AS.CWE-134_Car-B" />
-        </node>
-      </node>
-      <node concept="37A2tW" id="60wEthBTKEP" role="37Y_fg" />
-      <node concept="3$0O7b" id="60wEthBTKEQ" role="3BFlIh">
-        <ref role="122Z_O" node="1c2jTNFhLbE" resolve="Cmp.2" />
-      </node>
-      <node concept="122ZmF" id="60wEthBTKER" role="3BUDrm">
-        <ref role="122Z_O" to="wb2r:1c2jTNFhLmo" resolve="TC.CWE-20" />
-      </node>
-      <node concept="3VMn$a" id="60wEthBTKES" role="2JHqPs" />
-    </node>
-    <node concept="2vM170" id="60wEthBTKEU" role="2vPz$N">
-      <property role="TrG5h" value="TS.6" />
-      <node concept="37A2tZ" id="60wEthBTKEW" role="37Y_fq">
-        <node concept="pgv_Y" id="60wEthBTKF1" role="37AdOr">
-          <ref role="122Z_O" node="1c2jTNFhL5r" resolve="AS.CWE-134_Car-C" />
-        </node>
-      </node>
-      <node concept="37A2tW" id="60wEthBTKEX" role="37Y_fg" />
-      <node concept="3$0O7b" id="60wEthBTKEY" role="3BFlIh">
-        <ref role="122Z_O" node="1c2jTNFhLbK" resolve="Cmp.3" />
-      </node>
-      <node concept="122ZmF" id="60wEthBTKEZ" role="3BUDrm">
-        <ref role="122Z_O" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
-      </node>
-      <node concept="3VMn$a" id="60wEthBTKF0" role="2JHqPs" />
-    </node>
   </node>
 </model>
 
