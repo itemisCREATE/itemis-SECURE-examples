@@ -78,7 +78,7 @@
       <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
         <reference id="1019912726748740255" name="diagram" index="2HTkYB" />
       </concept>
-      <concept id="6986877318773203687" name="com.moraad.reports.structure.SecurityGoalTableReportItem" flags="ng" index="ygVO0">
+      <concept id="6986877318773203687" name="com.moraad.reports.structure.ThreatScenarioTableReportItem" flags="ng" index="ygVO0">
         <property id="6986877318783274648" name="exportRationale" index="zIt5Z" />
       </concept>
       <concept id="6986877318773203685" name="com.moraad.reports.structure.RiskTableReportItem" flags="ng" index="ygVO2" />
@@ -325,9 +325,6 @@
         <child id="3260991312725364852" name="newDataChunk" index="1BS0SA" />
         <child id="3260991312725608311" name="newDataFlowsChunk" index="1BT5$_" />
         <child id="7472593337833908268" name="rootComponent" index="3Vepgw" />
-      </concept>
-      <concept id="550549805688734128" name="com.moraad.components.structure.ITOEE" flags="ng" index="2oBNeh">
-        <child id="4211484313445104524" name="dependsOn" index="1at4$B" />
       </concept>
       <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6" />
       <concept id="5188113475686638955" name="com.moraad.components.structure.TOEData" flags="ng" index="2zhWjs">
@@ -1192,17 +1189,11 @@
           </node>
         </node>
       </node>
-      <node concept="3KzYab" id="60wEthBTLea" role="1at4$B">
-        <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
-      </node>
     </node>
     <node concept="2zhWjs" id="1E_VH$V8u6n" role="2lbk3h">
       <property role="TrG5h" value="SW Update" />
       <property role="DVXpC" value="Software-Updates for ECUs" />
       <node concept="3VMn$a" id="4O7c2ukuwsf" role="2JHqPs" />
-      <node concept="3KzYab" id="60wEthBTLe9" role="1at4$B">
-        <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
-      </node>
     </node>
     <node concept="2zhWjs" id="1UEFqBLBtUe" role="2lbk3h">
       <property role="TrG5h" value="AES key" />
