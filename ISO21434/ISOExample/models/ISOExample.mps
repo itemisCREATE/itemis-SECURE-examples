@@ -94,7 +94,6 @@
       <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
         <reference id="1019912726748740255" name="diagram" index="2HTkYB" />
       </concept>
-      <concept id="6986877318773203687" name="com.moraad.reports.structure.SecurityGoalTableReportItem" flags="ng" index="ygVO0" />
       <concept id="6986877318773203685" name="com.moraad.reports.structure.RiskTableReportItem" flags="ng" index="ygVO2" />
       <concept id="6986877318773203683" name="com.moraad.reports.structure.ControlsTableReportItem" flags="ng" index="ygVO4">
         <property id="3868026684445433283" name="showRationaleKeyword" index="2DHY05" />
@@ -132,7 +131,6 @@
       <concept id="2129184553237375048" name="com.moraad.reports.structure.FunctionTableReportItem" flags="ng" index="3xuwDp" />
       <concept id="2129184553228409378" name="com.moraad.reports.structure.FuncAssignmentSimpleTableReportItem" flags="ng" index="3xSvwN" />
       <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
-      <concept id="6201211625638961343" name="com.moraad.reports.structure.TARASheetReportItem" flags="ng" index="1Hd86x" />
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1">
         <property id="8588388912954702330" name="exportRationale" index="3UCmZc" />
         <property id="8588388912954702331" name="showRationaleKeyWord" index="3UCmZd" />
@@ -4214,7 +4212,6 @@
   </node>
   <node concept="ypf9M" id="4Y95JFqurxe">
     <property role="TrG5h" value="Result Report (Excel)" />
-    <node concept="1Hd86x" id="4Y95JFqury2" role="yp9Ks" />
   </node>
   <node concept="ypf9M" id="1k$QKsQQXoh">
     <property role="TrG5h" value="All in one Report" />
@@ -4311,7 +4308,6 @@
     <node concept="ymko6" id="1k$QKsQSDxs" role="yp9Ks" />
     <node concept="ygVO2" id="1k$QKsQSE2$" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSEyG" role="yp9Ks" />
-    <node concept="ygVO0" id="1k$QKsQSF4X" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSFAc" role="yp9Ks" />
     <node concept="ksrOh" id="1k$QKsQSG8x" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSGDM" role="yp9Ks" />

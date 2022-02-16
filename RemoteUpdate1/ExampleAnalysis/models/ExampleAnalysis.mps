@@ -76,9 +76,6 @@
       <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
         <reference id="1019912726748740255" name="diagram" index="2HTkYB" />
       </concept>
-      <concept id="6986877318773203687" name="com.moraad.reports.structure.SecurityGoalTableReportItem" flags="ng" index="ygVO0">
-        <property id="6986877318783274648" name="exportRationale" index="zIt5Z" />
-      </concept>
       <concept id="6986877318773203685" name="com.moraad.reports.structure.RiskTableReportItem" flags="ng" index="ygVO2" />
       <concept id="6986877318773203683" name="com.moraad.reports.structure.ControlsTableReportItem" flags="ng" index="ygVO4" />
       <concept id="6986877318773203681" name="com.moraad.reports.structure.ThreatTableReportItem" flags="ng" index="ygVO6" />
@@ -2157,9 +2154,6 @@
       <property role="2JOk3V" value=" security elements" />
     </node>
     <node concept="ygVOy" id="4zEluziIFsK" role="yp9Ks" />
-    <node concept="ygVO0" id="4zEluziIFsL" role="yp9Ks">
-      <property role="zIt5Z" value="true" />
-    </node>
     <node concept="ygVO6" id="4zEluziIFsM" role="yp9Ks" />
     <node concept="ygVO4" id="4zEluziIFsN" role="yp9Ks" />
     <node concept="ygVO2" id="4zEluziIFsO" role="yp9Ks" />
