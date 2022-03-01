@@ -27,33 +27,36 @@
       </concept>
     </language>
     <language id="8aedd025-5f31-4a1e-81a1-4c5345407211" name="com.moraad.suggestions">
-      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.AssAcceptedThreatAssistantSuggestion" flags="ng" index="k5Jqw">
-        <child id="1744555010771063083" name="actingThreats" index="k5Jqx" />
+      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.AssAcceptedThreatScenarioAssistantSuggestion" flags="ng" index="k5Jqw">
+        <child id="1744555010771063083" name="actingThreatScenarios" index="k5Jqx" />
       </concept>
-      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.AssThreatAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
-      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.AssAdditionThreatAssistantSuggestion" flags="ng" index="k5JqA" />
+      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.AssThreatScenarioAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
+      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.AssAdditionThreatScenarioAssistantSuggestion" flags="ng" index="k5JqA" />
       <concept id="1744555010776338337" name="com.moraad.suggestions.structure.RelationAssistantSelector" flags="ng" index="khAwF" />
-      <concept id="1744555010776336880" name="com.moraad.suggestions.structure.SecGoalAssistantSelector" flags="ng" index="khATU" />
-      <concept id="1744555010776327868" name="com.moraad.suggestions.structure.ThreatAssistantSelector" flags="ng" index="khC4Q" />
-      <concept id="7912218231014613968" name="com.moraad.suggestions.structure.AssAcceptedSuggestion" flags="ng" index="pcNHv" />
-      <concept id="114192864337941166" name="com.moraad.suggestions.structure.AssAdditionSecGoalAssistantSuggestion" flags="ng" index="raIdw" />
+      <concept id="1744555010776336880" name="com.moraad.suggestions.structure.DamageScenarioAssistantSelector" flags="ng" index="khATU" />
+      <concept id="1744555010776327868" name="com.moraad.suggestions.structure.ThreatScenarioAssistantSelector" flags="ng" index="khC4Q" />
+      <concept id="7912218231016159825" name="com.moraad.suggestions.structure.AssRemovalSuggestion" flags="ng" index="oQUbu" />
+      <concept id="7912218231014618120" name="com.moraad.suggestions.structure.AssAdditionSuggestion" flags="ng" index="pcMM7" />
+      <concept id="114192864337941166" name="com.moraad.suggestions.structure.AssAdditionDamageScenarioAssistantSuggestion" flags="ng" index="raIdw" />
       <concept id="8675225129802302574" name="com.moraad.suggestions.structure.TraversalPathElement" flags="ng" index="2C31c$">
         <reference id="8675225129802302575" name="target" index="2C31c_" />
       </concept>
       <concept id="1920997147008949188" name="com.moraad.suggestions.structure.RiskAssistantSelector" flags="ng" index="CEhHY" />
       <concept id="1920997147009089272" name="com.moraad.suggestions.structure.AssRiskSuggestionFactory" flags="ng" index="CENT2" />
-      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSecGoalDependsOnSuggestionFactory" flags="ng" index="2Fpy1u" />
-      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssSecGoalThreatenedBySuggestionFactory" flags="ng" index="2FpSCn" />
+      <concept id="1920997147016143551" name="com.moraad.suggestions.structure.AssRiskAssistantNewRiskSuggestion" flags="ng" index="CLQ85" />
+      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSgDependsOnSgSuggestionFactory" flags="ng" index="2Fpy1u" />
+      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssDsThreatenedByTsSuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
         <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
         <child id="8675225129778034533" name="factories" index="2Q$E0J" />
       </concept>
       <concept id="8675225129768254214" name="com.moraad.suggestions.structure.AssSuggestionQueryResult" flags="ng" index="2Q16Lc">
-        <property id="8675225129775903756" name="linkIdentifier" index="2QGid6" />
         <reference id="8675225129798856842" name="consultedNode" index="2ClQv0" />
         <child id="8675225129775903758" name="suggestions" index="2QGid4" />
       </concept>
       <concept id="8675225129768254215" name="com.moraad.suggestions.structure.AssSuggestion" flags="ng" index="2Q16Ld">
+        <property id="2656745997077219544" name="traversalPathShortDetails" index="2yT22K" />
+        <property id="2656745997077219546" name="traversalPathLongDetails" index="2yT22M" />
         <reference id="8675225129798855691" name="suggestedEntity" index="2ClRH1" />
         <reference id="8675225129815039074" name="consultedNode" index="2Dj$GC" />
         <child id="8675225129775944446" name="traversalPath" index="2QGGmO" />
@@ -61,7 +64,10 @@
       <concept id="8675225129768254213" name="com.moraad.suggestions.structure.AssSuggestionFactory" flags="ng" index="2Q16Lf">
         <child id="2567848404456432646" name="groups" index="3N3N22" />
       </concept>
-      <concept id="446196523655023050" name="com.moraad.suggestions.structure.AssSecGoalAssistantSuggestionFactory" flags="ng" index="3aivMl" />
+      <concept id="446196523655023050" name="com.moraad.suggestions.structure.AssDamageScenarioSuggestionFactory" flags="ng" index="3aivMl" />
+      <concept id="446196523655757402" name="com.moraad.suggestions.structure.AssAcceptedDamageScenarioAssistantSuggestion" flags="ng" index="3aGGG5">
+        <child id="2567848404451557629" name="concerningDamageScenarios" index="3NKlhT" />
+      </concept>
       <concept id="446196523655766478" name="com.moraad.suggestions.structure.AssResultGroup" flags="ng" index="3aHhih">
         <property id="6842080042029996409" name="identifier" index="133MFP" />
         <property id="446196523655779532" name="heading" index="3aHm6j" />
@@ -265,6 +271,7 @@
         <child id="6639352543897202354" name="toee" index="1xHT_4" />
         <child id="6639352543897202338" name="csProperty" index="1xHT_k" />
       </concept>
+      <concept id="4841528009209017035" name="com.moraad.core.structure.ThreatScenarioRef" flags="ng" index="3$cmbp" />
       <concept id="7473959397023084950" name="com.moraad.core.structure.TechnologyRef" flags="ng" index="1EY2vJ" />
       <concept id="6006699537889785861" name="com.moraad.core.structure.Threat" flags="ng" index="3Rc6Py">
         <child id="8078319461080000624" name="actsOn" index="2NPTNf" />
@@ -1534,9 +1541,12 @@
             <ref role="2ClRH1" to="72tq:4CQftq3lQja" resolve="CON" />
             <ref role="2Dj$GC" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
           </node>
-          <node concept="raIdw" id="60wEthBVVb3" role="2QGid4">
+          <node concept="3aGGG5" id="501$dK$S_Gz" role="2QGid4">
             <ref role="2ClRH1" to="72tq:4CQftq3lQjb" resolve="AVA" />
             <ref role="2Dj$GC" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+            <node concept="2AI9xH" id="501$dK$S_G$" role="3NKlhT">
+              <ref role="122Z_O" node="702oElbSw2y" resolve="DS.9" />
+            </node>
           </node>
           <node concept="raIdw" id="60wEthBVVb4" role="2QGid4">
             <ref role="2ClRH1" to="72tq:4CQftq3lQjc" resolve="INT" />
@@ -1553,9 +1563,12 @@
         <property role="133MFP" value="Data" />
         <node concept="2Q16Lc" id="60wEthBVVb$" role="3aHmvd">
           <ref role="2ClQv0" node="2Bvf77vYioF" resolve="AESKey" />
-          <node concept="raIdw" id="60wEthBVVb_" role="2QGid4">
+          <node concept="3aGGG5" id="501$dK$S_H6" role="2QGid4">
             <ref role="2ClRH1" to="72tq:4CQftq3lQja" resolve="CON" />
             <ref role="2Dj$GC" node="2Bvf77vYioF" resolve="AESKey" />
+            <node concept="2AI9xH" id="501$dK$S_H7" role="3NKlhT">
+              <ref role="122Z_O" node="60wEthBTL2f" resolve="DS.10" />
+            </node>
           </node>
           <node concept="raIdw" id="60wEthBVVbA" role="2QGid4">
             <ref role="2ClRH1" to="72tq:4CQftq3lQjb" resolve="AVA" />
@@ -1580,9 +1593,12 @@
             <ref role="2ClRH1" to="72tq:4CQftq3lQjb" resolve="AVA" />
             <ref role="2Dj$GC" node="5W_1Y9DMIVI" resolve="ESP-FW" />
           </node>
-          <node concept="raIdw" id="60wEthBVVbt" role="2QGid4">
+          <node concept="3aGGG5" id="501$dK$S_He" role="2QGid4">
             <ref role="2ClRH1" to="72tq:4CQftq3lQjc" resolve="INT" />
             <ref role="2Dj$GC" node="5W_1Y9DMIVI" resolve="ESP-FW" />
+            <node concept="2AI9xH" id="501$dK$S_Hf" role="3NKlhT">
+              <ref role="122Z_O" node="702oElbSw2s" resolve="DS.7" />
+            </node>
           </node>
           <node concept="raIdw" id="60wEthBVVbu" role="2QGid4">
             <ref role="2ClRH1" to="72tq:4CQftq3lQjd" resolve="AUT" />
@@ -1591,9 +1607,12 @@
         </node>
         <node concept="2Q16Lc" id="60wEthBVVbv" role="3aHmvd">
           <ref role="2ClQv0" node="5W_1Y9DMIW8" resolve="NavFav" />
-          <node concept="raIdw" id="60wEthBVVbw" role="2QGid4">
+          <node concept="3aGGG5" id="501$dK$S_H$" role="2QGid4">
             <ref role="2ClRH1" to="72tq:4CQftq3lQja" resolve="CON" />
             <ref role="2Dj$GC" node="5W_1Y9DMIW8" resolve="NavFav" />
+            <node concept="2AI9xH" id="501$dK$S_H_" role="3NKlhT">
+              <ref role="122Z_O" node="702oElbSw2w" resolve="DS.8" />
+            </node>
           </node>
           <node concept="raIdw" id="60wEthBVVbx" role="2QGid4">
             <ref role="2ClRH1" to="72tq:4CQftq3lQjb" resolve="AVA" />
@@ -1785,11 +1804,11 @@
             <ref role="2ClRH1" to="7el1:4CQftq3lQmG" resolve="BK.2" />
             <ref role="2Dj$GC" node="5W_1Y9DMIRk" resolve="GW" />
           </node>
-          <node concept="k5Jqw" id="1knTAxjPvAC" role="2QGid4">
+          <node concept="k5Jqw" id="501$dK$S_MS" role="2QGid4">
             <ref role="2ClRH1" to="7el1:2Wj3TpYBON8" resolve="BK.4b" />
             <ref role="2Dj$GC" node="5W_1Y9DMIRk" resolve="GW" />
-            <node concept="2WIsl9" id="1knTAxjPvAD" role="k5Jqx">
-              <ref role="122Z_O" node="2Bvf77vYi_9" resolve="DataExtr" />
+            <node concept="3$cmbp" id="501$dK$S_MT" role="k5Jqx">
+              <ref role="122Z_O" node="60wEthBTL2A" resolve="TS.6" />
             </node>
           </node>
           <node concept="k5JqA" id="1knTAxjPvAE" role="2QGid4">
@@ -2019,18 +2038,18 @@
             <ref role="2ClRH1" to="7el1:4CQftq3lQpp" resolve="BK.4" />
             <ref role="2Dj$GC" node="7UMEm_NKmKz" resolve="WL" />
           </node>
-          <node concept="k5Jqw" id="1knTAxjPvSm" role="2QGid4">
+          <node concept="k5Jqw" id="501$dK$S_R4" role="2QGid4">
             <ref role="2ClRH1" to="7el1:4CQftq3lQqK" resolve="BK.5" />
             <ref role="2Dj$GC" node="7UMEm_NKmKz" resolve="WL" />
-            <node concept="2WIsl9" id="1knTAxjPvSn" role="k5Jqx">
-              <ref role="122Z_O" node="2Bvf77vYjLZ" resolve="Jamming" />
+            <node concept="3$cmbp" id="501$dK$S_R5" role="k5Jqx">
+              <ref role="122Z_O" node="60wEthBTL2I" resolve="TS.7" />
             </node>
           </node>
-          <node concept="k5Jqw" id="1knTAxjPvSj" role="2QGid4">
+          <node concept="k5Jqw" id="501$dK$S_R2" role="2QGid4">
             <ref role="2ClRH1" to="7el1:4CQftq3lQto" resolve="BK.6a" />
             <ref role="2Dj$GC" node="7UMEm_NKmKz" resolve="WL" />
-            <node concept="2WIsl9" id="1knTAxjPvSk" role="k5Jqx">
-              <ref role="122Z_O" node="59jVRzky1Kk" resolve="MitM" />
+            <node concept="3$cmbp" id="501$dK$S_R3" role="k5Jqx">
+              <ref role="122Z_O" node="60wEthBTL2u" resolve="TS.5" />
             </node>
           </node>
         </node>
@@ -2040,88 +2059,121 @@
   <node concept="2Q15JU" id="1wPTSCctzxc">
     <property role="3GE5qa" value="Assistants" />
     <node concept="khAwF" id="1wPTSCctzTR" role="kmFqQ" />
-    <node concept="2Fpy1u" id="1wPTSCctzTU" role="2Q$E0J" />
     <node concept="2FpSCn" id="1wPTSCctzTV" role="2Q$E0J">
-      <node concept="3aHhih" id="1wPTSCct$hL" role="3N3N22">
+      <node concept="3aHhih" id="501$dK$S_Rp" role="3N3N22">
         <property role="3aHm6j" value="" />
-        <node concept="2Q16Lc" id="1wPTSCc$wTN" role="3aHmvd">
-          <property role="2QGid6" value="threatened by" />
-          <ref role="2ClQv0" node="7h0aj9pwZHp" resolve="G.1" />
-          <node concept="pcNHv" id="1wPTSCc$wTO" role="2QGid4">
-            <ref role="2ClRH1" node="59jVRzky1Kk" resolve="MitM" />
-            <ref role="2Dj$GC" node="7h0aj9pwZHp" resolve="G.1" />
-            <node concept="2C31c$" id="1wPTSCc$wTP" role="2QGGmO">
+        <property role="133MFP" value="" />
+        <node concept="2Q16Lc" id="501$dK$S_Rt" role="3aHmvd">
+          <ref role="2ClQv0" node="702oElbSw2s" resolve="DS.7" />
+          <node concept="oQUbu" id="501$dK$S_Rx" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
+            <ref role="2ClRH1" node="7h0aj9pwZHp" resolve="G.1" />
+            <ref role="2Dj$GC" node="702oElbSw2s" resolve="DS.7" />
+          </node>
+          <node concept="pcMM7" id="501$dK$S_Ru" role="2QGid4">
+            <property role="2yT22K" value="WL (INT) ==&gt; (Data transferedBy Data Flow) ESP-FW (INT)" />
+            <property role="2yT22M" value="WL: Wireless Link to Backend (INT) ==&gt; (Data transferedBy Data Flow) ESP-FW: ESP Firmware Binary (INT)" />
+            <ref role="2ClRH1" node="60wEthBTL2u" resolve="TS.5" />
+            <ref role="2Dj$GC" node="702oElbSw2s" resolve="DS.7" />
+            <node concept="2C31c$" id="501$dK$S_Rv" role="2QGGmO">
               <ref role="2C31c_" node="5W_1Y9DMIVI" resolve="ESP-FW" />
             </node>
-            <node concept="2C31c$" id="1wPTSCc$wTQ" role="2QGGmO">
+            <node concept="2C31c$" id="501$dK$S_Rw" role="2QGGmO">
               <ref role="2C31c_" node="7UMEm_NKmKz" resolve="WL" />
             </node>
           </node>
         </node>
-        <node concept="2Q16Lc" id="1wPTSCc$wTR" role="3aHmvd">
-          <property role="2QGid6" value="threatened by" />
-          <ref role="2ClQv0" node="7h0aj9pwZHI" resolve="G.2" />
-          <node concept="pcNHv" id="1wPTSCc$wTV" role="2QGid4">
-            <ref role="2ClRH1" node="2Bvf77vYi_9" resolve="DataExtr" />
-            <ref role="2Dj$GC" node="7h0aj9pwZHI" resolve="G.2" />
-            <node concept="2C31c$" id="1wPTSCc$wTW" role="2QGGmO">
+        <node concept="2Q16Lc" id="501$dK$S_Ry" role="3aHmvd">
+          <ref role="2ClQv0" node="702oElbSw2w" resolve="DS.8" />
+          <node concept="oQUbu" id="501$dK$S_RD" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
+            <ref role="2ClRH1" node="7h0aj9pwZHI" resolve="G.2" />
+            <ref role="2Dj$GC" node="702oElbSw2w" resolve="DS.8" />
+          </node>
+          <node concept="pcMM7" id="501$dK$S_Rz" role="2QGid4">
+            <property role="2yT22K" value="WL (CON, INT) ==&gt; (Data transferedBy Data Flow) NavFav (CON)" />
+            <property role="2yT22M" value="WL: Wireless Link to Backend (CON, INT) ==&gt; (Data transferedBy Data Flow) NavFav: Favorite Navigation Destinations (CON)" />
+            <ref role="2ClRH1" node="60wEthBTL2u" resolve="TS.5" />
+            <ref role="2Dj$GC" node="702oElbSw2w" resolve="DS.8" />
+            <node concept="2C31c$" id="501$dK$S_R$" role="2QGGmO">
               <ref role="2C31c_" node="5W_1Y9DMIW8" resolve="NavFav" />
             </node>
-            <node concept="2C31c$" id="1wPTSCc$wTX" role="2QGGmO">
+            <node concept="2C31c$" id="501$dK$S_R_" role="2QGGmO">
+              <ref role="2C31c_" node="7UMEm_NKmKz" resolve="WL" />
+            </node>
+          </node>
+          <node concept="pcMM7" id="501$dK$S_RA" role="2QGid4">
+            <property role="2yT22K" value="GW (CON, INT) ==&gt; (Data processedBy Component) NavFav (CON)" />
+            <property role="2yT22M" value="GW: Gateway (CON, INT) ==&gt; (Data processedBy Component) NavFav: Favorite Navigation Destinations (CON)" />
+            <ref role="2ClRH1" node="60wEthBTL2A" resolve="TS.6" />
+            <ref role="2Dj$GC" node="702oElbSw2w" resolve="DS.8" />
+            <node concept="2C31c$" id="501$dK$S_RB" role="2QGGmO">
+              <ref role="2C31c_" node="5W_1Y9DMIW8" resolve="NavFav" />
+            </node>
+            <node concept="2C31c$" id="501$dK$S_RC" role="2QGGmO">
               <ref role="2C31c_" node="5W_1Y9DMIRk" resolve="GW" />
             </node>
           </node>
-          <node concept="pcNHv" id="1wPTSCc$wTS" role="2QGid4">
-            <ref role="2ClRH1" node="59jVRzky1Kk" resolve="MitM" />
-            <ref role="2Dj$GC" node="7h0aj9pwZHI" resolve="G.2" />
-            <node concept="2C31c$" id="1wPTSCc$wTT" role="2QGGmO">
-              <ref role="2C31c_" node="5W_1Y9DMIW8" resolve="NavFav" />
+        </node>
+        <node concept="2Q16Lc" id="501$dK$S_RE" role="3aHmvd">
+          <ref role="2ClQv0" node="702oElbSw2y" resolve="DS.9" />
+          <node concept="oQUbu" id="501$dK$S_RL" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
+            <ref role="2ClRH1" node="2Bvf77vYjKp" resolve="G.4" />
+            <ref role="2Dj$GC" node="702oElbSw2y" resolve="DS.9" />
+          </node>
+          <node concept="pcMM7" id="501$dK$S_RI" role="2QGid4">
+            <property role="2yT22K" value="WL (AVA, INT) ==&gt; (Function implementedThrough Data Flow) Sync-NavDst (AVA)" />
+            <property role="2yT22M" value="WL: Wireless Link to Backend (AVA, INT) ==&gt; (Function implementedThrough Data Flow) Sync-NavDst: Synchronize Favorite Navigation Destinations (AVA)" />
+            <ref role="2ClRH1" node="60wEthBTL2u" resolve="TS.5" />
+            <ref role="2Dj$GC" node="702oElbSw2y" resolve="DS.9" />
+            <node concept="2C31c$" id="501$dK$S_RJ" role="2QGGmO">
+              <ref role="2C31c_" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
             </node>
-            <node concept="2C31c$" id="1wPTSCc$wTU" role="2QGGmO">
+            <node concept="2C31c$" id="501$dK$S_RK" role="2QGGmO">
+              <ref role="2C31c_" node="7UMEm_NKmKz" resolve="WL" />
+            </node>
+          </node>
+          <node concept="pcMM7" id="501$dK$S_RF" role="2QGid4">
+            <property role="2yT22K" value="WL (AVA, INT) ==&gt; (Function implementedThrough Data Flow) Sync-NavDst (AVA)" />
+            <property role="2yT22M" value="WL: Wireless Link to Backend (AVA, INT) ==&gt; (Function implementedThrough Data Flow) Sync-NavDst: Synchronize Favorite Navigation Destinations (AVA)" />
+            <ref role="2ClRH1" node="60wEthBTL2I" resolve="TS.7" />
+            <ref role="2Dj$GC" node="702oElbSw2y" resolve="DS.9" />
+            <node concept="2C31c$" id="501$dK$S_RG" role="2QGGmO">
+              <ref role="2C31c_" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+            </node>
+            <node concept="2C31c$" id="501$dK$S_RH" role="2QGGmO">
               <ref role="2C31c_" node="7UMEm_NKmKz" resolve="WL" />
             </node>
           </node>
         </node>
-        <node concept="2Q16Lc" id="1wPTSCc$wTY" role="3aHmvd">
-          <property role="2QGid6" value="threatened by" />
-          <ref role="2ClQv0" node="2Bvf77vYiwv" resolve="G.3" />
-          <node concept="pcNHv" id="1wPTSCc$wTZ" role="2QGid4">
-            <ref role="2ClRH1" node="2Bvf77vYi_9" resolve="DataExtr" />
-            <ref role="2Dj$GC" node="2Bvf77vYiwv" resolve="G.3" />
-            <node concept="2C31c$" id="1wPTSCc$wU0" role="2QGGmO">
+        <node concept="2Q16Lc" id="501$dK$S_RM" role="3aHmvd">
+          <ref role="2ClQv0" node="60wEthBTL2f" resolve="DS.10" />
+          <node concept="oQUbu" id="501$dK$S_RQ" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
+            <ref role="2ClRH1" node="2Bvf77vYiwv" resolve="G.3" />
+            <ref role="2Dj$GC" node="60wEthBTL2f" resolve="DS.10" />
+          </node>
+          <node concept="pcMM7" id="501$dK$S_RN" role="2QGid4">
+            <property role="2yT22K" value="GW (CON, INT) ==&gt; (Data storedBy Component) AESKey (CON)" />
+            <property role="2yT22M" value="GW: Gateway (CON, INT) ==&gt; (Data storedBy Component) AESKey: Shared AES Key (CON)" />
+            <ref role="2ClRH1" node="60wEthBTL2A" resolve="TS.6" />
+            <ref role="2Dj$GC" node="60wEthBTL2f" resolve="DS.10" />
+            <node concept="2C31c$" id="501$dK$S_RO" role="2QGGmO">
               <ref role="2C31c_" node="2Bvf77vYioF" resolve="AESKey" />
             </node>
-            <node concept="2C31c$" id="1wPTSCc$wU1" role="2QGGmO">
+            <node concept="2C31c$" id="501$dK$S_RP" role="2QGGmO">
               <ref role="2C31c_" node="5W_1Y9DMIRk" resolve="GW" />
-            </node>
-          </node>
-        </node>
-        <node concept="2Q16Lc" id="1wPTSCc$wU2" role="3aHmvd">
-          <property role="2QGid6" value="threatened by" />
-          <ref role="2ClQv0" node="2Bvf77vYjKp" resolve="G.4" />
-          <node concept="pcNHv" id="1wPTSCc$wU3" role="2QGid4">
-            <ref role="2ClRH1" node="2Bvf77vYjLZ" resolve="Jamming" />
-            <ref role="2Dj$GC" node="2Bvf77vYjKp" resolve="G.4" />
-            <node concept="2C31c$" id="1wPTSCc$wU4" role="2QGGmO">
-              <ref role="2C31c_" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
-            </node>
-            <node concept="2C31c$" id="1wPTSCc$wU5" role="2QGGmO">
-              <ref role="2C31c_" node="7UMEm_NKmKz" resolve="WL" />
-            </node>
-          </node>
-          <node concept="pcNHv" id="1wPTSCc$wU6" role="2QGid4">
-            <ref role="2ClRH1" node="59jVRzky1Kk" resolve="MitM" />
-            <ref role="2Dj$GC" node="2Bvf77vYjKp" resolve="G.4" />
-            <node concept="2C31c$" id="1wPTSCc$wU7" role="2QGGmO">
-              <ref role="2C31c_" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
-            </node>
-            <node concept="2C31c$" id="1wPTSCc$wU8" role="2QGGmO">
-              <ref role="2C31c_" node="7UMEm_NKmKz" resolve="WL" />
             </node>
           </node>
         </node>
       </node>
     </node>
+    <node concept="2Fpy1u" id="501$dK$S_Rn" role="2Q$E0J" />
   </node>
   <node concept="1mQ_Fh" id="5W_1Y9DMGvM">
     <property role="TrG5h" value="RiskTreatment" />
@@ -2257,25 +2309,53 @@
       <node concept="3aHhih" id="1PEmpgFfbG2" role="3N3N22">
         <property role="3aHm6j" value="" />
         <property role="133MFP" value="" />
-        <node concept="2Q16Lc" id="1PEmpgFfbG8" role="3aHmvd">
-          <ref role="2ClQv0" node="2Bvf77vYi_9" resolve="DataExtr" />
-          <node concept="pcNHv" id="1PEmpgFfbG9" role="2QGid4">
-            <ref role="2ClRH1" node="3SMGvtS6WLj" resolve="R.1" />
-            <ref role="2Dj$GC" node="2Bvf77vYi_9" resolve="DataExtr" />
+        <node concept="2Q16Lc" id="501$dK$S_TB" role="3aHmvd">
+          <ref role="2ClQv0" node="7h0aj9pwZHp" resolve="G.1" />
+          <node concept="CLQ85" id="501$dK$S_TC" role="2QGid4">
+            <ref role="2ClRH1" node="7h0aj9pwZHp" resolve="G.1" />
+            <ref role="2Dj$GC" node="7h0aj9pwZHp" resolve="G.1" />
           </node>
         </node>
-        <node concept="2Q16Lc" id="1PEmpgFfbGa" role="3aHmvd">
-          <ref role="2ClQv0" node="2Bvf77vYjLZ" resolve="Jamming" />
-          <node concept="pcNHv" id="1PEmpgFfbGb" role="2QGid4">
-            <ref role="2ClRH1" node="3SMGvtS6WNg" resolve="R.2" />
-            <ref role="2Dj$GC" node="2Bvf77vYjLZ" resolve="Jamming" />
+        <node concept="2Q16Lc" id="501$dK$S_TD" role="3aHmvd">
+          <ref role="2ClQv0" node="7h0aj9pwZHI" resolve="G.2" />
+          <node concept="CLQ85" id="501$dK$S_TE" role="2QGid4">
+            <ref role="2ClRH1" node="7h0aj9pwZHI" resolve="G.2" />
+            <ref role="2Dj$GC" node="7h0aj9pwZHI" resolve="G.2" />
           </node>
         </node>
-        <node concept="2Q16Lc" id="1PEmpgFfbG6" role="3aHmvd">
-          <ref role="2ClQv0" node="59jVRzky1Kk" resolve="MitM" />
-          <node concept="pcNHv" id="1PEmpgFfbG7" role="2QGid4">
-            <ref role="2ClRH1" node="3SMGvtS6WNL" resolve="R.3" />
-            <ref role="2Dj$GC" node="59jVRzky1Kk" resolve="MitM" />
+        <node concept="2Q16Lc" id="501$dK$S_TF" role="3aHmvd">
+          <ref role="2ClQv0" node="2Bvf77vYiwv" resolve="G.3" />
+          <node concept="CLQ85" id="501$dK$S_TG" role="2QGid4">
+            <ref role="2ClRH1" node="2Bvf77vYiwv" resolve="G.3" />
+            <ref role="2Dj$GC" node="2Bvf77vYiwv" resolve="G.3" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="501$dK$S_TH" role="3aHmvd">
+          <ref role="2ClQv0" node="2Bvf77vYjKp" resolve="G.4" />
+          <node concept="CLQ85" id="501$dK$S_TI" role="2QGid4">
+            <ref role="2ClRH1" node="2Bvf77vYjKp" resolve="G.4" />
+            <ref role="2Dj$GC" node="2Bvf77vYjKp" resolve="G.4" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="501$dK$S_TJ" role="3aHmvd">
+          <ref role="2ClQv0" node="60wEthBTL2u" resolve="TS.5" />
+          <node concept="CLQ85" id="501$dK$S_TK" role="2QGid4">
+            <ref role="2ClRH1" node="60wEthBTL2u" resolve="TS.5" />
+            <ref role="2Dj$GC" node="60wEthBTL2u" resolve="TS.5" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="501$dK$S_TL" role="3aHmvd">
+          <ref role="2ClQv0" node="60wEthBTL2A" resolve="TS.6" />
+          <node concept="CLQ85" id="501$dK$S_TM" role="2QGid4">
+            <ref role="2ClRH1" node="60wEthBTL2A" resolve="TS.6" />
+            <ref role="2Dj$GC" node="60wEthBTL2A" resolve="TS.6" />
+          </node>
+        </node>
+        <node concept="2Q16Lc" id="501$dK$S_TN" role="3aHmvd">
+          <ref role="2ClQv0" node="60wEthBTL2I" resolve="TS.7" />
+          <node concept="CLQ85" id="501$dK$S_TO" role="2QGid4">
+            <ref role="2ClRH1" node="60wEthBTL2I" resolve="TS.7" />
+            <ref role="2Dj$GC" node="60wEthBTL2I" resolve="TS.7" />
           </node>
         </node>
       </node>
