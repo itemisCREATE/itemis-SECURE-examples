@@ -36,16 +36,14 @@
       <concept id="1744555010776338337" name="com.moraad.suggestions.structure.RelationAssistantSelector" flags="ng" index="khAwF" />
       <concept id="1744555010776336880" name="com.moraad.suggestions.structure.DamageScenarioAssistantSelector" flags="ng" index="khATU" />
       <concept id="1744555010776327868" name="com.moraad.suggestions.structure.ThreatScenarioAssistantSelector" flags="ng" index="khC4Q" />
-      <concept id="7912218231016159825" name="com.moraad.suggestions.structure.AssRemovalSuggestion" flags="ng" index="oQUbu" />
       <concept id="7912218231014618120" name="com.moraad.suggestions.structure.AssAdditionSuggestion" flags="ng" index="pcMM7" />
+      <concept id="7912218231014613968" name="com.moraad.suggestions.structure.AssAcceptedSuggestion" flags="ng" index="pcNHv" />
       <concept id="114192864337941166" name="com.moraad.suggestions.structure.AssAdditionDamageScenarioAssistantSuggestion" flags="ng" index="raIdw" />
       <concept id="8675225129802302574" name="com.moraad.suggestions.structure.TraversalPathElement" flags="ng" index="2C31c$">
         <reference id="8675225129802302575" name="target" index="2C31c_" />
       </concept>
       <concept id="1920997147008949188" name="com.moraad.suggestions.structure.RiskAssistantSelector" flags="ng" index="CEhHY" />
       <concept id="1920997147009089272" name="com.moraad.suggestions.structure.AssRiskSuggestionFactory" flags="ng" index="CENT2" />
-      <concept id="1920997147016143551" name="com.moraad.suggestions.structure.AssRiskAssistantNewRiskSuggestion" flags="ng" index="CLQ85" />
-      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSgDependsOnSgSuggestionFactory" flags="ng" index="2Fpy1u" />
       <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssDsThreatenedByTsSuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
         <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
@@ -236,7 +234,6 @@
         <child id="6109063348035932978" name="minAE" index="ANped" />
       </concept>
       <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
-        <property id="8969859980006249390" name="formerSecurityObjective" index="3te8Ie" />
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
         <child id="3440241848483078753" name="threatenedBy" index="37Y_fq" />
         <child id="4841528009168898947" name="actsOn" index="3BFlIh" />
@@ -277,7 +274,6 @@
         <child id="8127657721944275174" name="definingElements" index="2WIsl4" />
       </concept>
       <concept id="8071121944254209035" name="com.moraad.core.structure.DamageScenarioContentSelector" flags="ng" index="U8VUI" />
-      <concept id="8127657721944275179" name="com.moraad.core.structure.ThreatRef" flags="ng" index="2WIsl9" />
       <concept id="3384350556523615565" name="com.moraad.core.structure.ThreatClassRef" flags="ng" index="122ZmF" />
       <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
@@ -2276,145 +2272,7 @@
   <node concept="2vPz$R" id="5wtRytMI6hC">
     <property role="3GE5qa" value="Security Analysis" />
     <property role="TrG5h" value="Threat Scenarios" />
-    <node concept="2vM170" id="5wtRytMI6Rb" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
-      <property role="DVXpC" value="Integrity of &quot;OffFunc: Switch Headlamp Off&quot; threatened" />
-      <property role="TrG5h" value="TS.1" />
-      <node concept="37A2tZ" id="5wtRytMI6Rd" role="37Y_fq">
-        <node concept="pgv_Y" id="5U29EQHaTIZ" role="37AdOr">
-          <ref role="122Z_O" node="60wEthBTKQk" resolve="TS.7" />
-        </node>
-      </node>
-      <node concept="37A2tW" id="5wtRytMI6Re" role="37Y_fg" />
-      <node concept="2AI9xH" id="7gwHXNztLag" role="3D3iv$">
-        <ref role="122Z_O" node="702oElbSw1D" resolve="DS.1" />
-      </node>
-      <node concept="3VMn$a" id="7bZZv_jRVpm" role="2JHqPs" />
-    </node>
-    <node concept="2vM170" id="5wtRytMI6RL" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
-      <property role="DVXpC" value="Integrity of &quot;OnFunc: Switch Headlamp On&quot; threatened" />
-      <property role="TrG5h" value="TS.2" />
-      <node concept="37A2tZ" id="5wtRytMI6RN" role="37Y_fq">
-        <node concept="pgv_Y" id="5U29EQHaTH3" role="37AdOr">
-          <ref role="122Z_O" node="60wEthBTKQk" resolve="TS.7" />
-        </node>
-      </node>
-      <node concept="37A2tW" id="5wtRytMI6RO" role="37Y_fg" />
-      <node concept="2AI9xH" id="7gwHXNztGIw" role="3D3iv$">
-        <ref role="122Z_O" node="702oElbSw1J" resolve="DS.2" />
-      </node>
-      <node concept="3VMn$a" id="7bZZv_jRVpn" role="2JHqPs" />
-    </node>
-    <node concept="2vM170" id="5wtRytMI6Rs" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
-      <property role="DVXpC" value="Availability of &quot;OffFunc: Switch Headlamp Off&quot; threatened" />
-      <property role="TrG5h" value="TS.3" />
-      <node concept="37A2tZ" id="5wtRytMI6Ru" role="37Y_fq" />
-      <node concept="37A2tW" id="5wtRytMI6Rv" role="37Y_fg" />
-      <node concept="2AI9xH" id="702oElbSw1I" role="3D3iv$">
-        <ref role="122Z_O" node="702oElbSw1H" resolve="DS.3" />
-      </node>
-      <node concept="3VMn$a" id="7bZZv_jRVpo" role="2JHqPs" />
-    </node>
-    <node concept="2vM170" id="5wtRytMI6Sp" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
-      <property role="DVXpC" value="Availability of &quot;OnFunc: Switch Headlamp On&quot; threatened" />
-      <property role="TrG5h" value="TS.4" />
-      <node concept="37A2tZ" id="5wtRytMI6Sr" role="37Y_fq" />
-      <node concept="37A2tW" id="5wtRytMI6Ss" role="37Y_fg" />
-      <node concept="2AI9xH" id="702oElbSw1M" role="3D3iv$">
-        <ref role="122Z_O" node="702oElbSw1L" resolve="DS.4" />
-      </node>
-      <node concept="3VMn$a" id="7bZZv_jRVpp" role="2JHqPs" />
-    </node>
-    <node concept="2vM170" id="7gwHXNztHc8" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
-      <property role="DVXpC" value="Integrity of &quot;WhtLst: Whitelist of CAN Messages&quot; threatened" />
-      <property role="TrG5h" value="TS.5" />
-      <node concept="37A2tZ" id="7gwHXNztHca" role="37Y_fq">
-        <node concept="pgv_Y" id="7gwHXNztHh8" role="37AdOr">
-          <ref role="122Z_O" node="60wEthBTKQs" resolve="TS.8" />
-        </node>
-      </node>
-      <node concept="37A2tW" id="7gwHXNztHcb" role="37Y_fg" />
-      <node concept="2Q3xmc" id="35bN1QYCMB4" role="2QNYXd">
-        <property role="2QNYWW" value="TODO" />
-        <node concept="3VMn$a" id="35bN1QYCMB5" role="2Q3xm6">
-          <node concept="3VMn$0" id="35bN1QYCMBx" role="3VMn$6">
-            <node concept="3VMn$7" id="35bN1QYCMBy" role="3VMn$3">
-              <property role="3VMn$Y" value="Assign" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMBz" role="3VMn$3">
-              <property role="3VMn$Y" value="DamageScenario" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMB$" role="3VMn$3">
-              <property role="3VMn$Y" value="(create" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMB_" role="3VMn$3">
-              <property role="3VMn$Y" value="new" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMBA" role="3VMn$3">
-              <property role="3VMn$Y" value="one," />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMBB" role="3VMn$3">
-              <property role="3VMn$Y" value="if" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMBC" role="3VMn$3">
-              <property role="3VMn$Y" value="required)." />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3VMn$a" id="7bZZv_jRVpq" role="2JHqPs" />
-      <node concept="2AI9xH" id="60wEthBTKPY" role="3D3iv$">
-        <ref role="122Z_O" node="60wEthBTKPW" resolve="DS.5" />
-      </node>
-    </node>
     <node concept="3u6799" id="702oElbSvJB" role="2xH1$J" />
-    <node concept="2vM170" id="5U29EQHaVYR" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
-      <property role="DVXpC" value="Availability of &quot;WhtLst: Whitelist of CAN Messages&quot; threatened" />
-      <property role="TrG5h" value="TS.6" />
-      <node concept="37A2tZ" id="5U29EQHaVYT" role="37Y_fq">
-        <node concept="pgv_Y" id="6IMAd$NiFZS" role="37AdOr">
-          <ref role="122Z_O" node="60wEthBTKQ$" resolve="TS.9" />
-        </node>
-      </node>
-      <node concept="37A2tW" id="5U29EQHaVYU" role="37Y_fg" />
-      <node concept="2Q3xmc" id="35bN1QYCMCJ" role="2QNYXd">
-        <property role="2QNYWW" value="TODO" />
-        <node concept="3VMn$a" id="35bN1QYCMCK" role="2Q3xm6">
-          <node concept="3VMn$0" id="35bN1QYCMCL" role="3VMn$6">
-            <node concept="3VMn$7" id="35bN1QYCMCM" role="3VMn$3">
-              <property role="3VMn$Y" value="Assign" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMCN" role="3VMn$3">
-              <property role="3VMn$Y" value="DamageScenario" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMCO" role="3VMn$3">
-              <property role="3VMn$Y" value="(create" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMCP" role="3VMn$3">
-              <property role="3VMn$Y" value="new" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMCQ" role="3VMn$3">
-              <property role="3VMn$Y" value="one," />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMCR" role="3VMn$3">
-              <property role="3VMn$Y" value="if" />
-            </node>
-            <node concept="3VMn$7" id="35bN1QYCMCS" role="3VMn$3">
-              <property role="3VMn$Y" value="required)." />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3VMn$a" id="7bZZv_jRVpr" role="2JHqPs" />
-      <node concept="2AI9xH" id="60wEthBTKQ1" role="3D3iv$">
-        <ref role="122Z_O" node="60wEthBTKPZ" resolve="DS.6" />
-      </node>
-    </node>
     <node concept="2vM170" id="60wEthBTKQk" role="2vPz$N">
       <property role="TrG5h" value="TS.7" />
       <node concept="37A2tZ" id="60wEthBTKQm" role="37Y_fq">
@@ -2430,6 +2288,12 @@
         <ref role="122Z_O" to="julz:4CQftq3lQli" resolve="TC.1" />
       </node>
       <node concept="3VMn$a" id="60wEthBTKQq" role="2JHqPs" />
+      <node concept="2AI9xH" id="2ggMdWXzgy3" role="3D3iv$">
+        <ref role="122Z_O" node="702oElbSw1D" resolve="DS.1" />
+      </node>
+      <node concept="2AI9xH" id="2ggMdWXzg_Y" role="3D3iv$">
+        <ref role="122Z_O" node="702oElbSw1J" resolve="DS.2" />
+      </node>
     </node>
     <node concept="2vM170" id="60wEthBTKQs" role="2vPz$N">
       <property role="TrG5h" value="TS.8" />
@@ -2441,6 +2305,9 @@
       <node concept="37A2tW" id="60wEthBTKQv" role="37Y_fg" />
       <node concept="3$0O7b" id="60wEthBTKQw" role="3BFlIh">
         <ref role="122Z_O" node="1eUj96eGPLA" resolve="GateECU" />
+      </node>
+      <node concept="3KzYab" id="2ggMdWXze5E" role="3BFlIh">
+        <ref role="122Z_O" node="7gwHXNztHdJ" resolve="WhtLst" />
       </node>
       <node concept="122ZmF" id="60wEthBTKQx" role="3BUDrm">
         <ref role="122Z_O" to="julz:4CQftq3lQmG" resolve="TC.2" />
@@ -2458,8 +2325,11 @@
       <node concept="3$0O7b" id="60wEthBTKQC" role="3BFlIh">
         <ref role="122Z_O" node="1eUj96eGPLA" resolve="GateECU" />
       </node>
-      <node concept="122ZmF" id="60wEthBTKQD" role="3BUDrm">
-        <ref role="122Z_O" to="julz:4CQftq3lQrx" resolve="TC.5a" />
+      <node concept="3KzYab" id="2ggMdWXze5R" role="3BFlIh">
+        <ref role="122Z_O" node="7gwHXNztHdJ" resolve="WhtLst" />
+      </node>
+      <node concept="122ZmF" id="2ggMdWXziTM" role="3BUDrm">
+        <ref role="122Z_O" to="julz:4CQftq3lQqK" resolve="TC.5" />
       </node>
       <node concept="3VMn$a" id="60wEthBTKQE" role="2JHqPs" />
     </node>
@@ -2867,30 +2737,6 @@
         </node>
       </node>
     </node>
-    <node concept="2AH0t1" id="60wEthBTKPW" role="2vPz$N">
-      <property role="TrG5h" value="DS.5" />
-      <node concept="3VMn$a" id="60wEthBTKPX" role="2JHqPs" />
-      <node concept="1xHTQC" id="60wEthBTKQe" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTKQf" role="1xHT_k">
-          <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
-        </node>
-        <node concept="3KzYab" id="60wEthBTKQg" role="1xHT_4">
-          <ref role="122Z_O" node="7gwHXNztHdJ" resolve="WhtLst" />
-        </node>
-      </node>
-    </node>
-    <node concept="2AH0t1" id="60wEthBTKPZ" role="2vPz$N">
-      <property role="TrG5h" value="DS.6" />
-      <node concept="3VMn$a" id="60wEthBTKQ0" role="2JHqPs" />
-      <node concept="1xHTQC" id="60wEthBTKQh" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTKQi" role="1xHT_k">
-          <ref role="122Z_O" to="xz8e:4CQftq3lQjb" resolve="A" />
-        </node>
-        <node concept="3KzYab" id="60wEthBTKQj" role="1xHT_4">
-          <ref role="122Z_O" node="7gwHXNztHdJ" resolve="WhtLst" />
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hD">
     <property role="TrG5h" value="Attack Steps" />
@@ -3045,11 +2891,11 @@
           <node concept="37eGqF" id="6IMAd$NiH9l" role="37eMcl">
             <ref role="37eGqE" to="xz8e:5jiP5TkSR1Z" resolve="may" />
           </node>
-          <node concept="pgv_Y" id="5U29EQHaYrr" role="pgmzX">
-            <ref role="122Z_O" node="7gwHXNztHc8" resolve="TS.5" />
+          <node concept="pgv_Y" id="2ggMdWXzdZx" role="pgmzX">
+            <ref role="122Z_O" node="60wEthBTKQs" resolve="TS.8" />
           </node>
-          <node concept="pgv_Y" id="5U29EQHaYt8" role="pgmzX">
-            <ref role="122Z_O" node="5U29EQHaVYR" resolve="TS.6" />
+          <node concept="pgv_Y" id="2ggMdWXzdZC" role="pgmzX">
+            <ref role="122Z_O" node="60wEthBTKQ$" resolve="TS.9" />
           </node>
         </node>
       </node>
@@ -3066,13 +2912,13 @@
     <property role="TrG5h" value="Control Scenarios" />
     <node concept="1jXguf" id="6SOv2Wub_fI" role="2vPz$N">
       <property role="TrG5h" value="Sc.1" />
-      <property role="1jXtXe" value="true" />
       <property role="DVXpC" value="None" />
       <node concept="3VMn$a" id="7bZZv_jRVpz" role="2JHqPs" />
     </node>
     <node concept="1jXguf" id="5wtRytMI6hG" role="2vPz$N">
       <property role="TrG5h" value="Sc.2" />
       <property role="DVXpC" value="All Controls" />
+      <property role="1jXtXe" value="true" />
       <node concept="1jbUxn" id="4NcsJzPXx4f" role="1jXtX1" />
       <node concept="3VMn$a" id="7bZZv_jRVp$" role="2JHqPs" />
     </node>
@@ -3291,19 +3137,13 @@
             <ref role="2Dj$GC" node="7gwHXNztHdJ" resolve="WhtLst" />
             <node concept="17LMZa" id="5U29EQHaVXT" role="lGtFl" />
           </node>
-          <node concept="3aGGG5" id="501$dK$SvFc" role="2QGid4">
+          <node concept="raIdw" id="2ggMdWXzfz9" role="2QGid4">
             <ref role="2ClRH1" to="xz8e:4CQftq3lQjc" resolve="I" />
             <ref role="2Dj$GC" node="7gwHXNztHdJ" resolve="WhtLst" />
-            <node concept="2AI9xH" id="501$dK$SvFd" role="3NKlhT">
-              <ref role="122Z_O" node="60wEthBTKPW" resolve="DS.5" />
-            </node>
           </node>
-          <node concept="3aGGG5" id="501$dK$SvFe" role="2QGid4">
+          <node concept="raIdw" id="2ggMdWXzfza" role="2QGid4">
             <ref role="2ClRH1" to="xz8e:4CQftq3lQjb" resolve="A" />
             <ref role="2Dj$GC" node="7gwHXNztHdJ" resolve="WhtLst" />
-            <node concept="2AI9xH" id="501$dK$SvFf" role="3NKlhT">
-              <ref role="122Z_O" node="60wEthBTKPZ" resolve="DS.6" />
-            </node>
           </node>
         </node>
       </node>
@@ -3533,10 +3373,10 @@
             <ref role="2ClRH1" to="julz:4CQftq3lQpp" resolve="TC.4" />
             <ref role="2Dj$GC" node="1eUj96eGPLA" resolve="GateECU" />
           </node>
-          <node concept="k5Jqw" id="501$dK$SwAH" role="2QGid4">
-            <ref role="2ClRH1" to="julz:4CQftq3lQrx" resolve="TC.5a" />
+          <node concept="k5Jqw" id="2ggMdWXzjwt" role="2QGid4">
+            <ref role="2ClRH1" to="julz:4CQftq3lQqK" resolve="TC.5" />
             <ref role="2Dj$GC" node="1eUj96eGPLA" resolve="GateECU" />
-            <node concept="3$cmbp" id="501$dK$SwAI" role="k5Jqx">
+            <node concept="3$cmbp" id="2ggMdWXzjwu" role="k5Jqx">
               <ref role="122Z_O" node="60wEthBTKQ$" resolve="TS.9" />
             </node>
           </node>
@@ -3937,24 +3777,18 @@
         <property role="133MFP" value="" />
         <node concept="2Q16Lc" id="501$dK$Sx3O" role="3aHmvd">
           <ref role="2ClQv0" node="702oElbSw1D" resolve="DS.1" />
-          <node concept="oQUbu" id="501$dK$Sx3X" role="2QGid4">
-            <property role="2yT22K" value="null ()" />
-            <property role="2yT22M" value="null ()" />
-            <ref role="2ClRH1" node="5wtRytMI6Rb" resolve="TS.1" />
-            <ref role="2Dj$GC" node="702oElbSw1D" resolve="DS.1" />
-          </node>
-          <node concept="pcMM7" id="501$dK$Sx3T" role="2QGid4">
+          <node concept="pcNHv" id="2ggMdWXzgyX" role="2QGid4">
             <property role="2yT22K" value="Ch.1 (I) ==&gt; (Data Flow transmissionContainer Channel) DF.6 (I) ==&gt; (Function implementedThrough Data Flow) OffFunc (I)" />
             <property role="2yT22M" value="Ch.1: CAN Bus (I) ==&gt; (Data Flow transmissionContainer Channel) DF.6: OnMsg, OffMsg: BodyECU -&gt; PowSwitAct [CAN] (I) ==&gt; (Function implementedThrough Data Flow) OffFunc: Switch Headlamp Off (I)" />
             <ref role="2ClRH1" node="60wEthBTKQk" resolve="TS.7" />
             <ref role="2Dj$GC" node="702oElbSw1D" resolve="DS.1" />
-            <node concept="2C31c$" id="501$dK$Sx3U" role="2QGGmO">
+            <node concept="2C31c$" id="2ggMdWXzgyY" role="2QGGmO">
               <ref role="2C31c_" node="5wtRytMI6S9" resolve="OffFunc" />
             </node>
-            <node concept="2C31c$" id="501$dK$Sx3V" role="2QGGmO">
+            <node concept="2C31c$" id="2ggMdWXzgyZ" role="2QGGmO">
               <ref role="2C31c_" node="1eUj96eGQ6h" resolve="DF.6" />
             </node>
-            <node concept="2C31c$" id="501$dK$Sx3W" role="2QGGmO">
+            <node concept="2C31c$" id="2ggMdWXzgz0" role="2QGGmO">
               <ref role="2C31c_" node="75wqdiwEFag" resolve="Ch.1" />
             </node>
           </node>
@@ -3976,24 +3810,18 @@
         </node>
         <node concept="2Q16Lc" id="501$dK$Sx3Y" role="3aHmvd">
           <ref role="2ClQv0" node="702oElbSw1J" resolve="DS.2" />
-          <node concept="oQUbu" id="501$dK$Sx47" role="2QGid4">
-            <property role="2yT22K" value="null ()" />
-            <property role="2yT22M" value="null ()" />
-            <ref role="2ClRH1" node="5wtRytMI6RL" resolve="TS.2" />
-            <ref role="2Dj$GC" node="702oElbSw1J" resolve="DS.2" />
-          </node>
-          <node concept="pcMM7" id="501$dK$Sx43" role="2QGid4">
+          <node concept="pcNHv" id="2ggMdWXzgB0" role="2QGid4">
             <property role="2yT22K" value="Ch.1 (I) ==&gt; (Data Flow transmissionContainer Channel) DF.6 (I) ==&gt; (Function implementedThrough Data Flow) OnFunc (I)" />
             <property role="2yT22M" value="Ch.1: CAN Bus (I) ==&gt; (Data Flow transmissionContainer Channel) DF.6: OnMsg, OffMsg: BodyECU -&gt; PowSwitAct [CAN] (I) ==&gt; (Function implementedThrough Data Flow) OnFunc: Switch Headlamp On (I)" />
             <ref role="2ClRH1" node="60wEthBTKQk" resolve="TS.7" />
             <ref role="2Dj$GC" node="702oElbSw1J" resolve="DS.2" />
-            <node concept="2C31c$" id="501$dK$Sx44" role="2QGGmO">
+            <node concept="2C31c$" id="2ggMdWXzgB1" role="2QGGmO">
               <ref role="2C31c_" node="5wtRytMI6Sb" resolve="OnFunc" />
             </node>
-            <node concept="2C31c$" id="501$dK$Sx45" role="2QGGmO">
+            <node concept="2C31c$" id="2ggMdWXzgB2" role="2QGGmO">
               <ref role="2C31c_" node="1eUj96eGQ6h" resolve="DF.6" />
             </node>
-            <node concept="2C31c$" id="501$dK$Sx46" role="2QGGmO">
+            <node concept="2C31c$" id="2ggMdWXzgB3" role="2QGGmO">
               <ref role="2C31c_" node="75wqdiwEFag" resolve="Ch.1" />
             </node>
           </node>
@@ -4015,12 +3843,6 @@
         </node>
         <node concept="2Q16Lc" id="501$dK$Sx48" role="3aHmvd">
           <ref role="2ClQv0" node="702oElbSw1H" resolve="DS.3" />
-          <node concept="oQUbu" id="501$dK$Sx4l" role="2QGid4">
-            <property role="2yT22K" value="null ()" />
-            <property role="2yT22M" value="null ()" />
-            <ref role="2ClRH1" node="5wtRytMI6Rs" resolve="TS.3" />
-            <ref role="2Dj$GC" node="702oElbSw1H" resolve="DS.3" />
-          </node>
           <node concept="pcMM7" id="501$dK$Sx4h" role="2QGid4">
             <property role="2yT22K" value="Ch.1 (I, A, I) ==&gt; (Data Flow transmissionContainer Channel) DF.6 (A, I) ==&gt; (Function implementedThrough Data Flow) OffFunc (A)" />
             <property role="2yT22M" value="Ch.1: CAN Bus (I, A, I) ==&gt; (Data Flow transmissionContainer Channel) DF.6: OnMsg, OffMsg: BodyECU -&gt; PowSwitAct [CAN] (A, I) ==&gt; (Function implementedThrough Data Flow) OffFunc: Switch Headlamp Off (A)" />
@@ -4069,12 +3891,6 @@
         </node>
         <node concept="2Q16Lc" id="501$dK$Sx4m" role="3aHmvd">
           <ref role="2ClQv0" node="702oElbSw1L" resolve="DS.4" />
-          <node concept="oQUbu" id="501$dK$Sx4z" role="2QGid4">
-            <property role="2yT22K" value="null ()" />
-            <property role="2yT22M" value="null ()" />
-            <ref role="2ClRH1" node="5wtRytMI6Sp" resolve="TS.4" />
-            <ref role="2Dj$GC" node="702oElbSw1L" resolve="DS.4" />
-          </node>
           <node concept="pcMM7" id="501$dK$Sx4v" role="2QGid4">
             <property role="2yT22K" value="Ch.1 (I, A, I) ==&gt; (Data Flow transmissionContainer Channel) DF.6 (A, I) ==&gt; (Function implementedThrough Data Flow) OnFunc (A)" />
             <property role="2yT22M" value="Ch.1: CAN Bus (I, A, I) ==&gt; (Data Flow transmissionContainer Channel) DF.6: OnMsg, OffMsg: BodyECU -&gt; PowSwitAct [CAN] (A, I) ==&gt; (Function implementedThrough Data Flow) OnFunc: Switch Headlamp On (A)" />
@@ -4121,85 +3937,30 @@
             </node>
           </node>
         </node>
-        <node concept="2Q16Lc" id="501$dK$Sx4$" role="3aHmvd">
-          <ref role="2ClQv0" node="60wEthBTKPW" resolve="DS.5" />
-          <node concept="oQUbu" id="501$dK$Sx4C" role="2QGid4">
-            <property role="2yT22K" value="null ()" />
-            <property role="2yT22M" value="null ()" />
-            <ref role="2ClRH1" node="7gwHXNztHc8" resolve="TS.5" />
-            <ref role="2Dj$GC" node="60wEthBTKPW" resolve="DS.5" />
-          </node>
-          <node concept="pcMM7" id="501$dK$Sx4_" role="2QGid4">
-            <property role="2yT22K" value="GateECU (I) ==&gt; (Data storedBy Component) WhtLst (I)" />
-            <property role="2yT22M" value="GateECU: Gateway ECU (I) ==&gt; (Data storedBy Component) WhtLst: Whitelist of CAN Messages (I)" />
-            <ref role="2ClRH1" node="60wEthBTKQs" resolve="TS.8" />
-            <ref role="2Dj$GC" node="60wEthBTKPW" resolve="DS.5" />
-            <node concept="2C31c$" id="501$dK$Sx4A" role="2QGGmO">
-              <ref role="2C31c_" node="7gwHXNztHdJ" resolve="WhtLst" />
-            </node>
-            <node concept="2C31c$" id="501$dK$Sx4B" role="2QGGmO">
-              <ref role="2C31c_" node="1eUj96eGPLA" resolve="GateECU" />
-            </node>
-          </node>
-        </node>
-        <node concept="2Q16Lc" id="501$dK$Sx4D" role="3aHmvd">
-          <ref role="2ClQv0" node="60wEthBTKPZ" resolve="DS.6" />
-          <node concept="oQUbu" id="501$dK$Sx4K" role="2QGid4">
-            <property role="2yT22K" value="null ()" />
-            <property role="2yT22M" value="null ()" />
-            <ref role="2ClRH1" node="5U29EQHaVYR" resolve="TS.6" />
-            <ref role="2Dj$GC" node="60wEthBTKPZ" resolve="DS.6" />
-          </node>
-          <node concept="pcMM7" id="501$dK$Sx4H" role="2QGid4">
-            <property role="2yT22K" value="GateECU (A, I) ==&gt; (Data storedBy Component) WhtLst (A)" />
-            <property role="2yT22M" value="GateECU: Gateway ECU (A, I) ==&gt; (Data storedBy Component) WhtLst: Whitelist of CAN Messages (A)" />
-            <ref role="2ClRH1" node="60wEthBTKQs" resolve="TS.8" />
-            <ref role="2Dj$GC" node="60wEthBTKPZ" resolve="DS.6" />
-            <node concept="2C31c$" id="501$dK$Sx4I" role="2QGGmO">
-              <ref role="2C31c_" node="7gwHXNztHdJ" resolve="WhtLst" />
-            </node>
-            <node concept="2C31c$" id="501$dK$Sx4J" role="2QGGmO">
-              <ref role="2C31c_" node="1eUj96eGPLA" resolve="GateECU" />
-            </node>
-          </node>
-          <node concept="pcMM7" id="501$dK$Sx4E" role="2QGid4">
-            <property role="2yT22K" value="GateECU (A, I) ==&gt; (Data storedBy Component) WhtLst (A)" />
-            <property role="2yT22M" value="GateECU: Gateway ECU (A, I) ==&gt; (Data storedBy Component) WhtLst: Whitelist of CAN Messages (A)" />
-            <ref role="2ClRH1" node="60wEthBTKQ$" resolve="TS.9" />
-            <ref role="2Dj$GC" node="60wEthBTKPZ" resolve="DS.6" />
-            <node concept="2C31c$" id="501$dK$Sx4F" role="2QGGmO">
-              <ref role="2C31c_" node="7gwHXNztHdJ" resolve="WhtLst" />
-            </node>
-            <node concept="2C31c$" id="501$dK$Sx4G" role="2QGGmO">
-              <ref role="2C31c_" node="1eUj96eGPLA" resolve="GateECU" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
-    <node concept="2Fpy1u" id="501$dK$Sx3G" role="2Q$E0J" />
   </node>
   <node concept="2vPz$R" id="5wtRytMI6hH">
     <property role="TrG5h" value="Risks" />
     <property role="3GE5qa" value="Security Analysis" />
     <node concept="KYrDe" id="6IMAd$NiG4n" role="2vPz$N">
       <property role="TrG5h" value="R.1" />
-      <node concept="2WIsl9" id="6IMAd$NiG7Q" role="2WIsl4">
-        <ref role="122Z_O" node="6IMAd$NiFVi" resolve="AS.6" />
+      <node concept="3$cmbp" id="2ggMdWXziUY" role="2WIsl4">
+        <ref role="122Z_O" node="60wEthBTKQ$" resolve="TS.9" />
       </node>
       <node concept="3VMn$a" id="7bZZv_jRVpC" role="2JHqPs" />
     </node>
     <node concept="KYrDe" id="1eUj96eGRhm" role="2vPz$N">
       <property role="TrG5h" value="R.2" />
-      <node concept="2WIsl9" id="5U29EQHb1HH" role="2WIsl4">
-        <ref role="122Z_O" node="5U29EQHaT4c" resolve="AS.1" />
+      <node concept="3$cmbp" id="2ggMdWXziVd" role="2WIsl4">
+        <ref role="122Z_O" node="60wEthBTKQk" resolve="TS.7" />
       </node>
       <node concept="3VMn$a" id="7bZZv_jRVpD" role="2JHqPs" />
     </node>
     <node concept="KYrDe" id="1eUj96eGRhq" role="2vPz$N">
       <property role="TrG5h" value="R.3" />
-      <node concept="2WIsl9" id="5U29EQHb1Iy" role="2WIsl4">
-        <ref role="122Z_O" node="7gwHXNztHdV" resolve="AS.5" />
+      <node concept="3$cmbp" id="2ggMdWXziV4" role="2WIsl4">
+        <ref role="122Z_O" node="60wEthBTKQs" resolve="TS.8" />
       </node>
       <node concept="2Q3xmc" id="35bN1QYCMEG" role="2QNYXd">
         <property role="2QNYWW" value="TODO" />
@@ -4757,66 +4518,24 @@
       <node concept="3aHhih" id="1PEmpgFfaK1" role="3N3N22">
         <property role="3aHm6j" value="" />
         <property role="133MFP" value="" />
-        <node concept="2Q16Lc" id="501$dK$SxaD" role="3aHmvd">
-          <ref role="2ClQv0" node="5wtRytMI6Rb" resolve="TS.1" />
-          <node concept="CLQ85" id="501$dK$SxaE" role="2QGid4">
-            <ref role="2ClRH1" node="5wtRytMI6Rb" resolve="TS.1" />
-            <ref role="2Dj$GC" node="5wtRytMI6Rb" resolve="TS.1" />
-          </node>
-        </node>
-        <node concept="2Q16Lc" id="501$dK$SxaF" role="3aHmvd">
-          <ref role="2ClQv0" node="5wtRytMI6RL" resolve="TS.2" />
-          <node concept="CLQ85" id="501$dK$SxaG" role="2QGid4">
-            <ref role="2ClRH1" node="5wtRytMI6RL" resolve="TS.2" />
-            <ref role="2Dj$GC" node="5wtRytMI6RL" resolve="TS.2" />
-          </node>
-        </node>
-        <node concept="2Q16Lc" id="501$dK$SxaH" role="3aHmvd">
-          <ref role="2ClQv0" node="5wtRytMI6Rs" resolve="TS.3" />
-          <node concept="CLQ85" id="501$dK$SxaI" role="2QGid4">
-            <ref role="2ClRH1" node="5wtRytMI6Rs" resolve="TS.3" />
-            <ref role="2Dj$GC" node="5wtRytMI6Rs" resolve="TS.3" />
-          </node>
-        </node>
-        <node concept="2Q16Lc" id="501$dK$SxaJ" role="3aHmvd">
-          <ref role="2ClQv0" node="5wtRytMI6Sp" resolve="TS.4" />
-          <node concept="CLQ85" id="501$dK$SxaK" role="2QGid4">
-            <ref role="2ClRH1" node="5wtRytMI6Sp" resolve="TS.4" />
-            <ref role="2Dj$GC" node="5wtRytMI6Sp" resolve="TS.4" />
-          </node>
-        </node>
-        <node concept="2Q16Lc" id="501$dK$SxaL" role="3aHmvd">
-          <ref role="2ClQv0" node="7gwHXNztHc8" resolve="TS.5" />
-          <node concept="CLQ85" id="501$dK$SxaM" role="2QGid4">
-            <ref role="2ClRH1" node="7gwHXNztHc8" resolve="TS.5" />
-            <ref role="2Dj$GC" node="7gwHXNztHc8" resolve="TS.5" />
-          </node>
-        </node>
-        <node concept="2Q16Lc" id="501$dK$SxaN" role="3aHmvd">
-          <ref role="2ClQv0" node="5U29EQHaVYR" resolve="TS.6" />
-          <node concept="CLQ85" id="501$dK$SxaO" role="2QGid4">
-            <ref role="2ClRH1" node="5U29EQHaVYR" resolve="TS.6" />
-            <ref role="2Dj$GC" node="5U29EQHaVYR" resolve="TS.6" />
-          </node>
-        </node>
         <node concept="2Q16Lc" id="501$dK$SxaP" role="3aHmvd">
           <ref role="2ClQv0" node="60wEthBTKQk" resolve="TS.7" />
-          <node concept="CLQ85" id="501$dK$SxaQ" role="2QGid4">
-            <ref role="2ClRH1" node="60wEthBTKQk" resolve="TS.7" />
+          <node concept="pcNHv" id="2ggMdWXzjpI" role="2QGid4">
+            <ref role="2ClRH1" node="1eUj96eGRhm" resolve="R.2" />
             <ref role="2Dj$GC" node="60wEthBTKQk" resolve="TS.7" />
           </node>
         </node>
         <node concept="2Q16Lc" id="501$dK$SxaR" role="3aHmvd">
           <ref role="2ClQv0" node="60wEthBTKQs" resolve="TS.8" />
-          <node concept="CLQ85" id="501$dK$SxaS" role="2QGid4">
-            <ref role="2ClRH1" node="60wEthBTKQs" resolve="TS.8" />
+          <node concept="pcNHv" id="2ggMdWXzjpQ" role="2QGid4">
+            <ref role="2ClRH1" node="1eUj96eGRhq" resolve="R.3" />
             <ref role="2Dj$GC" node="60wEthBTKQs" resolve="TS.8" />
           </node>
         </node>
         <node concept="2Q16Lc" id="501$dK$SxaT" role="3aHmvd">
           <ref role="2ClQv0" node="60wEthBTKQ$" resolve="TS.9" />
-          <node concept="CLQ85" id="501$dK$SxaU" role="2QGid4">
-            <ref role="2ClRH1" node="60wEthBTKQ$" resolve="TS.9" />
+          <node concept="pcNHv" id="2ggMdWXzjpY" role="2QGid4">
+            <ref role="2ClRH1" node="6IMAd$NiG4n" resolve="R.1" />
             <ref role="2Dj$GC" node="60wEthBTKQ$" resolve="TS.9" />
           </node>
         </node>
