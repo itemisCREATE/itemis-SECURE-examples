@@ -2,7 +2,7 @@
 <model ref="r:bc4781e2-88eb-4f1d-89e2-15d6c432f6b2(ISOExample)">
   <persistence version="9" />
   <languages>
-    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="3" />
+    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="4" />
     <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
   </languages>
   <imports>
@@ -2779,12 +2779,12 @@
         </node>
       </node>
       <node concept="3RtpOr" id="54s24WY_DrS" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="Ex0" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="SE" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhx" resolve="SE0" />
       </node>
       <node concept="3RtpOr" id="54s24WY_DGY" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="K2" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="KoIC" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="KoIC2" />
       </node>
       <node concept="122ZmF" id="5U29EQHaV7I" role="Oro34">
         <ref role="122Z_O" to="julz:4CQftq3lQmG" resolve="TC.2" />
@@ -2806,16 +2806,16 @@
         <ref role="122Z_O" node="1eUj96eGPLj" resolve="NavECU" />
       </node>
       <node concept="3RtpOr" id="6SOv2WubAhH" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="SE" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="SE2" />
       </node>
       <node concept="3RtpOr" id="54s24WY_DK_" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="K2" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="KoIC" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="KoIC2" />
       </node>
       <node concept="3RtpOr" id="54s24WY_DZ2" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhH" resolve="T1" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="ET" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhH" resolve="ET1" />
       </node>
       <node concept="3VMn$a" id="7bZZv_jRVpu" role="2JHqPs" />
     </node>
@@ -2831,20 +2831,20 @@
         <ref role="122Z_O" node="1eUj96eGPLj" resolve="NavECU" />
       </node>
       <node concept="3RtpOr" id="6SOv2WubAmr" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="Ex" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="Ex2" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhw" resolve="SE" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhz" resolve="SE2" />
       </node>
       <node concept="3RtpOr" id="54s24WY_DO9" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="K" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="K2" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhP" resolve="KoIC" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhS" resolve="KoIC2" />
       </node>
       <node concept="3RtpOr" id="54s24WY_E2C" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="T" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhH" resolve="T1" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQhE" resolve="ET" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhH" resolve="ET1" />
       </node>
       <node concept="3RtpOr" id="5560MFOMDPR" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
-        <ref role="3RtpRB" to="xz8e:4CQftq3lQhC" resolve="W2" />
+        <ref role="3RtpRB" to="xz8e:4CQftq3lQhC" resolve="WoO2" />
       </node>
       <node concept="3RtpOr" id="5560MFOMDRZ" role="3RtpOm">
         <ref role="3RtpOq" to="xz8e:4CQftq3lQhK" resolve="Eq" />

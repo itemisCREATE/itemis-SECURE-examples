@@ -2,7 +2,7 @@
 <model ref="r:9e0bf89b-7c83-426e-8e13-cd21fab7b94a(MethodConfiguration)">
   <persistence version="9" />
   <languages>
-    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="3" />
+    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="4" />
     <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
   </languages>
   <imports>
@@ -10,8 +10,10 @@
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
-      <concept id="3766652101586518553" name="de.itemis.ysec.methodConfiguration.structure.DamagePotentialRef" flags="ng" index="fNHgS" />
       <concept id="4497791247486336887" name="de.itemis.ysec.methodConfiguration.structure.DamageClass" flags="ng" index="i8Y8S" />
+      <concept id="7480212422238926806" name="de.itemis.ysec.methodConfiguration.structure.ImpactScale" flags="ng" index="2nNfD6">
+        <property id="7480212422238960135" name="value" index="2nMRun" />
+      </concept>
       <concept id="155558482576785587" name="de.itemis.ysec.methodConfiguration.structure.FeasibilityModel" flags="ng" index="2tSmsI">
         <child id="227120341090910541" name="attackPotentials" index="KQUnM" />
         <child id="8127657721944981146" name="attackPotentialsTable" index="2WHCcS" />
@@ -23,7 +25,7 @@
         <child id="2317647640920546170" name="stakeholders" index="3vJEH5" />
       </concept>
       <concept id="4718052244458556160" name="de.itemis.ysec.methodConfiguration.structure.DamageCriterion" flags="ng" index="2vPyy4">
-        <child id="3766652101586540921" name="damagePotential" index="fNCXo" />
+        <property id="7401346557238140421" name="impactValue" index="2P2SdZ" />
       </concept>
       <concept id="4718052244458547399" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClass" flags="ng" index="2vP$H3" />
       <concept id="4718052244458551930" name="de.itemis.ysec.methodConfiguration.structure.DamagePotential" flags="ng" index="2vP_BY">
@@ -38,6 +40,7 @@
       </concept>
       <concept id="5139110253494370791" name="de.itemis.ysec.methodConfiguration.structure.ImpactModel" flags="ng" index="1Ai4xF">
         <child id="4497791247487502318" name="damageClasses" index="ictEx" />
+        <child id="7480212422239027845" name="scalingOptions" index="2nMCWl" />
         <child id="769212120764574739" name="damageSubClasses" index="_H2pa" />
         <child id="5265403561760330255" name="stakeholders" index="CRQEF" />
         <child id="1756525789544304260" name="damagePotentials" index="OYq1y" />
@@ -166,9 +169,6 @@
         <reference id="8127657721944936034" name="combinedAttackEffort" index="2WHzf0" />
         <reference id="8127657721944936026" name="initialAttackEffort" index="2WHzfS" />
         <reference id="8127657721944936029" name="consecutiveAttackEffort" index="2WHzfZ" />
-      </concept>
-      <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
-        <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
       <concept id="3384350556533323994" name="com.moraad.core.structure.DataSecurityTarget" flags="ng" index="13pXwW" />
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
@@ -2124,9 +2124,7 @@
       <node concept="2vPyy4" id="49aGL_C49Np" role="2vMkDN">
         <property role="TrG5h" value="RU.S0" />
         <property role="DVXpC" value="No injuries" />
-        <node concept="fNHgS" id="49aGL_C49Nq" role="fNCXo">
-          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
-        </node>
+        <property role="2P2SdZ" value="0" />
         <node concept="3VMn$a" id="7bZZv_jRVjm" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKsio" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKsip" role="3VMn$3">
@@ -2168,9 +2166,7 @@
       <node concept="2vPyy4" id="49aGL_C49Nr" role="2vMkDN">
         <property role="TrG5h" value="RU.S1" />
         <property role="DVXpC" value="Light and moderate injuries" />
-        <node concept="fNHgS" id="49aGL_C49Ns" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
-        </node>
+        <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="7bZZv_jRUW7" role="2JHqPs">
           <node concept="3VMn$0" id="7bZZv_jRUW8" role="3VMn$6">
             <node concept="3VMn$7" id="7bZZv_jRUW9" role="3VMn$3">
@@ -2191,9 +2187,7 @@
       <node concept="2vPyy4" id="49aGL_C49Nt" role="2vMkDN">
         <property role="TrG5h" value="RU.S2" />
         <property role="DVXpC" value="Severe injuries" />
-        <node concept="fNHgS" id="49aGL_C49Nu" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Maj" />
-        </node>
+        <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="7bZZv_jRUWd" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwqM" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwqN" role="3VMn$3">
@@ -2220,9 +2214,7 @@
       <node concept="2vPyy4" id="49aGL_C49Nv" role="2vMkDN">
         <property role="TrG5h" value="RU.S3" />
         <property role="DVXpC" value="Life-threatening injuries" />
-        <node concept="fNHgS" id="49aGL_C49Nw" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
-        </node>
+        <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="7bZZv_jRUWl" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwq2" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwq3" role="3VMn$3">
@@ -2360,9 +2352,7 @@
       <node concept="2vPyy4" id="49aGL_C49Ny" role="2vMkDN">
         <property role="TrG5h" value="RU.F0" />
         <property role="DVXpC" value="Negligible losses" />
-        <node concept="fNHgS" id="49aGL_C49Nz" role="fNCXo">
-          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
-        </node>
+        <property role="2P2SdZ" value="0" />
         <node concept="3VMn$a" id="7bZZv_jRUWu" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwrs" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwrt" role="3VMn$3">
@@ -2419,9 +2409,7 @@
       <node concept="2vPyy4" id="49aGL_C49N$" role="2vMkDN">
         <property role="TrG5h" value="RU.F1" />
         <property role="DVXpC" value="Moderate losses" />
-        <node concept="fNHgS" id="49aGL_C49N_" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
-        </node>
+        <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="7bZZv_jRUWJ" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwt2" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwt3" role="3VMn$3">
@@ -2490,9 +2478,7 @@
       <node concept="2vPyy4" id="49aGL_C49NA" role="2vMkDN">
         <property role="TrG5h" value="RU.F2" />
         <property role="DVXpC" value="Substantial losses" />
-        <node concept="fNHgS" id="49aGL_C49NB" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Maj" />
-        </node>
+        <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="7bZZv_jRUX4" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwv0" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwv1" role="3VMn$3">
@@ -2552,9 +2538,7 @@
       <node concept="2vPyy4" id="49aGL_C49NC" role="2vMkDN">
         <property role="TrG5h" value="RU.F3" />
         <property role="DVXpC" value="Personal bankruptcy" />
-        <node concept="fNHgS" id="49aGL_C49ND" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
-        </node>
+        <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="7bZZv_jRUXm" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwxc" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwxd" role="3VMn$3">
@@ -2621,9 +2605,7 @@
       <node concept="2vPyy4" id="49aGL_C49NF" role="2vMkDN">
         <property role="TrG5h" value="RU.O0" />
         <property role="DVXpC" value="No or non-perceivable impairment" />
-        <node concept="fNHgS" id="49aGL_C49NG" role="fNCXo">
-          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
-        </node>
+        <property role="2P2SdZ" value="0" />
         <node concept="3VMn$a" id="7bZZv_jRUXA" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwEo" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwEp" role="3VMn$3">
@@ -2674,9 +2656,7 @@
       <node concept="2vPyy4" id="49aGL_C49NH" role="2vMkDN">
         <property role="TrG5h" value="RU.O1" />
         <property role="DVXpC" value="Function partially impaired" />
-        <node concept="fNHgS" id="49aGL_C49NI" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
-        </node>
+        <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="7bZZv_jRUXO" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwCG" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwCH" role="3VMn$3">
@@ -2735,9 +2715,7 @@
       <node concept="2vPyy4" id="49aGL_C49NJ" role="2vMkDN">
         <property role="TrG5h" value="RU.O2" />
         <property role="DVXpC" value="Important function impaired" />
-        <node concept="fNHgS" id="49aGL_C49NK" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Maj" />
-        </node>
+        <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="7bZZv_jRUY2" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwAy" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwAz" role="3VMn$3">
@@ -2811,9 +2789,7 @@
       <node concept="2vPyy4" id="49aGL_C49NL" role="2vMkDN">
         <property role="TrG5h" value="RU.O3" />
         <property role="DVXpC" value="Core function impaired" />
-        <node concept="fNHgS" id="49aGL_C49NM" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
-        </node>
+        <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="7bZZv_jRUYg" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwyG" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwyH" role="3VMn$3">
@@ -2989,9 +2965,7 @@
       <node concept="2vPyy4" id="49aGL_C49NO" role="2vMkDN">
         <property role="TrG5h" value="RU.P0" />
         <property role="DVXpC" value="No or negligible consequences" />
-        <node concept="fNHgS" id="49aGL_C49NP" role="fNCXo">
-          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
-        </node>
+        <property role="2P2SdZ" value="0" />
         <node concept="3VMn$a" id="7bZZv_jRUY$" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwFM" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwFN" role="3VMn$3">
@@ -3104,9 +3078,7 @@
       <node concept="2vPyy4" id="49aGL_C49NQ" role="2vMkDN">
         <property role="TrG5h" value="RU.P1" />
         <property role="DVXpC" value="Inconveniences" />
-        <node concept="fNHgS" id="49aGL_C49NR" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
-        </node>
+        <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="7bZZv_jRUZa" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwJa" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwJb" role="3VMn$3">
@@ -3235,9 +3207,7 @@
       <node concept="2vPyy4" id="49aGL_C49NS" role="2vMkDN">
         <property role="TrG5h" value="RU.P2" />
         <property role="DVXpC" value="Serious impact on PII" />
-        <node concept="fNHgS" id="49aGL_C49NT" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Maj" />
-        </node>
+        <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="7bZZv_jRUZR" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwN0" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwN1" role="3VMn$3">
@@ -3366,9 +3336,7 @@
       <node concept="2vPyy4" id="49aGL_C49NU" role="2vMkDN">
         <property role="TrG5h" value="RU.P3" />
         <property role="DVXpC" value="Irreversible impact on PII" />
-        <node concept="fNHgS" id="49aGL_C49NV" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
-        </node>
+        <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="7bZZv_jRV0$" role="2JHqPs">
           <node concept="3VMn$0" id="5sj6a$CKwQQ" role="3VMn$6">
             <node concept="3VMn$7" id="5sj6a$CKwQR" role="3VMn$3">
@@ -3534,6 +3502,21 @@
       <property role="TrG5h" value="OEM" />
       <property role="DVXpC" value="Original Equipment Manufacturer" />
       <node concept="3VMn$a" id="4SjRD0NVDYw" role="2JHqPs" />
+    </node>
+    <node concept="2nNfD6" id="Xq20ta5ILF" role="2nMCWl">
+      <property role="TrG5h" value="IS.1" />
+      <property role="DVXpC" value="Single" />
+      <property role="2nMRun" value="1" />
+    </node>
+    <node concept="2nNfD6" id="Xq20ta5ILG" role="2nMCWl">
+      <property role="TrG5h" value="IS.2" />
+      <property role="DVXpC" value="Some" />
+      <property role="2nMRun" value="5" />
+    </node>
+    <node concept="2nNfD6" id="Xq20ta5ILH" role="2nMCWl">
+      <property role="TrG5h" value="IS.3" />
+      <property role="DVXpC" value="Many" />
+      <property role="2nMRun" value="11" />
     </node>
   </node>
   <node concept="2tSmsI" id="7bZZv_jRUQr">
