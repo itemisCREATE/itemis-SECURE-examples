@@ -4911,7 +4911,7 @@
       </node>
     </node>
     <node concept="3Rgae8" id="4CQftq3lQh_" role="3Rgdis">
-      <property role="TrG5h" value="W" />
+      <property role="TrG5h" value="WoO" />
       <property role="DVXpC" value="Window of opportunity" />
       <node concept="3Rgaek" id="4CQftq3lQhA" role="3RgdiP">
         <property role="TrG5h" value="WoO0" />
