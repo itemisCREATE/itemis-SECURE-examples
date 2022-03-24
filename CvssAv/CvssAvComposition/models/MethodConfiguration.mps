@@ -11,15 +11,17 @@
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
-      <concept id="3766652101586518553" name="de.itemis.ysec.methodConfiguration.structure.DamagePotentialRef" flags="ng" index="fNHgS" />
       <concept id="4497791247486336887" name="de.itemis.ysec.methodConfiguration.structure.DamageClass" flags="ng" index="i8Y8S" />
+      <concept id="7480212422238926806" name="de.itemis.ysec.methodConfiguration.structure.ImpactScale" flags="ng" index="2nNfD6">
+        <property id="7480212422238960135" name="value" index="2nMRun" />
+      </concept>
       <concept id="4718052244458613120" name="de.itemis.ysec.methodConfiguration.structure.DamageSubClass" flags="ng" index="2vMkC4">
         <reference id="4497791247486566283" name="damageClass" index="i9Qb4" />
         <child id="4718052244458613239" name="criteria" index="2vMkDN" />
         <child id="2317647640920546170" name="stakeholders" index="3vJEH5" />
       </concept>
       <concept id="4718052244458556160" name="de.itemis.ysec.methodConfiguration.structure.DamageCriterion" flags="ng" index="2vPyy4">
-        <child id="3766652101586540921" name="damagePotential" index="fNCXo" />
+        <property id="7401346557238140421" name="impactValue" index="2P2SdZ" />
       </concept>
       <concept id="4718052244458547399" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClass" flags="ng" index="2vP$H3" />
       <concept id="4718052244458551930" name="de.itemis.ysec.methodConfiguration.structure.DamagePotential" flags="ng" index="2vP_BY">
@@ -34,6 +36,7 @@
       </concept>
       <concept id="5139110253494370791" name="de.itemis.ysec.methodConfiguration.structure.ImpactModel" flags="ng" index="1Ai4xF">
         <child id="4497791247487502318" name="damageClasses" index="ictEx" />
+        <child id="7480212422239027845" name="scalingOptions" index="2nMCWl" />
         <child id="769212120764574739" name="damageSubClasses" index="_H2pa" />
         <child id="5265403561760330255" name="stakeholders" index="CRQEF" />
         <child id="1756525789544304260" name="damagePotentials" index="OYq1y" />
@@ -190,9 +193,6 @@
         <child id="7712103759295966721" name="defaultOperationForDependence" index="1oN8I3" />
         <child id="7712103759295966736" name="defaultOperationForThreat" index="1oN8Ii" />
         <child id="7712103759295966753" name="defaultOperationForMitigation" index="1oN8Iz" />
-      </concept>
-      <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
-        <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
       <concept id="3384350556533323994" name="com.moraad.core.structure.DataSecurityTarget" flags="ng" index="13pXwW" />
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
@@ -3131,34 +3131,26 @@
       <node concept="2vPyy4" id="4CQftq3lQib" role="2vMkDN">
         <property role="TrG5h" value="RU.S0" />
         <property role="DVXpC" value="No Injuries" />
+        <property role="2P2SdZ" value="0" />
         <node concept="3VMn$a" id="4DMK3dTZ06H" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI6YW" role="fNCXo">
-          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
-        </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQid" role="2vMkDN">
         <property role="TrG5h" value="RU.S1" />
         <property role="DVXpC" value="Light Injury" />
+        <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="4DMK3dTZ06N" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7ki" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
-        </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQif" role="2vMkDN">
         <property role="TrG5h" value="RU.S2" />
         <property role="DVXpC" value="Severe Injury" />
+        <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="4DMK3dTZ06T" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7kO" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Ser" />
-        </node>
       </node>
       <node concept="2vPyy4" id="5wtRytMI6YD" role="2vMkDN">
         <property role="TrG5h" value="RU.S3" />
         <property role="DVXpC" value="Life Threatening" />
+        <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="4DMK3dTZ06Z" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7lm" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
-        </node>
       </node>
       <node concept="3vJEHI" id="4SjRD0NVDYh" role="3vJEH5">
         <ref role="3vJEHH" node="4SjRD0NVDYd" resolve="RU" />
@@ -3176,34 +3168,26 @@
       <node concept="2vPyy4" id="4CQftq3lQhV" role="2vMkDN">
         <property role="TrG5h" value="RU.F0" />
         <property role="DVXpC" value="Negligible Losses" />
+        <property role="2P2SdZ" value="0" />
         <node concept="3VMn$a" id="4DMK3dTZ07c" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI6Yt" role="fNCXo">
-          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
-        </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQhZ" role="2vMkDN">
         <property role="TrG5h" value="RU.F1" />
         <property role="DVXpC" value="Moderate Losses" />
+        <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="4DMK3dTZ07i" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7iG" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
-        </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQi1" role="2vMkDN">
         <property role="TrG5h" value="RU.F2" />
         <property role="DVXpC" value="Substantial Losses" />
+        <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="4DMK3dTZ07o" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7je" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Ser" />
-        </node>
       </node>
       <node concept="2vPyy4" id="5wtRytMI6Yj" role="2vMkDN">
         <property role="TrG5h" value="RU.F3" />
         <property role="DVXpC" value="Personal Bankruptcy" />
+        <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="4DMK3dTZ07u" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7jK" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
-        </node>
       </node>
       <node concept="3vJEHI" id="4SjRD0NVDYi" role="3vJEH5">
         <ref role="3vJEHH" node="4SjRD0NVDYd" resolve="RU" />
@@ -3221,34 +3205,26 @@
       <node concept="2vPyy4" id="4CQftq3lQi$" role="2vMkDN">
         <property role="TrG5h" value="RU.O0" />
         <property role="DVXpC" value="Negligible Disturbance" />
+        <property role="2P2SdZ" value="0" />
         <node concept="3VMn$a" id="4DMK3dTZ07F" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI70D" role="fNCXo">
-          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
-        </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiA" role="2vMkDN">
         <property role="TrG5h" value="RU.O1" />
         <property role="DVXpC" value="Vehicle mostly Operational" />
+        <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="4DMK3dTZ07L" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7nu" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
-        </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiC" role="2vMkDN">
         <property role="TrG5h" value="RU.O2" />
         <property role="DVXpC" value="Serious Limitation in Vehicle Operation" />
+        <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="4DMK3dTZ07R" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7o0" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Ser" />
-        </node>
       </node>
       <node concept="2vPyy4" id="5wtRytMI70m" role="2vMkDN">
         <property role="TrG5h" value="RU.O3" />
         <property role="DVXpC" value="Vehicle not Operational" />
+        <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="4DMK3dTZ07X" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7oy" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
-        </node>
       </node>
       <node concept="3vJEHI" id="4SjRD0NVDYj" role="3vJEH5">
         <ref role="3vJEHH" node="4SjRD0NVDYd" resolve="RU" />
@@ -3266,34 +3242,26 @@
       <node concept="2vPyy4" id="4CQftq3lQir" role="2vMkDN">
         <property role="TrG5h" value="RU.P0" />
         <property role="DVXpC" value="Few Inconveniences" />
+        <property role="2P2SdZ" value="0" />
         <node concept="3VMn$a" id="4DMK3dTZ08a" role="2JHqPs" />
-        <node concept="fNHgS" id="4CQftq3lQis" role="fNCXo">
-          <ref role="122Z_O" node="4CQftq3lQjf" resolve="Neg" />
-        </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQit" role="2vMkDN">
         <property role="TrG5h" value="RU.P1" />
         <property role="DVXpC" value="Significant Inconveniences" />
+        <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="4DMK3dTZ08g" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7lS" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7e7" resolve="Mod" />
-        </node>
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiv" role="2vMkDN">
         <property role="TrG5h" value="RU.P2" />
         <property role="DVXpC" value="Serious Impact on PII" />
+        <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="4DMK3dTZ08m" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7mq" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7cv" resolve="Ser" />
-        </node>
       </node>
       <node concept="2vPyy4" id="5wtRytMI6YZ" role="2vMkDN">
         <property role="TrG5h" value="RU.P3" />
         <property role="DVXpC" value="Irreversible Impact on PII" />
+        <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="4DMK3dTZ08s" role="2JHqPs" />
-        <node concept="fNHgS" id="5wtRytMI7mW" role="fNCXo">
-          <ref role="122Z_O" node="5wtRytMI7aX" resolve="Sev" />
-        </node>
       </node>
       <node concept="3vJEHI" id="4SjRD0NVDYk" role="3vJEH5">
         <ref role="3vJEHH" node="4SjRD0NVDYd" resolve="RU" />
@@ -3308,6 +3276,21 @@
       <property role="TrG5h" value="OEM" />
       <property role="DVXpC" value="Original Equipment Manufacturer" />
       <node concept="3VMn$a" id="4SjRD0NVDYg" role="2JHqPs" />
+    </node>
+    <node concept="2nNfD6" id="Xq20ta5IL_" role="2nMCWl">
+      <property role="TrG5h" value="IS.1" />
+      <property role="DVXpC" value="Single" />
+      <property role="2nMRun" value="1" />
+    </node>
+    <node concept="2nNfD6" id="Xq20ta5ILA" role="2nMCWl">
+      <property role="TrG5h" value="IS.2" />
+      <property role="DVXpC" value="Some" />
+      <property role="2nMRun" value="5" />
+    </node>
+    <node concept="2nNfD6" id="Xq20ta5ILB" role="2nMCWl">
+      <property role="TrG5h" value="IS.3" />
+      <property role="DVXpC" value="Many" />
+      <property role="2nMRun" value="11" />
     </node>
   </node>
   <node concept="3XX4$o" id="65pzHM4F7aL">
@@ -3611,13 +3594,13 @@
       <ref role="3XNEje" to="kc1e:1ZE7Y0_HczB" resolve="Stakeholders" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Dy" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIB1pMm" resolve="ThreatScenarioAssistant" />
+      <ref role="3XNEje" to="kc1e:6YPQdIB1pMm" resolve="AssetIdentificationAssistant" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Fo" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIB1pKY" resolve="ThreatAsssistant" />
+      <ref role="3XNEje" to="kc1e:6YPQdIB1pKY" resolve="ThreatScenarioAsssistant" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Dj" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIB1pNJ" resolve="RelationAssistant" />
+      <ref role="3XNEje" to="kc1e:6YPQdIB1pNJ" resolve="TsDsLinkingAssistant" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_DT" role="3XNixv">
       <ref role="3XNEje" to="kc1e:5ZaGJmZiIZQ" resolve="Function" />
@@ -3839,13 +3822,13 @@
       <ref role="3XNEje" to="kc1e:2GCfemeQcok" resolve="AssistantChunk" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_BF" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5EzVG8VFNmc" resolve="Assistant_SecGoalSuggestion" />
+      <ref role="3XNEje" to="kc1e:5EzVG8VFNmc" resolve="Assistant_ToeeDemandsSuggestion" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Ed" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5EzVG8VFNtX" resolve="Assistant_ThreatSuggestion" />
+      <ref role="3XNEje" to="kc1e:5EzVG8VFNtX" resolve="Assistant_ToeeThreatenedBySuggestion" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_Cq" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5EzVG8VFNxR" resolve="Assistant_ThreatenedBySuggestion" />
+      <ref role="3XNEje" to="kc1e:5EzVG8VFNxR" resolve="Assistant_DsThreatenedBySuggestion" />
     </node>
     <node concept="3XNixs" id="20HkN2s1_B7" role="3XNixv">
       <ref role="3XNEje" to="kc1e:5EzVG8VFN_M" resolve="Assistant_DependsOnSuggestion" />
