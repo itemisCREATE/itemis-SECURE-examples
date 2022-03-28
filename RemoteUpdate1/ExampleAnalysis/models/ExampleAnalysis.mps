@@ -313,9 +313,7 @@
       </concept>
       <concept id="5188113475686638955" name="com.moraad.components.structure.TOEData" flags="ng" index="2zhWjs" />
       <concept id="2560071392251274778" name="com.moraad.components.structure.TOEFunction" flags="ng" index="Hgtl4" />
-      <concept id="8237891392911108311" name="com.moraad.components.structure.TOEFunctionRef" flags="ng" index="IT3p4">
-        <reference id="2560071392252101287" name="target" index="Hlb7T" />
-      </concept>
+      <concept id="8237891392911108311" name="com.moraad.components.structure.TOEFunctionRef" flags="ng" index="IT3p4" />
       <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W">
         <property id="8675533035673365869" name="isLockedDeassigned" index="347S8T" />
         <property id="8675533035673365867" name="isLockedAssigned" index="347S8Z" />
@@ -2285,7 +2283,7 @@
           <ref role="122Z_O" to="72tq:4CQftq3lQjb" resolve="AVA" />
         </node>
         <node concept="IT3p4" id="60wEthBTL2t" role="1xHT_4">
-          <ref role="Hlb7T" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+          <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
         </node>
       </node>
     </node>

@@ -79,7 +79,7 @@
         <child id="5638758366197962492" name="riskTreatmentChunk" index="21fj8B" />
       </concept>
       <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA">
-        <property id="5844418852561495228" name="numberOfApsPerGroup" index="1CBqX7" />
+        <property id="5844418852561495228" name="limit" index="1CBqX7" />
       </concept>
       <concept id="7385129922939695098" name="com.moraad.reports.structure.AttackEffortsMatrixReportItem" flags="ng" index="a$eXN" />
       <concept id="7385129922949653722" name="com.moraad.reports.structure.RiskLevelMatrixReportItem" flags="ng" index="bYehj" />
@@ -383,9 +383,7 @@
       </concept>
       <concept id="5188113475686638955" name="com.moraad.components.structure.TOEData" flags="ng" index="2zhWjs" />
       <concept id="2560071392251274778" name="com.moraad.components.structure.TOEFunction" flags="ng" index="Hgtl4" />
-      <concept id="8237891392911108311" name="com.moraad.components.structure.TOEFunctionRef" flags="ng" index="IT3p4">
-        <reference id="2560071392252101287" name="target" index="Hlb7T" />
-      </concept>
+      <concept id="8237891392911108311" name="com.moraad.components.structure.TOEFunctionRef" flags="ng" index="IT3p4" />
       <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W" />
       <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
         <child id="6569433384300427095" name="assignedFunctions" index="lYIuc" />
@@ -2448,7 +2446,7 @@
           <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
         </node>
         <node concept="IT3p4" id="60wEthBTKQ4" role="1xHT_4">
-          <ref role="Hlb7T" node="5wtRytMI6S9" resolve="OffFunc" />
+          <ref role="122Z_O" node="5wtRytMI6S9" resolve="OffFunc" />
         </node>
       </node>
     </node>
@@ -2523,7 +2521,7 @@
           <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
         </node>
         <node concept="IT3p4" id="60wEthBTKQ7" role="1xHT_4">
-          <ref role="Hlb7T" node="5wtRytMI6Sb" resolve="OnFunc" />
+          <ref role="122Z_O" node="5wtRytMI6Sb" resolve="OnFunc" />
         </node>
       </node>
     </node>
@@ -2604,7 +2602,7 @@
           <ref role="122Z_O" to="xz8e:4CQftq3lQjb" resolve="A" />
         </node>
         <node concept="IT3p4" id="60wEthBTKQa" role="1xHT_4">
-          <ref role="Hlb7T" node="5wtRytMI6S9" resolve="OffFunc" />
+          <ref role="122Z_O" node="5wtRytMI6S9" resolve="OffFunc" />
         </node>
       </node>
     </node>
@@ -2733,7 +2731,7 @@
           <ref role="122Z_O" to="xz8e:4CQftq3lQjb" resolve="A" />
         </node>
         <node concept="IT3p4" id="60wEthBTKQd" role="1xHT_4">
-          <ref role="Hlb7T" node="5wtRytMI6Sb" resolve="OnFunc" />
+          <ref role="122Z_O" node="5wtRytMI6Sb" resolve="OnFunc" />
         </node>
       </node>
     </node>
@@ -2843,7 +2841,7 @@
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhH" resolve="ET1" />
       </node>
       <node concept="3RtpOr" id="5560MFOMDPR" role="3RtpOm">
-        <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="W" />
+        <ref role="3RtpOq" to="xz8e:4CQftq3lQh_" resolve="WoO" />
         <ref role="3RtpRB" to="xz8e:4CQftq3lQhC" resolve="WoO2" />
       </node>
       <node concept="3RtpOr" id="5560MFOMDRZ" role="3RtpOm">
