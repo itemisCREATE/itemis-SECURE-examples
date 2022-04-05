@@ -30,23 +30,23 @@
     <language slang="l:c788b046-2019-4656-8b60-8bb9bbb177b5:com.mbeddr.mpsutil.review" version="0" />
     <language slang="l:7a060fae-09e0-4372-be36-6696d6554c0e:com.mbeddr.mpsutil.review.annotation" version="0" />
     <language slang="l:2bee351d-bcec-4897-88ae-1eb8b271032f:com.moraad.assessmentcatalog.descriptor" version="0" />
-    <language slang="l:c1497963-7ffd-4da0-9a4d-74675c5ab7e2:com.moraad.components" version="16" />
-    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="74" />
+    <language slang="l:c1497963-7ffd-4da0-9a4d-74675c5ab7e2:com.moraad.components" version="17" />
+    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="78" />
     <language slang="l:d66daea8-e7a8-4305-aeaa-7ca535d07bd3:com.moraad.projectinfo" version="1" />
-    <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="1" />
+    <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="2" />
     <language slang="l:a97beefa-b088-4bdb-8ed8-6b4e554b6264:com.moraad.sequences" version="0" />
-    <language slang="l:8aedd025-5f31-4a1e-81a1-4c5345407211:com.moraad.suggestions" version="1" />
+    <language slang="l:8aedd025-5f31-4a1e-81a1-4c5345407211:com.moraad.suggestions" version="3" />
     <language slang="l:3b2e8e7c-a0de-4faa-ad48-1ee43c2e27ac:com.moraad.userScripts" version="0" />
     <language slang="l:e8cdedba-17d0-43f7-902f-38efdcd30769:de.itemis.mps.commons" version="0" />
     <language slang="l:048a18dc-8dce-4fe2-8e99-0a16464f630c:de.itemis.mps.editor.freetext" version="0" />
     <language slang="l:23c9b2af-fa11-470e-a8b5-5aae9105f1b0:de.itemis.mps.serialization" version="0" />
-    <language slang="l:7181c8c9-3335-44a5-b8b8-c9883c6a4425:de.itemis.mps.terminology" version="0" />
+    <language slang="l:7181c8c9-3335-44a5-b8b8-c9883c6a4425:de.itemis.mps.terminology" version="1" />
     <language slang="l:b65d571f-daea-41e5-99be-6168217ee77f:de.itemis.mps.todos" version="0" />
     <language slang="l:d8c07454-d390-4e04-8826-d25e86f59134:de.itemis.mps.xdiagram" version="0" />
     <language slang="l:174fc1bc-8a89-4d07-8636-8bc5dc4757e4:de.itemis.vcs_text.tables" version="0" />
     <language slang="l:24e88a55-f0b5-4dc5-9077-49730e920865:de.itemis.ysec.checklist" version="0" />
     <language slang="l:edd58c45-9999-4ad9-8f8a-e0d26da1cbc9:de.itemis.ysec.commons" version="0" />
-    <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="3" />
+    <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="4" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
