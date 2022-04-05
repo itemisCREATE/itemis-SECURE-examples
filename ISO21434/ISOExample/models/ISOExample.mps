@@ -28,24 +28,24 @@
       </concept>
     </language>
     <language id="8aedd025-5f31-4a1e-81a1-4c5345407211" name="com.moraad.suggestions">
-      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.AssAcceptedThreatAssistantSuggestion" flags="ng" index="k5Jqw">
-        <child id="1744555010771063083" name="actingThreats" index="k5Jqx" />
+      <concept id="1744555010771063082" name="com.moraad.suggestions.structure.AssAcceptedThreatScenarioAssistantSuggestion" flags="ng" index="k5Jqw">
+        <child id="1744555010771063083" name="actingThreatScenarios" index="k5Jqx" />
       </concept>
-      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.AssThreatAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
-      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.AssAdditionThreatAssistantSuggestion" flags="ng" index="k5JqA" />
+      <concept id="1744555010771063086" name="com.moraad.suggestions.structure.AssThreatScenarioAssistantSuggestionFactory" flags="ng" index="k5Jq$" />
+      <concept id="1744555010771063084" name="com.moraad.suggestions.structure.AssAdditionThreatScenarioAssistantSuggestion" flags="ng" index="k5JqA" />
       <concept id="1744555010776338337" name="com.moraad.suggestions.structure.RelationAssistantSelector" flags="ng" index="khAwF" />
-      <concept id="1744555010776336880" name="com.moraad.suggestions.structure.SecGoalAssistantSelector" flags="ng" index="khATU" />
-      <concept id="1744555010776327868" name="com.moraad.suggestions.structure.ThreatAssistantSelector" flags="ng" index="khC4Q" />
+      <concept id="1744555010776336880" name="com.moraad.suggestions.structure.DamageScenarioAssistantSelector" flags="ng" index="khATU" />
+      <concept id="1744555010776327868" name="com.moraad.suggestions.structure.ThreatScenarioAssistantSelector" flags="ng" index="khC4Q" />
       <concept id="7912218231014618120" name="com.moraad.suggestions.structure.AssAdditionSuggestion" flags="ng" index="pcMM7" />
       <concept id="7912218231014613968" name="com.moraad.suggestions.structure.AssAcceptedSuggestion" flags="ng" index="pcNHv" />
-      <concept id="114192864337941166" name="com.moraad.suggestions.structure.AssAdditionSecGoalAssistantSuggestion" flags="ng" index="raIdw" />
+      <concept id="114192864337941166" name="com.moraad.suggestions.structure.AssAdditionDamageScenarioAssistantSuggestion" flags="ng" index="raIdw" />
       <concept id="8675225129802302574" name="com.moraad.suggestions.structure.TraversalPathElement" flags="ng" index="2C31c$">
         <reference id="8675225129802302575" name="target" index="2C31c_" />
       </concept>
       <concept id="1920997147008949188" name="com.moraad.suggestions.structure.RiskAssistantSelector" flags="ng" index="CEhHY" />
       <concept id="1920997147009089272" name="com.moraad.suggestions.structure.AssRiskSuggestionFactory" flags="ng" index="CENT2" />
-      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSecGoalDependsOnSuggestionFactory" flags="ng" index="2Fpy1u" />
-      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssSecGoalThreatenedBySuggestionFactory" flags="ng" index="2FpSCn" />
+      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSgDependsOnSgSuggestionFactory" flags="ng" index="2Fpy1u" />
+      <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssDsThreatenedByTsSuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
         <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
         <child id="8675225129778034533" name="factories" index="2Q$E0J" />
@@ -63,9 +63,9 @@
         <child id="2567848404456432646" name="groups" index="3N3N22" />
       </concept>
       <concept id="2970906924356069329" name="com.moraad.suggestions.structure.Rejected" flags="ng" index="17LMZa" />
-      <concept id="446196523655023050" name="com.moraad.suggestions.structure.AssSecGoalAssistantSuggestionFactory" flags="ng" index="3aivMl" />
-      <concept id="446196523655757402" name="com.moraad.suggestions.structure.AssAcceptedSecGoalAssistantSuggestion" flags="ng" index="3aGGG5">
-        <child id="2567848404451557629" name="concerningSecGoals" index="3NKlhT" />
+      <concept id="446196523655023050" name="com.moraad.suggestions.structure.AssDamageScenarioSuggestionFactory" flags="ng" index="3aivMl" />
+      <concept id="446196523655757402" name="com.moraad.suggestions.structure.AssAcceptedDamageScenarioAssistantSuggestion" flags="ng" index="3aGGG5">
+        <child id="2567848404451557629" name="concerningDamageScenarios" index="3NKlhT" />
       </concept>
       <concept id="446196523655766478" name="com.moraad.suggestions.structure.AssResultGroup" flags="ng" index="3aHhih">
         <property id="6842080042029996409" name="identifier" index="133MFP" />
@@ -78,7 +78,7 @@
         <child id="5638758366197962492" name="riskTreatmentChunk" index="21fj8B" />
       </concept>
       <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA">
-        <property id="5844418852561495228" name="numberOfApsPerGroup" index="1CBqX7" />
+        <property id="5844418852561495228" name="limit" index="1CBqX7" />
       </concept>
       <concept id="7385129922939695098" name="com.moraad.reports.structure.AttackEffortsMatrixReportItem" flags="ng" index="a$eXN" />
       <concept id="7385129922949653722" name="com.moraad.reports.structure.RiskLevelMatrixReportItem" flags="ng" index="bYehj" />
@@ -97,7 +97,7 @@
       <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
         <reference id="1019912726748740255" name="diagram" index="2HTkYB" />
       </concept>
-      <concept id="6986877318773203687" name="com.moraad.reports.structure.SecurityGoalTableReportItem" flags="ng" index="ygVO0" />
+      <concept id="6986877318773203687" name="com.moraad.reports.structure.ThreatScenarioTableReportItem" flags="ng" index="ygVO0" />
       <concept id="6986877318773203685" name="com.moraad.reports.structure.RiskTableReportItem" flags="ng" index="ygVO2" />
       <concept id="6986877318773203683" name="com.moraad.reports.structure.ControlsTableReportItem" flags="ng" index="ygVO4">
         <property id="3868026684445433283" name="showRationaleKeyword" index="2DHY05" />
@@ -235,7 +235,7 @@
       <concept id="1983173996191485494" name="com.moraad.core.structure.Assumption" flags="ng" index="pjaw8">
         <child id="6109063348035932978" name="minAE" index="ANped" />
       </concept>
-      <concept id="4718052244458697284" name="com.moraad.core.structure.SecurityGoal" flags="ng" index="2vM170">
+      <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
         <child id="3124030863032911955" name="securityGoalClasses" index="29ds7n" />
         <child id="7843867905904591201" name="concerns" index="CnckG" />
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
@@ -292,6 +292,7 @@
       <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ng" index="37AdO$">
         <child id="3440241848481148064" name="expression" index="37AdOr" />
       </concept>
+      <concept id="4601417698506916745" name="com.moraad.core.structure.EmptyAnalysisElement" flags="ng" index="19qcqd" />
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
       </concept>
@@ -328,7 +329,7 @@
         <child id="330802076191738029" name="riskTreatments" index="1mMvoh" />
       </concept>
       <concept id="8278271381841453282" name="com.moraad.core.structure.SecurityControlClassRef" flags="ng" index="1u4Rck" />
-      <concept id="7050052209577206632" name="com.moraad.core.structure.SecurityGoalContentSelector" flags="ng" index="3u6799" />
+      <concept id="7050052209577206632" name="com.moraad.core.structure.ThreatScenarioContentSelector" flags="ng" index="3u6799" />
       <concept id="8278271381845378605" name="com.moraad.core.structure.AttackEffortRef" flags="ng" index="1vNPnr" />
       <concept id="7473959397023084950" name="com.moraad.core.structure.TechnologyRef" flags="ng" index="1EY2vJ" />
       <concept id="6006699537889785861" name="com.moraad.core.structure.Threat" flags="ng" index="3Rc6Py">
@@ -382,7 +383,7 @@
       <concept id="5188113475686638955" name="com.moraad.components.structure.TOEData" flags="ng" index="2zhWjs" />
       <concept id="2560071392251274778" name="com.moraad.components.structure.TOEFunction" flags="ng" index="Hgtl4" />
       <concept id="8237891392911108311" name="com.moraad.components.structure.TOEFunctionRef" flags="ng" index="IT3p4">
-        <reference id="2560071392252101287" name="target" index="Hlb7T" />
+        <reference id="2560071392252101287" name="target_old" index="Hlb7T" />
       </concept>
       <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W" />
       <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
@@ -4681,6 +4682,163 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="2vPz$R" id="68BNsUjN0UQ">
+    <property role="3GE5qa" value="Security Analysis" />
+    <property role="TrG5h" value="Artificial dependsOn" />
+    <node concept="2vM170" id="68BNsUjN0US" role="2vPz$N">
+      <property role="TrG5h" value="TS.7" />
+      <property role="DVXpC" value="AttackTree may, dependsOn may" />
+      <node concept="3VMn$a" id="68BNsUjN0UT" role="2JHqPs" />
+      <node concept="37A2tZ" id="68BNsUjN0UU" role="37Y_fq">
+        <node concept="pgmzW" id="68BNsUjN13h" role="37AdOr">
+          <node concept="37eGqF" id="68BNsUjN13i" role="37eMcl">
+            <ref role="37eGqE" to="xz8e:5jiP5TkSR1Z" resolve="may" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN13l" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN0Vc" resolve="AS.4" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN14F" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN0Yw" resolve="AS.5" />
+          </node>
+        </node>
+      </node>
+      <node concept="37A2tW" id="68BNsUjN0UV" role="37Y_fg" />
+      <node concept="37A2tS" id="68BNsUjN1BK" role="37Y_fz">
+        <node concept="pgmzW" id="68BNsUjN1E0" role="37AdOr">
+          <node concept="37eGqF" id="68BNsUjN1E1" role="37eMcl">
+            <ref role="37eGqE" to="xz8e:5jiP5TkSR1Z" resolve="may" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN1EF" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN1u6" resolve="TS.target_1" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN1Fi" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN1xM" resolve="TS.target_2" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2vM170" id="68BNsUjN0V0" role="2vPz$N">
+      <property role="TrG5h" value="TS.8" />
+      <property role="DVXpC" value="AttackTree may, dependsOn must" />
+      <node concept="3VMn$a" id="68BNsUjN0V1" role="2JHqPs" />
+      <node concept="37A2tZ" id="68BNsUjN0V2" role="37Y_fq">
+        <node concept="pgmzW" id="68BNsUjN167" role="37AdOr">
+          <node concept="37eGqF" id="68BNsUjN168" role="37eMcl">
+            <ref role="37eGqE" to="xz8e:5jiP5TkSR24" resolve="must" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN16b" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN0Vc" resolve="AS.4" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN181" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN0Yw" resolve="AS.5" />
+          </node>
+        </node>
+      </node>
+      <node concept="37A2tW" id="68BNsUjN0V3" role="37Y_fg" />
+      <node concept="37A2tS" id="68BNsUjN1Ph" role="37Y_fz">
+        <node concept="pgmzW" id="68BNsUjN1Rx" role="37AdOr">
+          <node concept="37eGqF" id="68BNsUjN1Ry" role="37eMcl">
+            <ref role="37eGqE" to="xz8e:5jiP5TkSR1Z" resolve="may" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN1Rz" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN1u6" resolve="TS.target_1" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN1R$" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN1xM" resolve="TS.target_2" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2vM170" id="68BNsUjN19o" role="2vPz$N">
+      <property role="TrG5h" value="TS.9" />
+      <property role="DVXpC" value="AttackTree must, dependsOn may" />
+      <node concept="3VMn$a" id="68BNsUjN19p" role="2JHqPs" />
+      <node concept="37A2tZ" id="68BNsUjN19q" role="37Y_fq">
+        <node concept="pgmzW" id="68BNsUjN19r" role="37AdOr">
+          <node concept="37eGqF" id="68BNsUjN19s" role="37eMcl">
+            <ref role="37eGqE" to="xz8e:5jiP5TkSR1Z" resolve="may" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN19t" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN0Vc" resolve="AS.4" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN19u" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN0Yw" resolve="AS.5" />
+          </node>
+        </node>
+      </node>
+      <node concept="37A2tW" id="68BNsUjN19v" role="37Y_fg" />
+      <node concept="37A2tS" id="68BNsUjN21E" role="37Y_fz">
+        <node concept="pgmzW" id="68BNsUjN24d" role="37AdOr">
+          <node concept="37eGqF" id="68BNsUjN24Z" role="37eMcl">
+            <ref role="37eGqE" to="xz8e:5jiP5TkSR24" resolve="must" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN24f" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN1u6" resolve="TS.target_1" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN24g" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN1xM" resolve="TS.target_2" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="19qcqd" id="68BNsUjN2h_" role="2vPz$N" />
+    <node concept="2vM170" id="68BNsUjN19g" role="2vPz$N">
+      <property role="TrG5h" value="TS.10" />
+      <property role="DVXpC" value="AttackTree must, dependsOn must" />
+      <node concept="3VMn$a" id="68BNsUjN19h" role="2JHqPs" />
+      <node concept="37A2tZ" id="68BNsUjN19i" role="37Y_fq">
+        <node concept="pgmzW" id="68BNsUjN19j" role="37AdOr">
+          <node concept="37eGqF" id="68BNsUjN19k" role="37eMcl">
+            <ref role="37eGqE" to="xz8e:5jiP5TkSR24" resolve="must" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN19l" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN0Vc" resolve="AS.4" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN19m" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN0Yw" resolve="AS.5" />
+          </node>
+        </node>
+      </node>
+      <node concept="37A2tW" id="68BNsUjN19n" role="37Y_fg" />
+      <node concept="37A2tS" id="68BNsUjN2f6" role="37Y_fz">
+        <node concept="pgmzW" id="68BNsUjN2q$" role="37AdOr">
+          <node concept="37eGqF" id="68BNsUjN2q_" role="37eMcl">
+            <ref role="37eGqE" to="xz8e:5jiP5TkSR24" resolve="must" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN2rf" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN1u6" resolve="TS.target_1" />
+          </node>
+          <node concept="pgv_Y" id="68BNsUjN2sp" role="pgmzX">
+            <ref role="122Z_O" node="68BNsUjN1xM" resolve="TS.target_2" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Rc6Py" id="68BNsUjN0Vc" role="2vPz$N">
+      <property role="TrG5h" value="AS.4" />
+      <node concept="3VMn$a" id="68BNsUjN0Vd" role="2JHqPs" />
+      <node concept="37A2tY" id="68BNsUjN0Ve" role="37Z4bQ" />
+      <node concept="37A2tX" id="68BNsUjN0Vf" role="37Z4bD" />
+    </node>
+    <node concept="3Rc6Py" id="68BNsUjN0Yw" role="2vPz$N">
+      <property role="TrG5h" value="AS.5" />
+      <node concept="3VMn$a" id="68BNsUjN0Yx" role="2JHqPs" />
+      <node concept="37A2tY" id="68BNsUjN0Yy" role="37Z4bQ" />
+      <node concept="37A2tX" id="68BNsUjN0Yz" role="37Z4bD" />
+    </node>
+    <node concept="2vM170" id="68BNsUjN1u6" role="2vPz$N">
+      <property role="TrG5h" value="TS.target_1" />
+      <node concept="3VMn$a" id="68BNsUjN1u7" role="2JHqPs" />
+      <node concept="37A2tZ" id="68BNsUjN1u8" role="37Y_fq" />
+      <node concept="37A2tW" id="68BNsUjN1u9" role="37Y_fg" />
+    </node>
+    <node concept="2vM170" id="68BNsUjN1xM" role="2vPz$N">
+      <property role="TrG5h" value="TS.target_2" />
+      <node concept="3VMn$a" id="68BNsUjN1xN" role="2JHqPs" />
+      <node concept="37A2tZ" id="68BNsUjN1xO" role="37Y_fq" />
+      <node concept="37A2tW" id="68BNsUjN1xP" role="37Y_fg" />
     </node>
   </node>
 </model>
