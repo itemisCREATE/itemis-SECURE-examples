@@ -444,6 +444,7 @@
     </node>
   </node>
   <node concept="_abZc" id="1UEFqBLBtv6">
+    <property role="3GE5qa" value="Advanced" />
     <node concept="_abZ3" id="1UEFqBLBtv9" role="_abZ2">
       <property role="_k8at" value="true" />
       <ref role="_lzlU" node="4CQftq3lQja" resolve="CON" />
@@ -3237,6 +3238,7 @@
     </node>
   </node>
   <node concept="2uQ_y3" id="59jVRzky1SD">
+    <property role="3GE5qa" value="Advanced" />
     <node concept="2uQ_yW" id="59jVRzky1SE" role="2uQ_zP">
       <node concept="2uQ_yS" id="59jVRzky1SY" role="2uQ_zR" />
       <node concept="2uQ_zU" id="59jVRzky1Wt" role="2uQ_zL">
@@ -3299,7 +3301,7 @@
     </node>
   </node>
   <node concept="3XX4$o" id="65pzHM4F7b1">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="Advanced" />
     <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
     <ref role="3iLw6d" to="j5s2:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
   </node>
@@ -3327,7 +3329,7 @@
       <node concept="3VMn$a" id="4O7c2ukunLd" role="2JHqPs" />
     </node>
     <node concept="i8Y8S" id="4CQftq3lQjp" role="ictEx">
-      <property role="TrG5h" value="SAF" />
+      <property role="TrG5h" value="S" />
       <property role="DVXpC" value="Safety" />
       <node concept="3VMn$a" id="4O7c2ukunCD" role="2JHqPs">
         <node concept="3VMn$0" id="4O7c2ukunCE" role="3VMn$6">
@@ -3338,7 +3340,7 @@
       </node>
     </node>
     <node concept="i8Y8S" id="4CQftq3lQjq" role="ictEx">
-      <property role="TrG5h" value="FIA" />
+      <property role="TrG5h" value="F" />
       <property role="DVXpC" value="Financial consequences" />
       <node concept="3VMn$a" id="4O7c2ukunCG" role="2JHqPs">
         <node concept="3VMn$0" id="4O7c2ukunCH" role="3VMn$6">
@@ -3348,24 +3350,24 @@
         </node>
       </node>
     </node>
-    <node concept="i8Y8S" id="4CQftq3lQjr" role="ictEx">
-      <property role="TrG5h" value="LAW" />
-      <property role="DVXpC" value="Laws &amp; Privacy" />
-      <node concept="3VMn$a" id="4O7c2ukunCJ" role="2JHqPs">
-        <node concept="3VMn$0" id="4O7c2ukunCK" role="3VMn$6">
-          <node concept="3VMn$7" id="4O7c2ukunCL" role="3VMn$3">
-            <property role="3VMn$Y" value="Violation of laws, regulations, contracts, or impairment of the right to informational self-determination" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="i8Y8S" id="4CQftq3lQjs" role="ictEx">
-      <property role="TrG5h" value="QUA" />
+      <property role="TrG5h" value="O" />
       <property role="DVXpC" value="Quality" />
       <node concept="3VMn$a" id="4O7c2ukunCM" role="2JHqPs">
         <node concept="3VMn$0" id="4O7c2ukunCN" role="3VMn$6">
           <node concept="3VMn$7" id="4O7c2ukunCO" role="3VMn$3">
             <property role="3VMn$Y" value="Reduction of quality" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="i8Y8S" id="4CQftq3lQjr" role="ictEx">
+      <property role="TrG5h" value="P" />
+      <property role="DVXpC" value="Laws &amp; Privacy" />
+      <node concept="3VMn$a" id="4O7c2ukunCJ" role="2JHqPs">
+        <node concept="3VMn$0" id="4O7c2ukunCK" role="3VMn$6">
+          <node concept="3VMn$7" id="4O7c2ukunCL" role="3VMn$3">
+            <property role="3VMn$Y" value="Violation of laws, regulations, contracts, or impairment of the right to informational self-determination" />
           </node>
         </node>
       </node>
@@ -3418,27 +3420,27 @@
       </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQhU" role="_H2pa">
-      <ref role="i9Qb4" node="4CQftq3lQjq" resolve="FIA" />
+      <ref role="i9Qb4" node="4CQftq3lQjq" resolve="F" />
       <node concept="2vPyy4" id="4CQftq3lQhV" role="2vMkDN">
-        <property role="TrG5h" value="RU.FIA2" />
+        <property role="TrG5h" value="RU.F2" />
         <property role="DVXpC" value="LLO: No or tolerable financial damage." />
         <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="4O7c2ukunLk" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQhZ" role="2vMkDN">
-        <property role="TrG5h" value="RU.FIA3" />
+        <property role="TrG5h" value="RU.F3" />
         <property role="DVXpC" value="LMO: Undesirable financial damage." />
         <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="4O7c2ukunLl" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQi1" role="2vMkDN">
-        <property role="TrG5h" value="RU.FIA4" />
+        <property role="TrG5h" value="RU.F4" />
         <property role="DVXpC" value="LHI: Substantial financial damage, but yet not existence-threatening." />
         <property role="2P2SdZ" value="4" />
         <node concept="3VMn$a" id="4O7c2ukunLm" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQi3" role="2vMkDN">
-        <property role="TrG5h" value="RU.FIA5" />
+        <property role="TrG5h" value="RU.F5" />
         <property role="DVXpC" value="LVH: Existence-threatening financial damage." />
         <property role="2P2SdZ" value="5" />
         <node concept="3VMn$a" id="4O7c2ukunLn" role="2JHqPs" />
@@ -3453,29 +3455,32 @@
       <node concept="3vJEHI" id="4SjRD0NVDYD" role="3vJEH5">
         <ref role="3vJEHH" node="4SjRD0NVDY_" resolve="RU" />
       </node>
+      <node concept="3vJEHI" id="5hdoB45MBJZ" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYB" resolve="OEM" />
+      </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQia" role="_H2pa">
-      <ref role="i9Qb4" node="4CQftq3lQjp" resolve="SAF" />
+      <ref role="i9Qb4" node="4CQftq3lQjp" resolve="S" />
       <node concept="2vPyy4" id="4CQftq3lQib" role="2vMkDN">
-        <property role="TrG5h" value="RU.SAF2" />
+        <property role="TrG5h" value="RU.S2" />
         <property role="DVXpC" value="ILI: Potentially dangerous situation." />
         <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="4O7c2ukunLp" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQid" role="2vMkDN">
-        <property role="TrG5h" value="RU.SAF3" />
+        <property role="TrG5h" value="RU.S3" />
         <property role="DVXpC" value="IMO: Light and moderate injury." />
         <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="4O7c2ukunLq" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQif" role="2vMkDN">
-        <property role="TrG5h" value="RU.SAF4" />
+        <property role="TrG5h" value="RU.S4" />
         <property role="DVXpC" value="ISL: Severe and life-threatening injury (survival probable)." />
         <property role="2P2SdZ" value="4" />
         <node concept="3VMn$a" id="4O7c2ukunLr" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQih" role="2vMkDN">
-        <property role="TrG5h" value="RU.SAF5" />
+        <property role="TrG5h" value="RU.S5" />
         <property role="DVXpC" value="ILF: Life-threatening injury (survival uncertain), fatal injury." />
         <property role="2P2SdZ" value="5" />
         <node concept="3VMn$a" id="4O7c2ukunLs" role="2JHqPs" />
@@ -3492,27 +3497,27 @@
       </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQiq" role="_H2pa">
-      <ref role="i9Qb4" node="4CQftq3lQjr" resolve="LAW" />
+      <ref role="i9Qb4" node="4CQftq3lQjr" resolve="P" />
       <node concept="2vPyy4" id="4CQftq3lQir" role="2vMkDN">
-        <property role="TrG5h" value="RU.LAW1" />
+        <property role="TrG5h" value="RU.P1" />
         <property role="DVXpC" value="DPI: Personally identifiable information affected." />
         <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="4O7c2ukunLu" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQit" role="2vMkDN">
-        <property role="TrG5h" value="RU.LAW2" />
+        <property role="TrG5h" value="RU.P2" />
         <property role="DVXpC" value="DPE: Personal data affected." />
         <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="4O7c2ukunLv" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiv" role="2vMkDN">
-        <property role="TrG5h" value="RU.LAW3" />
+        <property role="TrG5h" value="RU.P3" />
         <property role="DVXpC" value="DID: Identity compromised." />
         <property role="2P2SdZ" value="3" />
         <node concept="3VMn$a" id="4O7c2ukunLw" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQix" role="2vMkDN">
-        <property role="TrG5h" value="RU.LAW4" />
+        <property role="TrG5h" value="RU.P4" />
         <property role="DVXpC" value="DMI: Multiple identities compromised." />
         <property role="2P2SdZ" value="4" />
         <node concept="3VMn$a" id="4O7c2ukunLx" role="2JHqPs" />
@@ -3527,23 +3532,26 @@
       <node concept="3vJEHI" id="4SjRD0NVDYF" role="3vJEH5">
         <ref role="3vJEHH" node="4SjRD0NVDY_" resolve="RU" />
       </node>
+      <node concept="3vJEHI" id="5hdoB45MBzK" role="3vJEH5">
+        <ref role="3vJEHH" node="4SjRD0NVDYB" resolve="OEM" />
+      </node>
     </node>
     <node concept="2vMkC4" id="4CQftq3lQiz" role="_H2pa">
-      <ref role="i9Qb4" node="4CQftq3lQjs" resolve="QUA" />
+      <ref role="i9Qb4" node="4CQftq3lQjs" resolve="O" />
       <node concept="2vPyy4" id="4CQftq3lQi$" role="2vMkDN">
-        <property role="TrG5h" value="RU.QUA1a" />
+        <property role="TrG5h" value="RU.O1a" />
         <property role="DVXpC" value="NLD: No relevant effects, i.e., at most, an unimportant function is affected and the vehicle can be used without restrictions." />
         <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="4O7c2ukunLz" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiA" role="2vMkDN">
-        <property role="TrG5h" value="RU.QUA1b" />
+        <property role="TrG5h" value="RU.O1b" />
         <property role="DVXpC" value="NSD: Comfort affected, i.e., a function is affected. The vehicle can be used with some restrictions." />
         <property role="2P2SdZ" value="1" />
         <node concept="3VMn$a" id="4O7c2ukunL$" role="2JHqPs" />
       </node>
       <node concept="2vPyy4" id="4CQftq3lQiC" role="2vMkDN">
-        <property role="TrG5h" value="RU.QUA2" />
+        <property role="TrG5h" value="RU.O2" />
         <property role="DVXpC" value="NSR: Service required, i.e., an important function is affected. The vehicle can be used only with massive restrictions." />
         <property role="2P2SdZ" value="2" />
         <node concept="3VMn$a" id="4O7c2ukunL_" role="2JHqPs" />
@@ -3764,7 +3772,7 @@
       </node>
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhw" role="3Rgdis">
-      <property role="TrG5h" value="SPEX" />
+      <property role="TrG5h" value="SE" />
       <property role="DVXpC" value="Specialist Expertise" />
       <node concept="3Rgaek" id="4CQftq3lQhx" role="3RgdiP">
         <property role="TrG5h" value="LYMN" />
@@ -3817,7 +3825,7 @@
       <node concept="3VMn$a" id="4O7c2ukunLG" role="2JHqPs" />
     </node>
     <node concept="3Rgae8" id="4CQftq3lQh_" role="3Rgdis">
-      <property role="TrG5h" value="ACCS" />
+      <property role="TrG5h" value="WoO" />
       <property role="DVXpC" value="Access" />
       <node concept="3Rgaek" id="4CQftq3lQhA" role="3RgdiP">
         <property role="TrG5h" value="RMAC" />
@@ -3870,7 +3878,7 @@
       <node concept="3VMn$a" id="4O7c2ukunLH" role="2JHqPs" />
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhE" role="3Rgdis">
-      <property role="TrG5h" value="TIME" />
+      <property role="TrG5h" value="ET" />
       <property role="DVXpC" value="Elapsed time" />
       <node concept="3Rgaek" id="4CQftq3lQhF" role="3RgdiP">
         <property role="TrG5h" value="HRS" />
@@ -3917,7 +3925,7 @@
       <node concept="3VMn$a" id="4O7c2ukunLI" role="2JHqPs" />
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhK" role="3Rgdis">
-      <property role="TrG5h" value="EQUIP" />
+      <property role="TrG5h" value="Eq" />
       <property role="DVXpC" value="Equipment" />
       <node concept="3Rgaek" id="4CQftq3lQhL" role="3RgdiP">
         <property role="TrG5h" value="STRD" />
@@ -3970,7 +3978,7 @@
       <node concept="3VMn$a" id="4O7c2ukunLO" role="2JHqPs" />
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhP" role="3Rgdis">
-      <property role="TrG5h" value="KNOW" />
+      <property role="TrG5h" value="KoIC" />
       <property role="DVXpC" value="Knowledge of the target" />
       <node concept="3Rgaek" id="4CQftq3lQhQ" role="3RgdiP">
         <property role="TrG5h" value="PUBL" />
