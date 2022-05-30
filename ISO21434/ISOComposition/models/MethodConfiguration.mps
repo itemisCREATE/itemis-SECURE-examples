@@ -2,7 +2,7 @@
 <model ref="r:9e0bf89b-7c83-426e-8e13-cd21fab7b94a(MethodConfiguration)">
   <persistence version="9" />
   <languages>
-    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="4" />
+    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="5" />
     <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
   </languages>
   <imports>
@@ -15,6 +15,7 @@
         <property id="7480212422238960135" name="value" index="2nMRun" />
       </concept>
       <concept id="155558482576785587" name="de.itemis.ysec.methodConfiguration.structure.FeasibilityModel" flags="ng" index="2tSmsI">
+        <property id="2574928715889687393" name="shortId" index="1FdktB" />
         <child id="227120341090910541" name="attackPotentials" index="KQUnM" />
         <child id="8127657721944981146" name="attackPotentialsTable" index="2WHCcS" />
         <child id="6006699537884561915" name="riskFactors" index="3Rgdis" />
@@ -3522,6 +3523,7 @@
   <node concept="2tSmsI" id="7bZZv_jRUQr">
     <property role="TrG5h" value="Feasibility Model" />
     <property role="3GE5qa" value="" />
+    <property role="1FdktB" value="FM.0" />
     <node concept="KRYwx" id="4CQftq3lQkZ" role="KQUnM">
       <node concept="KRYx0" id="4CQftq3lQl0" role="KQXIo">
         <property role="KQXJv" value="25" />
