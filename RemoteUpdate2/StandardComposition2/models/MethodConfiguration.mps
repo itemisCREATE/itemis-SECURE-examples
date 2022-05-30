@@ -157,7 +157,6 @@
         <child id="279139045903730947" name="aedtAggregators" index="2TPNDS" />
         <child id="279139045903730946" name="defaultDamageAggregator" index="2TPNDT" />
         <child id="279139045903730945" name="damageAggregators" index="2TPNDU" />
-        <child id="279139045903730944" name="defaultPropagationOperation" index="2TPNDV" />
         <child id="279139045903730948" name="defaultAEDTAggregator" index="2TPNDZ" />
         <child id="279139045903730943" name="propagationOperations" index="2TPNI4" />
         <child id="7712103759295966721" name="defaultOperationForDependence" index="1oN8I3" />
@@ -438,9 +437,6 @@
         <node concept="9wnjK" id="5jiP5TkSR2Z" role="2nXh66" />
         <node concept="9wnjK" id="5jiP5TkSR30" role="9wnbG" />
         <node concept="9wnjK" id="5jiP5TkSR31" role="9wnbC" />
-      </node>
-      <node concept="37eGqF" id="5jiP5TkSR32" role="2TPNDV">
-        <ref role="37eGqE" node="5jiP5TkSR2T" resolve="may" />
       </node>
     </node>
   </node>
