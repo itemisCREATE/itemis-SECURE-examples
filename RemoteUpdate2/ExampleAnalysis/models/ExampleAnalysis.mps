@@ -45,7 +45,6 @@
       <concept id="1920997147008949188" name="com.moraad.suggestions.structure.RiskAssistantSelector" flags="ng" index="CEhHY" />
       <concept id="1920997147009089272" name="com.moraad.suggestions.structure.AssRiskSuggestionFactory" flags="ng" index="CENT2" />
       <concept id="1920997147016143551" name="com.moraad.suggestions.structure.AssRiskAssistantNewRiskSuggestion" flags="ng" index="CLQ85" />
-      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSgDependsOnSgSuggestionFactory" flags="ng" index="2Fpy1u" />
       <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssDsThreatenedByTsSuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
         <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
@@ -2929,7 +2928,6 @@
         </node>
       </node>
     </node>
-    <node concept="2Fpy1u" id="501$dK$SAbG" role="2Q$E0J" />
   </node>
   <node concept="2vPz$R" id="702oElbSw2O">
     <property role="3GE5qa" value="Security Analysis" />
