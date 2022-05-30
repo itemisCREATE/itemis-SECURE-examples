@@ -86,9 +86,7 @@
       <concept id="2050517468709281410" name="com.moraad.reports.structure.AssetsAndDamageScenariosTableReportItem" flags="ng" index="ckFx4">
         <property id="8417410718506888096" name="showNonAssets" index="9YSRj" />
       </concept>
-      <concept id="288157383581295240" name="com.moraad.reports.structure.DamagePotentialsTableReportItem" flags="ng" index="kePWl">
-        <property id="288157383582288859" name="showDamageSubClassAndCriterion" index="kaVp6" />
-      </concept>
+      <concept id="288157383581295240" name="com.moraad.reports.structure.DamagePotentialsTableReportItem" flags="ng" index="kePWl" />
       <concept id="288157383577698444" name="com.moraad.reports.structure.SecurityGoalClassesTableReportItem" flags="ng" index="ksrOh" />
       <concept id="288157383598696227" name="com.moraad.reports.structure.RiskLevelsTableReportItem" flags="ng" index="rctEY" />
       <concept id="288157383594267526" name="com.moraad.reports.structure.AttackEffortLevelsTableReportItem" flags="ng" index="rtmSr" />
@@ -107,9 +105,7 @@
       <concept id="6986877318773203653" name="com.moraad.reports.structure.AssumptionTableReportItem" flags="ng" index="ygVOy" />
       <concept id="6986877318772884603" name="com.moraad.reports.structure.RiskDistributionChartReportItem" flags="ng" index="yhPIs" />
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
-        <property id="6937682328230931199" name="showData" index="2iWzeI" />
         <property id="5209880561345542957" name="showEmptyLines" index="XuSRD" />
-        <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
         <reference id="635552504747772140" name="projectInfo" index="39i2te" />
         <child id="5209880561343743749" name="contentItems" index="XlB71" />
       </concept>
@@ -2988,8 +2984,6 @@
   <node concept="ypf9M" id="5wtRytMI6hL">
     <property role="TrG5h" value="Result Report (Word)" />
     <node concept="ym6bn" id="5wtRytMI6hN" role="yp9Ks">
-      <property role="2iWzeI" value="true" />
-      <property role="3Oa_Xm" value="true" />
       <property role="XuSRD" value="true" />
       <ref role="39i2te" node="5wtRytMI6ho" resolve="Project Info: ISOExample [ISOExample]" />
       <node concept="XlMEV" id="zhVUb1NXeP" role="XlB71">
@@ -4080,9 +4074,7 @@
     <node concept="DsbHM" id="1k$QKsQSt1x" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSty$" role="yp9Ks" />
     <node concept="kePWl" id="1k$QKsQSule" role="yp9Ks" />
-    <node concept="kePWl" id="1k$QKsQSuQj" role="yp9Ks">
-      <property role="kaVp6" value="true" />
-    </node>
+    <node concept="kePWl" id="1k$QKsQSuQj" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSkYD" role="yp9Ks" />
     <node concept="ym6bn" id="1k$QKsQSvmc" role="yp9Ks">
       <ref role="39i2te" node="5wtRytMI6ho" resolve="Project Info: ISOExample [ISOExample]" />

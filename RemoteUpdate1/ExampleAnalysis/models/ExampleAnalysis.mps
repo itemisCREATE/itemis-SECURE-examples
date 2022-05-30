@@ -89,11 +89,6 @@
         <property id="6552748594463309586" name="showPreview" index="2DBfkM" />
       </concept>
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
-        <property id="6937682328230931204" name="showStatus" index="2iWz9l" />
-        <property id="6937682328230931199" name="showData" index="2iWzeI" />
-        <property id="7972951805104472636" name="showDocuments" index="3Oa_Xg" />
-        <property id="7972951805104472639" name="showWorkshops" index="3Oa_Xj" />
-        <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
         <reference id="635552504747772140" name="projectInfo" index="39i2te" />
       </concept>
       <concept id="6986877318772759009" name="com.moraad.reports.structure.EmptyReportItem" flags="ng" index="ymko6" />
@@ -2113,11 +2108,6 @@
     <property role="TrG5h" value="Report" />
     <node concept="3x3r7t" id="5aq7QMNBJDl" role="yp9Ks" />
     <node concept="ym6bn" id="4zEluziIFsF" role="yp9Ks">
-      <property role="2iWzeI" value="true" />
-      <property role="3Oa_Xg" value="true" />
-      <property role="2iWz9l" value="true" />
-      <property role="3Oa_Xm" value="true" />
-      <property role="3Oa_Xj" value="true" />
       <ref role="39i2te" node="5W_1Y9DMGvI" resolve="Project Info: ExampleAnalysis [ExampleAnalysis]" />
     </node>
     <node concept="yhPIs" id="4zEluziIFsG" role="yp9Ks">
