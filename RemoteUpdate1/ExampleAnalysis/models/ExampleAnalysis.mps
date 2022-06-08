@@ -89,11 +89,6 @@
         <property id="6552748594463309586" name="showPreview" index="2DBfkM" />
       </concept>
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
-        <property id="6937682328230931204" name="showStatus" index="2iWz9l" />
-        <property id="6937682328230931199" name="showData" index="2iWzeI" />
-        <property id="7972951805104472636" name="showDocuments" index="3Oa_Xg" />
-        <property id="7972951805104472639" name="showWorkshops" index="3Oa_Xj" />
-        <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
         <reference id="635552504747772140" name="projectInfo" index="39i2te" />
       </concept>
       <concept id="6986877318772759009" name="com.moraad.reports.structure.EmptyReportItem" flags="ng" index="ymko6" />
@@ -235,9 +230,6 @@
       <concept id="3440241848481093316" name="com.moraad.core.structure.ThreatenedByRelation" flags="ng" index="37A2tZ" />
       <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ng" index="37AdO$">
         <child id="3440241848481148064" name="expression" index="37AdOr" />
-      </concept>
-      <concept id="8063998282957212101" name="com.moraad.core.structure.IExpressionContainer" flags="ng" index="3aVPDN">
-        <property id="2029770070284670441" name="accountForPropagatedDP_old" index="3N8EjQ" />
       </concept>
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
@@ -433,7 +425,6 @@
     <property role="TrG5h" value="Threats" />
     <property role="3GE5qa" value="Security Analysis" />
     <node concept="3Rc6Py" id="59jVRzky1Kk" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="AS.1" />
       <property role="DVXpC" value="Man-in-the-Middle on Link to Backend" />
       <node concept="3Kajnk" id="59jVRzky1Kt" role="2NPTNf">
@@ -459,7 +450,6 @@
       <node concept="3VMn$a" id="4O7c2ukunK_" role="2JHqPs" />
     </node>
     <node concept="3Rc6Py" id="2Bvf77vYi_9" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="AS.2" />
       <property role="DVXpC" value="Data Extraction" />
       <node concept="3$0O7b" id="3KbYnAvU9ER" role="2NPTNf">
@@ -485,7 +475,6 @@
       <node concept="3VMn$a" id="4O7c2ukunKA" role="2JHqPs" />
     </node>
     <node concept="3Rc6Py" id="2Bvf77vYjLZ" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="AS.3" />
       <property role="DVXpC" value="Jamming Mobile Connection" />
       <node concept="3Kajnk" id="2Bvf77vYjM8" role="2NPTNf">
@@ -504,7 +493,6 @@
     <property role="TrG5h" value="Controls" />
     <property role="3GE5qa" value="Security Analysis" />
     <node concept="3dTkcA" id="2Bvf77vYhXb" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="C.1" />
       <property role="DVXpC" value="Transport Layer Security" />
       <node concept="37A2tS" id="5xKerYxTPCu" role="37YKS4" />
@@ -515,7 +503,6 @@
       <node concept="3VMn$a" id="4O7c2ukunKC" role="2JHqPs" />
     </node>
     <node concept="3dTkcA" id="2Bvf77vYinX" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="C.2" />
       <property role="DVXpC" value="AES with Shared Key" />
       <node concept="37A2tS" id="5xKerYxTPCv" role="37YKS4">
@@ -2113,11 +2100,6 @@
     <property role="TrG5h" value="Report" />
     <node concept="3x3r7t" id="5aq7QMNBJDl" role="yp9Ks" />
     <node concept="ym6bn" id="4zEluziIFsF" role="yp9Ks">
-      <property role="2iWzeI" value="true" />
-      <property role="3Oa_Xg" value="true" />
-      <property role="2iWz9l" value="true" />
-      <property role="3Oa_Xm" value="true" />
-      <property role="3Oa_Xj" value="true" />
       <ref role="39i2te" node="5W_1Y9DMGvI" resolve="Project Info: ExampleAnalysis [ExampleAnalysis]" />
     </node>
     <node concept="yhPIs" id="4zEluziIFsG" role="yp9Ks">

@@ -44,7 +44,6 @@
       <concept id="1920997147008949188" name="com.moraad.suggestions.structure.RiskAssistantSelector" flags="ng" index="CEhHY" />
       <concept id="1920997147009089272" name="com.moraad.suggestions.structure.AssRiskSuggestionFactory" flags="ng" index="CENT2" />
       <concept id="1920997147016143551" name="com.moraad.suggestions.structure.AssRiskAssistantNewRiskSuggestion" flags="ng" index="CLQ85" />
-      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSgDependsOnSgSuggestionFactory" flags="ng" index="2Fpy1u" />
       <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssDsThreatenedByTsSuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
         <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
@@ -76,7 +75,7 @@
     </language>
     <language id="2283d35c-b541-4c39-bf04-8310ba3f92ff" name="com.moraad.reports">
       <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA">
-        <property id="5844418852561495228" name="numberOfApsPerGroup" index="1CBqX7" />
+        <property id="5844418852561495228" name="limit" index="1CBqX7" />
       </concept>
       <concept id="2050517468709281410" name="com.moraad.reports.structure.AssetsAndDamageScenariosTableReportItem" flags="ng" index="ckFx4" />
       <concept id="6986877318773201239" name="com.moraad.reports.structure.ComponentDiagramReportItem" flags="ng" index="ygSqK">
@@ -88,9 +87,7 @@
       <concept id="6986877318773203653" name="com.moraad.reports.structure.AssumptionTableReportItem" flags="ng" index="ygVOy" />
       <concept id="6986877318772884603" name="com.moraad.reports.structure.RiskDistributionChartReportItem" flags="ng" index="yhPIs" />
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
-        <property id="6937682328230931199" name="showData" index="2iWzeI" />
         <property id="5209880561345542957" name="showEmptyLines" index="XuSRD" />
-        <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
         <reference id="635552504747772140" name="projectInfo" index="39i2te" />
         <child id="5209880561343743749" name="contentItems" index="XlB71" />
       </concept>
@@ -1137,7 +1134,6 @@
         </node>
       </node>
     </node>
-    <node concept="2Fpy1u" id="501$dK$SvyG" role="2Q$E0J" />
   </node>
   <node concept="2Q15JU" id="1PEmpgFm6q$">
     <property role="3GE5qa" value="Assistants" />
@@ -1613,8 +1609,6 @@
   <node concept="ypf9M" id="5wtRytMI6hL">
     <property role="TrG5h" value="Result Report (Word)" />
     <node concept="ym6bn" id="5wtRytMI6hN" role="yp9Ks">
-      <property role="2iWzeI" value="true" />
-      <property role="3Oa_Xm" value="true" />
       <property role="XuSRD" value="true" />
       <ref role="39i2te" node="5a5CPNXLFMU" resolve="Project Info: CvssAvAnalysis [CvssAvAnalysis]" />
       <node concept="XlMEV" id="1PEmpgFmc5H" role="XlB71">

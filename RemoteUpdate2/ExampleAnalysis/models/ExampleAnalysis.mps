@@ -45,7 +45,6 @@
       <concept id="1920997147008949188" name="com.moraad.suggestions.structure.RiskAssistantSelector" flags="ng" index="CEhHY" />
       <concept id="1920997147009089272" name="com.moraad.suggestions.structure.AssRiskSuggestionFactory" flags="ng" index="CENT2" />
       <concept id="1920997147016143551" name="com.moraad.suggestions.structure.AssRiskAssistantNewRiskSuggestion" flags="ng" index="CLQ85" />
-      <concept id="8675225129845962516" name="com.moraad.suggestions.structure.AssSgDependsOnSgSuggestionFactory" flags="ng" index="2Fpy1u" />
       <concept id="8675225129845988701" name="com.moraad.suggestions.structure.AssDsThreatenedByTsSuggestionFactory" flags="ng" index="2FpSCn" />
       <concept id="8675225129768242352" name="com.moraad.suggestions.structure.AssistantChunk" flags="ng" index="2Q15JU">
         <child id="1744555010776060220" name="assistantSelector" index="kmFqQ" />
@@ -91,11 +90,6 @@
         <property id="6552748594463309586" name="showPreview" index="2DBfkM" />
       </concept>
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
-        <property id="6937682328230931204" name="showStatus" index="2iWz9l" />
-        <property id="6937682328230931199" name="showData" index="2iWzeI" />
-        <property id="7972951805104472636" name="showDocuments" index="3Oa_Xg" />
-        <property id="7972951805104472639" name="showWorkshops" index="3Oa_Xj" />
-        <property id="7972951805104472634" name="showVersions" index="3Oa_Xm" />
         <reference id="635552504747772140" name="projectInfo" index="39i2te" />
       </concept>
       <concept id="6986877318772759009" name="com.moraad.reports.structure.EmptyReportItem" flags="ng" index="ymko6" />
@@ -239,9 +233,6 @@
       <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ng" index="37AdO$">
         <child id="3440241848481148064" name="expression" index="37AdOr" />
       </concept>
-      <concept id="8063998282957212101" name="com.moraad.core.structure.IExpressionContainer" flags="ng" index="3aVPDN">
-        <property id="2029770070284670441" name="accountForPropagatedDP_old" index="3N8EjQ" />
-      </concept>
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
       </concept>
@@ -364,7 +355,6 @@
     <property role="TrG5h" value="Threat Scenarios" />
     <property role="3GE5qa" value="Security Analysis" />
     <node concept="2vM170" id="1UEFqBLBoOR" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="G.1" />
       <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Integrity of &quot;SW Update: Software-Updates for ECUs&quot; threatened" />
@@ -380,7 +370,6 @@
       </node>
     </node>
     <node concept="2vM170" id="1UEFqBLBoP4" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="G.2" />
       <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Integrity of &quot;Weather data: Weather forecast for the current region&quot; threatened" />
@@ -396,7 +385,6 @@
       </node>
     </node>
     <node concept="2vM170" id="1UEFqBLBrNo" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="G.3" />
       <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Integrity of &quot;RES: Server Response&quot; threatened" />
@@ -412,7 +400,6 @@
       </node>
     </node>
     <node concept="2vM170" id="1UEFqBLBrNL" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="G.4" />
       <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Availability of &quot;RES: Server Response&quot; threatened" />
@@ -428,7 +415,6 @@
       <node concept="3VMn$a" id="4O7c2ukuwrJ" role="2JHqPs" />
     </node>
     <node concept="2vM170" id="1UEFqBLBrOg" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="G.5" />
       <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Confidentiality of &quot;RES: Server Response&quot; threatened" />
@@ -444,7 +430,6 @@
       <node concept="3VMn$a" id="4O7c2ukuwrK" role="2JHqPs" />
     </node>
     <node concept="2vM170" id="1UEFqBLBu0A" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="G.6" />
       <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Confidentiality of &quot;AES key: Shared symmetric key for all vehicles&quot; threatened" />
@@ -542,7 +527,6 @@
     <property role="TrG5h" value="Threats" />
     <property role="3GE5qa" value="Security Analysis" />
     <node concept="3Rc6Py" id="1UEFqBLBtFT" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="MitM (mobile)" />
       <property role="DVXpC" value="Manipulation on mobile communication as MitM" />
       <node concept="3Kajnk" id="1UEFqBLBtGb" role="2NPTNf">
@@ -571,7 +555,6 @@
       <node concept="3VMn$a" id="4O7c2ukuwrM" role="2JHqPs" />
     </node>
     <node concept="3Rc6Py" id="1UEFqBLBtGl" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="Jamming (mobile)" />
       <property role="DVXpC" value="Jamming the mobile connection between vehicle and server" />
       <node concept="3Kajnk" id="1UEFqBLBtGL" role="2NPTNf">
@@ -588,7 +571,6 @@
       <node concept="3VMn$a" id="4O7c2ukuwrN" role="2JHqPs" />
     </node>
     <node concept="3Rc6Py" id="1UEFqBLBtGV" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="Eavesdropping (mobile)" />
       <property role="DVXpC" value="Eavesdropping on the mobile connection between vehicle and server" />
       <node concept="3Kajnk" id="1UEFqBLBtHx" role="2NPTNf">
@@ -625,7 +607,6 @@
       <node concept="3VMn$a" id="4O7c2ukuwrO" role="2JHqPs" />
     </node>
     <node concept="3Rc6Py" id="1UEFqBLBu35" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="Key extraction" />
       <property role="DVXpC" value="Extracting the common secret from a single ECU" />
       <node concept="3$0O7b" id="3KbYnAvUcHZ" role="2NPTNf">
@@ -644,7 +625,6 @@
     <property role="TrG5h" value="Controls" />
     <property role="3GE5qa" value="Security Analysis" />
     <node concept="3dTkcA" id="1UEFqBLBtO6" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="AES" />
       <property role="DVXpC" value="AES in GCM mode with a single shared key" />
       <node concept="37A2tS" id="5xKerYxTPEb" role="37YKS4">
@@ -659,7 +639,6 @@
       <node concept="3VMn$a" id="4O7c2ukuwrQ" role="2JHqPs" />
     </node>
     <node concept="3dTkcA" id="L3PjQFT$eO" role="2vPz$N">
-      <property role="3N8EjQ" value="true" />
       <property role="TrG5h" value="TLS" />
       <property role="DVXpC" value="TLS with certificates" />
       <node concept="3RtpOr" id="L3PjQFT$f3" role="3RtpOm">
@@ -2007,11 +1986,6 @@
     <property role="TrG5h" value="ResultsReport" />
     <node concept="3x3r7t" id="5aq7QMNBJDl" role="yp9Ks" />
     <node concept="ym6bn" id="4zEluziIFsF" role="yp9Ks">
-      <property role="2iWzeI" value="true" />
-      <property role="3Oa_Xg" value="true" />
-      <property role="2iWz9l" value="true" />
-      <property role="3Oa_Xm" value="true" />
-      <property role="3Oa_Xj" value="true" />
       <ref role="39i2te" node="1E_VH$V8tTG" resolve="Project Info: ExampleAnalysis [ExampleAnalysis]" />
     </node>
     <node concept="yhPIs" id="4zEluziIFsG" role="yp9Ks">
@@ -2954,7 +2928,6 @@
         </node>
       </node>
     </node>
-    <node concept="2Fpy1u" id="501$dK$SAbG" role="2Q$E0J" />
   </node>
   <node concept="2vPz$R" id="702oElbSw2O">
     <property role="3GE5qa" value="Security Analysis" />
