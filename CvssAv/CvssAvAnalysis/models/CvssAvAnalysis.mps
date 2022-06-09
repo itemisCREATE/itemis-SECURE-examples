@@ -176,7 +176,6 @@
       <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU" />
       <concept id="1983173996191178560" name="com.moraad.core.structure.PropagationParticipantExpr" flags="ng" index="pgv_Y" />
       <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
-        <property id="8969859980006249390" name="formerSecurityObjective" index="3te8Ie" />
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
         <child id="3440241848483078753" name="threatenedBy" index="37Y_fq" />
         <child id="4841528009168898947" name="actsOn" index="3BFlIh" />
@@ -448,7 +447,6 @@
     <property role="TrG5h" value="Threat Scenarios" />
     <property role="3GE5qa" value="Security Analysis" />
     <node concept="2vM170" id="1c2jTNFeWJh" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Availability, Confidentiality of &quot;Cmp.1: Car-A Multiplayer Bluetooth stack&quot; threatened" />
       <property role="TrG5h" value="TS.1" />
       <node concept="3VMn$a" id="20HkN2rZvoG" role="2JHqPs">
@@ -579,7 +577,6 @@
       </node>
     </node>
     <node concept="2vM170" id="1c2jTNFhKVX" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Availability of &quot;Cmp.2: Car-B CD/Multimedia SW Bluetooth stack&quot; threatened" />
       <property role="TrG5h" value="TS.2" />
       <node concept="3VMn$a" id="20HkN2rZvpB" role="2JHqPs">
@@ -680,7 +677,6 @@
       </node>
     </node>
     <node concept="2vM170" id="1c2jTNFhKXi" role="2vPz$N">
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Availability of &quot;Cmp.3: Car-C Infotainment SW Bluetooth stack&quot; threatened" />
       <property role="TrG5h" value="TS.3" />
       <node concept="3VMn$a" id="20HkN2rZvqj" role="2JHqPs">

@@ -180,7 +180,6 @@
       </concept>
       <concept id="1983173996191178560" name="com.moraad.core.structure.PropagationParticipantExpr" flags="ng" index="pgv_Y" />
       <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
-        <property id="8969859980006249390" name="formerSecurityObjective" index="3te8Ie" />
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
         <child id="3440241848483078753" name="threatenedBy" index="37Y_fq" />
         <child id="4841528009168898947" name="actsOn" index="3BFlIh" />
@@ -356,7 +355,6 @@
     <property role="3GE5qa" value="Security Analysis" />
     <node concept="2vM170" id="1UEFqBLBoOR" role="2vPz$N">
       <property role="TrG5h" value="G.1" />
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Integrity of &quot;SW Update: Software-Updates for ECUs&quot; threatened" />
       <node concept="37A2tW" id="5xKerYxTPDA" role="37Y_fg" />
       <node concept="2AI9xH" id="702oElbSw2Q" role="3D3iv$">
@@ -371,7 +369,6 @@
     </node>
     <node concept="2vM170" id="1UEFqBLBoP4" role="2vPz$N">
       <property role="TrG5h" value="G.2" />
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Integrity of &quot;Weather data: Weather forecast for the current region&quot; threatened" />
       <node concept="37A2tW" id="5xKerYxTPDE" role="37Y_fg" />
       <node concept="2AI9xH" id="702oElbSw2S" role="3D3iv$">
@@ -386,7 +383,6 @@
     </node>
     <node concept="2vM170" id="1UEFqBLBrNo" role="2vPz$N">
       <property role="TrG5h" value="G.3" />
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Integrity of &quot;RES: Server Response&quot; threatened" />
       <node concept="37A2tZ" id="5xKerYxTPDG" role="37Y_fq">
         <node concept="pgv_Y" id="5xKerYxTPDH" role="37AdOr">
@@ -401,7 +397,6 @@
     </node>
     <node concept="2vM170" id="1UEFqBLBrNL" role="2vPz$N">
       <property role="TrG5h" value="G.4" />
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Availability of &quot;RES: Server Response&quot; threatened" />
       <node concept="37A2tZ" id="5xKerYxTPDK" role="37Y_fq">
         <node concept="pgv_Y" id="5xKerYxTPDL" role="37AdOr">
@@ -416,7 +411,6 @@
     </node>
     <node concept="2vM170" id="1UEFqBLBrOg" role="2vPz$N">
       <property role="TrG5h" value="G.5" />
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Confidentiality of &quot;RES: Server Response&quot; threatened" />
       <node concept="37A2tZ" id="5xKerYxTPDO" role="37Y_fq">
         <node concept="pgv_Y" id="5xKerYxTPDP" role="37AdOr">
@@ -431,7 +425,6 @@
     </node>
     <node concept="2vM170" id="1UEFqBLBu0A" role="2vPz$N">
       <property role="TrG5h" value="G.6" />
-      <property role="3te8Ie" value="true" />
       <property role="DVXpC" value="Confidentiality of &quot;AES key: Shared symmetric key for all vehicles&quot; threatened" />
       <node concept="37A2tZ" id="5xKerYxTPDS" role="37Y_fq">
         <node concept="pgv_Y" id="5xKerYxTPDT" role="37AdOr">
