@@ -65,6 +65,7 @@
     <module reference="79fb18c6-3846-4eb9-a413-143c6c735e81(StandardComposition2)" version="0" />
     <module reference="8f16104e-22e6-406d-8251-ef9688474557(com.mbeddr.mpsutil.refactoring.rt)" version="0" />
     <module reference="c0c29873-b2f7-413b-b508-0ba5b325a1d0(com.moraad.core.runtime)" version="0" />
+    <module reference="b4294564-6583-4f72-81aa-5b6fc2f1be67(de.itemis.mps.commons.runtime)" version="0" />
     <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.runtime)" version="0" />
   </dependencyVersions>
 </solution>

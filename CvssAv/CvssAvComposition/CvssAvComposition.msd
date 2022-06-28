@@ -63,6 +63,7 @@
     <module reference="440b241b-03fb-49dd-83b9-a5c49e6386e5(CvssAvComposition)" version="0" />
     <module reference="8f16104e-22e6-406d-8251-ef9688474557(com.mbeddr.mpsutil.refactoring.rt)" version="0" />
     <module reference="c0c29873-b2f7-413b-b508-0ba5b325a1d0(com.moraad.core.runtime)" version="0" />
+    <module reference="b4294564-6583-4f72-81aa-5b6fc2f1be67(de.itemis.mps.commons.runtime)" version="0" />
     <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.runtime)" version="0" />
     <module reference="d02fa6fa-263d-40d9-92d8-b0207ccaf7e0(de.itemis.ysec.lib)" version="0" />
   </dependencyVersions>
