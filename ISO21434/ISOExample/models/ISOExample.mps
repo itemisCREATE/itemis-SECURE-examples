@@ -258,7 +258,7 @@
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
         <property id="4056312742470029003" name="normalBehavior" index="28AYgT" />
         <property id="4056312742470029176" name="operationSituation" index="28AYma" />
-        <child id="6639352543897202452" name="concerns" index="1xHTzy" />
+        <child id="6214292239618163769" name="concerns" index="1mPtRB" />
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
@@ -306,6 +306,9 @@
       <concept id="8109589388695833370" name="com.moraad.core.structure.Scenario" flags="ng" index="1jXguf">
         <property id="8109589388695884763" name="isDefault" index="1jXtXe" />
         <child id="8109589388695884756" name="controls" index="1jXtX1" />
+      </concept>
+      <concept id="6214292239606540150" name="com.moraad.core.structure.QualifiedAssetList" flags="ng" index="1m2RUC">
+        <child id="6214292239606540153" name="qualifiedAssets" index="1m2RUB" />
       </concept>
       <concept id="330802076194464405" name="com.moraad.core.structure.RiskRef" flags="ng" index="1m7PKD" />
       <concept id="330802076194464398" name="com.moraad.core.structure.RiskTreatmentEntry_Editable" flags="ng" index="1m7PKM">
@@ -2437,12 +2440,14 @@
           </node>
         </node>
       </node>
-      <node concept="1xHTQC" id="60wEthBTKQ2" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTKQ3" role="1xHT_k">
-          <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
-        </node>
-        <node concept="IT3p4" id="60wEthBTKQ4" role="1xHT_4">
-          <ref role="122Z_O" node="5wtRytMI6S9" resolve="OffFunc" />
+      <node concept="1m2RUC" id="7V23SkjGA2J" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTKQ2" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTKQ3" role="1xHT_k">
+            <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
+          </node>
+          <node concept="IT3p4" id="60wEthBTKQ4" role="1xHT_4">
+            <ref role="122Z_O" node="5wtRytMI6S9" resolve="OffFunc" />
+          </node>
         </node>
       </node>
     </node>
@@ -2512,12 +2517,14 @@
           </node>
         </node>
       </node>
-      <node concept="1xHTQC" id="60wEthBTKQ5" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTKQ6" role="1xHT_k">
-          <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
-        </node>
-        <node concept="IT3p4" id="60wEthBTKQ7" role="1xHT_4">
-          <ref role="122Z_O" node="5wtRytMI6Sb" resolve="OnFunc" />
+      <node concept="1m2RUC" id="7V23SkjGA2K" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTKQ5" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTKQ6" role="1xHT_k">
+            <ref role="122Z_O" to="xz8e:4CQftq3lQjc" resolve="I" />
+          </node>
+          <node concept="IT3p4" id="60wEthBTKQ7" role="1xHT_4">
+            <ref role="122Z_O" node="5wtRytMI6Sb" resolve="OnFunc" />
+          </node>
         </node>
       </node>
     </node>
@@ -2593,12 +2600,14 @@
           </node>
         </node>
       </node>
-      <node concept="1xHTQC" id="60wEthBTKQ8" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTKQ9" role="1xHT_k">
-          <ref role="122Z_O" to="xz8e:4CQftq3lQjb" resolve="A" />
-        </node>
-        <node concept="IT3p4" id="60wEthBTKQa" role="1xHT_4">
-          <ref role="122Z_O" node="5wtRytMI6S9" resolve="OffFunc" />
+      <node concept="1m2RUC" id="7V23SkjGA2L" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTKQ8" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTKQ9" role="1xHT_k">
+            <ref role="122Z_O" to="xz8e:4CQftq3lQjb" resolve="A" />
+          </node>
+          <node concept="IT3p4" id="60wEthBTKQa" role="1xHT_4">
+            <ref role="122Z_O" node="5wtRytMI6S9" resolve="OffFunc" />
+          </node>
         </node>
       </node>
     </node>
@@ -2722,12 +2731,14 @@
           </node>
         </node>
       </node>
-      <node concept="1xHTQC" id="60wEthBTKQb" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTKQc" role="1xHT_k">
-          <ref role="122Z_O" to="xz8e:4CQftq3lQjb" resolve="A" />
-        </node>
-        <node concept="IT3p4" id="60wEthBTKQd" role="1xHT_4">
-          <ref role="122Z_O" node="5wtRytMI6Sb" resolve="OnFunc" />
+      <node concept="1m2RUC" id="7V23SkjGA2M" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTKQb" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTKQc" role="1xHT_k">
+            <ref role="122Z_O" to="xz8e:4CQftq3lQjb" resolve="A" />
+          </node>
+          <node concept="IT3p4" id="60wEthBTKQd" role="1xHT_4">
+            <ref role="122Z_O" node="5wtRytMI6Sb" resolve="OnFunc" />
+          </node>
         </node>
       </node>
     </node>
