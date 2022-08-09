@@ -181,6 +181,7 @@
       <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
         <child id="3440241848483078753" name="threatenedBy" index="37Y_fq" />
+        <child id="6214292239606540182" name="compromises" index="1m2RT8" />
         <child id="4841528009168898947" name="actsOn" index="3BFlIh" />
         <child id="4841528009172846276" name="threatScenarioClass" index="3BUDrm" />
         <child id="626307519462781114" name="damageScenarios" index="3D3iv$" />
@@ -253,6 +254,7 @@
         <property id="8109589388695884763" name="isDefault" index="1jXtXe" />
         <child id="8109589388695884756" name="controls" index="1jXtX1" />
       </concept>
+      <concept id="6214292239606540161" name="com.moraad.core.structure.DerivedCompromisedList" flags="ng" index="1m2RTv" />
       <concept id="6214292239606540150" name="com.moraad.core.structure.QualifiedAssetList" flags="ng" index="1m2RUC">
         <child id="6214292239606540153" name="qualifiedAssets" index="1m2RUB" />
       </concept>
@@ -383,6 +385,7 @@
       <node concept="2AI9xH" id="5hdoB45M_kF" role="3D3iv$">
         <ref role="122Z_O" node="702oElbSw2w" resolve="DS.2" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv0" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTL2A" role="2vPz$N">
       <property role="DVXpC" value="Data Extraction" />
@@ -403,6 +406,7 @@
       <node concept="2AI9xH" id="5hdoB45M$kg" role="3D3iv$">
         <ref role="122Z_O" node="60wEthBTL2f" resolve="DS.4" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv1" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTL2I" role="2vPz$N">
       <property role="TrG5h" value="TS.3" />
@@ -422,6 +426,7 @@
       <node concept="2AI9xH" id="5hdoB45M$il" role="3D3iv$">
         <ref role="122Z_O" node="702oElbSw2y" resolve="DS.3" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv2" role="1m2RT8" />
     </node>
   </node>
   <node concept="2vPz$R" id="5W_1Y9DMGvq">

@@ -182,6 +182,7 @@
       <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
         <child id="3440241848483078753" name="threatenedBy" index="37Y_fq" />
+        <child id="6214292239606540182" name="compromises" index="1m2RT8" />
         <child id="4841528009168898947" name="actsOn" index="3BFlIh" />
         <child id="4841528009172846276" name="threatScenarioClass" index="3BUDrm" />
         <child id="626307519462781114" name="damageScenarios" index="3D3iv$" />
@@ -260,6 +261,7 @@
         <property id="8109589388695884763" name="isDefault" index="1jXtXe" />
         <child id="8109589388695884756" name="controls" index="1jXtX1" />
       </concept>
+      <concept id="6214292239606540161" name="com.moraad.core.structure.DerivedCompromisedList" flags="ng" index="1m2RTv" />
       <concept id="6214292239606540150" name="com.moraad.core.structure.QualifiedAssetList" flags="ng" index="1m2RUC">
         <child id="6214292239606540153" name="qualifiedAssets" index="1m2RUB" />
       </concept>
@@ -369,6 +371,7 @@
           <ref role="122Z_O" node="1UEFqBLBrNo" resolve="G.3" />
         </node>
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv3" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBoP4" role="2vPz$N">
       <property role="TrG5h" value="G.2" />
@@ -383,6 +386,7 @@
           <ref role="122Z_O" node="1UEFqBLBrNo" resolve="G.3" />
         </node>
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv4" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBrNo" role="2vPz$N">
       <property role="TrG5h" value="G.3" />
@@ -397,6 +401,7 @@
       <node concept="2AI9xH" id="60wEthBTLe5" role="3D3iv$">
         <ref role="122Z_O" node="60wEthBTLe3" resolve="DS.11" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv5" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBrNL" role="2vPz$N">
       <property role="TrG5h" value="G.4" />
@@ -411,6 +416,7 @@
         <ref role="122Z_O" node="702oElbSw2T" resolve="DS.9" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwrJ" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGv6" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBrOg" role="2vPz$N">
       <property role="TrG5h" value="G.5" />
@@ -425,6 +431,7 @@
         <ref role="122Z_O" node="702oElbSw2V" resolve="DS.10" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwrK" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGv7" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBu0A" role="2vPz$N">
       <property role="TrG5h" value="G.6" />
@@ -439,6 +446,7 @@
       <node concept="2AI9xH" id="60wEthBTLe8" role="3D3iv$">
         <ref role="122Z_O" node="60wEthBTLe6" resolve="DS.12" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv8" role="1m2RT8" />
     </node>
     <node concept="3u6799" id="702oElbSvKf" role="2xH1$J" />
     <node concept="2vM170" id="60wEthBTLex" role="2vPz$N">
@@ -460,6 +468,7 @@
         <ref role="122Z_O" to="28fr:4CQftq3lQto" resolve="BK.6a" />
       </node>
       <node concept="3VMn$a" id="60wEthBTLeC" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGv9" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTLeE" role="2vPz$N">
       <property role="DVXpC" value="Jamming the mobile connection between vehicle and server" />
@@ -480,6 +489,7 @@
         <ref role="122Z_O" to="28fr:4CQftq3lQrH" resolve="BK.5b" />
       </node>
       <node concept="3VMn$a" id="60wEthBTLeL" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGva" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTLeN" role="2vPz$N">
       <property role="DVXpC" value="Eavesdropping on the mobile connection between vehicle and server" />
@@ -500,6 +510,7 @@
         <ref role="122Z_O" to="28fr:4CQftq3lQsu" resolve="BK.6" />
       </node>
       <node concept="3VMn$a" id="60wEthBTLeU" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGvb" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTLeW" role="2vPz$N">
       <property role="DVXpC" value="Extracting the common secret from a single ECU" />
@@ -517,6 +528,7 @@
         <ref role="122Z_O" to="28fr:2Wj3TpYBON8" resolve="BK.4b" />
       </node>
       <node concept="3VMn$a" id="60wEthBTLf2" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGvc" role="1m2RT8" />
     </node>
   </node>
   <node concept="2vPz$R" id="1E_VH$V8tTo">

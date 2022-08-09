@@ -178,6 +178,7 @@
       <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
         <child id="3440241848483078753" name="threatenedBy" index="37Y_fq" />
+        <child id="6214292239606540182" name="compromises" index="1m2RT8" />
         <child id="4841528009168898947" name="actsOn" index="3BFlIh" />
         <child id="4841528009172846276" name="threatScenarioClass" index="3BUDrm" />
         <child id="626307519462781114" name="damageScenarios" index="3D3iv$" />
@@ -215,6 +216,7 @@
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
         <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
       </concept>
+      <concept id="6214292239606540161" name="com.moraad.core.structure.DerivedCompromisedList" flags="ng" index="1m2RTv" />
       <concept id="6214292239606540150" name="com.moraad.core.structure.QualifiedAssetList" flags="ng" index="1m2RUC">
         <child id="6214292239606540153" name="qualifiedAssets" index="1m2RUB" />
       </concept>
@@ -578,6 +580,7 @@
       <node concept="2AI9xH" id="1c2jTNFeWTE" role="3D3iv$">
         <ref role="122Z_O" node="1c2jTNFeWTi" resolve="DS.1" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGuO" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1c2jTNFhKVX" role="2vPz$N">
       <property role="DVXpC" value="Availability of &quot;Cmp.2: Car-B CD/Multimedia SW Bluetooth stack&quot; threatened" />
@@ -678,6 +681,7 @@
       <node concept="2AI9xH" id="1c2jTNFhLf$" role="3D3iv$">
         <ref role="122Z_O" node="1c2jTNFeWTi" resolve="DS.1" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGuP" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1c2jTNFhKXi" role="2vPz$N">
       <property role="DVXpC" value="Availability of &quot;Cmp.3: Car-C Infotainment SW Bluetooth stack&quot; threatened" />
@@ -766,6 +770,7 @@
       <node concept="2AI9xH" id="1c2jTNFhLfY" role="3D3iv$">
         <ref role="122Z_O" node="1c2jTNFeWTi" resolve="DS.1" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGuQ" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTKEB" role="2vPz$N">
       <property role="TrG5h" value="TS.4" />
@@ -782,6 +787,7 @@
         <ref role="122Z_O" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
       </node>
       <node concept="3VMn$a" id="60wEthBTKEH" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGuR" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTKEM" role="2vPz$N">
       <property role="TrG5h" value="TS.5" />
@@ -798,6 +804,7 @@
         <ref role="122Z_O" to="wb2r:1c2jTNFhLmo" resolve="TC.CWE-20" />
       </node>
       <node concept="3VMn$a" id="60wEthBTKES" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGuS" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTKEU" role="2vPz$N">
       <property role="TrG5h" value="TS.6" />
@@ -814,6 +821,7 @@
         <ref role="122Z_O" to="wb2r:1c2jTNFeW_y" resolve="TC.CWE-134" />
       </node>
       <node concept="3VMn$a" id="60wEthBTKF0" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGuT" role="1m2RT8" />
     </node>
     <node concept="19qcqd" id="60wEthBVUsn" role="2vPz$N" />
     <node concept="3u6799" id="60wEthBVUwd" role="2xH1$J" />
