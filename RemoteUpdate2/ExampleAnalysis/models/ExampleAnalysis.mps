@@ -182,6 +182,7 @@
       <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
         <child id="3440241848483078753" name="threatenedBy" index="37Y_fq" />
+        <child id="6214292239606540182" name="compromises" index="1m2RT8" />
         <child id="4841528009168898947" name="actsOn" index="3BFlIh" />
         <child id="4841528009172846276" name="threatScenarioClass" index="3BUDrm" />
         <child id="626307519462781114" name="damageScenarios" index="3D3iv$" />
@@ -206,7 +207,7 @@
       </concept>
       <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
-        <child id="6639352543897202452" name="concerns" index="1xHTzy" />
+        <child id="6214292239618163769" name="concerns" index="1mPtRB" />
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
@@ -259,6 +260,10 @@
       <concept id="8109589388695833370" name="com.moraad.core.structure.Scenario" flags="ng" index="1jXguf">
         <property id="8109589388695884763" name="isDefault" index="1jXtXe" />
         <child id="8109589388695884756" name="controls" index="1jXtX1" />
+      </concept>
+      <concept id="6214292239606540161" name="com.moraad.core.structure.DerivedCompromisedList" flags="ng" index="1m2RTv" />
+      <concept id="6214292239606540150" name="com.moraad.core.structure.QualifiedAssetList" flags="ng" index="1m2RUC">
+        <child id="6214292239606540153" name="qualifiedAssets" index="1m2RUB" />
       </concept>
       <concept id="330802076194464405" name="com.moraad.core.structure.RiskRef" flags="ng" index="1m7PKD" />
       <concept id="330802076194464398" name="com.moraad.core.structure.RiskTreatmentEntry_Editable" flags="ng" index="1m7PKM">
@@ -366,6 +371,7 @@
           <ref role="122Z_O" node="1UEFqBLBrNo" resolve="G.3" />
         </node>
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv3" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBoP4" role="2vPz$N">
       <property role="TrG5h" value="G.2" />
@@ -380,6 +386,7 @@
           <ref role="122Z_O" node="1UEFqBLBrNo" resolve="G.3" />
         </node>
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv4" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBrNo" role="2vPz$N">
       <property role="TrG5h" value="G.3" />
@@ -394,6 +401,7 @@
       <node concept="2AI9xH" id="60wEthBTLe5" role="3D3iv$">
         <ref role="122Z_O" node="60wEthBTLe3" resolve="DS.11" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv5" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBrNL" role="2vPz$N">
       <property role="TrG5h" value="G.4" />
@@ -408,6 +416,7 @@
         <ref role="122Z_O" node="702oElbSw2T" resolve="DS.9" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwrJ" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGv6" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBrOg" role="2vPz$N">
       <property role="TrG5h" value="G.5" />
@@ -422,6 +431,7 @@
         <ref role="122Z_O" node="702oElbSw2V" resolve="DS.10" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwrK" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGv7" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="1UEFqBLBu0A" role="2vPz$N">
       <property role="TrG5h" value="G.6" />
@@ -436,6 +446,7 @@
       <node concept="2AI9xH" id="60wEthBTLe8" role="3D3iv$">
         <ref role="122Z_O" node="60wEthBTLe6" resolve="DS.12" />
       </node>
+      <node concept="1m2RTv" id="5s3Rol9iGv8" role="1m2RT8" />
     </node>
     <node concept="3u6799" id="702oElbSvKf" role="2xH1$J" />
     <node concept="2vM170" id="60wEthBTLex" role="2vPz$N">
@@ -457,6 +468,7 @@
         <ref role="122Z_O" to="28fr:4CQftq3lQto" resolve="BK.6a" />
       </node>
       <node concept="3VMn$a" id="60wEthBTLeC" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGv9" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTLeE" role="2vPz$N">
       <property role="DVXpC" value="Jamming the mobile connection between vehicle and server" />
@@ -477,6 +489,7 @@
         <ref role="122Z_O" to="28fr:4CQftq3lQrH" resolve="BK.5b" />
       </node>
       <node concept="3VMn$a" id="60wEthBTLeL" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGva" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTLeN" role="2vPz$N">
       <property role="DVXpC" value="Eavesdropping on the mobile connection between vehicle and server" />
@@ -497,6 +510,7 @@
         <ref role="122Z_O" to="28fr:4CQftq3lQsu" resolve="BK.6" />
       </node>
       <node concept="3VMn$a" id="60wEthBTLeU" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGvb" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="60wEthBTLeW" role="2vPz$N">
       <property role="DVXpC" value="Extracting the common secret from a single ECU" />
@@ -514,6 +528,7 @@
         <ref role="122Z_O" to="28fr:2Wj3TpYBON8" resolve="BK.4b" />
       </node>
       <node concept="3VMn$a" id="60wEthBTLf2" role="2JHqPs" />
+      <node concept="1m2RTv" id="5s3Rol9iGvc" role="1m2RT8" />
     </node>
   </node>
   <node concept="2vPz$R" id="1E_VH$V8tTo">
@@ -2944,12 +2959,14 @@
         </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsi" role="2JHqPs" />
-      <node concept="1xHTQC" id="60wEthBTLeb" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTLec" role="1xHT_k">
-          <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
-        </node>
-        <node concept="3KzYab" id="60wEthBTLed" role="1xHT_4">
-          <ref role="122Z_O" node="1E_VH$V8u6n" resolve="SW Update" />
+      <node concept="1m2RUC" id="7V23SkjGA3L" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTLeb" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTLec" role="1xHT_k">
+            <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
+          </node>
+          <node concept="3KzYab" id="60wEthBTLed" role="1xHT_4">
+            <ref role="122Z_O" node="1E_VH$V8u6n" resolve="SW Update" />
+          </node>
         </node>
       </node>
     </node>
@@ -2964,12 +2981,14 @@
         </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsj" role="2JHqPs" />
-      <node concept="1xHTQC" id="60wEthBTLee" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTLef" role="1xHT_k">
-          <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
-        </node>
-        <node concept="3KzYab" id="60wEthBTLeg" role="1xHT_4">
-          <ref role="122Z_O" node="1E_VH$V8u6b" resolve="Weather data" />
+      <node concept="1m2RUC" id="7V23SkjGA3M" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTLee" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTLef" role="1xHT_k">
+            <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
+          </node>
+          <node concept="3KzYab" id="60wEthBTLeg" role="1xHT_4">
+            <ref role="122Z_O" node="1E_VH$V8u6b" resolve="Weather data" />
+          </node>
         </node>
       </node>
     </node>
@@ -2984,12 +3003,14 @@
         </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsk" role="2JHqPs" />
-      <node concept="1xHTQC" id="60wEthBTLek" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTLel" role="1xHT_k">
-          <ref role="122Z_O" to="uj4r:4CQftq3lQjb" resolve="AVA" />
-        </node>
-        <node concept="3KzYab" id="60wEthBTLem" role="1xHT_4">
-          <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
+      <node concept="1m2RUC" id="7V23SkjGA3N" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTLek" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTLel" role="1xHT_k">
+            <ref role="122Z_O" to="uj4r:4CQftq3lQjb" resolve="AVA" />
+          </node>
+          <node concept="3KzYab" id="60wEthBTLem" role="1xHT_4">
+            <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
+          </node>
         </node>
       </node>
     </node>
@@ -3011,36 +3032,42 @@
         </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsl" role="2JHqPs" />
-      <node concept="1xHTQC" id="60wEthBTLen" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTLeo" role="1xHT_k">
-          <ref role="122Z_O" to="uj4r:4CQftq3lQja" resolve="CON" />
-        </node>
-        <node concept="3KzYab" id="60wEthBTLep" role="1xHT_4">
-          <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
+      <node concept="1m2RUC" id="7V23SkjGA3O" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTLen" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTLeo" role="1xHT_k">
+            <ref role="122Z_O" to="uj4r:4CQftq3lQja" resolve="CON" />
+          </node>
+          <node concept="3KzYab" id="60wEthBTLep" role="1xHT_4">
+            <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
+          </node>
         </node>
       </node>
     </node>
     <node concept="2AH0t1" id="60wEthBTLe3" role="2vPz$N">
       <property role="TrG5h" value="DS.11" />
       <node concept="3VMn$a" id="60wEthBTLe4" role="2JHqPs" />
-      <node concept="1xHTQC" id="60wEthBTLeh" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTLei" role="1xHT_k">
-          <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
-        </node>
-        <node concept="3KzYab" id="60wEthBTLej" role="1xHT_4">
-          <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
+      <node concept="1m2RUC" id="7V23SkjGA3P" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTLeh" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTLei" role="1xHT_k">
+            <ref role="122Z_O" to="uj4r:4CQftq3lQjc" resolve="INT" />
+          </node>
+          <node concept="3KzYab" id="60wEthBTLej" role="1xHT_4">
+            <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
+          </node>
         </node>
       </node>
     </node>
     <node concept="2AH0t1" id="60wEthBTLe6" role="2vPz$N">
       <property role="TrG5h" value="DS.12" />
       <node concept="3VMn$a" id="60wEthBTLe7" role="2JHqPs" />
-      <node concept="1xHTQC" id="60wEthBTLeq" role="1xHTzy">
-        <node concept="3RtnZZ" id="60wEthBTLer" role="1xHT_k">
-          <ref role="122Z_O" to="uj4r:4CQftq3lQja" resolve="CON" />
-        </node>
-        <node concept="3KzYab" id="60wEthBTLes" role="1xHT_4">
-          <ref role="122Z_O" node="1UEFqBLBtUe" resolve="AES key" />
+      <node concept="1m2RUC" id="7V23SkjGA3Q" role="1mPtRB">
+        <node concept="1xHTQC" id="60wEthBTLeq" role="1m2RUB">
+          <node concept="3RtnZZ" id="60wEthBTLer" role="1xHT_k">
+            <ref role="122Z_O" to="uj4r:4CQftq3lQja" resolve="CON" />
+          </node>
+          <node concept="3KzYab" id="60wEthBTLes" role="1xHT_4">
+            <ref role="122Z_O" node="1UEFqBLBtUe" resolve="AES key" />
+          </node>
         </node>
       </node>
     </node>
