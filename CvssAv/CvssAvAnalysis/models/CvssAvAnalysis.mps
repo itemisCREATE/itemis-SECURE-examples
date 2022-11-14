@@ -111,6 +111,9 @@
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1" />
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
+      <concept id="7050052209586915341" name="de.itemis.ysec.commons.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
+        <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
+      </concept>
       <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
@@ -188,9 +191,6 @@
       </concept>
       <concept id="4718052244458560179" name="com.moraad.core.structure.SecurityAnalysisChunk" flags="ng" index="2vPz$R">
         <child id="4718052244458560183" name="elements" index="2vPz$N" />
-      </concept>
-      <concept id="7050052209586915341" name="com.moraad.core.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
-        <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
       </concept>
       <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
@@ -824,7 +824,7 @@
       <node concept="1m2RTv" id="5s3Rol9iGuT" role="1m2RT8" />
     </node>
     <node concept="19qcqd" id="60wEthBVUsn" role="2vPz$N" />
-    <node concept="3u6799" id="60wEthBVUwd" role="2xH1$J" />
+    <node concept="3u6799" id="7gZ2RyfNr6p" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="5a5CPNXLFOy">
     <property role="TrG5h" value="Damage Scenarios" />

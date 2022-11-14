@@ -13,6 +13,12 @@
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
       <concept id="6006699537885391512" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
     </language>
+    <language id="77390b0e-ab69-4de7-a036-d557f81b479e" name="de.itemis.ysec.catalog.technologies">
+      <concept id="3517148917927860064" name="de.itemis.ysec.catalog.technologies.structure.ITaggedWithTechnologies" flags="ng" index="1jWzGI">
+        <child id="3260991312724860420" name="technologies" index="1BQc1m" />
+      </concept>
+      <concept id="7473959397023084950" name="de.itemis.ysec.catalog.technologies.structure.TechnologyRef" flags="ng" index="1EY2vJ" />
+    </language>
     <language id="d8c07454-d390-4e04-8826-d25e86f59134" name="de.itemis.mps.xdiagram">
       <concept id="69042634962010496" name="de.itemis.mps.xdiagram.structure.XDiagramLayoutEntry" flags="ng" index="zGsxD">
         <property id="69042634962010502" name="layoutString" index="zGsxJ" />
@@ -109,6 +115,9 @@
       <concept id="2129184553228409378" name="com.moraad.reports.structure.FuncAssignmentSimpleTableReportItem" flags="ng" index="3xSvwN" />
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
+      <concept id="7050052209586915341" name="de.itemis.ysec.commons.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
+        <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
+      </concept>
       <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
@@ -193,18 +202,11 @@
       <concept id="4718052244458560179" name="com.moraad.core.structure.SecurityAnalysisChunk" flags="ng" index="2vPz$R">
         <child id="4718052244458560183" name="elements" index="2vPz$N" />
       </concept>
-      <concept id="7050052209593327461" name="com.moraad.core.structure.TOEFunctionContentSelector" flags="ng" index="2x4$T4" />
-      <concept id="7050052209593327464" name="com.moraad.core.structure.TOEDataContentSelector" flags="ng" index="2x4$T9" />
-      <concept id="7050052209593327466" name="com.moraad.core.structure.TOEComponentContentSelector" flags="ng" index="2x4$Tb" />
-      <concept id="7050052209593327468" name="com.moraad.core.structure.TOEChannelContentSelector" flags="ng" index="2x4$Td" />
       <concept id="7050052209585848527" name="com.moraad.core.structure.ThreatContentSelector" flags="ng" index="2xx57I" />
       <concept id="7050052209585848529" name="com.moraad.core.structure.ControlContentSelector" flags="ng" index="2xx57K" />
       <concept id="7050052209585848531" name="com.moraad.core.structure.AssumptionContentSelector" flags="ng" index="2xx57M" />
       <concept id="7050052209585848533" name="com.moraad.core.structure.RiskContentSelector" flags="ng" index="2xx57O" />
       <concept id="7050052209585848535" name="com.moraad.core.structure.ScenarioContentSelector" flags="ng" index="2xx57Q" />
-      <concept id="7050052209586915341" name="com.moraad.core.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
-        <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
-      </concept>
       <concept id="1223902958963665749" name="com.moraad.core.structure.ITransformDamage" flags="ng" index="2$q0ok">
         <child id="1223902958963665858" name="effects" index="2$q0q3" />
       </concept>
@@ -254,9 +256,6 @@
       </concept>
       <concept id="3111020255348736466" name="com.moraad.core.structure.RemoveAllDamageTransformation" flags="ng" index="1idX6y" />
       <concept id="8109589388700677735" name="com.moraad.core.structure.SecurityControlSelector" flags="ng" index="1jjfFM" />
-      <concept id="3517148917927860064" name="com.moraad.core.structure.ITaggedWithTechnologies" flags="ng" index="1jWzGI">
-        <child id="3260991312724860420" name="technologies" index="1BQc1m" />
-      </concept>
       <concept id="8109589388695833370" name="com.moraad.core.structure.Scenario" flags="ng" index="1jXguf">
         <property id="8109589388695884763" name="isDefault" index="1jXtXe" />
         <child id="8109589388695884756" name="controls" index="1jXtX1" />
@@ -287,7 +286,6 @@
         <child id="6639352543897202338" name="csProperty" index="1xHT_k" />
       </concept>
       <concept id="4841528009209017035" name="com.moraad.core.structure.ThreatScenarioRef" flags="ng" index="3$cmbp" />
-      <concept id="7473959397023084950" name="com.moraad.core.structure.TechnologyRef" flags="ng" index="1EY2vJ" />
       <concept id="6006699537889785861" name="com.moraad.core.structure.Threat" flags="ng" index="3Rc6Py">
         <child id="8078319461080000624" name="actsOn" index="2NPTNf" />
         <child id="2490900209647547471" name="threatClass" index="Oro34" />
@@ -322,6 +320,10 @@
         <child id="3260991312725608311" name="newDataFlowsChunk" index="1BT5$_" />
         <child id="7472593337833908268" name="rootComponent" index="3Vepgw" />
       </concept>
+      <concept id="7050052209593327461" name="com.moraad.components.structure.TOEFunctionContentSelector" flags="ng" index="2x4$T4" />
+      <concept id="7050052209593327464" name="com.moraad.components.structure.TOEDataContentSelector" flags="ng" index="2x4$T9" />
+      <concept id="7050052209593327466" name="com.moraad.components.structure.TOEComponentContentSelector" flags="ng" index="2x4$Tb" />
+      <concept id="7050052209593327468" name="com.moraad.components.structure.TOEChannelContentSelector" flags="ng" index="2x4$Td" />
       <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6" />
       <concept id="5188113475686638955" name="com.moraad.components.structure.TOEData" flags="ng" index="2zhWjs">
         <child id="1808727333803133825" name="subData" index="1bYuxG" />
@@ -353,7 +355,7 @@
   <node concept="2vPz$R" id="1E_VH$V8tTm">
     <property role="TrG5h" value="Assumptions" />
     <property role="3GE5qa" value="Security Analysis" />
-    <node concept="2xx57M" id="702oElbSvKe" role="2xH1$J" />
+    <node concept="2xx57M" id="7gZ2RyfNr8h" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="1E_VH$V8tTn">
     <property role="TrG5h" value="Threat Scenarios" />
@@ -448,7 +450,6 @@
       </node>
       <node concept="1m2RTv" id="5s3Rol9iGv8" role="1m2RT8" />
     </node>
-    <node concept="3u6799" id="702oElbSvKf" role="2xH1$J" />
     <node concept="2vM170" id="60wEthBTLex" role="2vPz$N">
       <property role="DVXpC" value="Manipulation on mobile communication as MitM" />
       <property role="TrG5h" value="TS.7" />
@@ -530,6 +531,7 @@
       <node concept="3VMn$a" id="60wEthBTLf2" role="2JHqPs" />
       <node concept="1m2RTv" id="5s3Rol9iGvc" role="1m2RT8" />
     </node>
+    <node concept="3u6799" id="7gZ2RyfNr8n" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="1E_VH$V8tTo">
     <property role="TrG5h" value="Threats" />
@@ -627,7 +629,7 @@
       <node concept="37A2tY" id="5xKerYxTPE9" role="37Z4bQ" />
       <node concept="3VMn$a" id="4O7c2ukuwrP" role="2JHqPs" />
     </node>
-    <node concept="2xx57I" id="702oElbSvKg" role="2xH1$J" />
+    <node concept="2xx57I" id="7gZ2RyfNr8m" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="1E_VH$V8tTp">
     <property role="TrG5h" value="Controls" />
@@ -673,7 +675,7 @@
       <node concept="1idX6y" id="2EbCEoi8_2T" role="2$q0q3" />
       <node concept="3VMn$a" id="4O7c2ukuwrR" role="2JHqPs" />
     </node>
-    <node concept="2xx57K" id="702oElbSvKh" role="2xH1$J" />
+    <node concept="2xx57K" id="7gZ2RyfNr8i" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="1E_VH$V8tTq">
     <property role="3GE5qa" value="Security Analysis" />
@@ -702,7 +704,7 @@
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwrU" role="2JHqPs" />
     </node>
-    <node concept="2xx57Q" id="702oElbSvKi" role="2xH1$J" />
+    <node concept="2xx57Q" id="7gZ2RyfNr8l" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="1E_VH$V8tTr">
     <property role="TrG5h" value="Risks" />
@@ -742,7 +744,7 @@
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwrZ" role="2JHqPs" />
     </node>
-    <node concept="2xx57O" id="702oElbSvKj" role="2xH1$J" />
+    <node concept="2xx57O" id="7gZ2RyfNr8k" role="2xH1$J" />
   </node>
   <node concept="2lbcm6" id="1E_VH$V8tTs">
     <property role="3GE5qa" value="Item Definition" />
@@ -948,7 +950,7 @@
         </node>
       </node>
     </node>
-    <node concept="2x4$T4" id="702oElbSvKa" role="2xH1$J" />
+    <node concept="2x4$T4" id="7gZ2RyfNr8o" role="2xH1$J" />
   </node>
   <node concept="2lbcm6" id="1E_VH$V8tTt">
     <property role="TrG5h" value="Components" />
@@ -1022,16 +1024,13 @@
         </node>
       </node>
     </node>
-    <node concept="2x4$Tb" id="702oElbSvKb" role="2xH1$J" />
+    <node concept="2x4$Tb" id="7gZ2RyfNr8q" role="2xH1$J" />
   </node>
   <node concept="2lbcm6" id="1E_VH$V8tT$">
     <property role="TrG5h" value="Channels" />
     <property role="3GE5qa" value="Item Definition" />
     <node concept="3mlHNJ" id="3KbYnAvUcFY" role="2lbk3h">
       <property role="TrG5h" value="Ch.1" />
-      <node concept="1EY2vJ" id="1E_VH$V8u7c" role="1BQc1m">
-        <ref role="122Z_O" to="28fr:4NAzM1S$I_U" resolve="CAN" />
-      </node>
       <node concept="3Kau8M" id="3who49CIQPO" role="3XVyOB">
         <property role="TrG5h" value="DF.1" />
         <ref role="27$5CE" node="3yB3VT5FQxS" />
@@ -1045,13 +1044,13 @@
         <property role="TrG5h" value="DF.4" />
         <ref role="27$5CE" node="3yB3VT5FQxT" />
         <ref role="27$5CB" node="3yB3VT5FQxS" />
-        <node concept="1EY2vJ" id="1E_VH$V8u8m" role="1BQc1m">
-          <ref role="122Z_O" to="28fr:4NAzM1S$I_U" resolve="CAN" />
-        </node>
         <node concept="3KzYab" id="1E_VH$V8u8k" role="bWNmi">
           <ref role="122Z_O" node="1E_VH$V8u6b" resolve="Weather data" />
         </node>
         <node concept="3VMn$a" id="4O7c2ukuws7" role="2JHqPs" />
+        <node concept="1EY2vJ" id="1E_VH$V8u8m" role="1BQc1m">
+          <ref role="122Z_O" to="28fr:4NAzM1S$I_U" resolve="CAN" />
+        </node>
       </node>
       <node concept="3$0O7b" id="3yB3VT5FQxS" role="38xWUi">
         <ref role="122Z_O" node="1E_VH$V8u1H" resolve="HU" />
@@ -1060,12 +1059,12 @@
         <ref role="122Z_O" node="1E_VH$V8u3k" resolve="ConECU" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuws5" role="2JHqPs" />
+      <node concept="1EY2vJ" id="1E_VH$V8u7c" role="1BQc1m">
+        <ref role="122Z_O" to="28fr:4NAzM1S$I_U" resolve="CAN" />
+      </node>
     </node>
     <node concept="3mlHNJ" id="3KbYnAvUcG4" role="2lbk3h">
       <property role="TrG5h" value="Ch.2" />
-      <node concept="1EY2vJ" id="122DDYGH5rE" role="1BQc1m">
-        <ref role="122Z_O" to="28fr:4NAzM1S$I_u" resolve="mobile" />
-      </node>
       <node concept="3Kau8M" id="3who49D6lsT" role="3XVyOB">
         <property role="TrG5h" value="DF.2" />
         <property role="DVXpC" value="REQ: ConECU -&gt; Server [Mobile]" />
@@ -1081,13 +1080,13 @@
         <property role="DVXpC" value="RES: Server -&gt; ConECU [Mobile]" />
         <ref role="27$5CE" node="3yB3VT5FQxV" />
         <ref role="27$5CB" node="3yB3VT5FQxU" />
-        <node concept="1EY2vJ" id="122DDYGH5vt" role="1BQc1m">
-          <ref role="122Z_O" to="28fr:4NAzM1S$I_u" resolve="mobile" />
-        </node>
         <node concept="3KzYab" id="1E_VH$V8u7K" role="bWNmi">
           <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
         </node>
         <node concept="3VMn$a" id="4O7c2ukuwsa" role="2JHqPs" />
+        <node concept="1EY2vJ" id="122DDYGH5vt" role="1BQc1m">
+          <ref role="122Z_O" to="28fr:4NAzM1S$I_u" resolve="mobile" />
+        </node>
       </node>
       <node concept="3$0O7b" id="3yB3VT5FQxU" role="38xWUi">
         <ref role="122Z_O" node="1E_VH$V8u3k" resolve="ConECU" />
@@ -1096,12 +1095,12 @@
         <ref role="122Z_O" node="1E_VH$V8u19" resolve="Server" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuws8" role="2JHqPs" />
+      <node concept="1EY2vJ" id="122DDYGH5rE" role="1BQc1m">
+        <ref role="122Z_O" to="28fr:4NAzM1S$I_u" resolve="mobile" />
+      </node>
     </node>
     <node concept="3mlHNJ" id="3KbYnAvUcGc" role="2lbk3h">
       <property role="TrG5h" value="Ch.3" />
-      <node concept="1EY2vJ" id="1E_VH$V8u92" role="1BQc1m">
-        <ref role="122Z_O" to="28fr:4NAzM1S$I_U" resolve="CAN" />
-      </node>
       <node concept="3Kau8M" id="3who49D6ltk" role="3XVyOB">
         <property role="TrG5h" value="DF.5" />
         <ref role="27$5CE" node="3yB3VT5FQxW" />
@@ -1118,8 +1117,11 @@
         <ref role="122Z_O" node="1E_VH$V8u4q" resolve="Steering" />
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwsb" role="2JHqPs" />
+      <node concept="1EY2vJ" id="1E_VH$V8u92" role="1BQc1m">
+        <ref role="122Z_O" to="28fr:4NAzM1S$I_U" resolve="CAN" />
+      </node>
     </node>
-    <node concept="2x4$Td" id="702oElbSvKc" role="2xH1$J" />
+    <node concept="2x4$Td" id="7gZ2RyfNr8s" role="2xH1$J" />
   </node>
   <node concept="2lbcm6" id="1E_VH$V8tT_">
     <property role="3GE5qa" value="Item Definition" />
@@ -1188,7 +1190,7 @@
       <property role="DVXpC" value="Shared symmetric key for all vehicles" />
       <node concept="3VMn$a" id="4O7c2ukuwsg" role="2JHqPs" />
     </node>
-    <node concept="2x4$T9" id="702oElbSvKd" role="2xH1$J" />
+    <node concept="2x4$T9" id="7gZ2RyfNr8u" role="2xH1$J" />
   </node>
   <node concept="2ndE_3" id="1E_VH$V8tTA">
     <property role="2zzwJW" value="2" />
@@ -2940,7 +2942,6 @@
   <node concept="2vPz$R" id="702oElbSw2O">
     <property role="3GE5qa" value="Security Analysis" />
     <property role="TrG5h" value="Damage Scenarios" />
-    <node concept="U8VUI" id="702oElbSw2P" role="2xH1$J" />
     <node concept="2AH0t1" id="702oElbSw2N" role="2vPz$N">
       <property role="TrG5h" value="DS.7" />
       <property role="DVXpC" value="DS for Integrity Software-Updates for ECUs" />
@@ -3071,6 +3072,7 @@
         </node>
       </node>
     </node>
+    <node concept="U8VUI" id="7gZ2RyfNr8j" role="2xH1$J" />
   </node>
   <node concept="2Q15JU" id="1PEmpgFfcC1">
     <property role="3GE5qa" value="Assistants" />
