@@ -134,6 +134,9 @@
         <child id="9003278715588979763" name="listEntries" index="$tzTT" />
       </concept>
       <concept id="4299407153799527256" name="com.moraad.projectinfo.structure.ProjectInfoTable" flags="ng" index="39leHu" />
+      <concept id="7449413747451491361" name="com.moraad.projectinfo.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
+        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
+      </concept>
     </language>
     <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
       <concept id="8926592809623411165" name="de.itemis.mps.editor.freetext.structure.BasicParagraph" flags="ng" index="3VMn$0">
@@ -209,7 +212,7 @@
       <concept id="1223902958963665749" name="com.moraad.core.structure.ITransformDamage" flags="ng" index="2$q0ok">
         <child id="1223902958963665858" name="effects" index="2$q0q3" />
       </concept>
-      <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
+      <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent_old" flags="ng" index="$sJSh" />
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
         <child id="6214292239618163769" name="concerns" index="1mPtRB" />
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
@@ -243,9 +246,6 @@
       <concept id="7080375185222125713" name="com.moraad.core.structure.SecurityControl" flags="ng" index="3dTkcA">
         <child id="3440241848483135423" name="dependsOn" index="37YKS4" />
         <child id="9215747686496427837" name="controlClass" index="3AQVqc" />
-      </concept>
-      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
-        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
       </concept>
       <concept id="3111020255348736466" name="com.moraad.core.structure.RemoveAllDamageTransformation" flags="ng" index="1idX6y" />
       <concept id="8109589388700677735" name="com.moraad.core.structure.SecurityControlSelector" flags="ng" index="1jjfFM" />
@@ -1247,191 +1247,6 @@
       <ref role="3KzJK9" node="5W_1Y9DMIS8" resolve="Nav" />
       <ref role="3KDv1v" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
     </node>
-  </node>
-  <node concept="3eC5pO" id="5W_1Y9DMGvI">
-    <property role="TrG5h" value="ProjectInfo" />
-    <node concept="$sJSu" id="4Ej1pzLVW_l" role="$s4ey">
-      <property role="TrG5h" value="Project Data" />
-      <node concept="$sJSp" id="4Ej1pzLVW_m" role="$tzTT">
-        <property role="TrG5h" value="Target Of Evaluation" />
-        <node concept="38D_9Z" id="4Ej1pzLVW_p" role="X3RNv">
-          <node concept="3VMn$a" id="4Ej1pzLVW_q" role="38D_my">
-            <node concept="3VMn$0" id="4Ej1pzLVW_r" role="3VMn$6">
-              <node concept="3VMn$7" id="4Ej1pzLVW_s" role="3VMn$3">
-                <property role="3VMn$Y" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="$sJSp" id="4Ej1pzLVW_t" role="$tzTT">
-        <property role="TrG5h" value="Project" />
-        <node concept="38D_9Z" id="4Ej1pzLVW_w" role="X3RNv">
-          <node concept="3VMn$a" id="4Ej1pzLVW_x" role="38D_my">
-            <node concept="3VMn$0" id="4Ej1pzLVW_y" role="3VMn$6">
-              <node concept="3VMn$7" id="4Ej1pzLVW_z" role="3VMn$3">
-                <property role="3VMn$Y" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="$sJSp" id="4Ej1pzLVW_$" role="$tzTT">
-        <property role="TrG5h" value="Contact (Department)" />
-        <node concept="38D_9Z" id="4Ej1pzLVW_B" role="X3RNv">
-          <node concept="3VMn$a" id="4Ej1pzLVW_C" role="38D_my">
-            <node concept="3VMn$0" id="4Ej1pzLVW_D" role="3VMn$6">
-              <node concept="3VMn$7" id="4Ej1pzLVW_E" role="3VMn$3">
-                <property role="3VMn$Y" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="$sJSp" id="4Ej1pzLVW_F" role="$tzTT">
-        <property role="TrG5h" value="Contact (Security Expert)" />
-        <node concept="38D_9Z" id="4Ej1pzLVW_I" role="X3RNv">
-          <node concept="3VMn$a" id="4Ej1pzLVW_J" role="38D_my">
-            <node concept="3VMn$0" id="4Ej1pzLVW_K" role="3VMn$6">
-              <node concept="3VMn$7" id="4Ej1pzLVW_L" role="3VMn$3">
-                <property role="3VMn$Y" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="$sJSp" id="4Ej1pzLVW_M" role="$tzTT">
-        <property role="TrG5h" value="Editor" />
-        <node concept="38D_9Z" id="4Ej1pzLVW_P" role="X3RNv">
-          <node concept="3VMn$a" id="4Ej1pzLVW_Q" role="38D_my">
-            <node concept="3VMn$0" id="4Ej1pzLVW_R" role="3VMn$6">
-              <node concept="3VMn$7" id="4Ej1pzLVW_S" role="3VMn$3">
-                <property role="3VMn$Y" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="$sJSp" id="4Ej1pzLVW_T" role="$tzTT">
-        <property role="TrG5h" value="Deadline" />
-        <node concept="38D_9Z" id="4Ej1pzLVW_W" role="X3RNv">
-          <node concept="3VMn$a" id="4Ej1pzLVW_X" role="38D_my">
-            <node concept="3VMn$0" id="4Ej1pzLVW_Y" role="3VMn$6">
-              <node concept="3VMn$7" id="4Ej1pzLVW_Z" role="3VMn$3">
-                <property role="3VMn$Y" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="$sJSh" id="4Ej1pzLVWA0" role="$s4ey" />
-    <node concept="$sJSu" id="4Ej1pzLVWA1" role="$s4ey">
-      <property role="TrG5h" value="Status" />
-      <node concept="$sJSp" id="4Ej1pzLVWA2" role="$tzTT">
-        <property role="TrG5h" value="Risk Analyis Status" />
-        <node concept="38D_9Z" id="4Ej1pzLVWA5" role="X3RNv">
-          <node concept="3VMn$a" id="4Ej1pzLVWA6" role="38D_my">
-            <node concept="3VMn$0" id="4Ej1pzLVWA7" role="3VMn$6">
-              <node concept="3VMn$7" id="4Ej1pzLVWA8" role="3VMn$3">
-                <property role="3VMn$Y" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="$sJSh" id="4Ej1pzLVWA9" role="$s4ey" />
-    <node concept="39leHu" id="4Ej1pzLVWAa" role="$s4ey">
-      <property role="TrG5h" value="Version History" />
-      <node concept="2mR0d" id="4Ej1pzLVWAb" role="2mR6f">
-        <node concept="2mR0e" id="4Ej1pzLVWAd" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAc" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWAf" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAe" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWAh" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAg" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWAj" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAi" role="2hY46" />
-        </node>
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAk" role="2hO6J">
-        <property role="TrG5h" value="Revision" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAl" role="2hO6J">
-        <property role="TrG5h" value="Date" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAm" role="2hO6J">
-        <property role="TrG5h" value="Authors" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAn" role="2hO6J">
-        <property role="TrG5h" value="Description" />
-      </node>
-    </node>
-    <node concept="$sJSh" id="4Ej1pzLVWAo" role="$s4ey" />
-    <node concept="39leHu" id="4Ej1pzLVWAp" role="$s4ey">
-      <property role="TrG5h" value="Documents" />
-      <node concept="2mR0d" id="4Ej1pzLVWAq" role="2mR6f">
-        <node concept="2mR0e" id="4Ej1pzLVWAs" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAr" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWAu" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAt" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWAw" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAv" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWAy" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAx" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWA$" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAz" role="2hY46" />
-        </node>
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWA_" role="2hO6J">
-        <property role="TrG5h" value="Content" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAA" role="2hO6J">
-        <property role="TrG5h" value="Date" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAB" role="2hO6J">
-        <property role="TrG5h" value="Version" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAC" role="2hO6J">
-        <property role="TrG5h" value="Filename" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAD" role="2hO6J">
-        <property role="TrG5h" value="Origin" />
-      </node>
-    </node>
-    <node concept="$sJSh" id="4Ej1pzLVWAE" role="$s4ey" />
-    <node concept="39leHu" id="4Ej1pzLVWAF" role="$s4ey">
-      <property role="TrG5h" value="Workshops" />
-      <node concept="2mR0d" id="4Ej1pzLVWAG" role="2mR6f">
-        <node concept="2mR0e" id="4Ej1pzLVWAI" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAH" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWAK" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAJ" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="4Ej1pzLVWAM" role="2mR6i">
-          <node concept="2opHn" id="4Ej1pzLVWAL" role="2hY46" />
-        </node>
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAN" role="2hO6J">
-        <property role="TrG5h" value="Appointment" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAO" role="2hO6J">
-        <property role="TrG5h" value="Participants" />
-      </node>
-      <node concept="2ozQQ" id="4Ej1pzLVWAP" role="2hO6J">
-        <property role="TrG5h" value="Activities" />
-      </node>
-    </node>
-    <node concept="$sJSh" id="4Ej1pzLVWAQ" role="$s4ey" />
   </node>
   <node concept="2Q15JU" id="3ND63w_kVnf">
     <property role="3GE5qa" value="Assistants" />
@@ -2645,6 +2460,191 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3eC5pO" id="5W_1Y9DMGvI">
+    <property role="TrG5h" value="dummy-name-cause-derived-from-constraints" />
+    <node concept="$sJSu" id="4Ej1pzLVW_l" role="$s4ey">
+      <property role="TrG5h" value="Project Data" />
+      <node concept="$sJSp" id="4Ej1pzLVW_m" role="$tzTT">
+        <property role="TrG5h" value="Target Of Evaluation" />
+        <node concept="38D_9Z" id="4Ej1pzLVW_p" role="X3RNv">
+          <node concept="3VMn$a" id="4Ej1pzLVW_q" role="38D_my">
+            <node concept="3VMn$0" id="4Ej1pzLVW_r" role="3VMn$6">
+              <node concept="3VMn$7" id="4Ej1pzLVW_s" role="3VMn$3">
+                <property role="3VMn$Y" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="$sJSp" id="4Ej1pzLVW_t" role="$tzTT">
+        <property role="TrG5h" value="Project" />
+        <node concept="38D_9Z" id="4Ej1pzLVW_w" role="X3RNv">
+          <node concept="3VMn$a" id="4Ej1pzLVW_x" role="38D_my">
+            <node concept="3VMn$0" id="4Ej1pzLVW_y" role="3VMn$6">
+              <node concept="3VMn$7" id="4Ej1pzLVW_z" role="3VMn$3">
+                <property role="3VMn$Y" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="$sJSp" id="4Ej1pzLVW_$" role="$tzTT">
+        <property role="TrG5h" value="Contact (Department)" />
+        <node concept="38D_9Z" id="4Ej1pzLVW_B" role="X3RNv">
+          <node concept="3VMn$a" id="4Ej1pzLVW_C" role="38D_my">
+            <node concept="3VMn$0" id="4Ej1pzLVW_D" role="3VMn$6">
+              <node concept="3VMn$7" id="4Ej1pzLVW_E" role="3VMn$3">
+                <property role="3VMn$Y" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="$sJSp" id="4Ej1pzLVW_F" role="$tzTT">
+        <property role="TrG5h" value="Contact (Security Expert)" />
+        <node concept="38D_9Z" id="4Ej1pzLVW_I" role="X3RNv">
+          <node concept="3VMn$a" id="4Ej1pzLVW_J" role="38D_my">
+            <node concept="3VMn$0" id="4Ej1pzLVW_K" role="3VMn$6">
+              <node concept="3VMn$7" id="4Ej1pzLVW_L" role="3VMn$3">
+                <property role="3VMn$Y" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="$sJSp" id="4Ej1pzLVW_M" role="$tzTT">
+        <property role="TrG5h" value="Editor" />
+        <node concept="38D_9Z" id="4Ej1pzLVW_P" role="X3RNv">
+          <node concept="3VMn$a" id="4Ej1pzLVW_Q" role="38D_my">
+            <node concept="3VMn$0" id="4Ej1pzLVW_R" role="3VMn$6">
+              <node concept="3VMn$7" id="4Ej1pzLVW_S" role="3VMn$3">
+                <property role="3VMn$Y" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="$sJSp" id="4Ej1pzLVW_T" role="$tzTT">
+        <property role="TrG5h" value="Deadline" />
+        <node concept="38D_9Z" id="4Ej1pzLVW_W" role="X3RNv">
+          <node concept="3VMn$a" id="4Ej1pzLVW_X" role="38D_my">
+            <node concept="3VMn$0" id="4Ej1pzLVW_Y" role="3VMn$6">
+              <node concept="3VMn$7" id="4Ej1pzLVW_Z" role="3VMn$3">
+                <property role="3VMn$Y" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="$sJSh" id="4Ej1pzLVWA0" role="$s4ey" />
+    <node concept="$sJSu" id="4Ej1pzLVWA1" role="$s4ey">
+      <property role="TrG5h" value="Status" />
+      <node concept="$sJSp" id="4Ej1pzLVWA2" role="$tzTT">
+        <property role="TrG5h" value="Risk Analyis Status" />
+        <node concept="38D_9Z" id="4Ej1pzLVWA5" role="X3RNv">
+          <node concept="3VMn$a" id="4Ej1pzLVWA6" role="38D_my">
+            <node concept="3VMn$0" id="4Ej1pzLVWA7" role="3VMn$6">
+              <node concept="3VMn$7" id="4Ej1pzLVWA8" role="3VMn$3">
+                <property role="3VMn$Y" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="$sJSh" id="4Ej1pzLVWA9" role="$s4ey" />
+    <node concept="39leHu" id="4Ej1pzLVWAa" role="$s4ey">
+      <property role="TrG5h" value="Version History" />
+      <node concept="2mR0d" id="4Ej1pzLVWAb" role="2mR6f">
+        <node concept="2mR0e" id="4Ej1pzLVWAd" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAc" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWAf" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAe" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWAh" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAg" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWAj" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAi" role="2hY46" />
+        </node>
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAk" role="2hO6J">
+        <property role="TrG5h" value="Revision" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAl" role="2hO6J">
+        <property role="TrG5h" value="Date" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAm" role="2hO6J">
+        <property role="TrG5h" value="Authors" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAn" role="2hO6J">
+        <property role="TrG5h" value="Description" />
+      </node>
+    </node>
+    <node concept="$sJSh" id="4Ej1pzLVWAo" role="$s4ey" />
+    <node concept="39leHu" id="4Ej1pzLVWAp" role="$s4ey">
+      <property role="TrG5h" value="Documents" />
+      <node concept="2mR0d" id="4Ej1pzLVWAq" role="2mR6f">
+        <node concept="2mR0e" id="4Ej1pzLVWAs" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAr" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWAu" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAt" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWAw" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAv" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWAy" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAx" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWA$" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAz" role="2hY46" />
+        </node>
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWA_" role="2hO6J">
+        <property role="TrG5h" value="Content" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAA" role="2hO6J">
+        <property role="TrG5h" value="Date" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAB" role="2hO6J">
+        <property role="TrG5h" value="Version" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAC" role="2hO6J">
+        <property role="TrG5h" value="Filename" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAD" role="2hO6J">
+        <property role="TrG5h" value="Origin" />
+      </node>
+    </node>
+    <node concept="$sJSh" id="4Ej1pzLVWAE" role="$s4ey" />
+    <node concept="39leHu" id="4Ej1pzLVWAF" role="$s4ey">
+      <property role="TrG5h" value="Workshops" />
+      <node concept="2mR0d" id="4Ej1pzLVWAG" role="2mR6f">
+        <node concept="2mR0e" id="4Ej1pzLVWAI" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAH" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWAK" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAJ" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="4Ej1pzLVWAM" role="2mR6i">
+          <node concept="2opHn" id="4Ej1pzLVWAL" role="2hY46" />
+        </node>
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAN" role="2hO6J">
+        <property role="TrG5h" value="Appointment" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAO" role="2hO6J">
+        <property role="TrG5h" value="Participants" />
+      </node>
+      <node concept="2ozQQ" id="4Ej1pzLVWAP" role="2hO6J">
+        <property role="TrG5h" value="Activities" />
+      </node>
+    </node>
+    <node concept="$sJSh" id="4Ej1pzLVWAQ" role="$s4ey" />
   </node>
 </model>
 

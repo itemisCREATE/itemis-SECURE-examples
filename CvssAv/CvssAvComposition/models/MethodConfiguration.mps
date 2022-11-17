@@ -6,8 +6,8 @@
   </languages>
   <imports>
     <import index="d1tk" ref="r:ec41ad6f-1a23-4b2d-9ff9-1d1ba85fe721(de.itemis.ysec.lib.av_cvss_ForISO21434)" />
-    <import index="j5s2" ref="r:ef59e6da-54fc-413a-8e0d-8258611797ba(com.moraad.core.runtime.terminologyProfiles.iso_sae_21434)" />
-    <import index="kc1e" ref="r:e7d6eb4b-0582-4e57-9790-70d7a4709f39(com.moraad.core.runtime.userlevel)" />
+    <import index="si5v" ref="r:900a4177-1f36-4584-9595-316a42ee6e6a(de.itemis.ysec.commons.lib.terminologyProfiles.iso_sae_21434)" />
+    <import index="gi29" ref="r:c7360d30-2ed7-45f3-a3e6-30295dc2b49b(de.itemis.ysec.terminology.lib.terms)" />
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
@@ -58,6 +58,7 @@
       <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ng" index="1ALOwG">
         <property id="1729603031951941283" name="title" index="DVXpC" />
       </concept>
+      <concept id="4060178329350500277" name="de.itemis.ysec.commons.structure.TerminologyProfile" flags="ng" index="3XX4$o" />
     </language>
     <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
       <concept id="9003278715588766803" name="com.moraad.projectinfo.structure.ProjectInfoListEntry" flags="ng" index="$sJSp">
@@ -67,6 +68,9 @@
         <child id="9003278715588979763" name="listEntries" index="$tzTT" />
       </concept>
       <concept id="4299407153799527256" name="com.moraad.projectinfo.structure.ProjectInfoTable" flags="ng" index="39leHu" />
+      <concept id="7449413747451491361" name="com.moraad.projectinfo.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
+        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
+      </concept>
     </language>
     <language id="e8cdedba-17d0-43f7-902f-38efdcd30769" name="de.itemis.mps.commons">
       <concept id="8490786834187827950" name="de.itemis.mps.commons.structure.ICanBeSetReadonly" flags="ng" index="3ewmXd">
@@ -150,7 +154,7 @@
       <concept id="5279038577367888230" name="com.moraad.core.structure.DependencyRelation" flags="ng" index="2uQ_zV">
         <child id="1088477394784569511" name="target" index="1xd$jb" />
       </concept>
-      <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
+      <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent_old" flags="ng" index="$sJSh" />
       <concept id="2714237958906599112" name="com.moraad.core.structure.SecurityGoalClassMatrixElement" flags="ng" index="_abZ3">
         <property id="2714237958914468758" name="checked" index="_k8at" />
         <reference id="2714237958914468741" name="fromSecurityGoalClass" index="_k8ae" />
@@ -202,9 +206,6 @@
       <concept id="3440241848487300722" name="com.moraad.core.structure.DamageAggregatorRef" flags="ng" index="37eJZ9">
         <reference id="3440241848487300723" name="target" index="37eJZ8" />
       </concept>
-      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
-        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
-      </concept>
       <concept id="6793729118883371978" name="com.moraad.core.structure.DataFlowSecurityTarget" flags="ng" index="3h3ntD" />
       <concept id="330802076194471423" name="com.moraad.core.structure.RiskTreatment" flags="ng" index="1m7Od3" />
       <concept id="330802076194474985" name="com.moraad.core.structure.RiskTreatmentsDefinition" flags="ng" index="1m7Vll">
@@ -221,7 +222,6 @@
         <child id="177583211455635606" name="combineAEFunction" index="1I_0pF" />
       </concept>
       <concept id="8677481601268483478" name="com.moraad.core.structure.ChannelSecurityTarget" flags="ng" index="3WX1Ss" />
-      <concept id="4060178329350500277" name="com.moraad.core.structure.TerminologyProfile" flags="ng" index="3XX4$o" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -3293,844 +3293,6 @@
       <property role="2nMRun" value="11" />
     </node>
   </node>
-  <node concept="3XX4$o" id="65pzHM4F7aL">
-    <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
-    <ref role="3iLw6d" to="j5s2:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
-    <node concept="3XNixs" id="20HkN2s1_BR" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYYs8s" resolve="MethodConfiguration" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CI" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESpX$S" resolve="MethodConfigurations" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D1" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6y8BU_MeIMf" resolve="RiskModel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fi" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:4thMoKx6pUr" resolve="ImpactModel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CK" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:8CDTQvMvgU" resolve="FeasibilityModel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B5" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjV4" resolve="SecurityGoalClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C9" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlSBzH2" resolve="SecurityGoalClass_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fs" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC23QE0V" resolve="SecurityGoalClasses" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Et" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlSBzMx" resolve="SecurityGoalClasses_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bs" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjVy" resolve="DamageClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DK" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESq2sb" resolve="DamageClasses" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fr" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjVG" resolve="DamageSubClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Eb" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1ZE7Y0A6tmL" resolve="DamageSubClasses" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cl" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:65pzHM3eXV0" resolve="ClassRefinesRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C1" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_M8" resolve="DamagePotential" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CU" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESq3QB" resolve="DamagePotentials" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BW" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjVR" resolve="DamagePotentialLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CQ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC23QMGq" resolve="DamagePotentialLevel_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ce" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYsy1h" resolve="DamagePotentialLevels" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cp" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:65d4B9KouJA" resolve="PropagatedDamagePotential" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DJ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:65d4B9KouMP" resolve="PropagatedDamagePotential_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EA" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjWu" resolve="DamageCriterion" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CT" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6$W7HqkI38p" resolve="DamageCriterion_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F2" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_SM" resolve="DamageCriteria" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D_" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYszUN" resolve="DamageCriteria_AM_inline" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_ES" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjW3" resolve="RiskFactor" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ec" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlSFb6B" resolve="RiskFactors" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dr" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjZZ" resolve="RiskFactorLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F7" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2sjzIYTanlY" resolve="RiskFactorLevelAssignment" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bv" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_OU" resolve="RiskFactorLevels" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D0" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_UA" resolve="RiskFactorLevels_AM_inline" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CP" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_M$" resolve="AttackEffort" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D4" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:7vq$a6evaTp" resolve="AttackEffort_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bc" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESql2F" resolve="AttackEfforts" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D3" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjWg" resolve="AttackEffortLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ei" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC23Q5nU" resolve="AttackEffortLevel_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fh" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_Nv" resolve="AttackEffortLevels" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C2" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYsCl3" resolve="AttackEffortTable" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ff" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESpYSh" resolve="AttackEffortTables" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F5" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5Ak0J" resolve="RiskLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bm" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6$N_ap1dX3A" resolve="RiskLevel_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ex" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYsFZ7" resolve="RiskLevels" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EB" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYsMt6" resolve="RiskTable" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fa" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESqrAj" resolve="RiskTables" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cg" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYsMYb" resolve="RiskTreatmentOptions" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dl" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1ZE7Y0$xYLn" resolve="RiskDistributionChart" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BN" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:15NDF6$Py1O" resolve="RiskDistribution" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E8" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5Ak1i" resolve="AEDTAggregator" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EP" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs$hU" resolve="AEDTAggregators" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fj" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5Ak1_" resolve="DamageAggregator" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cw" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs$ii" resolve="DamageAggregators" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EJ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5Ak1T" resolve="PropagationOperation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ci" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_nL" resolve="PropagationOperations" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F3" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYxlG9" resolve="PropagationOperationMode" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F9" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYxlHg" resolve="Mode_AttackStep" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EZ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYxlHS" resolve="Mode_Mitigation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cz" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYxlIx" resolve="Mode_Dependence" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C6" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_Gr" resolve="DamageTransformation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EL" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYs_Qy" resolve="DamageTransformations" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DQ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX165VcD" resolve="ProductionRules" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BI" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeJa8M" resolve="ProductionRuleSet" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dk" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1srwLgFOQ52" resolve="ProductionRuleSets" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B6" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeJlOq" resolve="SecurityGoalClassesDependenciesMatrix" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Df" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1srwLgFLyy$" resolve="SecurityGoalClassesDependenciesMatrices" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C_" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeJmve" resolve="TerminologyProfile" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CM" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYYszA" resolve="ThreatsCatalog" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bz" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjVa" resolve="ThreatClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DF" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlSBxBg" resolve="ThreatClasses" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bo" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmYYs$i" resolve="ControlsCatalog" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F8" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjVh" resolve="ControlClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_De" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6$N_ap0uP88" resolve="ControllClasses" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DA" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZ4SCE" resolve="TechnologiesCatalog" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DZ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZ4SDs" resolve="Technology" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ee" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6$N_ap0uP3k" resolve="Technologies" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E4" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZ4SEf" resolve="TechnologiesRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BS" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZ4ROy" resolve="ArchitectureRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_El" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZ4Sjh" resolve="ProtectsAgainstRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BJ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZ4Sk1" resolve="ProtectsRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fq" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZ4R$g" resolve="ThreatensRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_En" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:15NDF6$V4gV" resolve="Catalog" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F0" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeJbdD" resolve="ProjectInfoChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Eg" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:67mOi71_L_8" resolve="ProjectInfoChunks" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ct" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1ZE7Y0_HcJh" resolve="ResultReport" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Di" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeJzlk" resolve="ResultReportChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BB" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:67mOi71_II9" resolve="ResultReportChunks" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DC" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiIb_" resolve="SystemChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DI" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2sjzIYR1WLd" resolve="RiskTreatment" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EK" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESmVr2" resolve="RiskTreatments" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EM" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5Ak10" resolve="RiskTreatmentChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B$" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:67mOi71_L9$" resolve="RiskTreatmentChunks" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BX" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIAHL$E" resolve="StakeholdersChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Eu" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:67mOi71_LLo" resolve="StakeholdersChunks" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EV" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeIgcL" resolve="SystemDiagram" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EX" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESqzFq" resolve="SystemDiagrams" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bh" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIAHOeM" resolve="SecurityObjectivesRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Eo" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIAHOhY" resolve="ResponsibilitiesRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ev" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIAHOjj" resolve="RiskAcceptanceLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DU" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIAHL_W" resolve="Stakeholder" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BL" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1ZE7Y0_HczB" resolve="Stakeholders" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dy" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIB1pMm" resolve="AssetIdentificationAssistant" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fo" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIB1pKY" resolve="ThreatScenarioAsssistant" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dj" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6YPQdIB1pNJ" resolve="TsDsLinkingAssistant" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DT" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiIZQ" resolve="Function" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DS" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESqj32" resolve="Functions" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ef" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiIYZ" resolve="Component" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F4" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX164WAW" resolve="Components" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fe" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiJ3o" resolve="Channel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E0" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX164WPZ" resolve="Channels" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dz" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiJ1_" resolve="DataFlow" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ew" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC23W$oY" resolve="DataFlows" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bp" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiJ2u" resolve="Data" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dg" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC23WCcy" resolve="Data_Plural" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BM" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX15Xivc" resolve="StoredDataKind" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CB" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX15Xixn" resolve="TransferredDataKind" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B8" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC23UZcj" resolve="SequencesChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F1" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:67mOi71_NTc" resolve="SequencesChunks" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bt" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC23CF25" resolve="Sequence" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B4" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:S854OwPz_E" resolve="SequenceReference" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cm" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX164WIq" resolve="Sequences" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DV" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC23V8ca" resolve="Message" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C7" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC24kR2n" resolve="FunctionAssignmentChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bd" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:67mOi71_PJ7" resolve="FunctionAssignmentChunks" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ez" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC242XBW" resolve="FunctionAssignmentView" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fk" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2AX5DKx2Qng" resolve="FunctionAssignment" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fb" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX1618gx" resolve="AssignedFunctions" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BT" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC242XDv" resolve="SimpleView" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BV" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC242XF3" resolve="SmartView" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Em" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:66fzC242XGC" resolve="SmartAssignment" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DX" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiJ9O" resolve="StoredDataRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Db" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiJaK" resolve="ContainedDataRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dm" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiJbH" resolve="TransferredDataRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dx" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:65pzHM3fcqG" resolve="ChannelEndpoint" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fg" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZo8Nf" resolve="ChannelEndpoints" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BZ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZo8Oe" resolve="DataFlowDirection" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ej" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZiIcq" resolve="SecurityChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fp" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZtaDM" resolve="Assumption" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dd" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESq8bV" resolve="Assumptions" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C$" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:20XTM5FIj6V" resolve="AssumptionClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ca" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:20XTM5FIj6U" resolve="AssumptionClasses" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Eh" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6IPKVn$5i4z" resolve="AssumptionsCatalog" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_ER" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjUQ" resolve="ThreatScenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cj" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlSADDz" resolve="ThreatScenario_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C4" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlS$GWv" resolve="ThreatScenarios" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BO" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjUS" resolve="AttackStep" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ba" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3$wJFlS$OrY" resolve="AttackSteps" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BU" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjUV" resolve="Control" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cu" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZo_Zq" resolve="Controls" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D7" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3B13R55Fgld" resolve="ControlGroup" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DD" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3B13R55Fgnc" resolve="ControlGroups" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BA" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GG$71Up9BI" resolve="Control_effect" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CA" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:28R_jYk3lhx" resolve="Checklist" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bg" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GG$71Up9Ga" resolve="Assumption_effect" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Br" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjUZ" resolve="Risk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B9" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:S854OwAplR" resolve="Risks" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E3" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3xoDER5AjVp" resolve="Scenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bl" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:CyLn$iteeV" resolve="Scenario_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bn" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZo$Hg" resolve="Scenarios" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bu" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZtaS2" resolve="MaximalRiskLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D8" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZtaTh" resolve="MaximalDamagePotentialLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Da" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZtaUx" resolve="MinimalAttackEffortLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DY" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZoxtD" resolve="ConcernsRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EG" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZoxxR" resolve="DependsOnRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DH" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZoxvI" resolve="ThreatenedByRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bi" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZoxwM" resolve="DampedByRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CF" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZozqA" resolve="ActsOnRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EW" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZoxyX" resolve="PreparedByRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EY" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZox$4" resolve="MitigatedByRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cx" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:qJeaTgPlQV" resolve="Impossible" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BC" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZoxBq" resolve="MitigatesRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CY" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:702oElazAKQ" resolve="InstantiatesRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ea" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZo$G6" resolve="CausedByRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dv" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2Y8e1kgYIWy" resolve="CausingElements" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EF" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZoAfi" resolve="IsDefaultScenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CH" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5ZaGJmZox7R" resolve="ControlGroupsChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DE" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeQcok" resolve="AssistantChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BF" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5EzVG8VFNmc" resolve="Assistant_ToeeDemandsSuggestion" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ed" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5EzVG8VFNtX" resolve="Assistant_ToeeThreatenedBySuggestion" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cq" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5EzVG8VFNxR" resolve="Assistant_DsThreatenedBySuggestion" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B7" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5EzVG8VFN_M" resolve="Assistant_DependsOnSuggestion" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_ET" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeJgZp" resolve="ModelAssessmentChunk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B_" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2GCfemeJoe2" resolve="ControlRelationAssistant" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E5" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3B13R56eBb4" resolve="TargetOfEvaluation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dw" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3B13R56eBd9" resolve="TargetOfEvaluation_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ch" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3B13R56eBky" resolve="TargetOfEvaluationElement" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fl" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3B13R56eBoL" resolve="TargetOfEvaluationElement_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CE" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3B13R56eBmD" resolve="TargetOfEvaluationElements" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BK" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3B13R56eBqU" resolve="TargetOfEvaluationElements_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Do" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16ghNz" resolve="ProductionRule_ImplementedThrough" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DP" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16ghPQ" resolve="ProductionRule_IncomingDataFlows" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DN" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16ghSa" resolve="ProductionRule_MapsTo" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CO" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16ghUv" resolve="ProductionRule_OutgoingDataFlows" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EU" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16ghWP" resolve="ProductionRule_ParentComponent" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bk" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16ghZc" resolve="ProductionRule_ParentData" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C5" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gi1$" resolve="ProductionRule_ParentFunction" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E6" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gi3X" resolve="ProductionRule_ProcessedBy" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EQ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gi6n" resolve="ProductionRule_Processes" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dc" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gi8M" resolve="ProductionRule_SourceComponent" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Du" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gibe" resolve="ProductionRule_StoredBy" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ek" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gii_" resolve="ProductionRule_Stores" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EN" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gwq4" resolve="ProductionRule_SubComponent" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EC" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gil3" resolve="ProductionRule_SubFunction" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_B3" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1srwLgFAW4c" resolve="ProductionRule_SubData" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CX" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16giny" resolve="ProductionRule_TargetComponent" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C8" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16giq2" resolve="ProductionRule_TransferedBy" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E$" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1KmhX16gisz" resolve="ProductionRule_Transfers" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CN" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:7xGASE4P4pO" resolve="ProductionRule_Contained" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_F6" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:7xGASE4P4tV" resolve="ProductionRule_Container" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E_" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:7xGASE5eQY9" resolve="ProductionRule_Endpoints" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D6" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:7xGASE5eR2i" resolve="ProductionRule_IsEndpointOf" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CW" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:7_7plVRaxMz" resolve="NoDefinitionContext" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bb" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3GefDSXlpmT" resolve="Asset" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DB" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3GefDSXlrkG" resolve="Assets" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CJ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1ZE7Y0_V5RL" resolve="ReportGroup_MethodConfiguration" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DL" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:7_7plVRakKo" resolve="ReportGroup_Other" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ey" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1ZE7Y0_V5Uu" resolve="ReportGroup_SecurityModeling" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cv" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1ZE7Y0_V5Xc" resolve="ReportGroup_SystemModeling" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Er" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5M1$A_FK_Kg" resolve="ReportGroup_ISO21434" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D5" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESluw7" resolve="DefinedByRelation" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CC" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESoyqx" resolve="InstantiatedBy" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cd" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESoDAl" resolve="InitialAttackEffort" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Be" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:65d4B9KouDe" resolve="InitialAttackEffort_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bx" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESoBYH" resolve="ConsecutiveAttackEffort" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ep" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:65d4B9KouGo" resolve="ConsecutiveAttackEffort_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Eq" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ETmF0y" resolve="CombinedAttackEffort" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cf" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESpCes" resolve="Initial_Prefix" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C0" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3wMg8ESpChi" resolve="Consecutive_Prefix" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EE" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1srwLgFB4G2" resolve="ReportTableOfContents" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ck" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1srwLgFBbs1" resolve="ReportText" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CR" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1srwLgFBh1X" resolve="ReportItem" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_C3" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1srwLgFBh4Z" resolve="ReportTable" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CL" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:1TQYurWALTi" resolve="ReportTable_DamageAndThreatScenarios" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dh" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:4UmZxJ6IlKP" resolve="ReportTable_ThreatScenariosAndAttackPaths" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bq" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:4SCACCMPQ4A" resolve="DamageScenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cb" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:6$W7HqkI3cN" resolve="DamageScenario_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CZ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:4SCACCMPQ7H" resolve="DamageScenarios" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EO" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:67mOi6ZOISe" resolve="DefaultContent" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CS" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFXfT" resolve="NamePattern_AttackEffort" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DM" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFX5F" resolve="NamePattern_ThreatClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cr" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFX94" resolve="NamePattern_ControlClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BE" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFXcu" resolve="NamePattern_Technology" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D2" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFVGM" resolve="NamePattern_ThreatScenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BP" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:308xaqvfuvB" resolve="NamePattern_DamageScenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bj" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFVK0" resolve="NamePattern_AttackStep" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CG" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFWBR" resolve="NamePattern_Control" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_E2" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFWLE" resolve="NamePattern_Assumption" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cs" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:20XTM5FQvW$" resolve="NamePattern_AssumptionClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DO" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFWF7" resolve="NamePattern_Scenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BG" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFWIo" resolve="NamePattern_Risk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Es" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFWOX" resolve="NamePattern_Function" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fn" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFWSh" resolve="NamePattern_Component" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DW" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFWVA" resolve="NamePattern_Data" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_ED" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFWYW" resolve="NamePattern_Channel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BH" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFX2j" resolve="NamePattern_DataFlow" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cn" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFXmM" resolve="NamePattern_Stakeholder" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DG" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaFZZD" resolve="NamePattern_Sequence" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cy" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5UdoFIyhnIy" resolve="NamePattern_DamageClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Co" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5UdoFIz184L" resolve="NamePattern_DamageCriterion" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CD" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5UdoFIzOYNI" resolve="NamePattern_DamagePotential" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fd" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5UdoFI$9CuB" resolve="NamePattern_DamageSubClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Fc" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5UdoFI$dsX3" resolve="NamePattern_RiskFactor" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_CV" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5UdoFI$hoDC" resolve="NamePattern_RiskFactorLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D9" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5UdoFI$wT7X" resolve="NamePattern_RiskLevel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dp" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5UdoFI_atfp" resolve="NamePattern_RiskTreatment" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Bf" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:2AX5DKwBoVm" resolve="NamePattern_SecurityGoalClass" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Cc" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5VtOkhyboeg" resolve="CvssAttackVectorBased" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dt" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5VtOkhybow$" resolve="Cvss_AttackVectorBased_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ds" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5VtOkhycmWi" resolve="Cvss" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_DR" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5VtOkhycn0S" resolve="Cvss_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BQ" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5VtOkhyc$mf" resolve="AttackVectorBased" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EH" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:5VtOkhyc$qR" resolve="AttackVectorBased_Abbrev" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dn" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaIfcx" resolve="TitlePattern_Component" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_By" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaIfg0" resolve="TitlePattern_Data" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_EI" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaZpEj" resolve="TitlePattern_ThreatScenario" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Dq" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaZpHU" resolve="TitlePattern_AttackStep" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_Ft" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:4m79sK2iw$" resolve="TitlePattern_Control" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_D$" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaZpok" resolve="TitlePattern_Risk" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BY" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaZphh" resolve="TitlePattern_Channel" />
-    </node>
-    <node concept="3XNixs" id="20HkN2s1_BD" role="3XNixv">
-      <ref role="3XNEje" to="kc1e:3WPvfJaZpkM" resolve="TitlePattern_DataFlow" />
-    </node>
-  </node>
   <node concept="OYqrK" id="4CQftq3lQhv">
     <property role="TrG5h" value="Risk Model" />
     <node concept="E7uU9" id="4CQftq3lQjR" role="E7uTP">
@@ -4323,7 +3485,7 @@
     </node>
   </node>
   <node concept="3eC5pO" id="5a5CPNXLFLa">
-    <property role="TrG5h" value="Project Info" />
+    <property role="TrG5h" value="dummy-name-cause-derived-from-constraints" />
     <node concept="$sJSu" id="5a5CPNXLFLc" role="$s4ey">
       <property role="TrG5h" value="Notes on the CVSS 3.0 Method Configuration" />
       <node concept="$sJSp" id="5a5CPNXLFLd" role="$tzTT">
@@ -4555,6 +3717,844 @@
     </node>
     <node concept="$sJSh" id="5a5CPNXLFMT" role="$s4ey" />
     <node concept="$sJSh" id="5a5CPNXLFM3" role="$s4ey" />
+  </node>
+  <node concept="3XX4$o" id="65pzHM4F7aL">
+    <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
+    <ref role="3iLw6d" to="si5v:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
+    <node concept="3XNixs" id="20HkN2s1_BR" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYYs8s" resolve="MethodConfiguration" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CI" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESpX$S" resolve="MethodConfigurations" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D1" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6y8BU_MeIMf" resolve="RiskModel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fi" role="3XNixv">
+      <ref role="3XNEje" to="gi29:4thMoKx6pUr" resolve="ImpactModel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CK" role="3XNixv">
+      <ref role="3XNEje" to="gi29:8CDTQvMvgU" resolve="FeasibilityModel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B5" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjV4" resolve="SecurityGoalClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C9" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3$wJFlSBzH2" resolve="SecurityGoalClass_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fs" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC23QE0V" resolve="SecurityGoalClasses" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Et" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3$wJFlSBzMx" resolve="SecurityGoalClasses_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bs" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjVy" resolve="DamageClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DK" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESq2sb" resolve="DamageClasses" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fr" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjVG" resolve="DamageSubClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Eb" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1ZE7Y0A6tmL" resolve="DamageSubClasses" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cl" role="3XNixv">
+      <ref role="3XNEje" to="gi29:65pzHM3eXV0" resolve="ClassRefinesRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C1" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_M8" resolve="DamagePotential" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CU" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESq3QB" resolve="DamagePotentials" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BW" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjVR" resolve="DamagePotentialLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CQ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC23QMGq" resolve="DamagePotentialLevel_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ce" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYsy1h" resolve="DamagePotentialLevels" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cp" role="3XNixv">
+      <ref role="3XNEje" to="gi29:65d4B9KouJA" resolve="PropagatedDamagePotential" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DJ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:65d4B9KouMP" resolve="PropagatedDamagePotential_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EA" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjWu" resolve="DamageCriterion" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CT" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6$W7HqkI38p" resolve="DamageCriterion_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F2" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_SM" resolve="DamageCriteria" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D_" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYszUN" resolve="DamageCriteria_AM_inline" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_ES" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjW3" resolve="RiskFactor" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ec" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3$wJFlSFb6B" resolve="RiskFactors" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dr" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjZZ" resolve="RiskFactorLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F7" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2sjzIYTanlY" resolve="RiskFactorLevelAssignment" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bv" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_OU" resolve="RiskFactorLevels" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D0" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_UA" resolve="RiskFactorLevels_AM_inline" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CP" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_M$" resolve="AttackEffort" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D4" role="3XNixv">
+      <ref role="3XNEje" to="gi29:7vq$a6evaTp" resolve="AttackEffort_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bc" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESql2F" resolve="AttackEfforts" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D3" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjWg" resolve="AttackEffortLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ei" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC23Q5nU" resolve="AttackEffortLevel_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fh" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_Nv" resolve="AttackEffortLevels" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C2" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYsCl3" resolve="AttackEffortTable" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ff" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESpYSh" resolve="AttackEffortTables" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F5" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5Ak0J" resolve="RiskLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bm" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6$N_ap1dX3A" resolve="RiskLevel_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ex" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYsFZ7" resolve="RiskLevels" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EB" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYsMt6" resolve="RiskTable" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fa" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESqrAj" resolve="RiskTables" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cg" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYsMYb" resolve="RiskTreatmentOptions" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dl" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1ZE7Y0$xYLn" resolve="RiskDistributionChart" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BN" role="3XNixv">
+      <ref role="3XNEje" to="gi29:15NDF6$Py1O" resolve="RiskDistribution" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E8" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5Ak1i" resolve="AEDTAggregator" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EP" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs$hU" resolve="AEDTAggregators" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fj" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5Ak1_" resolve="DamageAggregator" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cw" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs$ii" resolve="DamageAggregators" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EJ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5Ak1T" resolve="PropagationOperation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ci" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_nL" resolve="PropagationOperations" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F3" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYxlG9" resolve="PropagationOperationMode" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F9" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYxlHg" resolve="Mode_AttackStep" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EZ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYxlHS" resolve="Mode_Mitigation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cz" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYxlIx" resolve="Mode_Dependence" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C6" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_Gr" resolve="DamageTransformation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EL" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYs_Qy" resolve="DamageTransformations" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DQ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX165VcD" resolve="ProductionRules" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BI" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeJa8M" resolve="ProductionRuleSet" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dk" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1srwLgFOQ52" resolve="ProductionRuleSets" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B6" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeJlOq" resolve="SecurityGoalClassesDependenciesMatrix" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Df" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1srwLgFLyy$" resolve="SecurityGoalClassesDependenciesMatrices" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C_" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeJmve" resolve="TerminologyProfile" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CM" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYYszA" resolve="ThreatsCatalog" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bz" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjVa" resolve="ThreatClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DF" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3$wJFlSBxBg" resolve="ThreatClasses" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bo" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmYYs$i" resolve="ControlsCatalog" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F8" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjVh" resolve="ControlClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_De" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6$N_ap0uP88" resolve="ControllClasses" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DA" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZ4SCE" resolve="TechnologiesCatalog" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DZ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZ4SDs" resolve="Technology" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ee" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6$N_ap0uP3k" resolve="Technologies" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E4" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZ4SEf" resolve="TechnologiesRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BS" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZ4ROy" resolve="ArchitectureRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_El" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZ4Sjh" resolve="ProtectsAgainstRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BJ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZ4Sk1" resolve="ProtectsRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fq" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZ4R$g" resolve="ThreatensRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_En" role="3XNixv">
+      <ref role="3XNEje" to="gi29:15NDF6$V4gV" resolve="Catalog" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F0" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeJbdD" resolve="ProjectInfoChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Eg" role="3XNixv">
+      <ref role="3XNEje" to="gi29:67mOi71_L_8" resolve="ProjectInfoChunks" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ct" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1ZE7Y0_HcJh" resolve="ResultReport" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Di" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeJzlk" resolve="ResultReportChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BB" role="3XNixv">
+      <ref role="3XNEje" to="gi29:67mOi71_II9" resolve="ResultReportChunks" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DC" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiIb_" resolve="SystemChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DI" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2sjzIYR1WLd" resolve="RiskTreatment" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EK" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESmVr2" resolve="RiskTreatments" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EM" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5Ak10" resolve="RiskTreatmentChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B$" role="3XNixv">
+      <ref role="3XNEje" to="gi29:67mOi71_L9$" resolve="RiskTreatmentChunks" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BX" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6YPQdIAHL$E" resolve="StakeholdersChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Eu" role="3XNixv">
+      <ref role="3XNEje" to="gi29:67mOi71_LLo" resolve="StakeholdersChunks" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EV" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeIgcL" resolve="SystemDiagram" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EX" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESqzFq" resolve="SystemDiagrams" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bh" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6YPQdIAHOeM" resolve="SecurityObjectivesRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Eo" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6YPQdIAHOhY" resolve="ResponsibilitiesRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ev" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6YPQdIAHOjj" resolve="RiskAcceptanceLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DU" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6YPQdIAHL_W" resolve="Stakeholder" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BL" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1ZE7Y0_HczB" resolve="Stakeholders" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dy" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6YPQdIB1pMm" resolve="AssetIdentificationAssistant" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fo" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6YPQdIB1pKY" resolve="ThreatScenarioAsssistant" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dj" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6YPQdIB1pNJ" resolve="TsDsLinkingAssistant" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DT" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiIZQ" resolve="Function" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DS" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESqj32" resolve="Functions" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ef" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiIYZ" resolve="Component" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F4" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX164WAW" resolve="Components" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fe" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiJ3o" resolve="Channel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E0" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX164WPZ" resolve="Channels" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dz" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiJ1_" resolve="DataFlow" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ew" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC23W$oY" resolve="DataFlows" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bp" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiJ2u" resolve="Data" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dg" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC23WCcy" resolve="Data_Plural" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BM" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX15Xivc" resolve="StoredDataKind" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CB" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX15Xixn" resolve="TransferredDataKind" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B8" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC23UZcj" resolve="SequencesChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F1" role="3XNixv">
+      <ref role="3XNEje" to="gi29:67mOi71_NTc" resolve="SequencesChunks" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bt" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC23CF25" resolve="Sequence" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B4" role="3XNixv">
+      <ref role="3XNEje" to="gi29:S854OwPz_E" resolve="SequenceReference" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cm" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX164WIq" resolve="Sequences" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DV" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC23V8ca" resolve="Message" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C7" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC24kR2n" resolve="FunctionAssignmentChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bd" role="3XNixv">
+      <ref role="3XNEje" to="gi29:67mOi71_PJ7" resolve="FunctionAssignmentChunks" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ez" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC242XBW" resolve="FunctionAssignmentView" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fk" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2AX5DKx2Qng" resolve="FunctionAssignment" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fb" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX1618gx" resolve="AssignedFunctions" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BT" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC242XDv" resolve="SimpleView" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BV" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC242XF3" resolve="SmartView" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Em" role="3XNixv">
+      <ref role="3XNEje" to="gi29:66fzC242XGC" resolve="SmartAssignment" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DX" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiJ9O" resolve="StoredDataRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Db" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiJaK" resolve="ContainedDataRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dm" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiJbH" resolve="TransferredDataRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dx" role="3XNixv">
+      <ref role="3XNEje" to="gi29:65pzHM3fcqG" resolve="ChannelEndpoint" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fg" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZo8Nf" resolve="ChannelEndpoints" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BZ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZo8Oe" resolve="DataFlowDirection" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ej" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZiIcq" resolve="SecurityChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fp" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZtaDM" resolve="Assumption" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dd" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESq8bV" resolve="Assumptions" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C$" role="3XNixv">
+      <ref role="3XNEje" to="gi29:20XTM5FIj6V" resolve="AssumptionClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ca" role="3XNixv">
+      <ref role="3XNEje" to="gi29:20XTM5FIj6U" resolve="AssumptionClasses" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Eh" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6IPKVn$5i4z" resolve="AssumptionsCatalog" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_ER" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjUQ" resolve="ThreatScenario" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cj" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3$wJFlSADDz" resolve="ThreatScenario_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C4" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3$wJFlS$GWv" resolve="ThreatScenarios" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BO" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjUS" resolve="AttackStep" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ba" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3$wJFlS$OrY" resolve="AttackSteps" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BU" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjUV" resolve="Control" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cu" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZo_Zq" resolve="Controls" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D7" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3B13R55Fgld" resolve="ControlGroup" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DD" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3B13R55Fgnc" resolve="ControlGroups" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BA" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GG$71Up9BI" resolve="Control_effect" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CA" role="3XNixv">
+      <ref role="3XNEje" to="gi29:28R_jYk3lhx" resolve="Checklist" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bg" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GG$71Up9Ga" resolve="Assumption_effect" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Br" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjUZ" resolve="Risk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B9" role="3XNixv">
+      <ref role="3XNEje" to="gi29:S854OwAplR" resolve="Risks" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E3" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3xoDER5AjVp" resolve="Scenario" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bl" role="3XNixv">
+      <ref role="3XNEje" to="gi29:CyLn$iteeV" resolve="Scenario_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bn" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZo$Hg" resolve="Scenarios" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bu" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZtaS2" resolve="MaximalRiskLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D8" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZtaTh" resolve="MaximalDamagePotentialLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Da" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZtaUx" resolve="MinimalAttackEffortLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DY" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZoxtD" resolve="ConcernsRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EG" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZoxxR" resolve="DependsOnRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DH" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZoxvI" resolve="ThreatenedByRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bi" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZoxwM" resolve="DampedByRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CF" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZozqA" resolve="ActsOnRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EW" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZoxyX" resolve="PreparedByRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EY" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZox$4" resolve="MitigatedByRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cx" role="3XNixv">
+      <ref role="3XNEje" to="gi29:qJeaTgPlQV" resolve="Impossible" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BC" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZoxBq" resolve="MitigatesRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CY" role="3XNixv">
+      <ref role="3XNEje" to="gi29:702oElazAKQ" resolve="InstantiatesRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ea" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZo$G6" resolve="CausedByRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dv" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2Y8e1kgYIWy" resolve="CausingElements" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EF" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZoAfi" resolve="IsDefaultScenario" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CH" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5ZaGJmZox7R" resolve="ControlGroupsChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DE" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeQcok" resolve="AssistantChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BF" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5EzVG8VFNmc" resolve="Assistant_ToeeDemandsSuggestion" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ed" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5EzVG8VFNtX" resolve="Assistant_ToeeThreatenedBySuggestion" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cq" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5EzVG8VFNxR" resolve="Assistant_DsThreatenedBySuggestion" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B7" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5EzVG8VFN_M" resolve="Assistant_DependsOnSuggestion" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_ET" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeJgZp" resolve="ModelAssessmentChunk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B_" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2GCfemeJoe2" resolve="ControlRelationAssistant" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E5" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3B13R56eBb4" resolve="TargetOfEvaluation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dw" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3B13R56eBd9" resolve="TargetOfEvaluation_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ch" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3B13R56eBky" resolve="TargetOfEvaluationElement" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fl" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3B13R56eBoL" resolve="TargetOfEvaluationElement_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CE" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3B13R56eBmD" resolve="TargetOfEvaluationElements" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BK" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3B13R56eBqU" resolve="TargetOfEvaluationElements_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Do" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16ghNz" resolve="ProductionRule_ImplementedThrough" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DP" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16ghPQ" resolve="ProductionRule_IncomingDataFlows" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DN" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16ghSa" resolve="ProductionRule_MapsTo" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CO" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16ghUv" resolve="ProductionRule_OutgoingDataFlows" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EU" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16ghWP" resolve="ProductionRule_ParentComponent" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bk" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16ghZc" resolve="ProductionRule_ParentData" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C5" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gi1$" resolve="ProductionRule_ParentFunction" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E6" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gi3X" resolve="ProductionRule_ProcessedBy" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EQ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gi6n" resolve="ProductionRule_Processes" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dc" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gi8M" resolve="ProductionRule_SourceComponent" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Du" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gibe" resolve="ProductionRule_StoredBy" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ek" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gii_" resolve="ProductionRule_Stores" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EN" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gwq4" resolve="ProductionRule_SubComponent" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EC" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gil3" resolve="ProductionRule_SubFunction" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_B3" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1srwLgFAW4c" resolve="ProductionRule_SubData" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CX" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16giny" resolve="ProductionRule_TargetComponent" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C8" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16giq2" resolve="ProductionRule_TransferedBy" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E$" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1KmhX16gisz" resolve="ProductionRule_Transfers" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CN" role="3XNixv">
+      <ref role="3XNEje" to="gi29:7xGASE4P4pO" resolve="ProductionRule_Contained" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_F6" role="3XNixv">
+      <ref role="3XNEje" to="gi29:7xGASE4P4tV" resolve="ProductionRule_Container" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E_" role="3XNixv">
+      <ref role="3XNEje" to="gi29:7xGASE5eQY9" resolve="ProductionRule_Endpoints" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D6" role="3XNixv">
+      <ref role="3XNEje" to="gi29:7xGASE5eR2i" resolve="ProductionRule_IsEndpointOf" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CW" role="3XNixv">
+      <ref role="3XNEje" to="gi29:7_7plVRaxMz" resolve="NoDefinitionContext" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bb" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3GefDSXlpmT" resolve="Asset" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DB" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3GefDSXlrkG" resolve="Assets" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CJ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1ZE7Y0_V5RL" resolve="ReportGroup_MethodConfiguration" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DL" role="3XNixv">
+      <ref role="3XNEje" to="gi29:7_7plVRakKo" resolve="ReportGroup_Other" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ey" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1ZE7Y0_V5Uu" resolve="ReportGroup_SecurityModeling" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cv" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1ZE7Y0_V5Xc" resolve="ReportGroup_SystemModeling" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Er" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5M1$A_FK_Kg" resolve="ReportGroup_ISO21434" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D5" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESluw7" resolve="DefinedByRelation" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CC" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESoyqx" resolve="InstantiatedBy" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cd" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESoDAl" resolve="InitialAttackEffort" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Be" role="3XNixv">
+      <ref role="3XNEje" to="gi29:65d4B9KouDe" resolve="InitialAttackEffort_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bx" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESoBYH" resolve="ConsecutiveAttackEffort" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ep" role="3XNixv">
+      <ref role="3XNEje" to="gi29:65d4B9KouGo" resolve="ConsecutiveAttackEffort_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Eq" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ETmF0y" resolve="CombinedAttackEffort" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cf" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESpCes" resolve="Initial_Prefix" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C0" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3wMg8ESpChi" resolve="Consecutive_Prefix" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EE" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1srwLgFB4G2" resolve="ReportTableOfContents" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ck" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1srwLgFBbs1" resolve="ReportText" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CR" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1srwLgFBh1X" resolve="ReportItem" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_C3" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1srwLgFBh4Z" resolve="ReportTable" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CL" role="3XNixv">
+      <ref role="3XNEje" to="gi29:1TQYurWALTi" resolve="ReportTable_DamageAndThreatScenarios" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dh" role="3XNixv">
+      <ref role="3XNEje" to="gi29:4UmZxJ6IlKP" resolve="ReportTable_ThreatScenariosAndAttackPaths" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bq" role="3XNixv">
+      <ref role="3XNEje" to="gi29:4SCACCMPQ4A" resolve="DamageScenario" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cb" role="3XNixv">
+      <ref role="3XNEje" to="gi29:6$W7HqkI3cN" resolve="DamageScenario_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CZ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:4SCACCMPQ7H" resolve="DamageScenarios" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EO" role="3XNixv">
+      <ref role="3XNEje" to="gi29:67mOi6ZOISe" resolve="DefaultContent" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CS" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFXfT" resolve="NamePattern_AttackEffort" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DM" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFX5F" resolve="NamePattern_ThreatClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cr" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFX94" resolve="NamePattern_ControlClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BE" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFXcu" resolve="NamePattern_Technology" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D2" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFVGM" resolve="NamePattern_ThreatScenario" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BP" role="3XNixv">
+      <ref role="3XNEje" to="gi29:308xaqvfuvB" resolve="NamePattern_DamageScenario" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bj" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFVK0" resolve="NamePattern_AttackStep" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CG" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFWBR" resolve="NamePattern_Control" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_E2" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFWLE" resolve="NamePattern_Assumption" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cs" role="3XNixv">
+      <ref role="3XNEje" to="gi29:20XTM5FQvW$" resolve="NamePattern_AssumptionClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DO" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFWF7" resolve="NamePattern_Scenario" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BG" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFWIo" resolve="NamePattern_Risk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Es" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFWOX" resolve="NamePattern_Function" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fn" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFWSh" resolve="NamePattern_Component" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DW" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFWVA" resolve="NamePattern_Data" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_ED" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFWYW" resolve="NamePattern_Channel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BH" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFX2j" resolve="NamePattern_DataFlow" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cn" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFXmM" resolve="NamePattern_Stakeholder" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DG" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaFZZD" resolve="NamePattern_Sequence" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cy" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5UdoFIyhnIy" resolve="NamePattern_DamageClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Co" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5UdoFIz184L" resolve="NamePattern_DamageCriterion" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CD" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5UdoFIzOYNI" resolve="NamePattern_DamagePotential" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fd" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5UdoFI$9CuB" resolve="NamePattern_DamageSubClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Fc" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5UdoFI$dsX3" resolve="NamePattern_RiskFactor" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_CV" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5UdoFI$hoDC" resolve="NamePattern_RiskFactorLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D9" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5UdoFI$wT7X" resolve="NamePattern_RiskLevel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dp" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5UdoFI_atfp" resolve="NamePattern_RiskTreatment" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Bf" role="3XNixv">
+      <ref role="3XNEje" to="gi29:2AX5DKwBoVm" resolve="NamePattern_SecurityGoalClass" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Cc" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5VtOkhyboeg" resolve="CvssAttackVectorBased" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dt" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5VtOkhybow$" resolve="Cvss_AttackVectorBased_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ds" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5VtOkhycmWi" resolve="Cvss" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_DR" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5VtOkhycn0S" resolve="Cvss_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BQ" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5VtOkhyc$mf" resolve="AttackVectorBased" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EH" role="3XNixv">
+      <ref role="3XNEje" to="gi29:5VtOkhyc$qR" resolve="AttackVectorBased_Abbrev" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dn" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaIfcx" resolve="TitlePattern_Component" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_By" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaIfg0" resolve="TitlePattern_Data" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_EI" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaZpEj" resolve="TitlePattern_ThreatScenario" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Dq" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaZpHU" resolve="TitlePattern_AttackStep" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_Ft" role="3XNixv">
+      <ref role="3XNEje" to="gi29:4m79sK2iw$" resolve="TitlePattern_Control" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_D$" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaZpok" resolve="TitlePattern_Risk" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BY" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaZphh" resolve="TitlePattern_Channel" />
+    </node>
+    <node concept="3XNixs" id="20HkN2s1_BD" role="3XNixv">
+      <ref role="3XNEje" to="gi29:3WPvfJaZpkM" resolve="TitlePattern_DataFlow" />
+    </node>
   </node>
 </model>
 

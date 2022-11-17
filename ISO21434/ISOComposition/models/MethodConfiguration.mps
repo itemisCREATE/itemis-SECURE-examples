@@ -6,7 +6,7 @@
     <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
   </languages>
   <imports>
-    <import index="j5s2" ref="r:ef59e6da-54fc-413a-8e0d-8258611797ba(com.moraad.core.runtime.terminologyProfiles.iso_sae_21434)" />
+    <import index="si5v" ref="r:900a4177-1f36-4584-9595-316a42ee6e6a(de.itemis.ysec.commons.lib.terminologyProfiles.iso_sae_21434)" />
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
@@ -63,6 +63,10 @@
       <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ng" index="1ALOwG">
         <property id="1729603031951941283" name="title" index="DVXpC" />
       </concept>
+      <concept id="4060178329350500277" name="de.itemis.ysec.commons.structure.TerminologyProfile" flags="ng" index="3XX4$o" />
+    </language>
+    <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
+      <concept id="7449413747451491361" name="com.moraad.projectinfo.structure.ProjectInfoChunk" flags="ng" index="3eC5pO" />
     </language>
     <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
       <concept id="8926592809623411165" name="de.itemis.mps.editor.freetext.structure.BasicParagraph" flags="ng" index="3VMn$0">
@@ -178,7 +182,6 @@
       <concept id="3440241848487300722" name="com.moraad.core.structure.DamageAggregatorRef" flags="ng" index="37eJZ9">
         <reference id="3440241848487300723" name="target" index="37eJZ8" />
       </concept>
-      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO" />
       <concept id="6793729118883371978" name="com.moraad.core.structure.DataFlowSecurityTarget" flags="ng" index="3h3ntD" />
       <concept id="330802076194471423" name="com.moraad.core.structure.RiskTreatment" flags="ng" index="1m7Od3" />
       <concept id="330802076194474985" name="com.moraad.core.structure.RiskTreatmentsDefinition" flags="ng" index="1m7Vll">
@@ -203,7 +206,6 @@
       <concept id="8677481601271696374" name="com.moraad.core.structure.ChannelRuleElement" flags="ng" index="3WDh1W" />
       <concept id="8677481601272366660" name="com.moraad.core.structure.TransmissionContainerRelation" flags="ng" index="3WJPRe" />
       <concept id="8677481601268483478" name="com.moraad.core.structure.ChannelSecurityTarget" flags="ng" index="3WX1Ss" />
-      <concept id="4060178329350500277" name="com.moraad.core.structure.TerminologyProfile" flags="ng" index="3XX4$o" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -2034,11 +2036,6 @@
         <node concept="2uQ_zT" id="7gwHXNztMme" role="1xd$jb" />
       </node>
     </node>
-  </node>
-  <node concept="3XX4$o" id="65pzHM4F7u5">
-    <property role="3GE5qa" value="" />
-    <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
-    <ref role="3iLw6d" to="j5s2:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
   </node>
   <node concept="1Ai4xF" id="7bZZv_jRUQq">
     <property role="TrG5h" value="Impact Model" />
@@ -6408,7 +6405,12 @@
     </node>
   </node>
   <node concept="3eC5pO" id="1PEmpgFm1T_">
-    <property role="TrG5h" value="Project Info" />
+    <property role="TrG5h" value="dummy-name-cause-derived-from-constraints" />
+  </node>
+  <node concept="3XX4$o" id="65pzHM4F7u5">
+    <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
+    <property role="3GE5qa" value="" />
+    <ref role="3iLw6d" to="si5v:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
   </node>
 </model>
 

@@ -34,6 +34,9 @@
         <property id="1729603031951941283" name="title" index="DVXpC" />
       </concept>
     </language>
+    <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
+      <concept id="7449413747451491361" name="com.moraad.projectinfo.structure.ProjectInfoChunk" flags="ng" index="3eC5pO" />
+    </language>
     <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
       <concept id="8926592809623411165" name="de.itemis.mps.editor.freetext.structure.BasicParagraph" flags="ng" index="3VMn$0">
         <child id="8926592809623411166" name="runs" index="3VMn$3" />
@@ -58,7 +61,6 @@
       </concept>
       <concept id="3384350556523615565" name="com.moraad.core.structure.ThreatClassRef" flags="ng" index="122ZmF" />
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
-      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO" />
       <concept id="6793729118883371978" name="com.moraad.core.structure.DataFlowSecurityTarget" flags="ng" index="3h3ntD" />
       <concept id="8278271381841446327" name="com.moraad.core.structure.SecurityControlsCatalog" flags="ng" index="1u4Pp1">
         <child id="8278271381841446329" name="controlClasses" index="1u4Ppf" />
@@ -1841,9 +1843,6 @@
       <node concept="3VMn$a" id="4O7c2ukunLU" role="2JHqPs" />
     </node>
   </node>
-  <node concept="3eC5pO" id="1PEmpgFm2Oo">
-    <property role="TrG5h" value="Project Info" />
-  </node>
   <node concept="1EwOn2" id="4NAzM1S$HE4">
     <property role="TrG5h" value="Technologies" />
     <property role="3GE5qa" value="" />
@@ -1902,6 +1901,9 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3eC5pO" id="1PEmpgFm2Oo">
+    <property role="TrG5h" value="dummy-name-cause-derived-from-constraints" />
   </node>
 </model>
 

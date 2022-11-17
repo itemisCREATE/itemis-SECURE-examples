@@ -38,6 +38,9 @@
         <child id="9003278715588979763" name="listEntries" index="$tzTT" />
       </concept>
       <concept id="4299407153799527256" name="com.moraad.projectinfo.structure.ProjectInfoTable" flags="ng" index="39leHu" />
+      <concept id="7449413747451491361" name="com.moraad.projectinfo.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
+        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
+      </concept>
     </language>
     <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
       <concept id="8926592809623411165" name="de.itemis.mps.editor.freetext.structure.BasicParagraph" flags="ng" index="3VMn$0">
@@ -73,14 +76,11 @@
       </concept>
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
-      <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
+      <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent_old" flags="ng" index="$sJSh" />
       <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ng" index="KYrDd">
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
-      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
-        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
-      </concept>
       <concept id="8278271381841446327" name="com.moraad.core.structure.SecurityControlsCatalog" flags="ng" index="1u4Pp1" />
       <concept id="6006699537884559085" name="com.moraad.core.structure.ThreatClass" flags="ng" index="3Rgaea">
         <child id="6006699537885399031" name="architectureElements" index="3Rtpag" />
@@ -183,8 +183,69 @@
       </node>
     </node>
   </node>
+  <node concept="1EwOn2" id="4NAzM1S$HE4">
+    <property role="TrG5h" value="Technologies" />
+    <node concept="2e0drJ" id="7gZ2RyfNr6M" role="1ExMwS" />
+    <node concept="1Ex9m3" id="4NAzM1S$I_K" role="1ExMwS">
+      <property role="TrG5h" value="TCP/IP" />
+      <property role="DVXpC" value="Internet Protocols" />
+      <node concept="3VMn$a" id="7gZ2RyfNr6s" role="2JHqPs">
+        <node concept="3VMn$0" id="7gZ2RyfNr6t" role="3VMn$6">
+          <node concept="3VMn$7" id="7gZ2RyfNr6u" role="3VMn$3">
+            <property role="3VMn$Y" value="Family" />
+          </node>
+          <node concept="3VMn$7" id="7gZ2RyfNr6v" role="3VMn$3">
+            <property role="3VMn$Y" value="of" />
+          </node>
+          <node concept="3VMn$7" id="7gZ2RyfNr6w" role="3VMn$3">
+            <property role="3VMn$Y" value="Internet" />
+          </node>
+          <node concept="3VMn$7" id="7gZ2RyfNr6x" role="3VMn$3">
+            <property role="3VMn$Y" value="Protocols" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1Ex9m3" id="4NAzM1S$I_U" role="1ExMwS">
+      <property role="TrG5h" value="CAN" />
+      <property role="DVXpC" value="Controller Area Network" />
+      <node concept="3VMn$a" id="7gZ2RyfNr6$" role="2JHqPs">
+        <node concept="3VMn$0" id="7gZ2RyfNr6_" role="3VMn$6">
+          <node concept="3VMn$7" id="7gZ2RyfNr6A" role="3VMn$3">
+            <property role="3VMn$Y" value="Automotive" />
+          </node>
+          <node concept="3VMn$7" id="7gZ2RyfNr6B" role="3VMn$3">
+            <property role="3VMn$Y" value="Bus" />
+          </node>
+          <node concept="3VMn$7" id="7gZ2RyfNr6C" role="3VMn$3">
+            <property role="3VMn$Y" value="Technology" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1Ex9m3" id="4NAzM1S$I_u" role="1ExMwS">
+      <property role="TrG5h" value="mobile" />
+      <property role="DVXpC" value="Wireless Mobile Communication" />
+      <node concept="3VMn$a" id="7gZ2RyfNr6F" role="2JHqPs">
+        <node concept="3VMn$0" id="7gZ2RyfNr6G" role="3VMn$6">
+          <node concept="3VMn$7" id="7gZ2RyfNr6H" role="3VMn$3">
+            <property role="3VMn$Y" value="For" />
+          </node>
+          <node concept="3VMn$7" id="7gZ2RyfNr6I" role="3VMn$3">
+            <property role="3VMn$Y" value="example" />
+          </node>
+          <node concept="3VMn$7" id="7gZ2RyfNr6J" role="3VMn$3">
+            <property role="3VMn$Y" value="UMTS," />
+          </node>
+          <node concept="3VMn$7" id="7gZ2RyfNr6K" role="3VMn$3">
+            <property role="3VMn$Y" value="GSM" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="3eC5pO" id="zhVUb1E0IR">
-    <property role="TrG5h" value="Project Info" />
+    <property role="TrG5h" value="dummy-name-cause-derived-from-constraints" />
     <node concept="$sJSu" id="5a5CPNXLFLc" role="$s4ey">
       <property role="TrG5h" value="Notes on the CVSS 3.0 Method Configuration" />
       <node concept="$sJSp" id="5a5CPNXLFLd" role="$tzTT">
@@ -415,67 +476,6 @@
       </node>
     </node>
     <node concept="$sJSh" id="5n5lVX35TBn" role="$s4ey" />
-  </node>
-  <node concept="1EwOn2" id="4NAzM1S$HE4">
-    <property role="TrG5h" value="Technologies" />
-    <node concept="2e0drJ" id="7gZ2RyfNr6M" role="1ExMwS" />
-    <node concept="1Ex9m3" id="4NAzM1S$I_K" role="1ExMwS">
-      <property role="TrG5h" value="TCP/IP" />
-      <property role="DVXpC" value="Internet Protocols" />
-      <node concept="3VMn$a" id="7gZ2RyfNr6s" role="2JHqPs">
-        <node concept="3VMn$0" id="7gZ2RyfNr6t" role="3VMn$6">
-          <node concept="3VMn$7" id="7gZ2RyfNr6u" role="3VMn$3">
-            <property role="3VMn$Y" value="Family" />
-          </node>
-          <node concept="3VMn$7" id="7gZ2RyfNr6v" role="3VMn$3">
-            <property role="3VMn$Y" value="of" />
-          </node>
-          <node concept="3VMn$7" id="7gZ2RyfNr6w" role="3VMn$3">
-            <property role="3VMn$Y" value="Internet" />
-          </node>
-          <node concept="3VMn$7" id="7gZ2RyfNr6x" role="3VMn$3">
-            <property role="3VMn$Y" value="Protocols" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1Ex9m3" id="4NAzM1S$I_U" role="1ExMwS">
-      <property role="TrG5h" value="CAN" />
-      <property role="DVXpC" value="Controller Area Network" />
-      <node concept="3VMn$a" id="7gZ2RyfNr6$" role="2JHqPs">
-        <node concept="3VMn$0" id="7gZ2RyfNr6_" role="3VMn$6">
-          <node concept="3VMn$7" id="7gZ2RyfNr6A" role="3VMn$3">
-            <property role="3VMn$Y" value="Automotive" />
-          </node>
-          <node concept="3VMn$7" id="7gZ2RyfNr6B" role="3VMn$3">
-            <property role="3VMn$Y" value="Bus" />
-          </node>
-          <node concept="3VMn$7" id="7gZ2RyfNr6C" role="3VMn$3">
-            <property role="3VMn$Y" value="Technology" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1Ex9m3" id="4NAzM1S$I_u" role="1ExMwS">
-      <property role="TrG5h" value="mobile" />
-      <property role="DVXpC" value="Wireless Mobile Communication" />
-      <node concept="3VMn$a" id="7gZ2RyfNr6F" role="2JHqPs">
-        <node concept="3VMn$0" id="7gZ2RyfNr6G" role="3VMn$6">
-          <node concept="3VMn$7" id="7gZ2RyfNr6H" role="3VMn$3">
-            <property role="3VMn$Y" value="For" />
-          </node>
-          <node concept="3VMn$7" id="7gZ2RyfNr6I" role="3VMn$3">
-            <property role="3VMn$Y" value="example" />
-          </node>
-          <node concept="3VMn$7" id="7gZ2RyfNr6J" role="3VMn$3">
-            <property role="3VMn$Y" value="UMTS," />
-          </node>
-          <node concept="3VMn$7" id="7gZ2RyfNr6K" role="3VMn$3">
-            <property role="3VMn$Y" value="GSM" />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
 </model>
 
