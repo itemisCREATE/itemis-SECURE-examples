@@ -33,8 +33,22 @@
         <property id="8045787582102992758" name="value" index="uPLpr" />
       </concept>
       <concept id="5265403561757222969" name="de.itemis.ysec.methodConfiguration.structure.Stakeholder" flags="ng" index="CzX2t" />
+      <concept id="227120341090634910" name="de.itemis.ysec.methodConfiguration.structure.AFLsDefinition" flags="ng" index="KRYwx">
+        <child id="227120341090909991" name="values" index="KQXIo" />
+      </concept>
+      <concept id="227120341090635007" name="de.itemis.ysec.methodConfiguration.structure.AttackFeasibilityLevel" flags="ng" index="KRYx0">
+        <property id="227120341090910048" name="minimalValue" index="KQXJv" />
+      </concept>
       <concept id="1756525789544303273" name="de.itemis.ysec.methodConfiguration.structure.DamagePotentialsDefinition" flags="ng" index="OYqhf">
         <child id="1756525789544303274" name="values" index="OYqhc" />
+      </concept>
+      <concept id="8127657721944922447" name="de.itemis.ysec.methodConfiguration.structure.AFLTable" flags="ng" index="2WHYjH">
+        <child id="8127657721944947910" name="content" index="2WHw5$" />
+      </concept>
+      <concept id="8127657721944922448" name="de.itemis.ysec.methodConfiguration.structure.AFLTableEntry" flags="ng" index="2WHYjM">
+        <reference id="8127657721944936034" name="combinedAttackEffort" index="2WHzf0" />
+        <reference id="8127657721944936026" name="initialAttackEffort" index="2WHzfS" />
+        <reference id="8127657721944936029" name="consecutiveAttackEffort" index="2WHzfZ" />
       </concept>
       <concept id="2317647640920546129" name="de.itemis.ysec.methodConfiguration.structure.StakeholderReference" flags="ng" index="3vJEHI">
         <reference id="2317647640920546130" name="target" index="3vJEHH" />
@@ -46,6 +60,12 @@
         <child id="5265403561760330255" name="stakeholders" index="CRQEF" />
         <child id="1756525789544304260" name="damagePotentials" index="OYq1y" />
         <child id="1756525789544302615" name="securityGoalClasses" index="OYqrL" />
+      </concept>
+      <concept id="6006699537884559087" name="de.itemis.ysec.methodConfiguration.structure.FeasibilityCategory" flags="ng" index="3Rgae8">
+        <child id="6006699537884561874" name="levels" index="3RgdiP" />
+      </concept>
+      <concept id="6006699537884559091" name="de.itemis.ysec.methodConfiguration.structure.FeasibilityOption" flags="ng" index="3Rgaek">
+        <property id="6006699537884559101" name="value" index="3Rgaeq" />
       </concept>
     </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -144,12 +164,6 @@
       </concept>
       <concept id="2945296204371461859" name="com.moraad.core.structure.StoredByRelation" flags="ng" index="F0sQC" />
       <concept id="2945296204371465777" name="com.moraad.core.structure.ProcessedByRelation" flags="ng" index="F0tPU" />
-      <concept id="227120341090634910" name="com.moraad.core.structure.AttackEffortsDefinition" flags="ng" index="KRYwx">
-        <child id="227120341090909991" name="values" index="KQXIo" />
-      </concept>
-      <concept id="227120341090635007" name="com.moraad.core.structure.AttackEffort" flags="ng" index="KRYx0">
-        <property id="227120341090910048" name="minimalValue" index="KQXJv" />
-      </concept>
       <concept id="1756525789544302614" name="com.moraad.core.structure.RiskModel" flags="ng" index="OYqrK">
         <child id="8150812653239925632" name="riskTable" index="E0BHG" />
         <child id="8150812653237857945" name="riskLevels" index="E7uTP" />
@@ -166,14 +180,6 @@
         <child id="7712103759295966721" name="defaultOperationForDependence" index="1oN8I3" />
         <child id="7712103759295966736" name="defaultOperationForThreat" index="1oN8Ii" />
         <child id="7712103759295966753" name="defaultOperationForMitigation" index="1oN8Iz" />
-      </concept>
-      <concept id="8127657721944922447" name="com.moraad.core.structure.AttackEffortTable" flags="ng" index="2WHYjH">
-        <child id="8127657721944947910" name="content" index="2WHw5$" />
-      </concept>
-      <concept id="8127657721944922448" name="com.moraad.core.structure.AttackEffortTableEntry" flags="ng" index="2WHYjM">
-        <reference id="8127657721944936034" name="combinedAttackEffort" index="2WHzf0" />
-        <reference id="8127657721944936026" name="initialAttackEffort" index="2WHzfS" />
-        <reference id="8127657721944936029" name="consecutiveAttackEffort" index="2WHzfZ" />
       </concept>
       <concept id="3384350556533323994" name="com.moraad.core.structure.DataSecurityTarget" flags="ng" index="13pXwW" />
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
@@ -197,12 +203,6 @@
         <child id="8805583693924001022" name="aggregateRFFunction" index="1ev5d9" />
         <child id="177583211455635607" name="combineDTFunction" index="1I_0pE" />
         <child id="177583211455635606" name="combineAEFunction" index="1I_0pF" />
-      </concept>
-      <concept id="6006699537884559087" name="com.moraad.core.structure.RiskFactor" flags="ng" index="3Rgae8">
-        <child id="6006699537884561874" name="levels" index="3RgdiP" />
-      </concept>
-      <concept id="6006699537884559091" name="com.moraad.core.structure.RiskFactorLevel" flags="ng" index="3Rgaek">
-        <property id="6006699537884559101" name="value" index="3Rgaeq" />
       </concept>
       <concept id="8677481601268483478" name="com.moraad.core.structure.ChannelSecurityTarget" flags="ng" index="3WX1Ss" />
     </language>
@@ -3599,106 +3599,106 @@
     <property role="1FdktB" value="FM.57" />
     <node concept="KRYwx" id="4CQftq3lQkZ" role="KQUnM">
       <node concept="KRYx0" id="4CQftq3lQl0" role="KQXIo">
-        <property role="KQXJv" value="0" />
         <property role="TrG5h" value="Beyond high" />
-        <node concept="1iSF2X" id="4O7c2ukunC$" role="E7tE9">
+        <property role="KQXJv" value="0" />
+        <node concept="1iSF2X" id="5SLMFtk$sHJ" role="E7tE9">
           <property role="1iTho6" value="E6B8B7" />
         </node>
-        <node concept="3VMn$a" id="4O7c2ukunLB" role="2JHqPs" />
+        <node concept="3VMn$a" id="5SLMFtk$sHK" role="2JHqPs" />
       </node>
       <node concept="KRYx0" id="4CQftq3lQl2" role="KQXIo">
-        <property role="KQXJv" value="10" />
         <property role="TrG5h" value="High" />
-        <node concept="1iSF2X" id="4O7c2ukunC_" role="E7tE9">
+        <property role="KQXJv" value="10" />
+        <node concept="1iSF2X" id="5SLMFtk$sHN" role="E7tE9">
           <property role="1iTho6" value="FFEB9C" />
         </node>
-        <node concept="3VMn$a" id="4O7c2ukunLC" role="2JHqPs" />
+        <node concept="3VMn$a" id="5SLMFtk$sHO" role="2JHqPs" />
       </node>
       <node concept="KRYx0" id="4CQftq3lQl4" role="KQXIo">
-        <property role="KQXJv" value="14" />
         <property role="TrG5h" value="Moderate" />
-        <node concept="1iSF2X" id="4O7c2ukunCA" role="E7tE9">
+        <property role="KQXJv" value="14" />
+        <node concept="1iSF2X" id="5SLMFtk$sHR" role="E7tE9">
           <property role="1iTho6" value="FFFF99" />
         </node>
-        <node concept="3VMn$a" id="4O7c2ukunLD" role="2JHqPs" />
+        <node concept="3VMn$a" id="5SLMFtk$sHS" role="2JHqPs" />
       </node>
       <node concept="KRYx0" id="4CQftq3lQl6" role="KQXIo">
-        <property role="KQXJv" value="20" />
         <property role="TrG5h" value="Low" />
-        <node concept="1iSF2X" id="4O7c2ukunCB" role="E7tE9">
+        <property role="KQXJv" value="20" />
+        <node concept="1iSF2X" id="5SLMFtk$sHV" role="E7tE9">
           <property role="1iTho6" value="C4D79B" />
         </node>
-        <node concept="3VMn$a" id="4O7c2ukunLE" role="2JHqPs" />
+        <node concept="3VMn$a" id="5SLMFtk$sHW" role="2JHqPs" />
       </node>
       <node concept="KRYx0" id="4CQftq3lQl8" role="KQXIo">
-        <property role="KQXJv" value="25" />
         <property role="TrG5h" value="Very low" />
-        <node concept="1iSF2X" id="4O7c2ukunCC" role="E7tE9">
+        <property role="KQXJv" value="25" />
+        <node concept="1iSF2X" id="5SLMFtk$sHZ" role="E7tE9">
           <property role="1iTho6" value="C6EFCE" />
         </node>
-        <node concept="3VMn$a" id="4O7c2ukunLF" role="2JHqPs" />
+        <node concept="3VMn$a" id="5SLMFtk$sI0" role="2JHqPs" />
       </node>
     </node>
     <node concept="2WHYjH" id="4CQftq3lQjt" role="2WHCcS">
       <node concept="2WHYjM" id="4CQftq3lQju" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl0" resolve="Beyond high" />
         <ref role="2WHzf0" node="4CQftq3lQl0" resolve="Beyond high" />
         <ref role="2WHzfZ" node="4CQftq3lQl0" resolve="Beyond high" />
+        <ref role="2WHzfS" node="4CQftq3lQl0" resolve="Beyond high" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjv" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl0" resolve="Beyond high" />
         <ref role="2WHzfZ" node="4CQftq3lQl2" resolve="High" />
         <ref role="2WHzfS" node="4CQftq3lQl0" resolve="Beyond high" />
-        <ref role="2WHzf0" node="4CQftq3lQl0" resolve="Beyond high" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjw" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl2" resolve="High" />
         <ref role="2WHzfZ" node="4CQftq3lQl4" resolve="Moderate" />
         <ref role="2WHzfS" node="4CQftq3lQl0" resolve="Beyond high" />
-        <ref role="2WHzf0" node="4CQftq3lQl2" resolve="High" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjx" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl4" resolve="Moderate" />
         <ref role="2WHzfZ" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzfS" node="4CQftq3lQl0" resolve="Beyond high" />
-        <ref role="2WHzf0" node="4CQftq3lQl4" resolve="Moderate" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjy" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl0" resolve="Beyond high" />
-        <ref role="2WHzfZ" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzf0" node="4CQftq3lQl6" resolve="Low" />
+        <ref role="2WHzfZ" node="4CQftq3lQl8" resolve="Very low" />
+        <ref role="2WHzfS" node="4CQftq3lQl0" resolve="Beyond high" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjz" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
         <ref role="2WHzf0" node="4CQftq3lQl0" resolve="Beyond high" />
         <ref role="2WHzfZ" node="4CQftq3lQl0" resolve="Beyond high" />
+        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQj$" role="2WHw5$">
         <ref role="2WHzf0" node="4CQftq3lQl2" resolve="High" />
-        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
         <ref role="2WHzfZ" node="4CQftq3lQl2" resolve="High" />
+        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQj_" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
-        <ref role="2WHzfZ" node="4CQftq3lQl4" resolve="Moderate" />
         <ref role="2WHzf0" node="4CQftq3lQl4" resolve="Moderate" />
+        <ref role="2WHzfZ" node="4CQftq3lQl4" resolve="Moderate" />
+        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjA" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
-        <ref role="2WHzfZ" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzf0" node="4CQftq3lQl4" resolve="Moderate" />
+        <ref role="2WHzfZ" node="4CQftq3lQl6" resolve="Low" />
+        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjB" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
-        <ref role="2WHzfZ" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzf0" node="4CQftq3lQl6" resolve="Low" />
+        <ref role="2WHzfZ" node="4CQftq3lQl8" resolve="Very low" />
+        <ref role="2WHzfS" node="4CQftq3lQl2" resolve="High" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjC" role="2WHw5$">
-        <ref role="2WHzfZ" node="4CQftq3lQl0" resolve="Beyond high" />
         <ref role="2WHzf0" node="4CQftq3lQl2" resolve="High" />
+        <ref role="2WHzfZ" node="4CQftq3lQl0" resolve="Beyond high" />
         <ref role="2WHzfS" node="4CQftq3lQl4" resolve="Moderate" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjD" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl2" resolve="High" />
         <ref role="2WHzfZ" node="4CQftq3lQl2" resolve="High" />
         <ref role="2WHzfS" node="4CQftq3lQl4" resolve="Moderate" />
-        <ref role="2WHzf0" node="4CQftq3lQl2" resolve="High" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjE" role="2WHw5$">
         <ref role="2WHzf0" node="4CQftq3lQl4" resolve="Moderate" />
@@ -3706,44 +3706,44 @@
         <ref role="2WHzfS" node="4CQftq3lQl4" resolve="Moderate" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjF" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzfZ" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzfS" node="4CQftq3lQl4" resolve="Moderate" />
-        <ref role="2WHzf0" node="4CQftq3lQl6" resolve="Low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjG" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzfZ" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzfS" node="4CQftq3lQl4" resolve="Moderate" />
-        <ref role="2WHzf0" node="4CQftq3lQl6" resolve="Low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjH" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzf0" node="4CQftq3lQl4" resolve="Moderate" />
         <ref role="2WHzfZ" node="4CQftq3lQl0" resolve="Beyond high" />
+        <ref role="2WHzfS" node="4CQftq3lQl6" resolve="Low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjI" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzf0" node="4CQftq3lQl4" resolve="Moderate" />
         <ref role="2WHzfZ" node="4CQftq3lQl2" resolve="High" />
+        <ref role="2WHzfS" node="4CQftq3lQl6" resolve="Low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjJ" role="2WHw5$">
-        <ref role="2WHzfS" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzf0" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzfZ" node="4CQftq3lQl4" resolve="Moderate" />
+        <ref role="2WHzfS" node="4CQftq3lQl6" resolve="Low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjK" role="2WHw5$">
-        <ref role="2WHzfZ" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzf0" node="4CQftq3lQl6" resolve="Low" />
+        <ref role="2WHzfZ" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzfS" node="4CQftq3lQl6" resolve="Low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjL" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzfZ" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzfS" node="4CQftq3lQl6" resolve="Low" />
-        <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjM" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzfZ" node="4CQftq3lQl0" resolve="Beyond high" />
         <ref role="2WHzfS" node="4CQftq3lQl8" resolve="Very low" />
-        <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjN" role="2WHw5$">
         <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
@@ -3752,30 +3752,31 @@
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjO" role="2WHw5$">
         <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
-        <ref role="2WHzfS" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzfZ" node="4CQftq3lQl4" resolve="Moderate" />
+        <ref role="2WHzfS" node="4CQftq3lQl8" resolve="Very low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjP" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzfZ" node="4CQftq3lQl6" resolve="Low" />
         <ref role="2WHzfS" node="4CQftq3lQl8" resolve="Very low" />
-        <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
       </node>
       <node concept="2WHYjM" id="4CQftq3lQjQ" role="2WHw5$">
+        <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzfZ" node="4CQftq3lQl8" resolve="Very low" />
         <ref role="2WHzfS" node="4CQftq3lQl8" resolve="Very low" />
-        <ref role="2WHzf0" node="4CQftq3lQl8" resolve="Very low" />
       </node>
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhw" role="3Rgdis">
       <property role="TrG5h" value="SE" />
       <property role="DVXpC" value="Specialist Expertise" />
+      <node concept="3VMn$a" id="5SLMFtk$sJB" role="2JHqPs" />
       <node concept="3Rgaek" id="4CQftq3lQhx" role="3RgdiP">
         <property role="TrG5h" value="LYMN" />
-        <property role="3Rgaeq" value="0" />
         <property role="DVXpC" value="Layman" />
-        <node concept="3VMn$a" id="4O7c2ukunCP" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunCQ" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunCR" role="3VMn$3">
+        <property role="3Rgaeq" value="0" />
+        <node concept="3VMn$a" id="5SLMFtk$sI3" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sI4" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sI5" role="3VMn$3">
               <property role="3VMn$Y" value="Ordinary vehicle owner/driver; Knows only very simple attacks (e.g., Internet feature activation code generators; simple dip switches or simple shortcuts)." />
             </node>
           </node>
@@ -3783,11 +3784,11 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhy" role="3RgdiP">
         <property role="TrG5h" value="PRFC" />
-        <property role="3Rgaeq" value="3" />
         <property role="DVXpC" value="Proficient" />
-        <node concept="3VMn$a" id="4O7c2ukunCS" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunCT" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunCU" role="3VMn$3">
+        <property role="3Rgaeq" value="3" />
+        <node concept="3VMn$a" id="5SLMFtk$sI8" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sI9" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sIa" role="3VMn$3">
               <property role="3VMn$Y" value="Experienced owner, ordinary garage personnel; Knows simple, popular attacks (e.g., odometer tuning, installing counterfeit parts)." />
             </node>
           </node>
@@ -3795,11 +3796,11 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhz" role="3RgdiP">
         <property role="TrG5h" value="EXPT" />
-        <property role="3Rgaeq" value="6" />
         <property role="DVXpC" value="Expert" />
-        <node concept="3VMn$a" id="4O7c2ukunCV" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunCW" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunCX" role="3VMn$3">
+        <property role="3Rgaeq" value="6" />
+        <node concept="3VMn$a" id="5SLMFtk$sId" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sIe" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sIf" role="3VMn$3">
               <property role="3VMn$Y" value="Specially experienced garage personnel (e.g., &lt;20%); Knows also some more sophisticated, but established attacks (e.g., installing pirate smartcards)." />
             </node>
           </node>
@@ -3807,28 +3808,28 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQh$" role="3RgdiP">
         <property role="TrG5h" value="MUEX" />
-        <property role="3Rgaeq" value="8" />
         <property role="DVXpC" value="Multiple Expert" />
-        <node concept="3VMn$a" id="4O7c2ukunCY" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunCZ" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunD0" role="3VMn$3">
+        <property role="3Rgaeq" value="8" />
+        <node concept="3VMn$a" id="5SLMFtk$sIi" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sIj" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sIk" role="3VMn$3">
               <property role="3VMn$Y" value="Highly qualified (garage) personnel (e.g., &lt;1%); Knows also very recent state-of-the-art (academic) attacks (e.g. side-channel attacks, cryptanalysis, zero-day exploit)." />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="4O7c2ukunLG" role="2JHqPs" />
     </node>
     <node concept="3Rgae8" id="4CQftq3lQh_" role="3Rgdis">
       <property role="TrG5h" value="WoO" />
       <property role="DVXpC" value="Access" />
+      <node concept="3VMn$a" id="5SLMFtk$sJE" role="2JHqPs" />
       <node concept="3Rgaek" id="4CQftq3lQhA" role="3RgdiP">
         <property role="TrG5h" value="RMAC" />
-        <property role="3Rgaeq" value="0" />
         <property role="DVXpC" value="Unnecessary or unlimited" />
-        <node concept="3VMn$a" id="4O7c2ukunD1" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunD2" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunD3" role="3VMn$3">
+        <property role="3Rgaeq" value="0" />
+        <node concept="3VMn$a" id="5SLMFtk$sIn" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sIo" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sIp" role="3VMn$3">
               <property role="3VMn$Y" value="Logical or remote access without physical presence, for instance, wireless or via Internet (e.g., V2X or cellular interface, critical vehicle IT backend vulnerability)." />
             </node>
           </node>
@@ -3836,11 +3837,11 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhB" role="3RgdiP">
         <property role="TrG5h" value="EASY" />
-        <property role="3Rgaeq" value="1" />
         <property role="DVXpC" value="Easy" />
-        <node concept="3VMn$a" id="4O7c2ukunD4" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunD5" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunD6" role="3VMn$3">
+        <property role="3Rgaeq" value="1" />
+        <node concept="3VMn$a" id="5SLMFtk$sIs" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sIt" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sIu" role="3VMn$3">
               <property role="3VMn$Y" value="Physical access to interior or exterior but without using any special tools (e.g., opening the hood to access wires, simple removing some car interior lining)." />
             </node>
           </node>
@@ -3848,11 +3849,11 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhC" role="3RgdiP">
         <property role="TrG5h" value="MDRT" />
-        <property role="3Rgaeq" value="4" />
         <property role="DVXpC" value="Moderate" />
-        <node concept="3VMn$a" id="4O7c2ukunD7" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunD8" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunD9" role="3VMn$3">
+        <property role="3Rgaeq" value="4" />
+        <node concept="3VMn$a" id="5SLMFtk$sIx" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sIy" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sIz" role="3VMn$3">
               <property role="3VMn$Y" value="Complex disassembly of vehicle parts to access deep internals (e.g., ECU flash memory access) but without breaking sophisticated tamper-protection boundaries (e.g., more than special screws and similar &quot;unsophisticated&quot; measures)." />
             </node>
           </node>
@@ -3860,75 +3861,75 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhD" role="3RgdiP">
         <property role="TrG5h" value="HARD" />
-        <property role="3Rgaeq" value="10" />
         <property role="DVXpC" value="Difficult" />
-        <node concept="3VMn$a" id="4O7c2ukunDa" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDb" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDc" role="3VMn$3">
+        <property role="3Rgaeq" value="10" />
+        <node concept="3VMn$a" id="5SLMFtk$sIA" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sIB" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sIC" role="3VMn$3">
               <property role="3VMn$Y" value="Disassembly on micro-electronic level (e.g., micro probing/cutting, chemistry) including breaking some sophisticated tamper-protection boundaries." />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="4O7c2ukunLH" role="2JHqPs" />
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhE" role="3Rgdis">
       <property role="TrG5h" value="ET" />
       <property role="DVXpC" value="Elapsed time" />
+      <node concept="3VMn$a" id="5SLMFtk$sJH" role="2JHqPs" />
       <node concept="3Rgaek" id="4CQftq3lQhF" role="3RgdiP">
         <property role="TrG5h" value="HRS" />
-        <property role="3Rgaeq" value="0" />
         <property role="DVXpC" value="Hours" />
-        <node concept="3VMn$a" id="4O7c2ukunLJ" role="2JHqPs" />
+        <property role="3Rgaeq" value="0" />
+        <node concept="3VMn$a" id="5SLMFtk$sIF" role="2JHqPs" />
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhG" role="3RgdiP">
         <property role="TrG5h" value="DAYS" />
-        <property role="3Rgaeq" value="1" />
         <property role="DVXpC" value="Days" />
-        <node concept="3VMn$a" id="4O7c2ukunLK" role="2JHqPs" />
+        <property role="3Rgaeq" value="1" />
+        <node concept="3VMn$a" id="5SLMFtk$sII" role="2JHqPs" />
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhH" role="3RgdiP">
         <property role="TrG5h" value="WEKS" />
-        <property role="3Rgaeq" value="3" />
         <property role="DVXpC" value="Weeks" />
-        <node concept="3VMn$a" id="4O7c2ukunLL" role="2JHqPs" />
+        <property role="3Rgaeq" value="3" />
+        <node concept="3VMn$a" id="5SLMFtk$sIL" role="2JHqPs" />
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhI" role="3RgdiP">
         <property role="TrG5h" value="MTHS" />
-        <property role="3Rgaeq" value="7" />
         <property role="DVXpC" value="Months" />
-        <node concept="3VMn$a" id="4O7c2ukunLM" role="2JHqPs" />
+        <property role="3Rgaeq" value="7" />
+        <node concept="3VMn$a" id="5SLMFtk$sIO" role="2JHqPs" />
       </node>
       <node concept="3Rgaek" id="6LOW4IwXsbT" role="3RgdiP">
         <property role="TrG5h" value="YRS" />
-        <property role="3Rgaeq" value="19" />
         <property role="DVXpC" value="Years" />
-        <node concept="3VMn$a" id="4O7c2ukunLN" role="2JHqPs" />
+        <property role="3Rgaeq" value="19" />
+        <node concept="3VMn$a" id="5SLMFtk$sIR" role="2JHqPs" />
       </node>
       <node concept="3Rgaek" id="6LOW4IwXsbN" role="3RgdiP">
         <property role="TrG5h" value="DCDS" />
-        <property role="3Rgaeq" value="25" />
         <property role="DVXpC" value="Decades" />
-        <node concept="3VMn$a" id="4O7c2ukunDd" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDe" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDf" role="3VMn$3">
+        <property role="3Rgaeq" value="25" />
+        <node concept="3VMn$a" id="5SLMFtk$sIU" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sIV" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sIW" role="3VMn$3">
               <property role="3VMn$Y" value="An attacker is not to be expected to undertake an attack because of the excessive time requirements." />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="4O7c2ukunLI" role="2JHqPs" />
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhK" role="3Rgdis">
       <property role="TrG5h" value="Eq" />
       <property role="DVXpC" value="Equipment" />
+      <node concept="3VMn$a" id="5SLMFtk$sJK" role="2JHqPs" />
       <node concept="3Rgaek" id="4CQftq3lQhL" role="3RgdiP">
         <property role="TrG5h" value="STRD" />
-        <property role="3Rgaeq" value="0" />
         <property role="DVXpC" value="Standard" />
-        <node concept="3VMn$a" id="4O7c2ukunDg" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDh" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDi" role="3VMn$3">
+        <property role="3Rgaeq" value="0" />
+        <node concept="3VMn$a" id="5SLMFtk$sIZ" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sJ0" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sJ1" role="3VMn$3">
               <property role="3VMn$Y" value="Readily available, e.g., common IT device such as notebooks up to simple OBD diagnosis devices; everything a common amateur mechanic could have at home." />
             </node>
           </node>
@@ -3936,11 +3937,11 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhM" role="3RgdiP">
         <property role="TrG5h" value="SPCL" />
-        <property role="3Rgaeq" value="4" />
         <property role="DVXpC" value="Specialized" />
-        <node concept="3VMn$a" id="4O7c2ukunDj" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDk" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDl" role="3VMn$3">
+        <property role="3Rgaeq" value="4" />
+        <node concept="3VMn$a" id="5SLMFtk$sJ4" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sJ5" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sJ6" role="3VMn$3">
               <property role="3VMn$Y" value="Professional garage equipment, but still (somehow) freely available, e.g., in-vehicle communication devices (e.g., CAN cards) up to costly garage diagnosis equipment." />
             </node>
           </node>
@@ -3948,11 +3949,11 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhN" role="3RgdiP">
         <property role="TrG5h" value="BESP" />
-        <property role="3Rgaeq" value="7" />
         <property role="DVXpC" value="Bespoke" />
-        <node concept="3VMn$a" id="4O7c2ukunDm" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDn" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDo" role="3VMn$3">
+        <property role="3Rgaeq" value="7" />
+        <node concept="3VMn$a" id="5SLMFtk$sJ9" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sJa" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sJb" role="3VMn$3">
               <property role="3VMn$Y" value="At least one equipment item not freely available such as manufacturer-restricted special equipment or equipment with costs &gt; 50.000 € (e.g., electron microscope)." />
             </node>
           </node>
@@ -3960,28 +3961,28 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhO" role="3RgdiP">
         <property role="TrG5h" value="MBSP" />
-        <property role="3Rgaeq" value="9" />
         <property role="DVXpC" value="Multiple bespoke" />
-        <node concept="3VMn$a" id="4O7c2ukunDp" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDq" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDr" role="3VMn$3">
+        <property role="3Rgaeq" value="9" />
+        <node concept="3VMn$a" id="5SLMFtk$sJe" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sJf" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sJg" role="3VMn$3">
               <property role="3VMn$Y" value="More than one bespoke equipment item." />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="4O7c2ukunLO" role="2JHqPs" />
     </node>
     <node concept="3Rgae8" id="4CQftq3lQhP" role="3Rgdis">
       <property role="TrG5h" value="KoIC" />
       <property role="DVXpC" value="Knowledge of the target" />
+      <node concept="3VMn$a" id="5SLMFtk$sJN" role="2JHqPs" />
       <node concept="3Rgaek" id="4CQftq3lQhQ" role="3RgdiP">
         <property role="TrG5h" value="PUBL" />
-        <property role="3Rgaeq" value="0" />
         <property role="DVXpC" value="Public information" />
-        <node concept="3VMn$a" id="4O7c2ukunDs" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDt" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDu" role="3VMn$3">
+        <property role="3Rgaeq" value="0" />
+        <node concept="3VMn$a" id="5SLMFtk$sJj" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sJk" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sJl" role="3VMn$3">
               <property role="3VMn$Y" value="Everything that can be found in book stores, libraries or in the Internet; information shared without non-disclosure agreements (e.g., source code, internal documentation)." />
             </node>
           </node>
@@ -3989,11 +3990,11 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhR" role="3RgdiP">
         <property role="TrG5h" value="RSTR" />
-        <property role="3Rgaeq" value="3" />
         <property role="DVXpC" value="Restricted information" />
-        <node concept="3VMn$a" id="4O7c2ukunDv" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDw" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDx" role="3VMn$3">
+        <property role="3Rgaeq" value="3" />
+        <node concept="3VMn$a" id="5SLMFtk$sJo" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sJp" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sJq" role="3VMn$3">
               <property role="3VMn$Y" value="Information shared between different organizations (e.g., OEM and supplier) only under non-disclosure agreements (e.g., source code, internal documentation)." />
             </node>
           </node>
@@ -4001,11 +4002,11 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhS" role="3RgdiP">
         <property role="TrG5h" value="SENS" />
-        <property role="3Rgaeq" value="7" />
         <property role="DVXpC" value="Sensitive information" />
-        <node concept="3VMn$a" id="4O7c2ukunDy" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDz" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunD$" role="3VMn$3">
+        <property role="3Rgaeq" value="7" />
+        <node concept="3VMn$a" id="5SLMFtk$sJt" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sJu" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sJv" role="3VMn$3">
               <property role="3VMn$Y" value="Information shared only under non-disclosure agreements only within an organization, i.e., exclusive to OEM or to a supplier (e.g., key parameters)." />
             </node>
           </node>
@@ -4013,17 +4014,16 @@
       </node>
       <node concept="3Rgaek" id="4CQftq3lQhT" role="3RgdiP">
         <property role="TrG5h" value="CRIT" />
-        <property role="3Rgaeq" value="11" />
         <property role="DVXpC" value="Critical information" />
-        <node concept="3VMn$a" id="4O7c2ukunD_" role="2JHqPs">
-          <node concept="3VMn$0" id="4O7c2ukunDA" role="3VMn$6">
-            <node concept="3VMn$7" id="4O7c2ukunDB" role="3VMn$3">
+        <property role="3Rgaeq" value="11" />
+        <node concept="3VMn$a" id="5SLMFtk$sJy" role="2JHqPs">
+          <node concept="3VMn$0" id="5SLMFtk$sJz" role="3VMn$6">
+            <node concept="3VMn$7" id="5SLMFtk$sJ$" role="3VMn$3">
               <property role="3VMn$Y" value="Information (traceable) exclusively accessible to only a few persons within an organization (e.g., secret root signing key)." />
             </node>
           </node>
         </node>
       </node>
-      <node concept="3VMn$a" id="4O7c2ukunLP" role="2JHqPs" />
     </node>
   </node>
   <node concept="3eC5pO" id="1PEmpgFm3Jb">
