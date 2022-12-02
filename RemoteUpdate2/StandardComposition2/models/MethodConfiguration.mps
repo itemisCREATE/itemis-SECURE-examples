@@ -106,7 +106,6 @@
       </concept>
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
-      <concept id="5759247068028216608" name="com.moraad.core.structure.DefaultCombineDTFunction" flags="ng" index="20pd6h" />
       <concept id="5759247068028216605" name="com.moraad.core.structure.DefaultAdjustDPFunction" flags="ng" index="20pd6G" />
       <concept id="5759247068028216607" name="com.moraad.core.structure.DefaultAggregateRFFunction" flags="ng" index="20pd6I" />
       <concept id="5759247068028216606" name="com.moraad.core.structure.DefaultAggregateDCFunction" flags="ng" index="20pd6J" />
@@ -201,7 +200,6 @@
       </concept>
       <concept id="177583211455635601" name="com.moraad.core.structure.AEDTAggregator" flags="ng" index="1I_0pG">
         <child id="8805583693924001022" name="aggregateRFFunction" index="1ev5d9" />
-        <child id="177583211455635607" name="combineDTFunction" index="1I_0pE" />
         <child id="177583211455635606" name="combineAEFunction" index="1I_0pF" />
       </concept>
       <concept id="8677481601268483478" name="com.moraad.core.structure.ChannelSecurityTarget" flags="ng" index="3WX1Ss" />
@@ -411,7 +409,6 @@
         <property role="TrG5h" value="ACCU" />
         <property role="DVXpC" value="takes maximum for each damage class" />
         <node concept="20pd6W" id="4ZGXb7g6dgK" role="1I_0pF" />
-        <node concept="20pd6h" id="4ZGXb7g6dgL" role="1I_0pE" />
         <node concept="20pd6I" id="4ZGXb7g6dgM" role="1ev5d9" />
       </node>
       <node concept="1I$CJy" id="4ZGXb7g6dgN" role="2TPNDZ">

@@ -123,7 +123,6 @@
       </concept>
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
-      <concept id="5759247068028216608" name="com.moraad.core.structure.DefaultCombineDTFunction" flags="ng" index="20pd6h" />
       <concept id="5759247068028216605" name="com.moraad.core.structure.DefaultAdjustDPFunction" flags="ng" index="20pd6G" />
       <concept id="5759247068028216606" name="com.moraad.core.structure.DefaultAggregateDCFunction" flags="ng" index="20pd6J" />
       <concept id="5759247068028216589" name="com.moraad.core.structure.DefaultCombineAEFunction" flags="ng" index="20pd6W" />
@@ -218,7 +217,6 @@
       </concept>
       <concept id="177583211455635601" name="com.moraad.core.structure.AEDTAggregator" flags="ng" index="1I_0pG">
         <child id="8805583693924001022" name="aggregateRFFunction" index="1ev5d9" />
-        <child id="177583211455635607" name="combineDTFunction" index="1I_0pE" />
         <child id="177583211455635606" name="combineAEFunction" index="1I_0pF" />
       </concept>
       <concept id="8677481601268483478" name="com.moraad.core.structure.ChannelSecurityTarget" flags="ng" index="3WX1Ss" />
@@ -3471,7 +3469,6 @@
         <property role="DVXpC" value="Accumulates CVSS 3.0 specific feasibility options and impact transformations" />
         <property role="TrG5h" value="Acc_CVSS_3.0" />
         <node concept="20pd6W" id="WmFTiCXrek" role="1I_0pF" />
-        <node concept="20pd6h" id="4ZGXb7g6ddp" role="1I_0pE" />
         <node concept="2EZlau" id="7nllqeVEXCg" role="1ev5d9">
           <property role="3ewg7F" value="true" />
         </node>
