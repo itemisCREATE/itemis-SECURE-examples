@@ -2,7 +2,6 @@
 <model ref="r:bc4781e2-88eb-4f1d-89e2-15d6c432f6b2(ISOExample)">
   <persistence version="9" />
   <languages>
-    <use id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration" version="5" />
     <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
   </languages>
   <imports>
