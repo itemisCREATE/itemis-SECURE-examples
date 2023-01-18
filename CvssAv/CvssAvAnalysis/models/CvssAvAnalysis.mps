@@ -111,6 +111,12 @@
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1" />
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
+      <concept id="7050052209586915341" name="de.itemis.ysec.commons.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
+        <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
+      </concept>
+      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
+        <reference id="3384350556523616658" name="target" index="122Z_O" />
+      </concept>
       <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ng" index="1ALOwD">
         <child id="7057631560081871838" name="description" index="2JHqPs" />
       </concept>
@@ -119,6 +125,7 @@
       </concept>
     </language>
     <language id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo">
+      <concept id="9003278715588766811" name="com.moraad.projectinfo.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
       <concept id="9003278715588766803" name="com.moraad.projectinfo.structure.ProjectInfoListEntry" flags="ng" index="$sJSp">
         <child id="459042386150007873" name="freetextValue" index="X3RNv" />
       </concept>
@@ -126,6 +133,9 @@
         <child id="9003278715588979763" name="listEntries" index="$tzTT" />
       </concept>
       <concept id="4299407153799527256" name="com.moraad.projectinfo.structure.ProjectInfoTable" flags="ng" index="39leHu" />
+      <concept id="7449413747451491361" name="com.moraad.projectinfo.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
+        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
+      </concept>
     </language>
     <language id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext">
       <concept id="8926592809623411165" name="de.itemis.mps.editor.freetext.structure.BasicParagraph" flags="ng" index="3VMn$0">
@@ -186,10 +196,6 @@
       <concept id="4718052244458560179" name="com.moraad.core.structure.SecurityAnalysisChunk" flags="ng" index="2vPz$R">
         <child id="4718052244458560183" name="elements" index="2vPz$N" />
       </concept>
-      <concept id="7050052209586915341" name="com.moraad.core.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
-        <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
-      </concept>
-      <concept id="9003278715588766811" name="com.moraad.core.structure.EmptyProjectInfoContent" flags="ng" index="$sJSh" />
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
         <child id="6214292239618163769" name="concerns" index="1mPtRB" />
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
@@ -199,9 +205,6 @@
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
       <concept id="3384350556523615565" name="com.moraad.core.structure.ThreatClassRef" flags="ng" index="122ZmF" />
-      <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
-        <reference id="3384350556523616658" name="target" index="122Z_O" />
-      </concept>
       <concept id="3440241848481093319" name="com.moraad.core.structure.DampedByRelation" flags="ng" index="37A2tW" />
       <concept id="3440241848481093318" name="com.moraad.core.structure.RefinedByRelation" flags="ng" index="37A2tX" />
       <concept id="3440241848481093317" name="com.moraad.core.structure.MitigatedByRelation" flags="ng" index="37A2tY" />
@@ -212,9 +215,6 @@
       <concept id="4601417698506916745" name="com.moraad.core.structure.EmptyAnalysisElement" flags="ng" index="19qcqd" />
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
-      </concept>
-      <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
-        <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
       </concept>
       <concept id="6214292239606540161" name="com.moraad.core.structure.DerivedCompromisedList" flags="ng" index="1m2RTv" />
       <concept id="6214292239606540150" name="com.moraad.core.structure.QualifiedAssetList" flags="ng" index="1m2RUC">
@@ -273,125 +273,6 @@
       <concept id="4250072277178649596" name="com.moraad.components.structure.TOEComponentRef" flags="ng" index="3$0O7b" />
     </language>
   </registry>
-  <node concept="3eC5pO" id="5a5CPNXLFMU">
-    <property role="TrG5h" value="Project Info" />
-    <node concept="$sJSu" id="5a5CPNXLFMV" role="$s4ey">
-      <property role="TrG5h" value="Project Data" />
-      <node concept="$sJSp" id="5a5CPNXLFMW" role="$tzTT">
-        <property role="TrG5h" value="Target Of Evaluation" />
-        <node concept="38D_9Z" id="20HkN2rZvmD" role="X3RNv">
-          <node concept="3VMn$a" id="20HkN2rZvmE" role="38D_my" />
-        </node>
-      </node>
-      <node concept="$sJSp" id="5a5CPNXLFN1" role="$tzTT">
-        <property role="TrG5h" value="Project" />
-        <node concept="38D_9Z" id="20HkN2rZvmJ" role="X3RNv">
-          <node concept="3VMn$a" id="20HkN2rZvmK" role="38D_my" />
-        </node>
-      </node>
-      <node concept="$sJSp" id="5a5CPNXLFN6" role="$tzTT">
-        <property role="TrG5h" value="Contact (Department)" />
-        <node concept="38D_9Z" id="20HkN2rZvmP" role="X3RNv">
-          <node concept="3VMn$a" id="20HkN2rZvmQ" role="38D_my" />
-        </node>
-      </node>
-      <node concept="$sJSp" id="5a5CPNXLFNb" role="$tzTT">
-        <property role="TrG5h" value="Contact (Security Expert)" />
-        <node concept="38D_9Z" id="20HkN2rZvmV" role="X3RNv">
-          <node concept="3VMn$a" id="20HkN2rZvmW" role="38D_my" />
-        </node>
-      </node>
-      <node concept="$sJSp" id="5a5CPNXLFNg" role="$tzTT">
-        <property role="TrG5h" value="Editor" />
-        <node concept="38D_9Z" id="20HkN2rZvn1" role="X3RNv">
-          <node concept="3VMn$a" id="20HkN2rZvn2" role="38D_my" />
-        </node>
-      </node>
-      <node concept="$sJSp" id="5a5CPNXLFNl" role="$tzTT">
-        <property role="TrG5h" value="Deadline" />
-        <node concept="38D_9Z" id="20HkN2rZvn7" role="X3RNv">
-          <node concept="3VMn$a" id="20HkN2rZvn8" role="38D_my" />
-        </node>
-      </node>
-    </node>
-    <node concept="$sJSh" id="5a5CPNXLFNq" role="$s4ey" />
-    <node concept="$sJSu" id="5a5CPNXLFNr" role="$s4ey">
-      <property role="TrG5h" value="Status" />
-      <node concept="$sJSp" id="5a5CPNXLFNs" role="$tzTT">
-        <property role="TrG5h" value="Risk Analyis Status" />
-        <node concept="38D_9Z" id="20HkN2rZvnf" role="X3RNv">
-          <node concept="3VMn$a" id="20HkN2rZvng" role="38D_my" />
-        </node>
-      </node>
-    </node>
-    <node concept="$sJSh" id="5a5CPNXLFNx" role="$s4ey" />
-    <node concept="39leHu" id="5a5CPNXLFNy" role="$s4ey">
-      <property role="TrG5h" value="Version History" />
-      <node concept="2mR0d" id="5a5CPNXLFNz" role="2mR6f">
-        <node concept="2mR0e" id="5a5CPNXLFN$" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvns" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="5a5CPNXLFNA" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvnw" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="5a5CPNXLFNC" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvn$" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="5a5CPNXLFNE" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvnC" role="2hY46" />
-        </node>
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFNG" role="2hO6J">
-        <property role="TrG5h" value="Revision" />
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFNH" role="2hO6J">
-        <property role="TrG5h" value="Date" />
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFNI" role="2hO6J">
-        <property role="TrG5h" value="Authors" />
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFNJ" role="2hO6J">
-        <property role="TrG5h" value="Description" />
-      </node>
-    </node>
-    <node concept="$sJSh" id="5a5CPNXLFNK" role="$s4ey" />
-    <node concept="39leHu" id="5a5CPNXLFNL" role="$s4ey">
-      <property role="TrG5h" value="Documents" />
-      <node concept="2mR0d" id="5a5CPNXLFNM" role="2mR6f">
-        <node concept="2mR0e" id="5a5CPNXLFNN" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvnQ" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="5a5CPNXLFNP" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvnU" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="5a5CPNXLFNR" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvnY" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="5a5CPNXLFNT" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvo2" role="2hY46" />
-        </node>
-        <node concept="2mR0e" id="5a5CPNXLFNV" role="2mR6i">
-          <node concept="2opHn" id="20HkN2rZvo6" role="2hY46" />
-        </node>
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFNX" role="2hO6J">
-        <property role="TrG5h" value="Content" />
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFNY" role="2hO6J">
-        <property role="TrG5h" value="Date" />
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFNZ" role="2hO6J">
-        <property role="TrG5h" value="Version" />
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFO0" role="2hO6J">
-        <property role="TrG5h" value="Filename" />
-      </node>
-      <node concept="2ozQQ" id="5a5CPNXLFO1" role="2hO6J">
-        <property role="TrG5h" value="Origin" />
-      </node>
-    </node>
-    <node concept="$sJSh" id="5a5CPNXLFO2" role="$s4ey" />
-  </node>
   <node concept="1mQ_Fh" id="5a5CPNXLFO3">
     <property role="TrG5h" value="Risk Treatment" />
     <property role="1m7Ujk" value="0" />
@@ -824,7 +705,7 @@
       <node concept="1m2RTv" id="5s3Rol9iGuT" role="1m2RT8" />
     </node>
     <node concept="19qcqd" id="60wEthBVUsn" role="2vPz$N" />
-    <node concept="3u6799" id="60wEthBVUwd" role="2xH1$J" />
+    <node concept="3u6799" id="7gZ2RyfNr6p" role="2xH1$J" />
   </node>
   <node concept="2vPz$R" id="5a5CPNXLFOy">
     <property role="TrG5h" value="Damage Scenarios" />
@@ -1684,6 +1565,125 @@
     <node concept="3xttxm" id="5wtRytMI6i5" role="yp9Ks" />
     <node concept="3xttxO" id="5wtRytMI6i6" role="yp9Ks" />
     <node concept="3xttxa" id="5wtRytMI6i7" role="yp9Ks" />
+  </node>
+  <node concept="3eC5pO" id="5a5CPNXLFMU">
+    <property role="TrG5h" value="dummy-name-cause-derived-from-constraints" />
+    <node concept="$sJSu" id="5a5CPNXLFMV" role="$s4ey">
+      <property role="TrG5h" value="Project Data" />
+      <node concept="$sJSp" id="5a5CPNXLFMW" role="$tzTT">
+        <property role="TrG5h" value="Target Of Evaluation" />
+        <node concept="38D_9Z" id="20HkN2rZvmD" role="X3RNv">
+          <node concept="3VMn$a" id="20HkN2rZvmE" role="38D_my" />
+        </node>
+      </node>
+      <node concept="$sJSp" id="5a5CPNXLFN1" role="$tzTT">
+        <property role="TrG5h" value="Project" />
+        <node concept="38D_9Z" id="20HkN2rZvmJ" role="X3RNv">
+          <node concept="3VMn$a" id="20HkN2rZvmK" role="38D_my" />
+        </node>
+      </node>
+      <node concept="$sJSp" id="5a5CPNXLFN6" role="$tzTT">
+        <property role="TrG5h" value="Contact (Department)" />
+        <node concept="38D_9Z" id="20HkN2rZvmP" role="X3RNv">
+          <node concept="3VMn$a" id="20HkN2rZvmQ" role="38D_my" />
+        </node>
+      </node>
+      <node concept="$sJSp" id="5a5CPNXLFNb" role="$tzTT">
+        <property role="TrG5h" value="Contact (Security Expert)" />
+        <node concept="38D_9Z" id="20HkN2rZvmV" role="X3RNv">
+          <node concept="3VMn$a" id="20HkN2rZvmW" role="38D_my" />
+        </node>
+      </node>
+      <node concept="$sJSp" id="5a5CPNXLFNg" role="$tzTT">
+        <property role="TrG5h" value="Editor" />
+        <node concept="38D_9Z" id="20HkN2rZvn1" role="X3RNv">
+          <node concept="3VMn$a" id="20HkN2rZvn2" role="38D_my" />
+        </node>
+      </node>
+      <node concept="$sJSp" id="5a5CPNXLFNl" role="$tzTT">
+        <property role="TrG5h" value="Deadline" />
+        <node concept="38D_9Z" id="20HkN2rZvn7" role="X3RNv">
+          <node concept="3VMn$a" id="20HkN2rZvn8" role="38D_my" />
+        </node>
+      </node>
+    </node>
+    <node concept="$sJSh" id="5a5CPNXLFNq" role="$s4ey" />
+    <node concept="$sJSu" id="5a5CPNXLFNr" role="$s4ey">
+      <property role="TrG5h" value="Status" />
+      <node concept="$sJSp" id="5a5CPNXLFNs" role="$tzTT">
+        <property role="TrG5h" value="Risk Analyis Status" />
+        <node concept="38D_9Z" id="20HkN2rZvnf" role="X3RNv">
+          <node concept="3VMn$a" id="20HkN2rZvng" role="38D_my" />
+        </node>
+      </node>
+    </node>
+    <node concept="$sJSh" id="5a5CPNXLFNx" role="$s4ey" />
+    <node concept="39leHu" id="5a5CPNXLFNy" role="$s4ey">
+      <property role="TrG5h" value="Version History" />
+      <node concept="2mR0d" id="5a5CPNXLFNz" role="2mR6f">
+        <node concept="2mR0e" id="5a5CPNXLFN$" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvns" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="5a5CPNXLFNA" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvnw" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="5a5CPNXLFNC" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvn$" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="5a5CPNXLFNE" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvnC" role="2hY46" />
+        </node>
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFNG" role="2hO6J">
+        <property role="TrG5h" value="Revision" />
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFNH" role="2hO6J">
+        <property role="TrG5h" value="Date" />
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFNI" role="2hO6J">
+        <property role="TrG5h" value="Authors" />
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFNJ" role="2hO6J">
+        <property role="TrG5h" value="Description" />
+      </node>
+    </node>
+    <node concept="$sJSh" id="5a5CPNXLFNK" role="$s4ey" />
+    <node concept="39leHu" id="5a5CPNXLFNL" role="$s4ey">
+      <property role="TrG5h" value="Documents" />
+      <node concept="2mR0d" id="5a5CPNXLFNM" role="2mR6f">
+        <node concept="2mR0e" id="5a5CPNXLFNN" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvnQ" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="5a5CPNXLFNP" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvnU" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="5a5CPNXLFNR" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvnY" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="5a5CPNXLFNT" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvo2" role="2hY46" />
+        </node>
+        <node concept="2mR0e" id="5a5CPNXLFNV" role="2mR6i">
+          <node concept="2opHn" id="20HkN2rZvo6" role="2hY46" />
+        </node>
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFNX" role="2hO6J">
+        <property role="TrG5h" value="Content" />
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFNY" role="2hO6J">
+        <property role="TrG5h" value="Date" />
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFNZ" role="2hO6J">
+        <property role="TrG5h" value="Version" />
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFO0" role="2hO6J">
+        <property role="TrG5h" value="Filename" />
+      </node>
+      <node concept="2ozQQ" id="5a5CPNXLFO1" role="2hO6J">
+        <property role="TrG5h" value="Origin" />
+      </node>
+    </node>
+    <node concept="$sJSh" id="5a5CPNXLFO2" role="$s4ey" />
   </node>
 </model>
 

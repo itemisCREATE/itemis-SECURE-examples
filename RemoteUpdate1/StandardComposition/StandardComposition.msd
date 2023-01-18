@@ -25,14 +25,14 @@
     <language slang="l:b4d28e19-7d2d-47e9-943e-3a41f97a0e52:com.mbeddr.mpsutil.plantuml.node" version="0" />
     <language slang="l:7a060fae-09e0-4372-be36-6696d6554c0e:com.mbeddr.mpsutil.review.annotation" version="0" />
     <language slang="l:2bee351d-bcec-4897-88ae-1eb8b271032f:com.moraad.assessmentcatalog.descriptor" version="0" />
-    <language slang="l:c1497963-7ffd-4da0-9a4d-74675c5ab7e2:com.moraad.components" version="17" />
-    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="81" />
-    <language slang="l:d66daea8-e7a8-4305-aeaa-7ca535d07bd3:com.moraad.projectinfo" version="1" />
+    <language slang="l:c1497963-7ffd-4da0-9a4d-74675c5ab7e2:com.moraad.components" version="18" />
+    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="86" />
+    <language slang="l:d66daea8-e7a8-4305-aeaa-7ca535d07bd3:com.moraad.projectinfo" version="2" />
     <language slang="l:087be214-4868-4fa9-b3c2-52f1e47d6275:com.moraad.propagation" version="0" />
-    <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="3" />
+    <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="4" />
     <language slang="l:c68d0460-5886-45c2-81db-64ec5eed0b19:com.moraad.reports.html" version="0" />
     <language slang="l:a97beefa-b088-4bdb-8ed8-6b4e554b6264:com.moraad.sequences" version="0" />
-    <language slang="l:8aedd025-5f31-4a1e-81a1-4c5345407211:com.moraad.suggestions" version="3" />
+    <language slang="l:8aedd025-5f31-4a1e-81a1-4c5345407211:com.moraad.suggestions" version="4" />
     <language slang="l:3b2e8e7c-a0de-4faa-ad48-1ee43c2e27ac:com.moraad.userScripts" version="0" />
     <language slang="l:e8cdedba-17d0-43f7-902f-38efdcd30769:de.itemis.mps.commons" version="0" />
     <language slang="l:048a18dc-8dce-4fe2-8e99-0a16464f630c:de.itemis.mps.editor.freetext" version="-1" />
@@ -41,10 +41,13 @@
     <language slang="l:b65d571f-daea-41e5-99be-6168217ee77f:de.itemis.mps.todos" version="0" />
     <language slang="l:d8c07454-d390-4e04-8826-d25e86f59134:de.itemis.mps.xdiagram" version="0" />
     <language slang="l:174fc1bc-8a89-4d07-8636-8bc5dc4757e4:de.itemis.vcs_text.tables" version="0" />
+    <language slang="l:1ce18c1e-e691-4909-8d5e-b4ddc758064f:de.itemis.ysec.application.utils" version="0" />
+    <language slang="l:77390b0e-ab69-4de7-a036-d557f81b479e:de.itemis.ysec.catalog.technologies" version="0" />
+    <language slang="l:7234d3fa-3f51-44a6-b03f-4596bf1cc5e5:de.itemis.ysec.catalogs.core" version="0" />
     <language slang="l:24e88a55-f0b5-4dc5-9077-49730e920865:de.itemis.ysec.checklist" version="0" />
     <language slang="l:edd58c45-9999-4ad9-8f8a-e0d26da1cbc9:de.itemis.ysec.commons" version="0" />
-    <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="5" />
-    <language slang="l:2307a511-c189-4bbb-ae4d-e1f113c91dbe:de.itemis.ysec.methodConfiguration.baseLanguageExtensions" version="0" />
+    <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="6" />
+    <language slang="l:2307a511-c189-4bbb-ae4d-e1f113c91dbe:de.itemis.ysec.methodConfiguration.baseLanguageExtensions" version="1" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -67,6 +70,10 @@
     <module reference="c0c29873-b2f7-413b-b508-0ba5b325a1d0(com.moraad.core.runtime)" version="0" />
     <module reference="b4294564-6583-4f72-81aa-5b6fc2f1be67(de.itemis.mps.commons.runtime)" version="0" />
     <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.runtime)" version="0" />
+    <module reference="653446a7-cd5f-437e-8771-dcfb81a48316(de.itemis.ysec.commons.lib)" version="0" />
+    <module reference="55293ae5-03b4-4178-ac73-d41d647b48ac(de.itemis.ysec.terminology.lib)" version="0" />
+    <module reference="9e4833f4-5a7f-4fbd-a204-b742d0550bb8(de.itemis.ysec.userScripts.lib)" version="0" />
+    <module reference="5b8291da-a6cc-445d-aaaa-1313cd19263d(io.yakindu.ysec.lib)" version="0" />
   </dependencyVersions>
 </solution>
 
