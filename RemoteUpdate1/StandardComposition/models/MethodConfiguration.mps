@@ -405,13 +405,13 @@
         <ref role="37eJZ8" node="4ZGXb7g6dgi" resolve="MAX" />
       </node>
       <node concept="1I_0pG" id="4ZGXb7g6dgn" role="2TPNDS">
-        <property role="TrG5h" value="ACCU" />
-        <property role="DVXpC" value="takes maximum for each damage class" />
+        <property role="TrG5h" value="Accumulation" />
+        <property role="DVXpC" value="Combines Ratings of a Path and aggregates them to an AFL" />
         <node concept="20pd6W" id="4ZGXb7g6dgo" role="1I_0pF" />
         <node concept="20pd6I" id="4ZGXb7g6dgq" role="1ev5d9" />
       </node>
       <node concept="1I$CJy" id="4ZGXb7g6dgr" role="2TPNDZ">
-        <ref role="1I$CJt" node="4ZGXb7g6dgn" resolve="ACCU" />
+        <ref role="1I$CJt" node="4ZGXb7g6dgn" resolve="Accumulation" />
       </node>
       <node concept="37eGqF" id="5jiP5TkIJur" role="1oN8I3">
         <ref role="37eGqE" node="5jiP5TkSR2s" resolve="may" />

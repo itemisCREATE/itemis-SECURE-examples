@@ -286,13 +286,13 @@
         <ref role="37eJZ8" node="4ZGXb7g6ddi" resolve="Max" />
       </node>
       <node concept="1I_0pG" id="4ZGXb7g6ddn" role="2TPNDS">
-        <property role="TrG5h" value="Acc" />
-        <property role="DVXpC" value="Accumulates feasibility options and impact transformations" />
+        <property role="TrG5h" value="Accumulation" />
+        <property role="DVXpC" value="Combines Ratings of a Path and aggregates them to an AFL" />
         <node concept="20pd6W" id="4ZGXb7g6ddo" role="1I_0pF" />
         <node concept="20pd6I" id="4ZGXb7g6ddq" role="1ev5d9" />
       </node>
       <node concept="1I$CJy" id="4ZGXb7g6ddr" role="2TPNDZ">
-        <ref role="1I$CJt" node="4ZGXb7g6ddn" resolve="Acc" />
+        <ref role="1I$CJt" node="4ZGXb7g6ddn" resolve="Accumulation" />
       </node>
       <node concept="37eGqF" id="5jiP5TkIJul" role="1oN8I3">
         <ref role="37eGqE" node="5jiP5TkSR24" resolve="must" />
