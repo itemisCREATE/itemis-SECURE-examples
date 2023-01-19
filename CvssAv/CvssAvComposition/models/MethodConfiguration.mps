@@ -3463,11 +3463,11 @@
       </node>
       <node concept="1I$CJy" id="4ZGXb7g6ddr" role="2TPNDZ">
         <property role="3ewg7F" value="true" />
-        <ref role="1I$CJt" node="4ZGXb7g6ddn" resolve="Acc_CVSS_3.0" />
+        <ref role="1I$CJt" node="4ZGXb7g6ddn" resolve="Accumulation" />
       </node>
       <node concept="1I_0pG" id="4ZGXb7g6ddn" role="2TPNDS">
-        <property role="DVXpC" value="Accumulates CVSS 3.0 specific feasibility options and impact transformations" />
-        <property role="TrG5h" value="Acc_CVSS_3.0" />
+        <property role="DVXpC" value="Combines Ratings of a Path and aggregates them to an AFL" />
+        <property role="TrG5h" value="Accumulation" />
         <node concept="20pd6W" id="WmFTiCXrek" role="1I_0pF" />
         <node concept="2EZlau" id="7nllqeVEXCg" role="1ev5d9">
           <property role="3ewg7F" value="true" />
@@ -3558,7 +3558,7 @@
               <node concept="3VMn$S" id="20HkN2s1rEl" role="3VMn$3">
                 <property role="3VMn$Y" value="Acc_CVSS_3.0" />
                 <property role="3DWmGy" value="true" />
-                <ref role="3VMn$Q" node="4ZGXb7g6ddn" resolve="Acc_CVSS_3.0" />
+                <ref role="3VMn$Q" node="4ZGXb7g6ddn" resolve="Accumulation" />
               </node>
               <node concept="3VMn$7" id="20HkN2s1rEd" role="3VMn$3">
                 <property role="3VMn$Y" value=")" />
