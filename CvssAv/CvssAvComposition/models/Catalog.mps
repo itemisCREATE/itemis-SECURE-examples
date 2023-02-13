@@ -321,7 +321,7 @@
               <node concept="3VMn$S" id="20HkN2s1rEl" role="3VMn$3">
                 <property role="3VMn$Y" value="Acc_CVSS_3.0" />
                 <property role="3DWmGy" value="true" />
-                <ref role="3VMn$Q" to="nb9t:4ZGXb7g6ddn" resolve="Acc_CVSS_3.0" />
+                <ref role="3VMn$Q" to="nb9t:4ZGXb7g6ddn" resolve="Accumulation" />
               </node>
               <node concept="3VMn$7" id="20HkN2s1rEd" role="3VMn$3">
                 <property role="3VMn$Y" value=")" />
