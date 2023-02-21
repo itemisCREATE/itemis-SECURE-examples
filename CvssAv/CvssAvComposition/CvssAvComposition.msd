@@ -13,7 +13,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">d02fa6fa-263d-40d9-92d8-b0207ccaf7e0(de.itemis.ysec.lib)</dependency>
-    <dependency reexport="false">c0c29873-b2f7-413b-b508-0ba5b325a1d0(com.moraad.core.runtime)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="6" />

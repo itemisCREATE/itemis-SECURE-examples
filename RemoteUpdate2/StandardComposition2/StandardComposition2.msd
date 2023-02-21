@@ -11,9 +11,6 @@
     </facet>
   </facets>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">c0c29873-b2f7-413b-b508-0ba5b325a1d0(com.moraad.core.runtime)</dependency>
-  </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="6" />
     <language slang="l:2374bc90-7e37-41f1-a9c4-c2e35194c36a:com.mbeddr.doc" version="3" />
