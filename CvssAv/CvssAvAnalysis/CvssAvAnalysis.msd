@@ -44,7 +44,7 @@
     <language slang="l:1ce18c1e-e691-4909-8d5e-b4ddc758064f:de.itemis.ysec.application.utils" version="0" />
     <language slang="l:77390b0e-ab69-4de7-a036-d557f81b479e:de.itemis.ysec.catalog.technologies" version="0" />
     <language slang="l:7234d3fa-3f51-44a6-b03f-4596bf1cc5e5:de.itemis.ysec.catalogs.core" version="0" />
-    <language slang="l:24e88a55-f0b5-4dc5-9077-49730e920865:de.itemis.ysec.checklist" version="0" />
+    <language slang="l:24e88a55-f0b5-4dc5-9077-49730e920865:de.itemis.ysec.checklist" version="1" />
     <language slang="l:edd58c45-9999-4ad9-8f8a-e0d26da1cbc9:de.itemis.ysec.commons" version="0" />
     <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="6" />
     <language slang="l:2307a511-c189-4bbb-ae4d-e1f113c91dbe:de.itemis.ysec.methodConfiguration.baseLanguageExtensions" version="1" />
