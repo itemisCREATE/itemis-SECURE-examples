@@ -817,7 +817,7 @@
     <property role="3GE5qa" value="Security Analysis" />
   </node>
   <node concept="2Q15JU" id="3zsVGcV60rJ">
-    <property role="3GE5qa" value="Assistants" />
+    <property role="3GE5qa" value="Security Analysis.Assistants" />
     <node concept="khATU" id="3zsVGcV60rK" role="kmFqQ" />
     <node concept="3aivMl" id="6dRph0_Z9i8" role="2Q$E0J">
       <node concept="3aHhih" id="6dRph0_Z9i9" role="3N3N22">
@@ -905,7 +905,7 @@
     </node>
   </node>
   <node concept="2Q15JU" id="3zsVGcV60rL">
-    <property role="3GE5qa" value="Assistants" />
+    <property role="3GE5qa" value="Security Analysis.Assistants" />
     <node concept="khC4Q" id="3zsVGcV60rM" role="kmFqQ" />
     <node concept="k5Jq$" id="6dRph0_Z9o5" role="2Q$E0J">
       <node concept="3aHhih" id="6dRph0_Z9o6" role="3N3N22">
@@ -968,7 +968,7 @@
     </node>
   </node>
   <node concept="2Q15JU" id="3zsVGcV60rN">
-    <property role="3GE5qa" value="Assistants" />
+    <property role="3GE5qa" value="Security Analysis.Assistants" />
     <node concept="khAwF" id="3zsVGcV60rO" role="kmFqQ" />
     <node concept="2FpSCn" id="6dRph0_Z9rY" role="2Q$E0J">
       <node concept="3aHhih" id="6dRph0_Z9rZ" role="3N3N22">
@@ -1026,7 +1026,7 @@
     </node>
   </node>
   <node concept="2Q15JU" id="1PEmpgFm6q$">
-    <property role="3GE5qa" value="Assistants" />
+    <property role="3GE5qa" value="Security Analysis.Assistants" />
     <node concept="CEhHY" id="1PEmpgFm6qz" role="kmFqQ" />
     <node concept="CENT2" id="1PEmpgFm6q_" role="2Q$E0J">
       <node concept="3aHhih" id="1PEmpgFm6qA" role="3N3N22">
