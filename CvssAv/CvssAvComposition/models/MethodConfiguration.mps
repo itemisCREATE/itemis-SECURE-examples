@@ -3037,7 +3037,6 @@
   </node>
   <node concept="1Ai4xF" id="3S7IBNUDUD4">
     <property role="TrG5h" value="Impact Model" />
-    <property role="3GE5qa" value="" />
     <node concept="2vP$H3" id="4CQftq3lQja" role="OYqrL">
       <property role="TrG5h" value="C" />
       <property role="DVXpC" value="Confidentiality" />

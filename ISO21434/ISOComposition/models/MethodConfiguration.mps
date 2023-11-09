@@ -215,7 +215,6 @@
   </registry>
   <node concept="OYqrK" id="4CQftq3lQhv">
     <property role="TrG5h" value="Risk Model" />
-    <property role="3GE5qa" value="" />
     <node concept="E7uU9" id="4CQftq3lQjR" role="E7uTP">
       <node concept="E7tEd" id="4CQftq3lQjS" role="E7uUa">
         <property role="TrG5h" value="1" />
@@ -2035,7 +2034,6 @@
   </node>
   <node concept="1Ai4xF" id="7bZZv_jRUQq">
     <property role="TrG5h" value="Impact Model" />
-    <property role="3GE5qa" value="" />
     <node concept="2vP$H3" id="4CQftq3lQja" role="OYqrL">
       <property role="TrG5h" value="C" />
       <property role="DVXpC" value="Confidentiality" />
@@ -3511,7 +3509,6 @@
   </node>
   <node concept="2tSmsI" id="7bZZv_jRUQr">
     <property role="TrG5h" value="Feasibility Model" />
-    <property role="3GE5qa" value="" />
     <property role="1FdktB" value="FM.56" />
     <node concept="KRYwx" id="4CQftq3lQkZ" role="KQUnM">
       <node concept="KRYx0" id="4CQftq3lQl0" role="KQXIo">
@@ -6405,7 +6402,6 @@
   </node>
   <node concept="3XX4$o" id="65pzHM4F7u5">
     <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
-    <property role="3GE5qa" value="" />
     <ref role="3iLw6d" to="si5v:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
   </node>
 </model>

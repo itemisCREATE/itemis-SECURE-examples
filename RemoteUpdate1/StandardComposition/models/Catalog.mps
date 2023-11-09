@@ -78,9 +78,6 @@
       <concept id="8677481601268483478" name="com.moraad.core.structure.ChannelSecurityTarget" flags="ng" index="3WX1Ss" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -88,7 +85,6 @@
   </registry>
   <node concept="3RoBDJ" id="4CQftq3lQlh">
     <property role="TrG5h" value="Threat Catalog" />
-    <property role="3GE5qa" value="" />
     <node concept="3Rgaea" id="4CQftq3lQli" role="3RoD5G">
       <property role="TrG5h" value="TC.1" />
       <property role="DVXpC" value="Spoofing" />
@@ -1706,7 +1702,6 @@
   </node>
   <node concept="1u4Pp1" id="4CQftq3lQtA">
     <property role="TrG5h" value="Control Catalog" />
-    <property role="3GE5qa" value="" />
     <node concept="EbI1Y" id="4CQftq3lQwm" role="1u4Ppf">
       <property role="TrG5h" value="CC.1" />
       <property role="DVXpC" value="Symmetric encryption" />
@@ -1844,7 +1839,6 @@
   </node>
   <node concept="1EwOn2" id="4NAzM1S$HE4">
     <property role="TrG5h" value="Technologies" />
-    <property role="3GE5qa" value="" />
     <node concept="2e0drJ" id="7gZ2RyfNr8c" role="1ExMwS" />
     <node concept="1Ex9m3" id="2Bvf77vYhwc" role="1ExMwS">
       <property role="TrG5h" value="TCP/IP" />

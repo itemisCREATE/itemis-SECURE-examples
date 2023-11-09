@@ -214,7 +214,6 @@
   </registry>
   <node concept="OYqrK" id="4CQftq3lQhv">
     <property role="TrG5h" value="Risk Model" />
-    <property role="3GE5qa" value="" />
     <node concept="E7uU9" id="4CQftq3lQjR" role="E7uTP">
       <node concept="E7tEd" id="4CQftq3lQjS" role="E7uUa">
         <property role="TrG5h" value="Low risk" />
@@ -3297,7 +3296,6 @@
   </node>
   <node concept="1Ai4xF" id="4O7c2ukunBX">
     <property role="TrG5h" value="Impact Model" />
-    <property role="3GE5qa" value="" />
     <node concept="2vP$H3" id="4CQftq3lQja" role="OYqrL">
       <property role="TrG5h" value="CON" />
       <property role="DVXpC" value="Confidentiality" />
@@ -3591,7 +3589,6 @@
   </node>
   <node concept="2tSmsI" id="4O7c2ukunBY">
     <property role="TrG5h" value="Feasibility Model" />
-    <property role="3GE5qa" value="" />
     <property role="1FdktB" value="FM.57" />
     <node concept="KRYwx" id="4CQftq3lQkZ" role="KQUnM">
       <node concept="KRYx0" id="4CQftq3lQl0" role="KQXIo">
