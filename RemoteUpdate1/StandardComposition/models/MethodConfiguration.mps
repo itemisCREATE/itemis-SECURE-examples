@@ -160,6 +160,8 @@
       <concept id="8150812653237857893" name="com.moraad.core.structure.RiskLevelsDefinition" flags="ng" index="E7uU9">
         <child id="8150812653237857894" name="values" index="E7uUa" />
       </concept>
+      <concept id="2491468785761352247" name="com.moraad.core.structure.GoalLeadsToSelector" flags="ng" index="EP0eu" />
+      <concept id="2491468785761309634" name="com.moraad.core.structure.ClaimLeadsToSelector" flags="ng" index="EPqDF" />
       <concept id="2945296204371461859" name="com.moraad.core.structure.StoredByRelation" flags="ng" index="F0sQC" />
       <concept id="2945296204371465777" name="com.moraad.core.structure.ProcessedByRelation" flags="ng" index="F0tPU" />
       <concept id="1756525789544302614" name="com.moraad.core.structure.RiskModel" flags="ng" index="OYqrK">
@@ -194,6 +196,9 @@
       </concept>
       <concept id="1929268400528593250" name="com.moraad.core.structure.TransferedByRelation" flags="ng" index="1z8F81" />
       <concept id="1929268400528594018" name="com.moraad.core.structure.DataFlowRuleElement" flags="ng" index="1z8Fs1" />
+      <concept id="1272655975671937764" name="com.moraad.core.structure.IRiskTreatmentLeadsTo" flags="ng" index="3ABlGT">
+        <child id="1272655975671937765" name="leadsTo" index="3ABlGS" />
+      </concept>
       <concept id="177583211455737119" name="com.moraad.core.structure.AEDTAggregatorRef" flags="ng" index="1I$CJy">
         <reference id="177583211455737120" name="target" index="1I$CJt" />
       </concept>
@@ -376,21 +381,25 @@
         <property role="TrG5h" value="Av" />
         <property role="DVXpC" value="Avoidance" />
         <node concept="3VMn$a" id="4O7c2ukunL6" role="2JHqPs" />
+        <node concept="EPqDF" id="1AmPL478ViI" role="3ABlGS" />
       </node>
       <node concept="1m7Od3" id="infFLiKfdq" role="1m7Vlm">
         <property role="TrG5h" value="M" />
         <property role="DVXpC" value="Mitigation" />
         <node concept="3VMn$a" id="4O7c2ukunL7" role="2JHqPs" />
+        <node concept="EP0eu" id="1AmPL478ViJ" role="3ABlGS" />
       </node>
       <node concept="1m7Od3" id="infFLiKfdx" role="1m7Vlm">
         <property role="TrG5h" value="T" />
         <property role="DVXpC" value="Transfer" />
         <node concept="3VMn$a" id="4O7c2ukunL8" role="2JHqPs" />
+        <node concept="EPqDF" id="1AmPL478ViK" role="3ABlGS" />
       </node>
       <node concept="1m7Od3" id="infFLiKfdt" role="1m7Vlm">
         <property role="TrG5h" value="Ac" />
         <property role="DVXpC" value="Acceptance" />
         <node concept="3VMn$a" id="4O7c2ukunL9" role="2JHqPs" />
+        <node concept="EPqDF" id="1AmPL478ViL" role="3ABlGS" />
       </node>
     </node>
     <node concept="2TPNI5" id="fvGRIU9zAx" role="2TPNWx">
