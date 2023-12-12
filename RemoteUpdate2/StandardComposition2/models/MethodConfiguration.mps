@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="si5v" ref="r:900a4177-1f36-4584-9595-316a42ee6e6a(de.itemis.ysec.commons.lib.terminologyProfiles.iso_sae_21434)" />
+    <import index="gi29" ref="r:c7360d30-2ed7-45f3-a3e6-30295dc2b49b(de.itemis.ysec.terminology.lib.terms)" />
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
@@ -100,6 +101,13 @@
       </concept>
     </language>
     <language id="7181c8c9-3335-44a5-b8b8-c9883c6a4425" name="de.itemis.mps.terminology">
+      <concept id="4060178329348968177" name="de.itemis.mps.terminology.structure.StandardTranslation" flags="ng" index="3XNixs">
+        <property id="4060178329348968180" name="translation" index="3XNixp" />
+        <reference id="4060178329348997731" name="term" index="3XNEje" />
+      </concept>
+      <concept id="4060178329348968176" name="de.itemis.mps.terminology.structure.StandardProfile" flags="ng" index="3XNixt">
+        <child id="4060178329348968178" name="translations" index="3XNixv" />
+      </concept>
       <concept id="4060178329348968423" name="de.itemis.mps.terminology.structure.ITerminologyProfile" flags="ng" index="3XNi_a">
         <reference id="4326626152485306882" name="baseProfile" index="3iLw6d" />
       </concept>
@@ -4029,6 +4037,10 @@
   <node concept="3XX4$o" id="65pzHM4F7b5">
     <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
     <ref role="3iLw6d" to="si5v:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
+    <node concept="3XNixs" id="1xzt3hRBvP3" role="3XNixv">
+      <property role="3XNixp" value="Go.{n}" />
+      <ref role="3XNEje" to="gi29:7PEeMXPNYKi" resolve="NamePattern_SecurityGoal" />
+    </node>
   </node>
 </model>
 
