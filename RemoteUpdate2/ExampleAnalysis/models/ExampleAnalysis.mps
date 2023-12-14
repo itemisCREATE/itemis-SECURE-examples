@@ -3662,118 +3662,6 @@
       </node>
     </node>
   </node>
-  <node concept="3iCCJw" id="1xzt3hRBmIl">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Goals" />
-    <node concept="bMtGj" id="1xzt3hRBmIn" role="2xH1$J" />
-    <node concept="8DnDp" id="1xzt3hRBmIo" role="2jedq2">
-      <property role="DVXpC" value="Mitigation of R.1: Integrity of &quot;SW Update: Software-Updates for ECUs&quot; threatened" />
-      <property role="TrG5h" value="Go.1" />
-      <node concept="3VMn$a" id="1xzt3hRBmIp" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBmIq" role="3bfFbl">
-        <ref role="122Z_O" node="1UEFqBLBtKK" resolve="R.1" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmLF" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmJu" resolve="REQ.1" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmLG" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmJx" resolve="REQ.2" />
-      </node>
-    </node>
-    <node concept="8DnDp" id="1xzt3hRBmIr" role="2jedq2">
-      <property role="DVXpC" value="Mitigation of R.3: Integrity of &quot;RES: Server Response&quot; threatened" />
-      <property role="TrG5h" value="Go.2" />
-      <node concept="3VMn$a" id="1xzt3hRBmIs" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBmIt" role="3bfFbl">
-        <ref role="122Z_O" node="1UEFqBLBtKZ" resolve="R.3" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmLH" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmJu" resolve="REQ.1" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmLI" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmJx" resolve="REQ.2" />
-      </node>
-    </node>
-    <node concept="8DnDp" id="1xzt3hRBmIu" role="2jedq2">
-      <property role="DVXpC" value="Mitigation of R.5: Confidentiality of &quot;RES: Server Response&quot; threatened" />
-      <property role="TrG5h" value="Go.3" />
-      <node concept="3VMn$a" id="1xzt3hRBmIv" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBmIw" role="3bfFbl">
-        <ref role="122Z_O" node="1UEFqBLBtLs" resolve="R.5" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmLJ" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmJu" resolve="REQ.1" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmLK" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmJx" resolve="REQ.2" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBmJr">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Requirements" />
-    <node concept="27eDiA" id="1xzt3hRBmJt" role="2xH1$J" />
-    <node concept="20s5Cp" id="1xzt3hRBmJu" role="2jedq2">
-      <property role="DVXpC" value="Implement AES: AES in GCM mode with a single shared key" />
-      <property role="TrG5h" value="REQ.1" />
-      <node concept="3VMn$a" id="1xzt3hRBmJv" role="2JHqPs" />
-      <node concept="1SEfoV" id="1xzt3hRBmJw" role="27UG5i">
-        <ref role="122Z_O" node="1UEFqBLBtO6" resolve="AES" />
-      </node>
-    </node>
-    <node concept="20s5Cp" id="1xzt3hRBmJx" role="2jedq2">
-      <property role="DVXpC" value="Implement TLS: TLS with certificates" />
-      <property role="TrG5h" value="REQ.2" />
-      <node concept="3VMn$a" id="1xzt3hRBmJy" role="2JHqPs" />
-      <node concept="1SEfoV" id="1xzt3hRBmJz" role="27UG5i">
-        <ref role="122Z_O" node="L3PjQFT$eO" resolve="TLS" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBmKd">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Claims" />
-    <node concept="bMsnB" id="1xzt3hRBmKf" role="2xH1$J" />
-    <node concept="8ICx3" id="1xzt3hRBmKg" role="2jedq2">
-      <property role="DVXpC" value="Acceptance of R.2: Integrity of &quot;Weather data: Weather forecast for the current region&quot; threatened" />
-      <property role="TrG5h" value="Cl.1" />
-      <node concept="3VMn$a" id="1xzt3hRBmKh" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBmKi" role="3bfFbl">
-        <ref role="122Z_O" node="1UEFqBLBtKQ" resolve="R.2" />
-      </node>
-    </node>
-    <node concept="8ICx3" id="1xzt3hRBmKj" role="2jedq2">
-      <property role="DVXpC" value="Acceptance of R.4: Availability of &quot;RES: Server Response&quot; threatened" />
-      <property role="TrG5h" value="Cl.2" />
-      <node concept="3VMn$a" id="1xzt3hRBmKk" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBmKl" role="3bfFbl">
-        <ref role="122Z_O" node="1UEFqBLBtLb" resolve="R.4" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBw2b">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Concepts" />
-    <node concept="3jMA1n" id="1xzt3hRBw2i" role="2jedq2">
-      <property role="TrG5h" value="SC.1" />
-      <property role="DVXpC" value="Integrity of Server Response" />
-      <node concept="3VMn$a" id="1xzt3hRBw2j" role="2JHqPs" />
-      <node concept="3jMoVv" id="1xzt3hRBw4q" role="3jMoVo">
-        <ref role="122Z_O" node="1xzt3hRBmIo" resolve="Go.1" />
-      </node>
-      <node concept="3jMoVv" id="1xzt3hRBw4s" role="3jMoVo">
-        <ref role="122Z_O" node="1xzt3hRBmIr" resolve="Go.2" />
-      </node>
-      <node concept="3jMoVv" id="1xzt3hRBw4y" role="3jMoVo">
-        <ref role="122Z_O" node="1xzt3hRBmIu" resolve="Go.3" />
-      </node>
-      <node concept="3KzYab" id="1xzt3hRBw4v" role="1BQUdv">
-        <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
-      </node>
-    </node>
-    <node concept="2j6TKA" id="1xzt3hRBw2c" role="2jedq2" />
-    <node concept="3dGa_S" id="1xzt3hRBw2d" role="2xH1$J" />
-  </node>
   <node concept="2Q15JU" id="JBlmx5HlKL">
     <property role="3GE5qa" value="Security Concept.Assistants" />
     <node concept="WSbGI" id="JBlmx5HlKK" role="kmFqQ" />
@@ -3899,6 +3787,118 @@
     <property role="3GE5qa" value="Security Concept.Assistants" />
     <node concept="2JpmZy" id="JBlmx5HlVV" role="kmFqQ" />
     <node concept="2JoWM6" id="JBlmx5HlVX" role="2Q$E0J" />
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBmJr">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Requirements" />
+    <node concept="27eDiA" id="1xzt3hRBmJt" role="2xH1$J" />
+    <node concept="20s5Cp" id="1xzt3hRBmJu" role="2jedq2">
+      <property role="DVXpC" value="Implement AES: AES in GCM mode with a single shared key" />
+      <property role="TrG5h" value="REQ.1" />
+      <node concept="3VMn$a" id="1xzt3hRBmJv" role="2JHqPs" />
+      <node concept="1SEfoV" id="1xzt3hRBmJw" role="27UG5i">
+        <ref role="122Z_O" node="1UEFqBLBtO6" resolve="AES" />
+      </node>
+    </node>
+    <node concept="20s5Cp" id="1xzt3hRBmJx" role="2jedq2">
+      <property role="DVXpC" value="Implement TLS: TLS with certificates" />
+      <property role="TrG5h" value="REQ.2" />
+      <node concept="3VMn$a" id="1xzt3hRBmJy" role="2JHqPs" />
+      <node concept="1SEfoV" id="1xzt3hRBmJz" role="27UG5i">
+        <ref role="122Z_O" node="L3PjQFT$eO" resolve="TLS" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBmIl">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Goals" />
+    <node concept="bMtGj" id="1xzt3hRBmIn" role="2xH1$J" />
+    <node concept="8DnDp" id="1xzt3hRBmIo" role="2jedq2">
+      <property role="DVXpC" value="Mitigation of R.1: Integrity of &quot;SW Update: Software-Updates for ECUs&quot; threatened" />
+      <property role="TrG5h" value="Go.1" />
+      <node concept="3VMn$a" id="1xzt3hRBmIp" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBmIq" role="3bfFbl">
+        <ref role="122Z_O" node="1UEFqBLBtKK" resolve="R.1" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmLF" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmJu" resolve="REQ.1" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmLG" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmJx" resolve="REQ.2" />
+      </node>
+    </node>
+    <node concept="8DnDp" id="1xzt3hRBmIr" role="2jedq2">
+      <property role="DVXpC" value="Mitigation of R.3: Integrity of &quot;RES: Server Response&quot; threatened" />
+      <property role="TrG5h" value="Go.2" />
+      <node concept="3VMn$a" id="1xzt3hRBmIs" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBmIt" role="3bfFbl">
+        <ref role="122Z_O" node="1UEFqBLBtKZ" resolve="R.3" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmLH" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmJu" resolve="REQ.1" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmLI" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmJx" resolve="REQ.2" />
+      </node>
+    </node>
+    <node concept="8DnDp" id="1xzt3hRBmIu" role="2jedq2">
+      <property role="DVXpC" value="Mitigation of R.5: Confidentiality of &quot;RES: Server Response&quot; threatened" />
+      <property role="TrG5h" value="Go.3" />
+      <node concept="3VMn$a" id="1xzt3hRBmIv" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBmIw" role="3bfFbl">
+        <ref role="122Z_O" node="1UEFqBLBtLs" resolve="R.5" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmLJ" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmJu" resolve="REQ.1" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmLK" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmJx" resolve="REQ.2" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBmKd">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Claims" />
+    <node concept="bMsnB" id="1xzt3hRBmKf" role="2xH1$J" />
+    <node concept="8ICx3" id="1xzt3hRBmKg" role="2jedq2">
+      <property role="DVXpC" value="Acceptance of R.2: Integrity of &quot;Weather data: Weather forecast for the current region&quot; threatened" />
+      <property role="TrG5h" value="Cl.1" />
+      <node concept="3VMn$a" id="1xzt3hRBmKh" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBmKi" role="3bfFbl">
+        <ref role="122Z_O" node="1UEFqBLBtKQ" resolve="R.2" />
+      </node>
+    </node>
+    <node concept="8ICx3" id="1xzt3hRBmKj" role="2jedq2">
+      <property role="DVXpC" value="Acceptance of R.4: Availability of &quot;RES: Server Response&quot; threatened" />
+      <property role="TrG5h" value="Cl.2" />
+      <node concept="3VMn$a" id="1xzt3hRBmKk" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBmKl" role="3bfFbl">
+        <ref role="122Z_O" node="1UEFqBLBtLb" resolve="R.4" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBw2b">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Concepts" />
+    <node concept="3jMA1n" id="1xzt3hRBw2i" role="2jedq2">
+      <property role="TrG5h" value="SC.1" />
+      <property role="DVXpC" value="Integrity of Server Response" />
+      <node concept="3VMn$a" id="1xzt3hRBw2j" role="2JHqPs" />
+      <node concept="3jMoVv" id="1xzt3hRBw4q" role="3jMoVo">
+        <ref role="122Z_O" node="1xzt3hRBmIo" resolve="Go.1" />
+      </node>
+      <node concept="3jMoVv" id="1xzt3hRBw4s" role="3jMoVo">
+        <ref role="122Z_O" node="1xzt3hRBmIr" resolve="Go.2" />
+      </node>
+      <node concept="3jMoVv" id="1xzt3hRBw4y" role="3jMoVo">
+        <ref role="122Z_O" node="1xzt3hRBmIu" resolve="Go.3" />
+      </node>
+      <node concept="3KzYab" id="1xzt3hRBw4v" role="1BQUdv">
+        <ref role="122Z_O" node="1E_VH$V8u63" resolve="RES" />
+      </node>
+    </node>
+    <node concept="2j6TKA" id="1xzt3hRBw2c" role="2jedq2" />
+    <node concept="3dGa_S" id="1xzt3hRBw2d" role="2xH1$J" />
   </node>
 </model>
 

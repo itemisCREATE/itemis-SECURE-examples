@@ -4677,78 +4677,6 @@
       </node>
     </node>
   </node>
-  <node concept="3iCCJw" id="1xzt3hRBlD_">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Claims" />
-    <node concept="bMsnB" id="1xzt3hRBlDB" role="2xH1$J" />
-    <node concept="8ICx3" id="1xzt3hRBlDC" role="2jedq2">
-      <property role="DVXpC" value="Avoidance of R.1: Denial of Service on Gateway ECU, Whitelist of CAN Messages" />
-      <property role="TrG5h" value="Cl.1" />
-      <node concept="3VMn$a" id="1xzt3hRBlDD" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBlDE" role="3bfFbl">
-        <ref role="122Z_O" node="6IMAd$NiG4n" resolve="R.1" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBlE6">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Goals" />
-    <node concept="bMtGj" id="1xzt3hRBlE8" role="2xH1$J" />
-    <node concept="8DnDp" id="1xzt3hRBlE9" role="2jedq2">
-      <property role="DVXpC" value="Reduction of R.2: Spoofing on CAN Bus" />
-      <property role="TrG5h" value="G.1" />
-      <node concept="3VMn$a" id="1xzt3hRBlEa" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBlEb" role="3bfFbl">
-        <ref role="122Z_O" node="1eUj96eGRhm" resolve="R.2" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBlJi" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBlFu" resolve="REQ.2" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBlF6">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Requirements" />
-    <node concept="27eDiA" id="1xzt3hRBlF8" role="2xH1$J" />
-    <node concept="20s5Cp" id="1xzt3hRBlF9" role="2jedq2">
-      <property role="DVXpC" value="Implement A.1: Physical Protection" />
-      <property role="TrG5h" value="REQ.1" />
-      <node concept="3VMn$a" id="1xzt3hRBlFa" role="2JHqPs" />
-      <node concept="1SEfoV" id="1xzt3hRBlFb" role="27UG5i">
-        <ref role="122Z_O" node="2VUdYcMms9T" resolve="A.1" />
-      </node>
-    </node>
-    <node concept="20s5Cp" id="1xzt3hRBlFu" role="2jedq2">
-      <property role="DVXpC" value="Implement C.2: Whitelisting CAN Messages" />
-      <property role="TrG5h" value="REQ.2" />
-      <node concept="3VMn$a" id="1xzt3hRBlFv" role="2JHqPs" />
-      <node concept="1SEfoV" id="1xzt3hRBlFw" role="27UG5i">
-        <ref role="122Z_O" node="7gwHXNztH6S" resolve="C.2" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBlIJ">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Concepts" />
-    <node concept="3jMA1n" id="1xzt3hRBlM$" role="2jedq2">
-      <property role="TrG5h" value="SC.1" />
-      <property role="DVXpC" value="Communication on CAN Bus" />
-      <node concept="3VMn$a" id="1xzt3hRBlM_" role="2JHqPs" />
-      <node concept="3$0O7b" id="1xzt3hRBlN9" role="1BQUdv">
-        <ref role="122Z_O" node="1eUj96eGPLA" resolve="GateECU" />
-      </node>
-      <node concept="3mlHNI" id="1xzt3hRBlNl" role="1BQUdv">
-        <ref role="122Z_O" node="75wqdiwEFag" resolve="Ch.1" />
-      </node>
-      <node concept="3jMoVv" id="1xzt3hRBlOo" role="3jMoVo">
-        <ref role="122Z_O" node="1xzt3hRBlDC" resolve="Cl.1" />
-      </node>
-      <node concept="3jMoVv" id="1xzt3hRBlOp" role="3jMoVo">
-        <ref role="122Z_O" node="1xzt3hRBlE9" resolve="G.1" />
-      </node>
-    </node>
-    <node concept="3dGa_S" id="1xzt3hRBlIL" role="2xH1$J" />
-  </node>
   <node concept="2Q15JU" id="JBlmx5Hlmd">
     <property role="3GE5qa" value="Security Concept.Assistants" />
     <node concept="WSbGI" id="JBlmx5Hlmc" role="kmFqQ" />
@@ -4841,6 +4769,78 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBlF6">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Requirements" />
+    <node concept="27eDiA" id="1xzt3hRBlF8" role="2xH1$J" />
+    <node concept="20s5Cp" id="1xzt3hRBlF9" role="2jedq2">
+      <property role="DVXpC" value="Implement A.1: Physical Protection" />
+      <property role="TrG5h" value="REQ.1" />
+      <node concept="3VMn$a" id="1xzt3hRBlFa" role="2JHqPs" />
+      <node concept="1SEfoV" id="1xzt3hRBlFb" role="27UG5i">
+        <ref role="122Z_O" node="2VUdYcMms9T" resolve="A.1" />
+      </node>
+    </node>
+    <node concept="20s5Cp" id="1xzt3hRBlFu" role="2jedq2">
+      <property role="DVXpC" value="Implement C.2: Whitelisting CAN Messages" />
+      <property role="TrG5h" value="REQ.2" />
+      <node concept="3VMn$a" id="1xzt3hRBlFv" role="2JHqPs" />
+      <node concept="1SEfoV" id="1xzt3hRBlFw" role="27UG5i">
+        <ref role="122Z_O" node="7gwHXNztH6S" resolve="C.2" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBlE6">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Goals" />
+    <node concept="bMtGj" id="1xzt3hRBlE8" role="2xH1$J" />
+    <node concept="8DnDp" id="1xzt3hRBlE9" role="2jedq2">
+      <property role="DVXpC" value="Reduction of R.2: Spoofing on CAN Bus" />
+      <property role="TrG5h" value="G.1" />
+      <node concept="3VMn$a" id="1xzt3hRBlEa" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBlEb" role="3bfFbl">
+        <ref role="122Z_O" node="1eUj96eGRhm" resolve="R.2" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBlJi" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBlFu" resolve="REQ.2" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBlD_">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Claims" />
+    <node concept="bMsnB" id="1xzt3hRBlDB" role="2xH1$J" />
+    <node concept="8ICx3" id="1xzt3hRBlDC" role="2jedq2">
+      <property role="DVXpC" value="Avoidance of R.1: Denial of Service on Gateway ECU, Whitelist of CAN Messages" />
+      <property role="TrG5h" value="Cl.1" />
+      <node concept="3VMn$a" id="1xzt3hRBlDD" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBlDE" role="3bfFbl">
+        <ref role="122Z_O" node="6IMAd$NiG4n" resolve="R.1" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBlIJ">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Concepts" />
+    <node concept="3jMA1n" id="1xzt3hRBlM$" role="2jedq2">
+      <property role="TrG5h" value="SC.1" />
+      <property role="DVXpC" value="Communication on CAN Bus" />
+      <node concept="3VMn$a" id="1xzt3hRBlM_" role="2JHqPs" />
+      <node concept="3$0O7b" id="1xzt3hRBlN9" role="1BQUdv">
+        <ref role="122Z_O" node="1eUj96eGPLA" resolve="GateECU" />
+      </node>
+      <node concept="3mlHNI" id="1xzt3hRBlNl" role="1BQUdv">
+        <ref role="122Z_O" node="75wqdiwEFag" resolve="Ch.1" />
+      </node>
+      <node concept="3jMoVv" id="1xzt3hRBlOo" role="3jMoVo">
+        <ref role="122Z_O" node="1xzt3hRBlDC" resolve="Cl.1" />
+      </node>
+      <node concept="3jMoVv" id="1xzt3hRBlOp" role="3jMoVo">
+        <ref role="122Z_O" node="1xzt3hRBlE9" resolve="G.1" />
+      </node>
+    </node>
+    <node concept="3dGa_S" id="1xzt3hRBlIL" role="2xH1$J" />
   </node>
 </model>
 

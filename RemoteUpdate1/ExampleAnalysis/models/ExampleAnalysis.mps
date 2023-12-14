@@ -2787,97 +2787,6 @@
       </node>
     </node>
   </node>
-  <node concept="3iCCJw" id="1xzt3hRBmkc">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Claims" />
-    <node concept="bMsnB" id="1xzt3hRBmke" role="2xH1$J" />
-    <node concept="8ICx3" id="1xzt3hRBmkf" role="2jedq2">
-      <property role="DVXpC" value="Avoidance of R.2: Data Extraction" />
-      <property role="TrG5h" value="Cl.1" />
-      <node concept="3VMn$a" id="1xzt3hRBmkg" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBmkh" role="3bfFbl">
-        <ref role="122Z_O" node="3SMGvtS6WNg" resolve="R.2" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmmX" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmlu" resolve="REQ.1" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBmkO">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Goals" />
-    <node concept="bMtGj" id="1xzt3hRBmkQ" role="2xH1$J" />
-    <node concept="8DnDp" id="1xzt3hRBmkR" role="2jedq2">
-      <property role="DVXpC" value="Mitigation of R.1: Man-in-the-Middle Attack on Wireless Link to Backend" />
-      <property role="TrG5h" value="G.1" />
-      <node concept="3VMn$a" id="1xzt3hRBmkS" role="2JHqPs" />
-      <node concept="1m7PKD" id="1xzt3hRBmkT" role="3bfFbl">
-        <ref role="122Z_O" node="3SMGvtS6WNL" resolve="R.1" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmne" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmlW" resolve="REQ.2" />
-      </node>
-      <node concept="8DnEr" id="1xzt3hRBmnf" role="3bfFbk">
-        <ref role="122Z_O" node="1xzt3hRBmlZ" resolve="REQ.3" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBmlr">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Requirements" />
-    <node concept="27eDiA" id="1xzt3hRBmlt" role="2xH1$J" />
-    <node concept="20s5Cp" id="1xzt3hRBmlu" role="2jedq2">
-      <property role="DVXpC" value="Implement A.1: Physical locking" />
-      <property role="TrG5h" value="REQ.1" />
-      <node concept="3VMn$a" id="1xzt3hRBmlv" role="2JHqPs" />
-      <node concept="1SEfoV" id="1xzt3hRBmlw" role="27UG5i">
-        <ref role="122Z_O" node="5hdoB45MACa" resolve="A.1" />
-      </node>
-    </node>
-    <node concept="20s5Cp" id="1xzt3hRBmlW" role="2jedq2">
-      <property role="DVXpC" value="Implement C.1: Transport Layer Security" />
-      <property role="TrG5h" value="REQ.2" />
-      <node concept="3VMn$a" id="1xzt3hRBmlX" role="2JHqPs" />
-      <node concept="1SEfoV" id="1xzt3hRBmlY" role="27UG5i">
-        <ref role="122Z_O" node="2Bvf77vYhXb" resolve="C.1" />
-      </node>
-    </node>
-    <node concept="20s5Cp" id="1xzt3hRBmlZ" role="2jedq2">
-      <property role="DVXpC" value="Implement C.2: AES with Shared Key" />
-      <property role="TrG5h" value="REQ.3" />
-      <node concept="3VMn$a" id="1xzt3hRBmm0" role="2JHqPs" />
-      <node concept="1SEfoV" id="1xzt3hRBmm1" role="27UG5i">
-        <ref role="122Z_O" node="2Bvf77vYinX" resolve="C.2" />
-      </node>
-    </node>
-  </node>
-  <node concept="3iCCJw" id="1xzt3hRBmro">
-    <property role="3GE5qa" value="Security Concept" />
-    <property role="TrG5h" value="Concepts" />
-    <node concept="3jMA1n" id="1xzt3hRBmrt" role="2jedq2">
-      <property role="TrG5h" value="SC.1" />
-      <property role="DVXpC" value="Securing Gateway" />
-      <node concept="3VMn$a" id="1xzt3hRBmru" role="2JHqPs" />
-      <node concept="3$0O7b" id="1xzt3hRBmrO" role="1BQUdv">
-        <ref role="122Z_O" node="5W_1Y9DMIRk" resolve="GW" />
-      </node>
-      <node concept="3jMoVv" id="1xzt3hRBmt1" role="3jMoVo">
-        <ref role="122Z_O" node="1xzt3hRBmkf" resolve="Cl.1" />
-      </node>
-    </node>
-    <node concept="3jMA1n" id="1xzt3hRBms1" role="2jedq2">
-      <property role="TrG5h" value="SC.2" />
-      <property role="DVXpC" value="Communication on WL" />
-      <node concept="3VMn$a" id="1xzt3hRBms2" role="2JHqPs" />
-      <node concept="3Kajnk" id="1xzt3hRBmsw" role="1BQUdv">
-        <ref role="122Z_O" node="7UMEm_NKmKz" resolve="WL" />
-      </node>
-      <node concept="3jMoVv" id="1xzt3hRBmt2" role="3jMoVo">
-        <ref role="122Z_O" node="1xzt3hRBmkR" resolve="G.1" />
-      </node>
-    </node>
-    <node concept="2j6TKA" id="1xzt3hRBmrp" role="2jedq2" />
-  </node>
   <node concept="2Q15JU" id="JBlmx5Hlzh">
     <property role="3GE5qa" value="Security Concept.Assistants" />
     <node concept="WSbGI" id="JBlmx5Hlzg" role="kmFqQ" />
@@ -2993,6 +2902,97 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBmlr">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Requirements" />
+    <node concept="27eDiA" id="1xzt3hRBmlt" role="2xH1$J" />
+    <node concept="20s5Cp" id="1xzt3hRBmlu" role="2jedq2">
+      <property role="DVXpC" value="Implement A.1: Physical locking" />
+      <property role="TrG5h" value="REQ.1" />
+      <node concept="3VMn$a" id="1xzt3hRBmlv" role="2JHqPs" />
+      <node concept="1SEfoV" id="1xzt3hRBmlw" role="27UG5i">
+        <ref role="122Z_O" node="5hdoB45MACa" resolve="A.1" />
+      </node>
+    </node>
+    <node concept="20s5Cp" id="1xzt3hRBmlW" role="2jedq2">
+      <property role="DVXpC" value="Implement C.1: Transport Layer Security" />
+      <property role="TrG5h" value="REQ.2" />
+      <node concept="3VMn$a" id="1xzt3hRBmlX" role="2JHqPs" />
+      <node concept="1SEfoV" id="1xzt3hRBmlY" role="27UG5i">
+        <ref role="122Z_O" node="2Bvf77vYhXb" resolve="C.1" />
+      </node>
+    </node>
+    <node concept="20s5Cp" id="1xzt3hRBmlZ" role="2jedq2">
+      <property role="DVXpC" value="Implement C.2: AES with Shared Key" />
+      <property role="TrG5h" value="REQ.3" />
+      <node concept="3VMn$a" id="1xzt3hRBmm0" role="2JHqPs" />
+      <node concept="1SEfoV" id="1xzt3hRBmm1" role="27UG5i">
+        <ref role="122Z_O" node="2Bvf77vYinX" resolve="C.2" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBmkO">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Goals" />
+    <node concept="bMtGj" id="1xzt3hRBmkQ" role="2xH1$J" />
+    <node concept="8DnDp" id="1xzt3hRBmkR" role="2jedq2">
+      <property role="DVXpC" value="Mitigation of R.1: Man-in-the-Middle Attack on Wireless Link to Backend" />
+      <property role="TrG5h" value="G.1" />
+      <node concept="3VMn$a" id="1xzt3hRBmkS" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBmkT" role="3bfFbl">
+        <ref role="122Z_O" node="3SMGvtS6WNL" resolve="R.1" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmne" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmlW" resolve="REQ.2" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmnf" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmlZ" resolve="REQ.3" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBmkc">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Claims" />
+    <node concept="bMsnB" id="1xzt3hRBmke" role="2xH1$J" />
+    <node concept="8ICx3" id="1xzt3hRBmkf" role="2jedq2">
+      <property role="DVXpC" value="Avoidance of R.2: Data Extraction" />
+      <property role="TrG5h" value="Cl.1" />
+      <node concept="3VMn$a" id="1xzt3hRBmkg" role="2JHqPs" />
+      <node concept="1m7PKD" id="1xzt3hRBmkh" role="3bfFbl">
+        <ref role="122Z_O" node="3SMGvtS6WNg" resolve="R.2" />
+      </node>
+      <node concept="8DnEr" id="1xzt3hRBmmX" role="3bfFbk">
+        <ref role="122Z_O" node="1xzt3hRBmlu" resolve="REQ.1" />
+      </node>
+    </node>
+  </node>
+  <node concept="3iCCJw" id="1xzt3hRBmro">
+    <property role="3GE5qa" value="Security Concept" />
+    <property role="TrG5h" value="Concepts" />
+    <node concept="3jMA1n" id="1xzt3hRBmrt" role="2jedq2">
+      <property role="TrG5h" value="SC.1" />
+      <property role="DVXpC" value="Securing Gateway" />
+      <node concept="3VMn$a" id="1xzt3hRBmru" role="2JHqPs" />
+      <node concept="3$0O7b" id="1xzt3hRBmrO" role="1BQUdv">
+        <ref role="122Z_O" node="5W_1Y9DMIRk" resolve="GW" />
+      </node>
+      <node concept="3jMoVv" id="1xzt3hRBmt1" role="3jMoVo">
+        <ref role="122Z_O" node="1xzt3hRBmkf" resolve="Cl.1" />
+      </node>
+    </node>
+    <node concept="3jMA1n" id="1xzt3hRBms1" role="2jedq2">
+      <property role="TrG5h" value="SC.2" />
+      <property role="DVXpC" value="Communication on WL" />
+      <node concept="3VMn$a" id="1xzt3hRBms2" role="2JHqPs" />
+      <node concept="3Kajnk" id="1xzt3hRBmsw" role="1BQUdv">
+        <ref role="122Z_O" node="7UMEm_NKmKz" resolve="WL" />
+      </node>
+      <node concept="3jMoVv" id="1xzt3hRBmt2" role="3jMoVo">
+        <ref role="122Z_O" node="1xzt3hRBmkR" resolve="G.1" />
+      </node>
+    </node>
+    <node concept="2j6TKA" id="1xzt3hRBmrp" role="2jedq2" />
   </node>
 </model>
 
