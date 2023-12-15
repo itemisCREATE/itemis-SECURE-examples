@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="si5v" ref="r:900a4177-1f36-4584-9595-316a42ee6e6a(de.itemis.ysec.commons.lib.terminologyProfiles.iso_sae_21434)" />
+    <import index="gi29" ref="r:c7360d30-2ed7-45f3-a3e6-30295dc2b49b(de.itemis.ysec.terminology.lib.terms)" />
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
@@ -100,6 +101,13 @@
       </concept>
     </language>
     <language id="7181c8c9-3335-44a5-b8b8-c9883c6a4425" name="de.itemis.mps.terminology">
+      <concept id="4060178329348968177" name="de.itemis.mps.terminology.structure.StandardTranslation" flags="ng" index="3XNixs">
+        <property id="4060178329348968180" name="translation" index="3XNixp" />
+        <reference id="4060178329348997731" name="term" index="3XNEje" />
+      </concept>
+      <concept id="4060178329348968176" name="de.itemis.mps.terminology.structure.StandardProfile" flags="ng" index="3XNixt">
+        <child id="4060178329348968178" name="translations" index="3XNixv" />
+      </concept>
       <concept id="4060178329348968423" name="de.itemis.mps.terminology.structure.ITerminologyProfile" flags="ng" index="3XNi_a">
         <reference id="4326626152485306882" name="baseProfile" index="3iLw6d" />
       </concept>
@@ -160,6 +168,8 @@
       <concept id="8150812653237857893" name="com.moraad.core.structure.RiskLevelsDefinition" flags="ng" index="E7uU9">
         <child id="8150812653237857894" name="values" index="E7uUa" />
       </concept>
+      <concept id="2491468785761352247" name="com.moraad.core.structure.GoalLeadsToSelector" flags="ng" index="EP0eu" />
+      <concept id="2491468785761309634" name="com.moraad.core.structure.ClaimLeadsToSelector" flags="ng" index="EPqDF" />
       <concept id="2945296204371464134" name="com.moraad.core.structure.ProcessesRelation" flags="ng" index="F0sid" />
       <concept id="2945296204371461859" name="com.moraad.core.structure.StoredByRelation" flags="ng" index="F0sQC" />
       <concept id="2945296204371465777" name="com.moraad.core.structure.ProcessedByRelation" flags="ng" index="F0tPU" />
@@ -194,6 +204,9 @@
       </concept>
       <concept id="1929268400528593250" name="com.moraad.core.structure.TransferedByRelation" flags="ng" index="1z8F81" />
       <concept id="1929268400528594018" name="com.moraad.core.structure.DataFlowRuleElement" flags="ng" index="1z8Fs1" />
+      <concept id="1272655975671937764" name="com.moraad.core.structure.IRiskTreatmentLeadsTo" flags="ng" index="3ABlGT">
+        <child id="1272655975671937765" name="leadsTo" index="3ABlGS" />
+      </concept>
       <concept id="177583211455737119" name="com.moraad.core.structure.AEDTAggregatorRef" flags="ng" index="1I$CJy">
         <reference id="177583211455737120" name="target" index="1I$CJt" />
       </concept>
@@ -214,7 +227,6 @@
   </registry>
   <node concept="OYqrK" id="4CQftq3lQhv">
     <property role="TrG5h" value="Risk Model" />
-    <property role="3GE5qa" value="" />
     <node concept="E7uU9" id="4CQftq3lQjR" role="E7uTP">
       <node concept="E7tEd" id="4CQftq3lQjS" role="E7uUa">
         <property role="TrG5h" value="Low risk" />
@@ -377,21 +389,25 @@
         <property role="TrG5h" value="Av" />
         <property role="DVXpC" value="Avoidance" />
         <node concept="3VMn$a" id="4O7c2ukuwsq" role="2JHqPs" />
+        <node concept="EPqDF" id="1AmPL478ViM" role="3ABlGS" />
       </node>
       <node concept="1m7Od3" id="infFLiKfdq" role="1m7Vlm">
         <property role="TrG5h" value="M" />
         <property role="DVXpC" value="Mitigation" />
         <node concept="3VMn$a" id="4O7c2ukuwsr" role="2JHqPs" />
+        <node concept="EP0eu" id="1AmPL478ViN" role="3ABlGS" />
       </node>
       <node concept="1m7Od3" id="infFLiKfdx" role="1m7Vlm">
         <property role="TrG5h" value="T" />
         <property role="DVXpC" value="Transfer" />
         <node concept="3VMn$a" id="4O7c2ukuwss" role="2JHqPs" />
+        <node concept="EPqDF" id="1AmPL478ViO" role="3ABlGS" />
       </node>
       <node concept="1m7Od3" id="infFLiKfdt" role="1m7Vlm">
         <property role="TrG5h" value="Ac" />
         <property role="DVXpC" value="Acceptance" />
         <node concept="3VMn$a" id="4O7c2ukuwst" role="2JHqPs" />
+        <node concept="EPqDF" id="1AmPL478ViP" role="3ABlGS" />
       </node>
     </node>
     <node concept="2TPNI5" id="fvGRIU9zAx" role="2TPNWx">
@@ -3298,7 +3314,6 @@
   </node>
   <node concept="1Ai4xF" id="4O7c2ukuwii">
     <property role="TrG5h" value="Impact Model" />
-    <property role="3GE5qa" value="" />
     <node concept="2vP$H3" id="4CQftq3lQja" role="OYqrL">
       <property role="TrG5h" value="CON" />
       <property role="DVXpC" value="Confidentiality" />
@@ -3586,7 +3601,6 @@
   </node>
   <node concept="2tSmsI" id="4O7c2ukuwij">
     <property role="TrG5h" value="Feasibility Model" />
-    <property role="3GE5qa" value="" />
     <property role="1FdktB" value="FM.58" />
     <node concept="KRYwx" id="4CQftq3lQkZ" role="KQUnM">
       <node concept="KRYx0" id="4CQftq3lQl0" role="KQXIo">
@@ -4022,8 +4036,11 @@
   </node>
   <node concept="3XX4$o" id="65pzHM4F7b5">
     <property role="TrG5h" value="ISO/SAE 21434 Terminology" />
-    <property role="3GE5qa" value="" />
     <ref role="3iLw6d" to="si5v:3xoDER5IZYq" resolve="ISO/SAE 21434 Terminology (Default)" />
+    <node concept="3XNixs" id="1xzt3hRBvP3" role="3XNixv">
+      <property role="3XNixp" value="Go.{n}" />
+      <ref role="3XNEje" to="gi29:7PEeMXPNYKi" resolve="NamePattern_SecurityGoal" />
+    </node>
   </node>
 </model>
 
