@@ -97,6 +97,7 @@
       <concept id="5638758366197687768" name="com.moraad.reports.structure.RiskTreatmentTableReportItem" flags="ng" index="21ek43">
         <child id="5638758366197962492" name="riskTreatmentChunk" index="21fj8B" />
       </concept>
+      <concept id="9037100677461558833" name="com.moraad.reports.structure.GoalTableReportItem" flags="ng" index="2SZOu" />
       <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA">
         <property id="5844418852561495228" name="limit" index="1CBqX7" />
       </concept>
@@ -137,10 +138,12 @@
       <concept id="1488669593885577694" name="com.moraad.reports.structure.CommentReportItem" flags="ng" index="2JOk35">
         <property id="1488669593885577696" name="text" index="2JOk3V" />
       </concept>
+      <concept id="5476579115479223259" name="com.moraad.reports.structure.RequirementTableReportItem" flags="ng" index="QtJLF" />
       <concept id="5209880561343667327" name="com.moraad.reports.structure.PIContentItem" flags="ng" index="XlMEV">
         <property id="5209880561343667337" name="export" index="XlMDd" />
         <reference id="5209880561343674428" name="target" index="XlKVS" />
       </concept>
+      <concept id="2137954257241981602" name="com.moraad.reports.structure.CsConceptTableReportItem" flags="ng" index="3dmGyN" />
       <concept id="5952104409253523121" name="com.moraad.reports.structure.TableOfContentsReportItem" flags="ng" index="3x3r7t" />
       <concept id="2129184553233376960" name="com.moraad.reports.structure.FuncAssignmentSmartTableReportItem" flags="ng" index="3xdgjh" />
       <concept id="2129184553237592657" name="com.moraad.reports.structure.DataTableReportItem" flags="ng" index="3xttx0" />
@@ -154,6 +157,7 @@
         <property id="8588388912954702330" name="exportRationale" index="3UCmZc" />
         <property id="8588388912954702331" name="showRationaleKeyWord" index="3UCmZd" />
       </concept>
+      <concept id="9037100677490252154" name="com.moraad.reports.structure.ClaimTableReportItem" flags="ng" index="3Wlq9l" />
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
       <concept id="7050052209586915341" name="de.itemis.ysec.commons.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
@@ -3711,6 +3715,16 @@
     <node concept="28bWPA" id="1k$QKsQSKfP" role="yp9Ks">
       <property role="1CBqX7" value="2147483647" />
     </node>
+    <node concept="ymko6" id="6Gvkze6ed1Z" role="yp9Ks" />
+    <node concept="ymko6" id="6Gvkze6ed79" role="yp9Ks" />
+    <node concept="3Wlq9l" id="6Gvkze6ed0J" role="yp9Ks" />
+    <node concept="ymko6" id="6Gvkze6ed8u" role="yp9Ks" />
+    <node concept="2SZOu" id="6Gvkze6ed3g" role="yp9Ks" />
+    <node concept="ymko6" id="6Gvkze6ed9O" role="yp9Ks" />
+    <node concept="3dmGyN" id="6Gvkze6ed4y" role="yp9Ks" />
+    <node concept="ymko6" id="6Gvkze6edbb" role="yp9Ks" />
+    <node concept="QtJLF" id="6Gvkze6ed5P" role="yp9Ks" />
+    <node concept="ymko6" id="6Gvkze6eddT" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSCw4" role="yp9Ks" />
     <node concept="2JOk35" id="1k$QKsQTm2C" role="yp9Ks">
       <property role="2JOk3V" value="Below you see the current &quot;default&quot; Control Scenario." />
