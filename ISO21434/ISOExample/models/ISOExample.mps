@@ -100,6 +100,7 @@
       <concept id="9037100677461558833" name="com.moraad.reports.structure.GoalTableReportItem" flags="ng" index="2SZOu" />
       <concept id="5662992976716575613" name="com.moraad.reports.structure.ThreatScenariosAndAttackPathsReportItem" flags="ng" index="28bWPA">
         <property id="5844418852561495228" name="limit" index="1CBqX7" />
+        <property id="5784576005910096338" name="limitNumberOfAttackPathPerThreatScenario" index="3CKxzC" />
       </concept>
       <concept id="7385129922939695098" name="com.moraad.reports.structure.AttackEffortsMatrixReportItem" flags="ng" index="a$eXN" />
       <concept id="7385129922949653722" name="com.moraad.reports.structure.RiskLevelMatrixReportItem" flags="ng" index="bYehj" />
@@ -121,7 +122,10 @@
         <property id="3868026684445433283" name="showRationaleKeyword" index="2DHY05" />
         <property id="3868026684445433281" name="exportRationale" index="2DHY07" />
       </concept>
-      <concept id="6986877318773203681" name="com.moraad.reports.structure.ThreatTableReportItem" flags="ng" index="ygVO6" />
+      <concept id="6986877318773203681" name="com.moraad.reports.structure.ThreatTableReportItem" flags="ng" index="ygVO6">
+        <property id="2115212867104374631" name="exportRationale" index="1djs62" />
+        <property id="2115212867105558218" name="showRationaleKeyword" index="1dsN0J" />
+      </concept>
       <concept id="6986877318773203653" name="com.moraad.reports.structure.AssumptionTableReportItem" flags="ng" index="ygVOy" />
       <concept id="6986877318772884603" name="com.moraad.reports.structure.RiskDistributionChartReportItem" flags="ng" index="yhPIs" />
       <concept id="6986877318772702512" name="com.moraad.reports.structure.ProjectInfoReportItem" flags="ng" index="ym6bn">
@@ -138,6 +142,10 @@
       <concept id="1488669593885577694" name="com.moraad.reports.structure.CommentReportItem" flags="ng" index="2JOk35">
         <property id="1488669593885577696" name="text" index="2JOk3V" />
       </concept>
+      <concept id="981657859280632006" name="com.moraad.reports.structure.DamageScenarioTablePerStakeholderReportItem" flags="ng" index="OYZhp">
+        <property id="981657859280632007" name="impactOptionByName" index="OYZho" />
+        <property id="3537459689840296141" name="includeHiddenIO" index="1d9_gl" />
+      </concept>
       <concept id="5476579115479223259" name="com.moraad.reports.structure.RequirementTableReportItem" flags="ng" index="QtJLF" />
       <concept id="5209880561343667327" name="com.moraad.reports.structure.PIContentItem" flags="ng" index="XlMEV">
         <property id="5209880561343667337" name="export" index="XlMDd" />
@@ -152,8 +160,10 @@
       <concept id="2129184553237592677" name="com.moraad.reports.structure.ChannelsTableReportItem" flags="ng" index="3xttxO" />
       <concept id="2129184553237375048" name="com.moraad.reports.structure.FunctionTableReportItem" flags="ng" index="3xuwDp" />
       <concept id="2129184553228409378" name="com.moraad.reports.structure.FuncAssignmentSimpleTableReportItem" flags="ng" index="3xSvwN" />
+      <concept id="2789775304370122439" name="com.moraad.reports.structure.ChecklistReportItem" flags="ng" index="3y_2Gs" />
       <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1">
+        <property id="3063787601294055561" name="excludeImpactScale" index="gT1Cu" />
         <property id="8588388912954702330" name="exportRationale" index="3UCmZc" />
         <property id="8588388912954702331" name="showRationaleKeyWord" index="3UCmZd" />
       </concept>
@@ -3631,17 +3641,28 @@
     <node concept="a$eXN" id="1k$QKsQS554" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQS5_$" role="yp9Ks" />
     <node concept="ygVO6" id="1k$QKsQS6_a" role="yp9Ks" />
-    <node concept="ymko6" id="1k$QKsQSLLM" role="yp9Ks" />
-    <node concept="ygVO6" id="1k$QKsQS7zX" role="yp9Ks" />
+    <node concept="ygVO6" id="1k$QKsQS7zX" role="yp9Ks">
+      <property role="1djs62" value="true" />
+    </node>
+    <node concept="ygVO6" id="1VvRu3aCB56" role="yp9Ks">
+      <property role="1djs62" value="true" />
+      <property role="1dsN0J" value="true" />
+    </node>
     <node concept="ymko6" id="1k$QKsQS8zI" role="yp9Ks" />
     <node concept="3xttxO" id="1k$QKsQS93e" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQS9zN" role="yp9Ks" />
+    <node concept="3y_2Gs" id="1VvRu3aCB92" role="yp9Ks" />
+    <node concept="ymko6" id="1VvRu3aCB6p" role="yp9Ks" />
+    <node concept="3Wlq9l" id="1VvRu3aCBd4" role="yp9Ks" />
+    <node concept="ymko6" id="1VvRu3aCBan" role="yp9Ks" />
     <node concept="2JOk35" id="1k$QKsQSa4$" role="yp9Ks">
       <property role="2JOk3V" value="my dummy comment" />
     </node>
     <node concept="ymko6" id="1k$QKsQSa_b" role="yp9Ks" />
     <node concept="3xttxm" id="1k$QKsQSb68" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSbAD" role="yp9Ks" />
+    <node concept="3dmGyN" id="1VvRu3aCBhc" role="yp9Ks" />
+    <node concept="ymko6" id="1VvRu3aCBfN" role="yp9Ks" />
     <node concept="ygVO4" id="1k$QKsQSc7y" role="yp9Ks" />
     <node concept="ygVO4" id="1k$QKsQScB0" role="yp9Ks">
       <property role="2DHY07" value="true" />
@@ -3659,7 +3680,31 @@
       <property role="3UCmZc" value="true" />
       <property role="3UCmZd" value="true" />
     </node>
+    <node concept="3UIwP1" id="1VvRu3aCBiB" role="yp9Ks">
+      <property role="gT1Cu" value="true" />
+    </node>
+    <node concept="3UIwP1" id="1VvRu3aCBiA" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="gT1Cu" value="true" />
+    </node>
+    <node concept="3UIwP1" id="1VvRu3aCBi_" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="3UCmZd" value="true" />
+      <property role="gT1Cu" value="true" />
+    </node>
     <node concept="ymko6" id="1k$QKsQSkYa" role="yp9Ks" />
+    <node concept="OYZhp" id="1VvRu3aCBmY" role="yp9Ks">
+      <property role="1d9_gl" value="true" />
+    </node>
+    <node concept="OYZhp" id="1VvRu3aCBos" role="yp9Ks" />
+    <node concept="OYZhp" id="1VvRu3aCBpV" role="yp9Ks">
+      <property role="1d9_gl" value="true" />
+      <property role="OYZho" value="true" />
+    </node>
+    <node concept="OYZhp" id="1VvRu3aCBrr" role="yp9Ks">
+      <property role="OYZho" value="true" />
+    </node>
+    <node concept="ymko6" id="1VvRu3aCBk3" role="yp9Ks" />
     <node concept="3yVM0i" id="1k$QKsQSlXK" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSmtg" role="yp9Ks" />
     <node concept="3xttxa" id="1k$QKsQSmXk" role="yp9Ks" />
@@ -3674,10 +3719,11 @@
     <node concept="ymko6" id="1k$QKsQSrun" role="yp9Ks" />
     <node concept="3xuwDp" id="1k$QKsQSs04" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSsvK" role="yp9Ks" />
+    <node concept="2SZOu" id="1VvRu3aCBw1" role="yp9Ks" />
+    <node concept="ymko6" id="1VvRu3aCBuu" role="yp9Ks" />
     <node concept="DsbHM" id="1k$QKsQSt1x" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSty$" role="yp9Ks" />
     <node concept="kePWl" id="1k$QKsQSule" role="yp9Ks" />
-    <node concept="kePWl" id="1k$QKsQSuQj" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSkYD" role="yp9Ks" />
     <node concept="ym6bn" id="1k$QKsQSvmc" role="yp9Ks">
       <ref role="39i2te" node="5wtRytMI6ho" resolve="Project Info: ISOExample [ISOExample]" />
@@ -3686,6 +3732,8 @@
       <ref role="39i2te" to="julz:zhVUb1DY8y" resolve="Project Info: Catalog [ISOComposition]" />
     </node>
     <node concept="ymko6" id="1k$QKsQS$lf" role="yp9Ks" />
+    <node concept="QtJLF" id="1VvRu3aCBAc" role="yp9Ks" />
+    <node concept="ymko6" id="1VvRu3aCB$C" role="yp9Ks" />
     <node concept="yhPIs" id="1k$QKsQS_nk" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSxP4" role="yp9Ks" />
     <node concept="rctEY" id="1k$QKsQS_RF" role="yp9Ks" />
@@ -3700,7 +3748,6 @@
     </node>
     <node concept="ymko6" id="1k$QKsQSDxs" role="yp9Ks" />
     <node concept="ygVO2" id="1k$QKsQSE2$" role="yp9Ks" />
-    <node concept="ymko6" id="1k$QKsQSEyG" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSFAc" role="yp9Ks" />
     <node concept="ksrOh" id="1k$QKsQSG8x" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSGDM" role="yp9Ks" />
@@ -3714,19 +3761,12 @@
     </node>
     <node concept="ymko6" id="1k$QKsQSIKj" role="yp9Ks" />
     <node concept="28bWPA" id="1k$QKsQSKfP" role="yp9Ks">
-      <property role="1CBqX7" value="2147483647" />
+      <property role="1CBqX7" value="1" />
     </node>
-    <node concept="ymko6" id="6Gvkze6ed1Z" role="yp9Ks" />
-    <node concept="ymko6" id="6Gvkze6ed79" role="yp9Ks" />
-    <node concept="3Wlq9l" id="6Gvkze6ed0J" role="yp9Ks" />
-    <node concept="ymko6" id="6Gvkze6ed8u" role="yp9Ks" />
-    <node concept="2SZOu" id="6Gvkze6ed3g" role="yp9Ks" />
-    <node concept="ymko6" id="6Gvkze6ed9O" role="yp9Ks" />
-    <node concept="3dmGyN" id="6Gvkze6ed4y" role="yp9Ks" />
-    <node concept="ymko6" id="6Gvkze6edbb" role="yp9Ks" />
-    <node concept="QtJLF" id="6Gvkze6ed5P" role="yp9Ks" />
-    <node concept="ymko6" id="6Gvkze6eddT" role="yp9Ks" />
-    <node concept="ymko6" id="1k$QKsQSCw4" role="yp9Ks" />
+    <node concept="28bWPA" id="1VvRu3aCC70" role="yp9Ks">
+      <property role="3CKxzC" value="true" />
+    </node>
+    <node concept="ymko6" id="1VvRu3aCC8u" role="yp9Ks" />
     <node concept="2JOk35" id="1k$QKsQTm2C" role="yp9Ks">
       <property role="2JOk3V" value="Below you see the current &quot;default&quot; Control Scenario." />
     </node>
