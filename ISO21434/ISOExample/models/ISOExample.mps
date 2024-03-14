@@ -170,6 +170,7 @@
       <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1">
         <property id="3063787601294055561" name="excludeImpactScale" index="gT1Cu" />
+        <property id="4807182361674910968" name="exportNBOS" index="GBCor" />
         <property id="8588388912954702330" name="exportRationale" index="3UCmZc" />
         <property id="8588388912954702331" name="showRationaleKeyWord" index="3UCmZd" />
       </concept>
@@ -278,7 +279,9 @@
       <concept id="9037100677298434924" name="com.moraad.core.structure.Claim" flags="ng" index="8ICx3" />
       <concept id="9037100677312282312" name="com.moraad.core.structure.ClaimContentSelector" flags="ng" index="bMsnB" />
       <concept id="9037100677312274492" name="com.moraad.core.structure.GoalContentSelector" flags="ng" index="bMtGj" />
-      <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU" />
+      <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU">
+        <property id="4497791247487639139" name="rationale" index="idWcG" />
+      </concept>
       <concept id="1983173996191207106" name="com.moraad.core.structure.PropagationOperationExpr" flags="ng" index="pgmzW">
         <child id="1983173996191207107" name="arguments" index="pgmzX" />
         <child id="3440241848487318190" name="operation" index="37eMcl" />
@@ -3707,6 +3710,33 @@
       <property role="3UCmZc" value="true" />
       <property role="3UCmZd" value="true" />
       <property role="gT1Cu" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUp" role="yp9Ks">
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUo" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUn" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="3UCmZd" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUm" role="yp9Ks">
+      <property role="gT1Cu" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUl" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="gT1Cu" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUk" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="3UCmZd" value="true" />
+      <property role="gT1Cu" value="true" />
+      <property role="GBCor" value="true" />
     </node>
     <node concept="ymko6" id="1k$QKsQSkYa" role="yp9Ks" />
     <node concept="OYZhp" id="1VvRu3aCBmY" role="yp9Ks">
