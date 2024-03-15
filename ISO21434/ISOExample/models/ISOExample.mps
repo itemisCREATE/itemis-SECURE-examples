@@ -279,9 +279,7 @@
       <concept id="9037100677298434924" name="com.moraad.core.structure.Claim" flags="ng" index="8ICx3" />
       <concept id="9037100677312282312" name="com.moraad.core.structure.ClaimContentSelector" flags="ng" index="bMsnB" />
       <concept id="9037100677312274492" name="com.moraad.core.structure.GoalContentSelector" flags="ng" index="bMtGj" />
-      <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU">
-        <property id="4497791247487639139" name="rationale" index="idWcG" />
-      </concept>
+      <concept id="3766652101586479963" name="com.moraad.core.structure.DamageCriterionAssignment" flags="ng" index="fNVPU" />
       <concept id="1983173996191207106" name="com.moraad.core.structure.PropagationOperationExpr" flags="ng" index="pgmzW">
         <child id="1983173996191207107" name="arguments" index="pgmzX" />
         <child id="3440241848487318190" name="operation" index="37eMcl" />
