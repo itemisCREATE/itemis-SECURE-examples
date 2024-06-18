@@ -151,7 +151,13 @@
         <property id="5209880561343667337" name="export" index="XlMDd" />
         <reference id="5209880561343674428" name="target" index="XlKVS" />
       </concept>
-      <concept id="2137954257241981602" name="com.moraad.reports.structure.CsConceptTableReportItem" flags="ng" index="3dmGyN" />
+      <concept id="6495719316991181964" name="com.moraad.reports.structure.ConceptElementTableReportItem" flags="ng" index="3bKAF1">
+        <property id="8214906305372118731" name="showRationaleKeyWord" index="3gOQG9" />
+        <property id="8214906305339968148" name="exportRationale" index="3iTJXm" />
+      </concept>
+      <concept id="2137954257241981602" name="com.moraad.reports.structure.CsConceptTableReportItem" flags="ng" index="3dmGyN">
+        <property id="1525157778248090205" name="listImmediateElements" index="VNb2Q" />
+      </concept>
       <concept id="5952104409253523121" name="com.moraad.reports.structure.TableOfContentsReportItem" flags="ng" index="3x3r7t" />
       <concept id="2129184553233376960" name="com.moraad.reports.structure.FuncAssignmentSmartTableReportItem" flags="ng" index="3xdgjh" />
       <concept id="2129184553237592657" name="com.moraad.reports.structure.DataTableReportItem" flags="ng" index="3xttx0" />
@@ -164,6 +170,7 @@
       <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1">
         <property id="3063787601294055561" name="excludeImpactScale" index="gT1Cu" />
+        <property id="4807182361674910968" name="exportNBOS" index="GBCor" />
         <property id="8588388912954702330" name="exportRationale" index="3UCmZc" />
         <property id="8588388912954702331" name="showRationaleKeyWord" index="3UCmZd" />
       </concept>
@@ -3654,6 +3661,13 @@
     <node concept="3y_2Gs" id="1VvRu3aCB92" role="yp9Ks" />
     <node concept="ymko6" id="1VvRu3aCB6p" role="yp9Ks" />
     <node concept="3Wlq9l" id="1VvRu3aCBd4" role="yp9Ks" />
+    <node concept="3Wlq9l" id="1YUD_SAIGfm" role="yp9Ks">
+      <property role="3iTJXm" value="true" />
+    </node>
+    <node concept="3Wlq9l" id="1YUD_SAIGgR" role="yp9Ks">
+      <property role="3iTJXm" value="true" />
+      <property role="3gOQG9" value="true" />
+    </node>
     <node concept="ymko6" id="1VvRu3aCBan" role="yp9Ks" />
     <node concept="2JOk35" id="1k$QKsQSa4$" role="yp9Ks">
       <property role="2JOk3V" value="my dummy comment" />
@@ -3662,6 +3676,9 @@
     <node concept="3xttxm" id="1k$QKsQSb68" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSbAD" role="yp9Ks" />
     <node concept="3dmGyN" id="1VvRu3aCBhc" role="yp9Ks" />
+    <node concept="3dmGyN" id="1YUD_SAIGdQ" role="yp9Ks">
+      <property role="VNb2Q" value="true" />
+    </node>
     <node concept="ymko6" id="1VvRu3aCBfN" role="yp9Ks" />
     <node concept="ygVO4" id="1k$QKsQSc7y" role="yp9Ks" />
     <node concept="ygVO4" id="1k$QKsQScB0" role="yp9Ks">
@@ -3692,6 +3709,33 @@
       <property role="3UCmZd" value="true" />
       <property role="gT1Cu" value="true" />
     </node>
+    <node concept="3UIwP1" id="6d2LuSswIUp" role="yp9Ks">
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUo" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUn" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="3UCmZd" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUm" role="yp9Ks">
+      <property role="gT1Cu" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUl" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="gT1Cu" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
+    <node concept="3UIwP1" id="6d2LuSswIUk" role="yp9Ks">
+      <property role="3UCmZc" value="true" />
+      <property role="3UCmZd" value="true" />
+      <property role="gT1Cu" value="true" />
+      <property role="GBCor" value="true" />
+    </node>
     <node concept="ymko6" id="1k$QKsQSkYa" role="yp9Ks" />
     <node concept="OYZhp" id="1VvRu3aCBmY" role="yp9Ks">
       <property role="1d9_gl" value="true" />
@@ -3720,6 +3764,13 @@
     <node concept="3xuwDp" id="1k$QKsQSs04" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSsvK" role="yp9Ks" />
     <node concept="2SZOu" id="1VvRu3aCBw1" role="yp9Ks" />
+    <node concept="2SZOu" id="1YUD_SAIGip" role="yp9Ks">
+      <property role="3iTJXm" value="true" />
+    </node>
+    <node concept="2SZOu" id="1YUD_SAIGjW" role="yp9Ks">
+      <property role="3iTJXm" value="true" />
+      <property role="3gOQG9" value="true" />
+    </node>
     <node concept="ymko6" id="1VvRu3aCBuu" role="yp9Ks" />
     <node concept="DsbHM" id="1k$QKsQSt1x" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSty$" role="yp9Ks" />

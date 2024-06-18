@@ -23,7 +23,7 @@
     <language slang="l:7a060fae-09e0-4372-be36-6696d6554c0e:com.mbeddr.mpsutil.review.annotation" version="0" />
     <language slang="l:2bee351d-bcec-4897-88ae-1eb8b271032f:com.moraad.assessmentcatalog.descriptor" version="0" />
     <language slang="l:c1497963-7ffd-4da0-9a4d-74675c5ab7e2:com.moraad.components" version="18" />
-    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="91" />
+    <language slang="l:2bca1aa3-c113-4542-8ac2-2a6a30636981:com.moraad.core" version="92" />
     <language slang="l:d66daea8-e7a8-4305-aeaa-7ca535d07bd3:com.moraad.projectinfo" version="2" />
     <language slang="l:087be214-4868-4fa9-b3c2-52f1e47d6275:com.moraad.propagation" version="0" />
     <language slang="l:2283d35c-b541-4c39-bf04-8310ba3f92ff:com.moraad.reports" version="4" />
@@ -42,7 +42,7 @@
     <language slang="l:7234d3fa-3f51-44a6-b03f-4596bf1cc5e5:de.itemis.ysec.catalogs.core" version="0" />
     <language slang="l:24e88a55-f0b5-4dc5-9077-49730e920865:de.itemis.ysec.checklist" version="1" />
     <language slang="l:edd58c45-9999-4ad9-8f8a-e0d26da1cbc9:de.itemis.ysec.commons" version="0" />
-    <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="6" />
+    <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="7" />
     <language slang="l:2307a511-c189-4bbb-ae4d-e1f113c91dbe:de.itemis.ysec.methodConfiguration.baseLanguageExtensions" version="1" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />

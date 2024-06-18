@@ -15,6 +15,9 @@
         <property id="7480212422238960135" name="value" index="2nMRun" />
       </concept>
       <concept id="155558482576785587" name="de.itemis.ysec.methodConfiguration.structure.FeasibilityModel" flags="ng" index="2tSmsI">
+        <property id="2403573600959891921" name="capCombinedCriticality" index="2PSVM_" />
+        <property id="2403573600959891916" name="weightConsecutive" index="2PSVMS" />
+        <property id="2403573600959891912" name="weightInitial" index="2PSVMW" />
         <property id="2574928715889687393" name="shortId" index="1FdktB" />
         <child id="227120341090910541" name="attackPotentials" index="KQUnM" />
         <child id="8127657721944981146" name="attackPotentialsTable" index="2WHCcS" />
@@ -3602,6 +3605,9 @@
   <node concept="2tSmsI" id="4O7c2ukuwij">
     <property role="TrG5h" value="Feasibility Model" />
     <property role="1FdktB" value="FM.58" />
+    <property role="2PSVM_" value="true" />
+    <property role="2PSVMW" value="1" />
+    <property role="2PSVMS" value="1" />
     <node concept="KRYwx" id="4CQftq3lQkZ" role="KQUnM">
       <node concept="KRYx0" id="4CQftq3lQl0" role="KQXIo">
         <property role="TrG5h" value="Beyond high" />
