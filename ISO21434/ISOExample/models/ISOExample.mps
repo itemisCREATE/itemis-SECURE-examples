@@ -6,7 +6,7 @@
     <use id="77390b0e-ab69-4de7-a036-d557f81b479e" name="de.itemis.ysec.catalog.technologies" version="0" />
     <use id="c1497963-7ffd-4da0-9a4d-74675c5ab7e2" name="com.moraad.components" version="18" />
     <use id="a97beefa-b088-4bdb-8ed8-6b4e554b6264" name="com.moraad.sequences" version="0" />
-    <use id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core" version="91" />
+    <use id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core" version="92" />
     <use id="2283d35c-b541-4c39-bf04-8310ba3f92ff" name="com.moraad.reports" version="4" />
     <use id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo" version="2" />
     <use id="8aedd025-5f31-4a1e-81a1-4c5345407211" name="com.moraad.suggestions" version="4" />

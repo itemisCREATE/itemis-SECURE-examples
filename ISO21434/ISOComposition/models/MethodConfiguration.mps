@@ -2,7 +2,7 @@
 <model ref="r:9e0bf89b-7c83-426e-8e13-cd21fab7b94a(MethodConfiguration)">
   <persistence version="9" />
   <languages>
-    <use id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core" version="91" />
+    <use id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core" version="92" />
     <use id="048a18dc-8dce-4fe2-8e99-0a16464f630c" name="de.itemis.mps.editor.freetext" version="0" />
     <use id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons" version="0" />
     <use id="d66daea8-e7a8-4305-aeaa-7ca535d07bd3" name="com.moraad.projectinfo" version="2" />
