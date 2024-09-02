@@ -160,7 +160,9 @@
       <concept id="2129184553237592677" name="com.moraad.reports.structure.ChannelsTableReportItem" flags="ng" index="3xttxO" />
       <concept id="2129184553237375048" name="com.moraad.reports.structure.FunctionTableReportItem" flags="ng" index="3xuwDp" />
       <concept id="2129184553228409378" name="com.moraad.reports.structure.FuncAssignmentSimpleTableReportItem" flags="ng" index="3xSvwN" />
-      <concept id="2789775304370122439" name="com.moraad.reports.structure.ChecklistReportItem" flags="ng" index="3y_2Gs" />
+      <concept id="2789775304370122439" name="com.moraad.reports.structure.ChecklistReportItem" flags="ng" index="3y_2Gs">
+        <child id="8310706830414723559" name="checklist" index="3S7roN" />
+      </concept>
       <concept id="2195216638865431028" name="com.moraad.reports.structure.DamageAndThreatScenariosReportItem" flags="ng" index="3yVM0i" />
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1">
         <property id="3063787601294055561" name="excludeImpactScale" index="gT1Cu" />
@@ -246,6 +248,9 @@
       </concept>
     </language>
     <language id="24e88a55-f0b5-4dc5-9077-49730e920865" name="de.itemis.ysec.checklist">
+      <concept id="2733645172414747772" name="de.itemis.ysec.checklist.structure.ChecklistRef" flags="ng" index="AksYL">
+        <reference id="2733645172414747777" name="target" index="AksXc" />
+      </concept>
       <concept id="6217398072109638567" name="de.itemis.ysec.checklist.structure.ChecklistItem" flags="ng" index="2H0S4X">
         <child id="4258253476795566208" name="rationale" index="3GS99T" />
       </concept>
@@ -3651,6 +3656,11 @@
     <node concept="3xttxO" id="1k$QKsQS93e" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQS9zN" role="yp9Ks" />
     <node concept="3y_2Gs" id="1VvRu3aCB92" role="yp9Ks" />
+    <node concept="3y_2Gs" id="7dlzXibGPiG" role="yp9Ks">
+      <node concept="AksYL" id="7dlzXibGPkn" role="3S7roN">
+        <ref role="AksXc" node="3L93fJiu$EI" resolve="UN R155 Threats" />
+      </node>
+    </node>
     <node concept="ymko6" id="1VvRu3aCB6p" role="yp9Ks" />
     <node concept="3Wlq9l" id="1VvRu3aCBd4" role="yp9Ks" />
     <node concept="3Wlq9l" id="1YUD_SAIGfm" role="yp9Ks">
