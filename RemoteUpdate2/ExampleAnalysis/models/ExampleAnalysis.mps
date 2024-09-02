@@ -3243,7 +3243,7 @@
         <node concept="3VMn$a" id="5F0rLLZnk48" role="3GS99T" />
       </node>
       <node concept="3GSqTS" id="1PEmpgFma1R" role="2H0S5D">
-        <property role="TrG5h" value="18" />
+        <property role="TrG5h" value="18 Devices connected to external interfaces e.g. USB ports, OBD port, used as a means to attack vehicle systems" />
       </node>
       <node concept="2H0S4X" id="1PEmpgFma1S" role="2H0S5D">
         <property role="TrG5h" value="External interfaces such as USB or other ports used as a point of attack, for example through code injection" />

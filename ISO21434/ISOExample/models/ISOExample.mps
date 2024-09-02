@@ -3815,7 +3815,7 @@
     </node>
   </node>
   <node concept="2H3I8p" id="3L93fJiu$EI">
-    <property role="TrG5h" value="UN R155 Threats " />
+    <property role="TrG5h" value="UN R155 Threats" />
     <property role="3F1M74" value="true" />
     <property role="3GE5qa" value="Checklists" />
     <node concept="2H0S5N" id="3L93fJiu$EJ" role="2H0S4$">
@@ -4052,7 +4052,7 @@
         <node concept="3VMn$a" id="5F0rLLZnk0k" role="3GS99T" />
       </node>
       <node concept="3GSqTS" id="3L93fJiu$FU" role="2H0S5D">
-        <property role="TrG5h" value="18" />
+        <property role="TrG5h" value="18 Devices connected to external interfaces e.g. USB ports, OBD port, used as a means to attack vehicle systems" />
       </node>
       <node concept="2H0S4X" id="3L93fJiu$FV" role="2H0S5D">
         <property role="TrG5h" value="External interfaces such as USB or other ports used as a point of attack, for example through code injection" />
