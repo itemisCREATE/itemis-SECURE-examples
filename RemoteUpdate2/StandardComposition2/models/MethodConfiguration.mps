@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
+      <concept id="8140327204155191530" name="de.itemis.ysec.methodConfiguration.structure.TrustLevelsDefinition" flags="ng" index="fTz2s">
+        <child id="8140327204155191533" name="levels" index="fTz2r" />
+      </concept>
       <concept id="4497791247486336887" name="de.itemis.ysec.methodConfiguration.structure.DamageClass" flags="ng" index="i8Y8S" />
       <concept id="7480212422238926806" name="de.itemis.ysec.methodConfiguration.structure.ImpactScale" flags="ng" index="2nNfD6">
         <property id="7480212422238960135" name="value" index="2nMRun" />
@@ -36,11 +39,24 @@
         <property id="8045787582102992758" name="value" index="uPLpr" />
       </concept>
       <concept id="5265403561757222969" name="de.itemis.ysec.methodConfiguration.structure.Stakeholder" flags="ng" index="CzX2t" />
+      <concept id="848894267652668100" name="de.itemis.ysec.methodConfiguration.structure.TrustLevel" flags="ng" index="2KyDCi">
+        <property id="7152850790341018718" name="value" index="qSweV" />
+      </concept>
       <concept id="227120341090634910" name="de.itemis.ysec.methodConfiguration.structure.AFLsDefinition" flags="ng" index="KRYwx">
         <child id="227120341090909991" name="values" index="KQXIo" />
       </concept>
       <concept id="227120341090635007" name="de.itemis.ysec.methodConfiguration.structure.AttackFeasibilityLevel" flags="ng" index="KRYx0">
         <property id="227120341090910048" name="minimalValue" index="KQXJv" />
+      </concept>
+      <concept id="848894267651765571" name="de.itemis.ysec.methodConfiguration.structure.TrustModel" flags="ng" index="2KY5ml">
+        <child id="8140327204155204736" name="trustLevelsDefinition" index="fTIjQ" />
+        <child id="4520112907071583232" name="trustBoundaryCategoriesDefinition" index="2O4_UX" />
+      </concept>
+      <concept id="4520112907071582378" name="de.itemis.ysec.methodConfiguration.structure.TrustBoundaryCategoriesDefinition" flags="ng" index="2O4_Cn">
+        <child id="4520112907071582379" name="categories" index="2O4_Cm" />
+      </concept>
+      <concept id="4520112907071235583" name="de.itemis.ysec.methodConfiguration.structure.TrustBoundaryCategory" flags="ng" index="2O6gX2">
+        <property id="4520112907071235800" name="value" index="2O6gL_" />
       </concept>
       <concept id="1756525789544303273" name="de.itemis.ysec.methodConfiguration.structure.DamagePotentialsDefinition" flags="ng" index="OYqhf">
         <child id="1756525789544303274" name="values" index="OYqhc" />
@@ -4046,6 +4062,176 @@
     <node concept="3XNixs" id="1xzt3hRBvP3" role="3XNixv">
       <property role="3XNixp" value="Go.{n}" />
       <ref role="3XNEje" to="gi29:7PEeMXPNYKi" resolve="NamePattern_SecurityGoal" />
+    </node>
+  </node>
+  <node concept="2KY5ml" id="2kMEKexN5T">
+    <property role="TrG5h" value="Trust Model" />
+    <node concept="fTz2s" id="73Sg7pZ8d6f" role="fTIjQ">
+      <node concept="2KyDCi" id="2kMEKexN5U" role="fTz2r">
+        <property role="TrG5h" value="Internet" />
+        <property role="qSweV" value="1" />
+        <node concept="3VMn$a" id="2kMEKexN5V" role="2JHqPs">
+          <node concept="3VMn$0" id="2kMEKexNeo" role="3VMn$6">
+            <node concept="3VMn$7" id="2kMEKexNep" role="3VMn$3">
+              <property role="3VMn$Y" value="Untrusted" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNeq" role="3VMn$3">
+              <property role="3VMn$Y" value="Internet" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNer" role="3VMn$3">
+              <property role="3VMn$Y" value="public" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNes" role="3VMn$3">
+              <property role="3VMn$Y" value="zone" />
+            </node>
+          </node>
+        </node>
+        <node concept="1iSF2X" id="2kMEKexNee" role="E7tE9">
+          <property role="1iTho6" value="FFAAAA" />
+        </node>
+      </node>
+      <node concept="2KyDCi" id="2kMEKexN5Y" role="fTz2r">
+        <property role="TrG5h" value="Public" />
+        <property role="qSweV" value="1" />
+        <node concept="3VMn$a" id="2kMEKexN5Z" role="2JHqPs">
+          <node concept="3VMn$0" id="2kMEKexNey" role="3VMn$6">
+            <node concept="3VMn$7" id="2kMEKexNez" role="3VMn$3">
+              <property role="3VMn$Y" value="Untrusted" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNe$" role="3VMn$3">
+              <property role="3VMn$Y" value="public" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNe_" role="3VMn$3">
+              <property role="3VMn$Y" value="zone" />
+            </node>
+          </node>
+        </node>
+        <node concept="1iSF2X" id="2kMEKexNeg" role="E7tE9">
+          <property role="1iTho6" value="FFCC99" />
+        </node>
+      </node>
+      <node concept="2KyDCi" id="2kMEKexN64" role="fTz2r">
+        <property role="TrG5h" value="Public Cloud" />
+        <property role="qSweV" value="60" />
+        <node concept="3VMn$a" id="2kMEKexN65" role="2JHqPs">
+          <node concept="3VMn$0" id="2kMEKexNeE" role="3VMn$6">
+            <node concept="3VMn$7" id="2kMEKexNeF" role="3VMn$3">
+              <property role="3VMn$Y" value="Public" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNeG" role="3VMn$3">
+              <property role="3VMn$Y" value="cloud" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNeH" role="3VMn$3">
+              <property role="3VMn$Y" value="service" />
+            </node>
+          </node>
+        </node>
+        <node concept="1iSF2X" id="2kMEKexNei" role="E7tE9">
+          <property role="1iTho6" value="FFEB9C" />
+        </node>
+      </node>
+      <node concept="2KyDCi" id="2kMEKexN6c" role="fTz2r">
+        <property role="TrG5h" value="Trusted Partner" />
+        <property role="qSweV" value="80" />
+        <node concept="3VMn$a" id="2kMEKexN6d" role="2JHqPs">
+          <node concept="3VMn$0" id="2kMEKexNeM" role="3VMn$6">
+            <node concept="3VMn$7" id="2kMEKexNeN" role="3VMn$3">
+              <property role="3VMn$Y" value="Vetted" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNeO" role="3VMn$3">
+              <property role="3VMn$Y" value="and" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNeP" role="3VMn$3">
+              <property role="3VMn$Y" value="trusted" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNeQ" role="3VMn$3">
+              <property role="3VMn$Y" value="partner" />
+            </node>
+          </node>
+        </node>
+        <node concept="1iSF2X" id="2kMEKexNek" role="E7tE9">
+          <property role="1iTho6" value="C4D79B" />
+        </node>
+      </node>
+      <node concept="2KyDCi" id="2kMEKexN6m" role="fTz2r">
+        <property role="TrG5h" value="Private Secured" />
+        <property role="qSweV" value="100" />
+        <node concept="3VMn$a" id="2kMEKexN6n" role="2JHqPs">
+          <node concept="3VMn$0" id="2kMEKexNeW" role="3VMn$6">
+            <node concept="3VMn$7" id="2kMEKexNeX" role="3VMn$3">
+              <property role="3VMn$Y" value="A" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNeY" role="3VMn$3">
+              <property role="3VMn$Y" value="secured" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNeZ" role="3VMn$3">
+              <property role="3VMn$Y" value="zone" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNf0" role="3VMn$3">
+              <property role="3VMn$Y" value="within" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNf1" role="3VMn$3">
+              <property role="3VMn$Y" value="a" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNf2" role="3VMn$3">
+              <property role="3VMn$Y" value="trusted" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNf3" role="3VMn$3">
+              <property role="3VMn$Y" value="private" />
+            </node>
+            <node concept="3VMn$7" id="2kMEKexNf4" role="3VMn$3">
+              <property role="3VMn$Y" value="zone" />
+            </node>
+          </node>
+        </node>
+        <node concept="1iSF2X" id="2kMEKexNem" role="E7tE9">
+          <property role="1iTho6" value="C6EFCE" />
+        </node>
+      </node>
+    </node>
+    <node concept="2O4_Cn" id="3UUEFQaLz58" role="2O4_UX">
+      <node concept="2O6gX2" id="3UUEFQaLz5a" role="2O4_Cm">
+        <property role="2O6gL_" value="0" />
+        <node concept="3VMn$a" id="3UUEFQaLz5b" role="2JHqPs" />
+        <node concept="1iSF2X" id="3UUEFQaLz5e" role="E7tE9">
+          <property role="1iTho6" value="C6EFCE" />
+        </node>
+      </node>
+      <node concept="2O6gX2" id="3UUEFQaLz5g" role="2O4_Cm">
+        <property role="2O6gL_" value="20" />
+        <node concept="3VMn$a" id="3UUEFQaLz5h" role="2JHqPs" />
+        <node concept="1iSF2X" id="3UUEFQaLz5s" role="E7tE9">
+          <property role="1iTho6" value="C4D79B" />
+        </node>
+      </node>
+      <node concept="2O6gX2" id="3UUEFQaLz5u" role="2O4_Cm">
+        <property role="2O6gL_" value="40" />
+        <node concept="3VMn$a" id="3UUEFQaLz5v" role="2JHqPs" />
+        <node concept="1iSF2X" id="3UUEFQaLz5C" role="E7tE9">
+          <property role="1iTho6" value="FFFF99" />
+        </node>
+      </node>
+      <node concept="2O6gX2" id="3UUEFQaLz5E" role="2O4_Cm">
+        <property role="2O6gL_" value="60" />
+        <node concept="3VMn$a" id="3UUEFQaLz5F" role="2JHqPs" />
+        <node concept="1iSF2X" id="3UUEFQaLz5R" role="E7tE9">
+          <property role="1iTho6" value="FFEB9C" />
+        </node>
+      </node>
+      <node concept="2O6gX2" id="3UUEFQaLz5T" role="2O4_Cm">
+        <property role="2O6gL_" value="80" />
+        <node concept="3VMn$a" id="3UUEFQaLz5U" role="2JHqPs" />
+        <node concept="1iSF2X" id="3UUEFQaLz69" role="E7tE9">
+          <property role="1iTho6" value="FFCC99" />
+        </node>
+      </node>
+      <node concept="2O6gX2" id="3UUEFQaLz6b" role="2O4_Cm">
+        <property role="2O6gL_" value="100" />
+        <node concept="3VMn$a" id="3UUEFQaLz6c" role="2JHqPs" />
+        <node concept="1iSF2X" id="3UUEFQaLz6u" role="E7tE9">
+          <property role="1iTho6" value="FFAAAA" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

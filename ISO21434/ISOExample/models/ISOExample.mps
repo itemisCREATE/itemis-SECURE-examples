@@ -11,6 +11,7 @@
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
       <concept id="8278271381845378605" name="de.itemis.ysec.methodConfiguration.structure.AFLRef" flags="ng" index="1vNPnr" />
+      <concept id="8849129041839306048" name="de.itemis.ysec.methodConfiguration.structure.TrustLevelRef" flags="ng" index="3GCHUU" />
       <concept id="6006699537885391512" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
     </language>
     <language id="77390b0e-ab69-4de7-a036-d557f81b479e" name="de.itemis.ysec.catalog.technologies">
@@ -418,11 +419,19 @@
     <language id="c1497963-7ffd-4da0-9a4d-74675c5ab7e2" name="com.moraad.components">
       <concept id="4903305818773966639" name="com.moraad.components.structure.TOEChunk" flags="ng" index="2lbcm6" />
       <concept id="4903305818773971546" name="com.moraad.components.structure.TOEComponent" flags="ng" index="2lbezN">
+        <child id="7296163292644697544" name="trustZone" index="345swj" />
         <child id="1808727333797819112" name="subComponents" index="1b_L45" />
         <child id="1808727333797819114" name="storedData" index="1b_L47" />
       </concept>
       <concept id="4903305818773998197" name="com.moraad.components.structure.ITOEElementContainer" flags="ng" index="2lbk3s">
         <child id="4903305818773998200" name="elements" index="2lbk3h" />
+      </concept>
+      <concept id="5693834772128144381" name="com.moraad.components.structure.TrustZoneChunk" flags="ng" index="2lsSHN">
+        <child id="5693834772129560276" name="trustZones" index="2ly2pq" />
+      </concept>
+      <concept id="5693834772129554889" name="com.moraad.components.structure.TrustZone" flags="ng" index="2ly357">
+        <child id="5693834772130897929" name="subZones" index="2lDr27" />
+        <child id="8849129041839306097" name="trustLevel" index="3GCHUb" />
       </concept>
       <concept id="3911760519739995188" name="com.moraad.components.structure.SystemDiagram" flags="ng" index="2ndE_3">
         <property id="1514418932059619330" name="hierarchyLevels" index="2zzwJW" />
@@ -440,6 +449,8 @@
       <concept id="5188113475686638955" name="com.moraad.components.structure.TOEData" flags="ng" index="2zhWjs" />
       <concept id="2560071392251274778" name="com.moraad.components.structure.TOEFunction" flags="ng" index="Hgtl4" />
       <concept id="8237891392911108311" name="com.moraad.components.structure.TOEFunctionRef" flags="ng" index="IT3p4" />
+      <concept id="812298049876156433" name="com.moraad.components.structure.TrustZoneContentSelector" flags="ng" index="31QrNk" />
+      <concept id="7296163292644697473" name="com.moraad.components.structure.TrustZoneRef" flags="ng" index="345sxq" />
       <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W" />
       <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
         <child id="6569433384300427095" name="assignedFunctions" index="lYIuc" />
@@ -559,6 +570,9 @@
           <property role="TrG5h" value="NavECU" />
           <property role="DVXpC" value="Navigation ECU" />
           <node concept="3VMn$a" id="7bZZv_jRVp4" role="2JHqPs" />
+          <node concept="345sxq" id="7tyS2pKKZPc" role="345swj">
+            <ref role="122Z_O" node="7tyS2pKKZOv" resolve="TZ.6" />
+          </node>
         </node>
         <node concept="2lbezN" id="1eUj96eGPLA" role="1b_L45">
           <property role="TrG5h" value="GateECU" />
@@ -567,6 +581,9 @@
             <ref role="122Z_O" node="7gwHXNztHdJ" resolve="WhtLst" />
           </node>
           <node concept="3VMn$a" id="7bZZv_jRVp5" role="2JHqPs" />
+          <node concept="345sxq" id="7tyS2pKKZPk" role="345swj">
+            <ref role="122Z_O" node="7tyS2pKKZOL" resolve="TZ.8" />
+          </node>
         </node>
         <node concept="2lbezN" id="1eUj96eGPMi" role="1b_L45">
           <property role="TrG5h" value="HLsys" />
@@ -575,6 +592,9 @@
             <property role="TrG5h" value="HLswit" />
             <property role="DVXpC" value="Headlamp switch" />
             <node concept="3VMn$a" id="7bZZv_jRVp7" role="2JHqPs" />
+            <node concept="345sxq" id="7tyS2pKKZPm" role="345swj">
+              <ref role="122Z_O" node="7tyS2pKKZND" resolve="TZ.5" />
+            </node>
           </node>
           <node concept="2lbezN" id="1eUj96eGPN2" role="1b_L45">
             <property role="TrG5h" value="BodyECU" />
@@ -599,13 +619,22 @@
             <node concept="3VMn$a" id="7bZZv_jRVp9" role="2JHqPs" />
           </node>
           <node concept="3VMn$a" id="7bZZv_jRVp6" role="2JHqPs" />
+          <node concept="345sxq" id="7tyS2pKKZPe" role="345swj">
+            <ref role="122Z_O" node="7tyS2pKKZN_" resolve="TZ.4" />
+          </node>
         </node>
         <node concept="3VMn$a" id="7bZZv_jRVp3" role="2JHqPs" />
+        <node concept="345sxq" id="7tyS2pKKZPi" role="345swj">
+          <ref role="122Z_O" node="7tyS2pKKZNp" resolve="TZ.1" />
+        </node>
       </node>
       <node concept="2lbezN" id="2VUdYcMmrJu" role="1b_L45">
         <property role="TrG5h" value="ExtECU" />
         <property role="DVXpC" value="External ECUs" />
         <node concept="3VMn$a" id="7bZZv_jRVpa" role="2JHqPs" />
+        <node concept="345sxq" id="7tyS2pKKZPg" role="345swj">
+          <ref role="122Z_O" node="7tyS2pKKZNx" resolve="TZ.3" />
+        </node>
       </node>
       <node concept="3VMn$a" id="7bZZv_jRVdk" role="2JHqPs">
         <node concept="3VMn$0" id="7bZZv_jRVdl" role="3VMn$6">
@@ -4955,6 +4984,75 @@
       </node>
     </node>
     <node concept="3dGa_S" id="1xzt3hRBlIL" role="2xH1$J" />
+  </node>
+  <node concept="2lsSHN" id="7tyS2pKKZNn">
+    <property role="3GE5qa" value="Item Definition" />
+    <property role="TrG5h" value="Trust Zones" />
+    <node concept="31QrNk" id="7tyS2pKKZNo" role="2xH1$J" />
+    <node concept="2ly357" id="7tyS2pKKZNp" role="2ly2pq">
+      <property role="DVXpC" value="Internet" />
+      <property role="TrG5h" value="TZ.1" />
+      <node concept="3VMn$a" id="7tyS2pKKZNq" role="2JHqPs" />
+      <node concept="3GCHUU" id="7tyS2pKKZNs" role="3GCHUb">
+        <ref role="122Z_O" to="xz8e:2kMEKexN5U" resolve="Internet" />
+      </node>
+      <node concept="2ly357" id="7tyS2pKKZNt" role="2lDr27">
+        <property role="DVXpC" value="Public" />
+        <property role="TrG5h" value="TZ.2" />
+        <node concept="3VMn$a" id="7tyS2pKKZNu" role="2JHqPs" />
+        <node concept="3GCHUU" id="7tyS2pKKZNw" role="3GCHUb">
+          <ref role="122Z_O" to="xz8e:2kMEKexN5Y" resolve="Public" />
+        </node>
+        <node concept="2ly357" id="7tyS2pKKZNx" role="2lDr27">
+          <property role="DVXpC" value="Public Cloud" />
+          <property role="TrG5h" value="TZ.3" />
+          <node concept="3VMn$a" id="7tyS2pKKZNy" role="2JHqPs" />
+          <node concept="3GCHUU" id="7tyS2pKKZN$" role="3GCHUb">
+            <ref role="122Z_O" to="xz8e:2kMEKexN64" resolve="Public Cloud" />
+          </node>
+          <node concept="2ly357" id="7tyS2pKKZN_" role="2lDr27">
+            <property role="DVXpC" value="Headlamp System Supplier" />
+            <property role="TrG5h" value="TZ.4" />
+            <node concept="3VMn$a" id="7tyS2pKKZNA" role="2JHqPs" />
+            <node concept="3GCHUU" id="7tyS2pKKZNC" role="3GCHUb">
+              <ref role="122Z_O" to="xz8e:2kMEKexN6c" resolve="Trusted Partner" />
+            </node>
+            <node concept="2ly357" id="7tyS2pKKZND" role="2lDr27">
+              <property role="DVXpC" value="Private Secured - Headlamp System" />
+              <property role="TrG5h" value="TZ.5" />
+              <node concept="3VMn$a" id="7tyS2pKKZNE" role="2JHqPs" />
+              <node concept="3GCHUU" id="7tyS2pKKZNG" role="3GCHUb">
+                <ref role="122Z_O" to="xz8e:2kMEKexN6m" resolve="Private Secured" />
+              </node>
+            </node>
+          </node>
+          <node concept="2ly357" id="7tyS2pKKZOv" role="2lDr27">
+            <property role="DVXpC" value="Navigation ECU Supplier" />
+            <property role="TrG5h" value="TZ.6" />
+            <node concept="3VMn$a" id="7tyS2pKKZOw" role="2JHqPs" />
+            <node concept="3GCHUU" id="7tyS2pKKZOx" role="3GCHUb">
+              <ref role="122Z_O" to="xz8e:2kMEKexN6c" resolve="Trusted Partner" />
+            </node>
+            <node concept="2ly357" id="7tyS2pKKZOy" role="2lDr27">
+              <property role="DVXpC" value="Private Secured - Navigation ECU" />
+              <property role="TrG5h" value="TZ.7" />
+              <node concept="3VMn$a" id="7tyS2pKKZOz" role="2JHqPs" />
+              <node concept="3GCHUU" id="7tyS2pKKZO$" role="3GCHUb">
+                <ref role="122Z_O" to="xz8e:2kMEKexN6m" resolve="Private Secured" />
+              </node>
+            </node>
+          </node>
+          <node concept="2ly357" id="7tyS2pKKZOL" role="2lDr27">
+            <property role="DVXpC" value="Private Secured" />
+            <property role="TrG5h" value="TZ.8" />
+            <node concept="3VMn$a" id="7tyS2pKKZOM" role="2JHqPs" />
+            <node concept="3GCHUU" id="7tyS2pKKZON" role="3GCHUb">
+              <ref role="122Z_O" to="xz8e:2kMEKexN6m" resolve="Private Secured" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -10,6 +10,7 @@
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
+      <concept id="8849129041839306048" name="de.itemis.ysec.methodConfiguration.structure.TrustLevelRef" flags="ng" index="3GCHUU" />
       <concept id="6006699537885391512" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
     </language>
     <language id="77390b0e-ab69-4de7-a036-d557f81b479e" name="de.itemis.ysec.catalog.technologies">
@@ -343,11 +344,19 @@
     <language id="c1497963-7ffd-4da0-9a4d-74675c5ab7e2" name="com.moraad.components">
       <concept id="4903305818773966639" name="com.moraad.components.structure.TOEChunk" flags="ng" index="2lbcm6" />
       <concept id="4903305818773971546" name="com.moraad.components.structure.TOEComponent" flags="ng" index="2lbezN">
+        <child id="7296163292644697544" name="trustZone" index="345swj" />
         <child id="1808727333797819112" name="subComponents" index="1b_L45" />
         <child id="1808727333797819114" name="storedData" index="1b_L47" />
       </concept>
       <concept id="4903305818773998197" name="com.moraad.components.structure.ITOEElementContainer" flags="ng" index="2lbk3s">
         <child id="4903305818773998200" name="elements" index="2lbk3h" />
+      </concept>
+      <concept id="5693834772128144381" name="com.moraad.components.structure.TrustZoneChunk" flags="ng" index="2lsSHN">
+        <child id="5693834772129560276" name="trustZones" index="2ly2pq" />
+      </concept>
+      <concept id="5693834772129554889" name="com.moraad.components.structure.TrustZone" flags="ng" index="2ly357">
+        <child id="5693834772130897929" name="subZones" index="2lDr27" />
+        <child id="8849129041839306097" name="trustLevel" index="3GCHUb" />
       </concept>
       <concept id="3911760519739995188" name="com.moraad.components.structure.SystemDiagram" flags="ng" index="2ndE_3">
         <property id="1514418932059619330" name="hierarchyLevels" index="2zzwJW" />
@@ -366,6 +375,8 @@
       <concept id="2560071392251274778" name="com.moraad.components.structure.TOEFunction" flags="ng" index="Hgtl4">
         <child id="2560071392251424218" name="subFunctions" index="HjxU4" />
       </concept>
+      <concept id="812298049876156433" name="com.moraad.components.structure.TrustZoneContentSelector" flags="ng" index="31QrNk" />
+      <concept id="7296163292644697473" name="com.moraad.components.structure.TrustZoneRef" flags="ng" index="345sxq" />
       <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W" />
       <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
         <child id="6569433384300427095" name="assignedFunctions" index="lYIuc" />
@@ -1003,6 +1014,9 @@
             <ref role="122Z_O" node="1E_VH$V8uh3" resolve="DL User Data" />
           </node>
           <node concept="3VMn$a" id="4O7c2ukuws1" role="2JHqPs" />
+          <node concept="345sxq" id="59GJRmKRhRp" role="345swj">
+            <ref role="122Z_O" node="59GJRmKEMKu" resolve="TZ.5" />
+          </node>
         </node>
         <node concept="2lbezN" id="1E_VH$V8u3k" role="1b_L45">
           <property role="TrG5h" value="ConECU" />
@@ -1033,6 +1047,9 @@
           <ref role="122Z_O" node="1E_VH$V8uhb" resolve="DL SW-Update" />
         </node>
         <node concept="3VMn$a" id="4O7c2ukuws0" role="2JHqPs" />
+        <node concept="345sxq" id="59GJRmKRhRn" role="345swj">
+          <ref role="122Z_O" node="59GJRmKEMKq" resolve="TZ.4" />
+        </node>
       </node>
       <node concept="2lbezN" id="1E_VH$V8u19" role="1b_L45">
         <property role="TrG5h" value="Server" />
@@ -1047,6 +1064,9 @@
           <ref role="122Z_O" node="1E_VH$V8uhb" resolve="DL SW-Update" />
         </node>
         <node concept="3VMn$a" id="4O7c2ukuws4" role="2JHqPs" />
+        <node concept="345sxq" id="59GJRmKRhRl" role="345swj">
+          <ref role="122Z_O" node="59GJRmKEMKm" resolve="TZ.3" />
+        </node>
       </node>
       <node concept="3VMn$a" id="4O7c2ukuwjl" role="2JHqPs">
         <node concept="3VMn$0" id="4O7c2ukuwjm" role="3VMn$6">
@@ -3920,6 +3940,51 @@
     </node>
     <node concept="2j6TKA" id="1xzt3hRBw2c" role="2jedq2" />
     <node concept="3dGa_S" id="1xzt3hRBw2d" role="2xH1$J" />
+  </node>
+  <node concept="2lsSHN" id="7tyS2pKKZNn">
+    <property role="3GE5qa" value="Item Definition" />
+    <property role="TrG5h" value="Trust Zones" />
+    <node concept="31QrNk" id="7tyS2pKKZNo" role="2xH1$J" />
+    <node concept="2ly357" id="59GJRmKEMKe" role="2ly2pq">
+      <property role="DVXpC" value="Internet" />
+      <property role="TrG5h" value="TZ.1" />
+      <node concept="3VMn$a" id="59GJRmKEMKf" role="2JHqPs" />
+      <node concept="3GCHUU" id="59GJRmKEMKh" role="3GCHUb">
+        <ref role="122Z_O" to="uj4r:2kMEKexN5U" resolve="Internet" />
+      </node>
+      <node concept="2ly357" id="59GJRmKEMKi" role="2lDr27">
+        <property role="DVXpC" value="Public" />
+        <property role="TrG5h" value="TZ.2" />
+        <node concept="3VMn$a" id="59GJRmKEMKj" role="2JHqPs" />
+        <node concept="3GCHUU" id="59GJRmKEMKl" role="3GCHUb">
+          <ref role="122Z_O" to="uj4r:2kMEKexN5Y" resolve="Public" />
+        </node>
+        <node concept="2ly357" id="59GJRmKEMKm" role="2lDr27">
+          <property role="DVXpC" value="Public Cloud" />
+          <property role="TrG5h" value="TZ.3" />
+          <node concept="3VMn$a" id="59GJRmKEMKn" role="2JHqPs" />
+          <node concept="3GCHUU" id="59GJRmKEMKp" role="3GCHUb">
+            <ref role="122Z_O" to="uj4r:2kMEKexN64" resolve="Public Cloud" />
+          </node>
+          <node concept="2ly357" id="59GJRmKEMKq" role="2lDr27">
+            <property role="DVXpC" value="Trusted Partner" />
+            <property role="TrG5h" value="TZ.4" />
+            <node concept="3VMn$a" id="59GJRmKEMKr" role="2JHqPs" />
+            <node concept="3GCHUU" id="59GJRmKEMKt" role="3GCHUb">
+              <ref role="122Z_O" to="uj4r:2kMEKexN6c" resolve="Trusted Partner" />
+            </node>
+            <node concept="2ly357" id="59GJRmKEMKu" role="2lDr27">
+              <property role="DVXpC" value="Private Secured" />
+              <property role="TrG5h" value="TZ.5" />
+              <node concept="3VMn$a" id="59GJRmKEMKv" role="2JHqPs" />
+              <node concept="3GCHUU" id="59GJRmKEMKx" role="3GCHUb">
+                <ref role="122Z_O" to="uj4r:2kMEKexN6m" resolve="Private Secured" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
