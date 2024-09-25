@@ -344,7 +344,7 @@
       </concept>
       <concept id="6495719316977867921" name="com.moraad.core.structure.ConceptElement" flags="ng" index="3bfFbs">
         <child id="6495719316977867929" name="requirements" index="3bfFbk" />
-        <child id="6495719316977867928" name="risk" index="3bfFbl" />
+        <child id="6495719316977867928" name="risks" index="3bfFbl" />
       </concept>
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
