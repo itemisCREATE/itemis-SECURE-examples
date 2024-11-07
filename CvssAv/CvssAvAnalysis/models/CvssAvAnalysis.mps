@@ -266,7 +266,10 @@
         <child id="3260991312725608311" name="newDataFlowsChunk" index="1BT5$_" />
         <child id="7472593337833908268" name="rootComponent" index="3Vepgw" />
       </concept>
-      <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6" />
+      <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6">
+        <property id="8675533035648326051" name="showSmartViewByDefault" index="32ArrR" />
+        <child id="2903910728803980" name="functionAssignables" index="1Bunur" />
+      </concept>
       <concept id="4250072277178649485" name="com.moraad.components.structure.TOEChunkRef" flags="ng" index="3$0O6U">
         <reference id="4250072277178649488" name="target" index="3$0O6B" />
       </concept>
@@ -1124,6 +1127,19 @@
   </node>
   <node concept="2zckJ6" id="1PEmpgFm7ws">
     <property role="3GE5qa" value="Item Definition" />
+    <property role="32ArrR" value="true" />
+    <node concept="3$0O7b" id="1V484Ri7I87" role="1Bunur">
+      <ref role="122Z_O" node="1c2jTNFeWJa" resolve="Cmp.1" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7I88" role="1Bunur">
+      <ref role="122Z_O" node="1c2jTNFhLbE" resolve="Cmp.2" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7I89" role="1Bunur">
+      <ref role="122Z_O" node="1c2jTNFhLbK" resolve="Cmp.3" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7I86" role="1Bunur">
+      <ref role="122Z_O" node="5a5CPNXLFO9" resolve="SYS" />
+    </node>
   </node>
   <node concept="2H3I8p" id="1PEmpgFm8e1">
     <property role="TrG5h" value="UN R155 Threats" />

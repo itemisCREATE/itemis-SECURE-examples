@@ -368,6 +368,9 @@
       <concept id="7050052209593327468" name="com.moraad.components.structure.TOEChannelContentSelector" flags="ng" index="2x4$Td" />
       <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6">
         <property id="8675533035648326051" name="showSmartViewByDefault" index="32ArrR" />
+        <child id="2903910728803987" name="functions" index="1Bunu4" />
+        <child id="2903910728803983" name="smartFunctionAssignables" index="1Bunuo" />
+        <child id="2903910728803980" name="functionAssignables" index="1Bunur" />
         <child id="2094790996039355713" name="smartFuncAssignments" index="3KzJKe" />
       </concept>
       <concept id="5188113475686638955" name="com.moraad.components.structure.TOEData" flags="ng" index="2zhWjs" />
@@ -379,6 +382,7 @@
       <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
         <child id="6569433384300427095" name="assignedFunctions" index="lYIuc" />
       </concept>
+      <concept id="3043868224835494635" name="com.moraad.components.structure.TOEChannelRef" flags="ng" index="3mlHNI" />
       <concept id="3043868224835494634" name="com.moraad.components.structure.TOEChannel" flags="ng" index="3mlHNJ">
         <child id="6453420821188241049" name="endPoints" index="38xWUi" />
         <child id="7233123248602290786" name="dataFlows" index="3XVyOB" />
@@ -387,6 +391,10 @@
         <reference id="4250072277178649488" name="target" index="3$0O6B" />
       </concept>
       <concept id="4250072277178649596" name="com.moraad.components.structure.TOEComponentRef" flags="ng" index="3$0O7b" />
+      <concept id="2903910728542993" name="com.moraad.components.structure.SmartFunctionAssignable" flags="ng" index="1BpnC6">
+        <reference id="2903910728542996" name="origin" index="1BpnC3" />
+        <child id="2903910728542994" name="data" index="1BpnC5" />
+      </concept>
       <concept id="9034427618896218585" name="com.moraad.components.structure.TOEDataFlowRef" flags="ng" index="3Kajnk" />
       <concept id="9034427618896207423" name="com.moraad.components.structure.TOEDataFlow" flags="ng" index="3Kau8M">
         <reference id="549470471296403036" name="targetRef" index="27$5CB" />
@@ -1273,6 +1281,36 @@
   <node concept="2zckJ6" id="5W_1Y9DMGvH">
     <property role="3GE5qa" value="Item Definition" />
     <property role="32ArrR" value="true" />
+    <node concept="1BpnC6" id="1V484Ri7HKC" role="1Bunuo">
+      <ref role="1BpnC3" node="5W_1Y9DMIRk" resolve="GW" />
+      <node concept="3KzYab" id="1V484Ri7HKB" role="1BpnC5">
+        <ref role="122Z_O" node="2Bvf77vYioF" resolve="AESKey" />
+      </node>
+    </node>
+    <node concept="3KzYab" id="1V484Ri7HKt" role="1Bunur">
+      <ref role="122Z_O" node="2Bvf77vYioF" resolve="AESKey" />
+    </node>
+    <node concept="3KzYab" id="1V484Ri7HKr" role="1Bunur">
+      <ref role="122Z_O" node="5W_1Y9DMIVI" resolve="ESP-FW" />
+    </node>
+    <node concept="3KzYab" id="1V484Ri7HKs" role="1Bunur">
+      <ref role="122Z_O" node="5W_1Y9DMIW8" resolve="NavFav" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7HKq" role="1Bunur">
+      <ref role="122Z_O" node="5W_1Y9DMIQH" resolve="BE" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7HKp" role="1Bunur">
+      <ref role="122Z_O" node="5W_1Y9DMITd" resolve="ESP" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7HKn" role="1Bunur">
+      <ref role="122Z_O" node="5W_1Y9DMIRk" resolve="GW" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7HKo" role="1Bunur">
+      <ref role="122Z_O" node="5W_1Y9DMIS8" resolve="Nav" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7HKl" role="1Bunur">
+      <ref role="122Z_O" node="5W_1Y9DMGvw" resolve="SYS" />
+    </node>
     <node concept="3KzJKc" id="6oAaSFUtiK" role="3KzJKe">
       <ref role="3KzJK7" node="5W_1Y9DMIVI" resolve="ESP-FW" />
       <ref role="3KDv1v" node="5W_1Y9DMIPU" resolve="OTA-Update" />
@@ -1307,6 +1345,75 @@
       <ref role="3KzJK7" node="5W_1Y9DMIW8" resolve="NavFav" />
       <ref role="3KzJK9" node="5W_1Y9DMIS8" resolve="Nav" />
       <ref role="3KDv1v" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7HKm" role="1Bunur">
+      <ref role="122Z_O" node="5W_1Y9DMIQd" resolve="VHC" />
+    </node>
+    <node concept="3Kajnk" id="1V484Ri7HKv" role="1Bunur">
+      <ref role="122Z_O" node="7UMEm_O2H$g" resolve="DrvCAN" />
+    </node>
+    <node concept="3Kajnk" id="1V484Ri7HKw" role="1Bunur">
+      <ref role="122Z_O" node="7UMEm_O2H$p" resolve="MediaCAN" />
+    </node>
+    <node concept="3Kajnk" id="1V484Ri7HKu" role="1Bunur">
+      <ref role="122Z_O" node="7UMEm_NKmKz" resolve="WL" />
+    </node>
+    <node concept="3mlHNI" id="1V484Ri7HKi" role="1Bunur">
+      <ref role="122Z_O" node="3KbYnAvU9Dp" resolve="Ch.1" />
+    </node>
+    <node concept="3mlHNI" id="1V484Ri7HKj" role="1Bunur">
+      <ref role="122Z_O" node="3KbYnAvU9Dv" resolve="Ch.2" />
+    </node>
+    <node concept="3mlHNI" id="1V484Ri7HKk" role="1Bunur">
+      <ref role="122Z_O" node="3KbYnAvU9D_" resolve="Ch.3" />
+    </node>
+    <node concept="1BpnC6" id="1V484Ri7HKy" role="1Bunuo">
+      <ref role="1BpnC3" node="5W_1Y9DMIQH" resolve="BE" />
+      <node concept="3KzYab" id="1V484Ri7HKx" role="1BpnC5">
+        <ref role="122Z_O" node="5W_1Y9DMIVI" resolve="ESP-FW" />
+      </node>
+    </node>
+    <node concept="1BpnC6" id="1V484Ri7HKA" role="1Bunuo">
+      <ref role="1BpnC3" node="5W_1Y9DMIQH" resolve="BE" />
+      <node concept="3KzYab" id="1V484Ri7HK_" role="1BpnC5">
+        <ref role="122Z_O" node="5W_1Y9DMIW8" resolve="NavFav" />
+      </node>
+    </node>
+    <node concept="1BpnC6" id="1V484Ri7HK$" role="1Bunuo">
+      <ref role="1BpnC3" node="5W_1Y9DMIS8" resolve="Nav" />
+      <node concept="3KzYab" id="1V484Ri7HKz" role="1BpnC5">
+        <ref role="122Z_O" node="5W_1Y9DMIW8" resolve="NavFav" />
+      </node>
+    </node>
+    <node concept="1BpnC6" id="1V484Ri7HKG" role="1Bunuo">
+      <ref role="1BpnC3" node="7UMEm_O2H$g" resolve="DrvCAN" />
+      <node concept="3KzYab" id="1V484Ri7HKF" role="1BpnC5">
+        <ref role="122Z_O" node="5W_1Y9DMIVI" resolve="ESP-FW" />
+      </node>
+    </node>
+    <node concept="1BpnC6" id="1V484Ri7HKE" role="1Bunuo">
+      <ref role="1BpnC3" node="7UMEm_NKmKz" resolve="WL" />
+      <node concept="3KzYab" id="1V484Ri7HKD" role="1BpnC5">
+        <ref role="122Z_O" node="5W_1Y9DMIVI" resolve="ESP-FW" />
+      </node>
+    </node>
+    <node concept="1BpnC6" id="1V484Ri7HKK" role="1Bunuo">
+      <ref role="1BpnC3" node="7UMEm_O2H$p" resolve="MediaCAN" />
+      <node concept="3KzYab" id="1V484Ri7HKJ" role="1BpnC5">
+        <ref role="122Z_O" node="5W_1Y9DMIW8" resolve="NavFav" />
+      </node>
+    </node>
+    <node concept="1BpnC6" id="1V484Ri7HKI" role="1Bunuo">
+      <ref role="1BpnC3" node="7UMEm_NKmKz" resolve="WL" />
+      <node concept="3KzYab" id="1V484Ri7HKH" role="1BpnC5">
+        <ref role="122Z_O" node="5W_1Y9DMIW8" resolve="NavFav" />
+      </node>
+    </node>
+    <node concept="IT3p4" id="1V484Ri7HKL" role="1Bunu4">
+      <ref role="122Z_O" node="5W_1Y9DMIPU" resolve="OTA-Update" />
+    </node>
+    <node concept="IT3p4" id="1V484Ri7HKM" role="1Bunu4">
+      <ref role="122Z_O" node="5W_1Y9DMIPZ" resolve="Sync-NavDst" />
     </node>
   </node>
   <node concept="2Q15JU" id="3ND63w_kVnf">
