@@ -266,7 +266,10 @@
         <child id="3260991312725608311" name="newDataFlowsChunk" index="1BT5$_" />
         <child id="7472593337833908268" name="rootComponent" index="3Vepgw" />
       </concept>
-      <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6" />
+      <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6">
+        <property id="8675533035648326051" name="showSmartViewByDefault" index="32ArrR" />
+        <child id="2903910728803980" name="functionAssignables" index="1Bunur" />
+      </concept>
       <concept id="4250072277178649485" name="com.moraad.components.structure.TOEChunkRef" flags="ng" index="3$0O6U">
         <reference id="4250072277178649488" name="target" index="3$0O6B" />
       </concept>
@@ -1034,42 +1037,54 @@
         <property role="133MFP" value="" />
         <node concept="2Q16Lc" id="501$dK$Svza" role="3aHmvd">
           <ref role="2ClQv0" node="1c2jTNFeWJh" resolve="TS.1" />
-          <node concept="CLQ85" id="501$dK$Svzb" role="2QGid4">
+          <node concept="CLQ85" id="7tyS2pKEyQJ" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
             <ref role="2ClRH1" node="1c2jTNFeWJh" resolve="TS.1" />
             <ref role="2Dj$GC" node="1c2jTNFeWJh" resolve="TS.1" />
           </node>
         </node>
         <node concept="2Q16Lc" id="501$dK$Svzc" role="3aHmvd">
           <ref role="2ClQv0" node="1c2jTNFhKVX" resolve="TS.2" />
-          <node concept="CLQ85" id="501$dK$Svzd" role="2QGid4">
+          <node concept="CLQ85" id="7tyS2pKEyQX" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
             <ref role="2ClRH1" node="1c2jTNFhKVX" resolve="TS.2" />
             <ref role="2Dj$GC" node="1c2jTNFhKVX" resolve="TS.2" />
           </node>
         </node>
         <node concept="2Q16Lc" id="501$dK$Svze" role="3aHmvd">
           <ref role="2ClQv0" node="1c2jTNFhKXi" resolve="TS.3" />
-          <node concept="CLQ85" id="501$dK$Svzf" role="2QGid4">
+          <node concept="CLQ85" id="7tyS2pKEyRb" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
             <ref role="2ClRH1" node="1c2jTNFhKXi" resolve="TS.3" />
             <ref role="2Dj$GC" node="1c2jTNFhKXi" resolve="TS.3" />
           </node>
         </node>
         <node concept="2Q16Lc" id="501$dK$Svzg" role="3aHmvd">
           <ref role="2ClQv0" node="60wEthBTKEB" resolve="TS.4" />
-          <node concept="CLQ85" id="501$dK$Svzh" role="2QGid4">
+          <node concept="CLQ85" id="7tyS2pKEyRp" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
             <ref role="2ClRH1" node="60wEthBTKEB" resolve="TS.4" />
             <ref role="2Dj$GC" node="60wEthBTKEB" resolve="TS.4" />
           </node>
         </node>
         <node concept="2Q16Lc" id="501$dK$Svzi" role="3aHmvd">
           <ref role="2ClQv0" node="60wEthBTKEM" resolve="TS.5" />
-          <node concept="CLQ85" id="501$dK$Svzj" role="2QGid4">
+          <node concept="CLQ85" id="7tyS2pKEyRB" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
             <ref role="2ClRH1" node="60wEthBTKEM" resolve="TS.5" />
             <ref role="2Dj$GC" node="60wEthBTKEM" resolve="TS.5" />
           </node>
         </node>
         <node concept="2Q16Lc" id="501$dK$Svzk" role="3aHmvd">
           <ref role="2ClQv0" node="60wEthBTKEU" resolve="TS.6" />
-          <node concept="CLQ85" id="501$dK$Svzl" role="2QGid4">
+          <node concept="CLQ85" id="7tyS2pKEyRP" role="2QGid4">
+            <property role="2yT22K" value="null ()" />
+            <property role="2yT22M" value="null ()" />
             <ref role="2ClRH1" node="60wEthBTKEU" resolve="TS.6" />
             <ref role="2Dj$GC" node="60wEthBTKEU" resolve="TS.6" />
           </node>
@@ -1112,6 +1127,19 @@
   </node>
   <node concept="2zckJ6" id="1PEmpgFm7ws">
     <property role="3GE5qa" value="Item Definition" />
+    <property role="32ArrR" value="true" />
+    <node concept="3$0O7b" id="1V484Ri7I87" role="1Bunur">
+      <ref role="122Z_O" node="1c2jTNFeWJa" resolve="Cmp.1" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7I88" role="1Bunur">
+      <ref role="122Z_O" node="1c2jTNFhLbE" resolve="Cmp.2" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7I89" role="1Bunur">
+      <ref role="122Z_O" node="1c2jTNFhLbK" resolve="Cmp.3" />
+    </node>
+    <node concept="3$0O7b" id="1V484Ri7I86" role="1Bunur">
+      <ref role="122Z_O" node="5a5CPNXLFO9" resolve="SYS" />
+    </node>
   </node>
   <node concept="2H3I8p" id="1PEmpgFm8e1">
     <property role="TrG5h" value="UN R155 Threats" />
@@ -1351,7 +1379,7 @@
         <node concept="3VMn$a" id="5F0rLLZnjYq" role="3GS99T" />
       </node>
       <node concept="3GSqTS" id="1PEmpgFm8fd" role="2H0S5D">
-        <property role="TrG5h" value="18" />
+        <property role="TrG5h" value="18 Devices connected to external interfaces e.g. USB ports, OBD port, used as a means to attack vehicle systems" />
       </node>
       <node concept="2H0S4X" id="1PEmpgFm8fe" role="2H0S5D">
         <property role="TrG5h" value="External interfaces such as USB or other ports used as a point of attack, for example through code injection" />
