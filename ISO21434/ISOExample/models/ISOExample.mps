@@ -10,6 +10,7 @@
   </imports>
   <registry>
     <language id="028969a3-7835-44e7-99c9-9cc9e12c2778" name="de.itemis.ysec.methodConfiguration">
+      <concept id="7480212422241573212" name="de.itemis.ysec.methodConfiguration.structure.ImpactScaleRef" flags="ng" index="2nSPjc" />
       <concept id="8278271381845378605" name="de.itemis.ysec.methodConfiguration.structure.AFLRef" flags="ng" index="1vNPnr" />
       <concept id="8849129041839306048" name="de.itemis.ysec.methodConfiguration.structure.TrustLevelRef" flags="ng" index="3GCHUU" />
       <concept id="6006699537885391512" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
@@ -318,6 +319,7 @@
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
         <property id="4056312742470029003" name="normalBehavior" index="28AYgT" />
         <property id="4056312742470029176" name="operationSituation" index="28AYma" />
+        <child id="7480212422241573232" name="scale" index="2nSPjw" />
         <child id="6214292239618163769" name="concerns" index="1mPtRB" />
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
@@ -2205,6 +2207,9 @@
           </node>
         </node>
       </node>
+      <node concept="2nSPjc" id="26ZoS4bwjXI" role="2nSPjw">
+        <ref role="122Z_O" to="xz8e:Xq20ta5ILH" resolve="IS.3" />
+      </node>
     </node>
     <node concept="2AH0t1" id="702oElbSw1J" role="2vPz$N">
       <property role="TrG5h" value="DS.2" />
@@ -2281,6 +2286,9 @@
             <ref role="122Z_O" node="5wtRytMI6Sb" resolve="OnFunc" />
           </node>
         </node>
+      </node>
+      <node concept="2nSPjc" id="26ZoS4bwjY3" role="2nSPjw">
+        <ref role="122Z_O" to="xz8e:Xq20ta5ILF" resolve="IS.1" />
       </node>
     </node>
     <node concept="2AH0t1" id="702oElbSw1H" role="2vPz$N">
@@ -2364,6 +2372,9 @@
             <ref role="122Z_O" node="5wtRytMI6S9" resolve="OffFunc" />
           </node>
         </node>
+      </node>
+      <node concept="2nSPjc" id="26ZoS4bwjYd" role="2nSPjw">
+        <ref role="122Z_O" to="xz8e:Xq20ta5ILG" resolve="IS.2" />
       </node>
     </node>
     <node concept="2AH0t1" id="702oElbSw1L" role="2vPz$N">
