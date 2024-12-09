@@ -70,7 +70,6 @@
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-    <module reference="ab71436a-a7d1-4689-ac02-b5fde2ec681f(com.mbeddr.mpsutil.graphstream.runtime)" version="0" />
     <module reference="c0c29873-b2f7-413b-b508-0ba5b325a1d0(com.moraad.core.runtime)" version="0" />
     <module reference="b4294564-6583-4f72-81aa-5b6fc2f1be67(de.itemis.mps.commons.runtime)" version="0" />
     <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.runtime)" version="0" />
