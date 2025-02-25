@@ -64,7 +64,7 @@
   <dependencyVersions>
     <module reference="9d40c97c-ad78-428c-bfe2-2c091d2c2af8(ExampleAnalysis)" version="0" />
     <module reference="79fb18c6-3846-4eb9-a413-143c6c735e81(StandardComposition2)" version="0" />
-    <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.runtime)" version="0" />
+    <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.templates)" version="0" />
     <module reference="653446a7-cd5f-437e-8771-dcfb81a48316(de.itemis.ysec.commons.lib)" version="0" />
     <module reference="55293ae5-03b4-4178-ac73-d41d647b48ac(de.itemis.ysec.terminology.lib)" version="0" />
     <module reference="5b8291da-a6cc-445d-aaaa-1313cd19263d(io.yakindu.ysec.lib)" version="0" />

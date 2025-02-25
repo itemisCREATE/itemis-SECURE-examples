@@ -62,7 +62,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="440b241b-03fb-49dd-83b9-a5c49e6386e5(CvssAvComposition)" version="0" />
-    <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.runtime)" version="0" />
+    <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.templates)" version="0" />
     <module reference="653446a7-cd5f-437e-8771-dcfb81a48316(de.itemis.ysec.commons.lib)" version="0" />
     <module reference="d02fa6fa-263d-40d9-92d8-b0207ccaf7e0(de.itemis.ysec.lib)" version="0" />
     <module reference="55293ae5-03b4-4178-ac73-d41d647b48ac(de.itemis.ysec.terminology.lib)" version="0" />
