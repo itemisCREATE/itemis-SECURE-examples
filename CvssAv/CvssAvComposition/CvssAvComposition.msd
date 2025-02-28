@@ -39,13 +39,13 @@
     <language slang="l:b65d571f-daea-41e5-99be-6168217ee77f:de.itemis.mps.todos" version="0" />
     <language slang="l:d8c07454-d390-4e04-8826-d25e86f59134:de.itemis.mps.xdiagram" version="0" />
     <language slang="l:174fc1bc-8a89-4d07-8636-8bc5dc4757e4:de.itemis.vcs_text.tables" version="0" />
-    <language slang="l:1ce18c1e-e691-4909-8d5e-b4ddc758064f:de.itemis.ysec.application.utils" version="0" />
     <language slang="l:77390b0e-ab69-4de7-a036-d557f81b479e:de.itemis.ysec.catalog.technologies" version="0" />
     <language slang="l:7234d3fa-3f51-44a6-b03f-4596bf1cc5e5:de.itemis.ysec.catalogs.core" version="0" />
     <language slang="l:24e88a55-f0b5-4dc5-9077-49730e920865:de.itemis.ysec.checklist" version="1" />
     <language slang="l:edd58c45-9999-4ad9-8f8a-e0d26da1cbc9:de.itemis.ysec.commons" version="0" />
     <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="7" />
     <language slang="l:2307a511-c189-4bbb-ae4d-e1f113c91dbe:de.itemis.ysec.methodConfiguration.baseLanguageExtensions" version="1" />
+    <language slang="l:1ce18c1e-e691-4909-8d5e-b4ddc758064f:de.itemis.ysec.obfuscation" version="0" />
     <language slang="l:92d2ea16-5a42-4fdf-a676-c7604efe3504:de.slisson.mps.richtext" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
