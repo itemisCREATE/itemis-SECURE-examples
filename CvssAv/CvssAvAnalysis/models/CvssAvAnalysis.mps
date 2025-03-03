@@ -1124,6 +1124,25 @@
         <property role="zGsxJ" value="20.0;20.0;199.5;55.0" />
       </node>
     </node>
+    <node concept="zGsxE" id="M86EbPxeR4" role="zGsxT">
+      <property role="1ueiNO" value="root.5946338502802586889_CT_Channels" />
+      <node concept="zGsxD" id="M86EbPxeR5" role="zGsxH">
+        <property role="2MHvPS" value="1369744772054848240_CT_Channels" />
+        <property role="zGsxJ" value="20.0;98.0;240.6666666666667;57.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeR6" role="zGsxH">
+        <property role="2MHvPS" value="root.5946338502802586889_CT_Channels" />
+        <property role="zGsxJ" value="0.0;0.0;0.0;0.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeR7" role="zGsxH">
+        <property role="2MHvPS" value="1369744772054109130_CT_Channels" />
+        <property role="zGsxJ" value="20.0;20.0;210.6666666666667;57.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeR8" role="zGsxH">
+        <property role="2MHvPS" value="1369744772054848234_CT_Channels" />
+        <property role="zGsxJ" value="20.0;176.0;253.33333333333337;57.99999999999999" />
+      </node>
+    </node>
   </node>
   <node concept="2zckJ6" id="1PEmpgFm7ws">
     <property role="3GE5qa" value="Item Definition" />
