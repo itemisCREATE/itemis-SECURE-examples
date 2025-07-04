@@ -1841,6 +1841,145 @@
         <property role="zGsxJ" value="0.0;0.0;0.0;0.0" />
       </node>
     </node>
+    <node concept="zGsxE" id="M86EbPxeza" role="zGsxT">
+      <property role="1ueiNO" value="root.3385079518864193965_CT_Channels" />
+      <node concept="zGsxD" id="M86EbPxezb" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901035_CT_Channels" />
+        <property role="zGsxJ" value="327.33331298828125;99.66666666666666;115.33333333333331;57.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezc" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901511_CT_Channels-&gt;1421532820436901035_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="-12.0;22.999999999999996;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezd" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901511_CT_Channels" />
+        <property role="zGsxJ" value="232.0;112.33333333333333;43.33333333333334;32.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeze" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901083_CT_Channels" />
+        <property role="zGsxJ" value="32.0;177.66666666666666;128.66666666666663;57.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezf" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436900947_CT_Channels" />
+        <property role="zGsxJ" value="669.9999389648438;171.88888888888886;106.66666666666664;57.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezg" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436901058_CT_Channels_CT_Channels_segPort_1421532820436901010_CT_Channels" />
+        <property role="zGsxJ" value="-12.0;61.999999999999986;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezh" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901139_CT_Channels" />
+        <property role="zGsxJ" value="574.6666259765625;179.1111111111111;43.33333333333334;32.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezi" role="zGsxH">
+        <property role="2MHvPS" value="3385079518864195089_CT_Channels" />
+        <property role="zGsxJ" value="574.6666259765625;20.0;43.33333333333334;32.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezj" role="zGsxH">
+        <property role="2MHvPS" value="3385079518864194526_CT_Channels_extPort_CT_Channels" />
+        <property role="zGsxJ" value="871.333251953125;21.22222222222222;82.0;19.333333333333332" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezk" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436900966_CT_Channels" />
+        <property role="zGsxJ" value="669.9999389648438;51.888888888888886;181.3333282470703;99.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezl" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436900966_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="-12.0;43.99999999999999;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezm" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901139_CT_Channels-&gt;1421532820436900947_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="-12.0;22.999999999999996;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezn" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901058_CT_Channels" />
+        <property role="zGsxJ" value="72.0;50.66666666666666;119.99999999999999;57.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezo" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436901083_CT_Channels_CT_Channels_segPort_1421532820436901010_CT_Channels" />
+        <property role="zGsxJ" value="-12.0;200.66666666666666;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezp" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels" />
+        <property role="zGsxJ" value="574.6666259765625;85.55555555555554;43.33333333333334;32.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezq" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436901083_CT_Channels_CT_Channels_segPort_1421532820436901083_CT_Channels" />
+        <property role="zGsxJ" value="-12.0;22.999999999999996;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezr" role="zGsxH">
+        <property role="2MHvPS" value="root.3385079518864193965_CT_Channels" />
+        <property role="zGsxJ" value="0.0;0.0;0.0;0.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezs" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436900966_CT_Channels_6810048113914128758_CT_Channels" />
+        <property role="zGsxJ" value="20.0;50.66666666666666;141.33333333333331;29.333333333333332" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezt" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901511_CT_Channels-&gt;1421532820436901058_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="-12.0;34.66666666666666;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezu" role="zGsxH">
+        <property role="2MHvPS" value="3385079518864195089_CT_Channels-&gt;1421532820436900966_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="-12.0;15.999999999999996;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezv" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901010_CT_Channels" />
+        <property role="zGsxJ" value="72.0;116.44444444444443;462.6666564941406;255.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezw" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901139_CT_Channels-&gt;1421532820436900966_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="-12.0;71.99999999999999;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxezx" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436901058_CT_Channels_CT_Channels_segPort_1421532820436901058_CT_Channels" />
+        <property role="zGsxJ" value="-12.0;11.33333333333333;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeC8" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436901058_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="20.0;96.44444444444443;20.0;184.4444444444444" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeCx" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901511_CT_Channels-&gt;1421532820436901035_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeCV" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436901083_CT_Channels_CT_Channels_via_[HLsys: Headlamp System -&gt; PowSwitAct]" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeDm" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901139_CT_Channels-&gt;1421532820436900947_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeDM" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901139_CT_Channels-&gt;1421532820436900966_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="637.9999389648438;129.88888888888886;637.9999389648438;189.99999999999997" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeEf" role="zGsxH">
+        <property role="2MHvPS" value="3385079518864195089_CT_Channels-&gt;1421532820436900966_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="637.9999389648438;73.88888888888889;637.9999389648438;41.77777777777777" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeEH" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436901058_CT_Channels_CT_Channels_via_[HLsys: Headlamp System -&gt; BodyECU]" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeFc" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436901083_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="20.0;323.1111111111111;20.0;392.1111111111111;554.6666259765625;392.1111111111111;554.6666259765625;107.33333333333331" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeFG" role="zGsxH">
+        <property role="2MHvPS" value="8169644986487976592_CT_Channels-&gt;1421532820436900966_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeGd" role="zGsxH">
+        <property role="2MHvPS" value="1421532820436901511_CT_Channels-&gt;1421532820436901058_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="40.0;91.33333333333331;40.0;128.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeGJ" role="zGsxH">
+        <property role="2MHvPS" value="3385079518864195089_CT_Channels-&gt;3385079518864194526_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+    </node>
   </node>
   <node concept="2zckJ6" id="5wtRytMI6hA">
     <property role="3GE5qa" value="Item Definition" />

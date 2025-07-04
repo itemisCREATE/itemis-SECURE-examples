@@ -1277,74 +1277,6 @@
     </node>
     <node concept="zGsxE" id="1jCjfTcpdfj" role="zGsxT">
       <property role="1ueiNO" value="1920203432910773854" />
-      <node concept="zGsxD" id="1jCjfTcpdfk" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774325" />
-        <property role="zGsxJ" value="0.0;0.0;154.0;122.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfl" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774554" />
-        <property role="zGsxJ" value="5.0;41.0;94.0;53.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfm" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774325.4040116179075422018.in" />
-        <property role="zGsxJ" value="-12.0;0.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfn" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774325.4040116179075422009.out" />
-        <property role="zGsxJ" value="154.0;0.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfo" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774345" />
-        <property role="zGsxJ" value="0.0;0.0;110.0;74.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfp" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774484" />
-        <property role="zGsxJ" value="5.0;41.0;120.0;74.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfq" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774381" />
-        <property role="zGsxJ" value="5.0;41.0;73.0;53.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfr" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774554.4040116179075422036.in" />
-        <property role="zGsxJ" value="-12.0;0.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfs" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774345.4040116179075422009.in" />
-        <property role="zGsxJ" value="-12.0;0.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdft" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774345.4040116179075422018.out" />
-        <property role="zGsxJ" value="110.0;0.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfu" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774484.4040116179075422018.in" />
-        <property role="zGsxJ" value="-12.0;14.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfv" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774484.4040116179075422027.out" />
-        <property role="zGsxJ" value="120.0;14.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfw" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774484.4040116179075422036.out" />
-        <property role="zGsxJ" value="120.0;28.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfx" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774484.4040116179069267316.in" />
-        <property role="zGsxJ" value="-12.0;28.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfy" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774484.4040116179075422009.out" />
-        <property role="zGsxJ" value="120.0;42.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdfz" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774381.4040116179069267316.out" />
-        <property role="zGsxJ" value="73.0;0.0;12.0;12.0" />
-      </node>
-      <node concept="zGsxD" id="1jCjfTcpdf$" role="zGsxH">
-        <property role="2MHvPS" value="1920203432910774381.4040116179075422027.in" />
-        <property role="zGsxJ" value="-12.0;0.0;12.0;12.0" />
-      </node>
     </node>
     <node concept="zGsxE" id="50CLgtloxcR" role="zGsxT">
       <property role="1ueiNO" value="1920203432910773854" />
@@ -1741,6 +1673,109 @@
       <node concept="zGsxD" id="5pKEgM6Kq0M" role="zGsxH">
         <property role="2MHvPS" value="1920203432910774484.1920203432910774381#4040116179075422027" />
         <property role="zGsxJ" value="261.0;50.91666666666667;261.0;48.41666666666667;125.0;48.41666666666667;125.0;37.41666666666667" />
+      </node>
+    </node>
+    <node concept="zGsxE" id="M86EbPxeHi" role="zGsxT">
+      <property role="1ueiNO" value="root.1920203432910773854_CT_Channels" />
+      <node concept="zGsxD" id="M86EbPxeHj" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686092_CT_Channels-&gt;1920203432910774484_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="-12.0;25.33333333333333;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHk" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774554_CT_Channels" />
+        <property role="zGsxJ" value="20.0;52.999999999999986;91.33333333333331;57.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHl" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686078_CT_Channels-&gt;1920203432910774381_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="-12.0;22.999999999999996;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHm" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686084_CT_Channels-&gt;1920203432910774345_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="181.3333282470703;43.99999999999999;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHn" role="zGsxH">
+        <property role="2MHvPS" value="root.1920203432910773854_CT_Channels" />
+        <property role="zGsxJ" value="0.0;0.0;0.0;0.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHo" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686084_CT_Channels-&gt;1920203432910774484_CT_Channels_CT_Channels_segPort_1920203432910774325_CT_Channels" />
+        <property role="zGsxJ" value="-12.0;124.99999999999999;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHp" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686092_CT_Channels" />
+        <property role="zGsxJ" value="163.33334350585938;65.66666666666666;43.33333333333334;32.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHq" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774325_CT_Channels" />
+        <property role="zGsxJ" value="348.6666564941406;20.0;682.6666259765625;170.66666666666663" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHr" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686084_CT_Channels" />
+        <property role="zGsxJ" value="253.3333282470703;134.66666666666666;43.33333333333334;32.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHs" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686078_CT_Channels" />
+        <property role="zGsxJ" value="492.0;84.33333333333331;43.33333333333334;32.66666666666666" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHt" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774345_CT_Channels" />
+        <property role="zGsxJ" value="20.0;101.0;181.3333282470703;99.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHu" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774345_CT_Channels_4040116179075422046_CT_Channels" />
+        <property role="zGsxJ" value="20.0;50.66666666666666;141.33333333333331;29.333333333333332" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHv" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484_CT_Channels_4040116179075422045_CT_Channels" />
+        <property role="zGsxJ" value="20.0;50.66666666666666;141.33333333333331;29.333333333333332" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHw" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774484_CT_Channels" />
+        <property role="zGsxJ" value="258.6666717529297;50.66666666666666;181.3333282470703;99.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHx" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686078_CT_Channels-&gt;1920203432910774484_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="181.3333282470703;43.99999999999999;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHy" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686084_CT_Channels-&gt;1920203432910774484_CT_Channels_CT_Channels_segPort_1920203432910774484_CT_Channels" />
+        <property role="zGsxJ" value="-12.0;62.66666666666666;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeHz" role="zGsxH">
+        <property role="2MHvPS" value="1920203432910774381_CT_Channels" />
+        <property role="zGsxJ" value="587.3333129882812;71.66666666666666;75.33333333333331;57.99999999999999" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeH$" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686092_CT_Channels-&gt;1920203432910774554_CT_Channels_CT_Channels_epPort" />
+        <property role="zGsxJ" value="91.33333333333331;22.999999999999996;12.0;12.0" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeJJ" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686078_CT_Channels-&gt;1920203432910774484_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeK3" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686084_CT_Channels-&gt;1920203432910774345_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeKo" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686092_CT_Channels-&gt;1920203432910774554_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeKI" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686084_CT_Channels-&gt;1920203432910774484_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeL5" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686078_CT_Channels-&gt;1920203432910774381_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeLt" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686092_CT_Channels-&gt;1920203432910774484_CT_Channels_CT_Channels" />
+        <property role="zGsxJ" value="" />
+      </node>
+      <node concept="zGsxD" id="M86EbPxeLQ" role="zGsxH">
+        <property role="2MHvPS" value="4326826167788686084_CT_Channels-&gt;1920203432910774484_CT_Channels_CT_Channels_via_[VEH: Vehicle -&gt; ConECU]" />
+        <property role="zGsxJ" value="226.6666717529297;131.0;226.6666717529297;119.33333333333331" />
       </node>
     </node>
   </node>
