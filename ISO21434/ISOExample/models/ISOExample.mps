@@ -166,6 +166,7 @@
       <concept id="2129184553237592647" name="com.moraad.reports.structure.ComponentsTableReportItem" flags="ng" index="3xttxm" />
       <concept id="2129184553237592677" name="com.moraad.reports.structure.ChannelsTableReportItem" flags="ng" index="3xttxO" />
       <concept id="2129184553237375058" name="com.moraad.reports.structure.IToeElementTableReportItem" flags="ng" index="3xuwD3">
+        <property id="3907226716665410510" name="excludeHierarchy" index="1xYb8L" />
         <property id="760225772605925982" name="excludeCAL" index="3ZMjsh" />
         <property id="760225772605925988" name="excludeTrustAssessment" index="3ZMjsF" />
       </concept>
@@ -3940,8 +3941,15 @@
     </node>
     <node concept="ymko6" id="1k$QKsQS8zI" role="yp9Ks" />
     <node concept="3xttxO" id="1k$QKsQS93e" role="yp9Ks" />
+    <node concept="3xttxO" id="3oTgvXnUVx9" role="yp9Ks">
+      <property role="1xYb8L" value="true" />
+    </node>
     <node concept="3xttxO" id="7tyS2pKL2qM" role="yp9Ks">
       <property role="3ZMjsh" value="true" />
+    </node>
+    <node concept="3xttxO" id="3oTgvXnUVz9" role="yp9Ks">
+      <property role="3ZMjsh" value="true" />
+      <property role="1xYb8L" value="true" />
     </node>
     <node concept="ymko6" id="1k$QKsQS9zN" role="yp9Ks" />
     <node concept="3y_2Gs" id="1VvRu3aCB92" role="yp9Ks" />
@@ -3965,15 +3973,31 @@
     </node>
     <node concept="ymko6" id="1k$QKsQSa_b" role="yp9Ks" />
     <node concept="3xttxm" id="1k$QKsQSb68" role="yp9Ks" />
+    <node concept="3xttxm" id="3oTgvXnUVlu" role="yp9Ks">
+      <property role="1xYb8L" value="true" />
+    </node>
     <node concept="3xttxm" id="7tyS2pKL2jo" role="yp9Ks">
       <property role="3ZMjsF" value="true" />
+    </node>
+    <node concept="3xttxm" id="3oTgvXnUVno" role="yp9Ks">
+      <property role="3ZMjsF" value="true" />
+      <property role="1xYb8L" value="true" />
     </node>
     <node concept="3xttxm" id="7tyS2pKL2ld" role="yp9Ks">
       <property role="3ZMjsh" value="true" />
     </node>
+    <node concept="3xttxm" id="3oTgvXnUVpj" role="yp9Ks">
+      <property role="3ZMjsh" value="true" />
+      <property role="1xYb8L" value="true" />
+    </node>
     <node concept="3xttxm" id="7tyS2pKL2n3" role="yp9Ks">
       <property role="3ZMjsF" value="true" />
       <property role="3ZMjsh" value="true" />
+    </node>
+    <node concept="3xttxm" id="3oTgvXnUVrf" role="yp9Ks">
+      <property role="3ZMjsF" value="true" />
+      <property role="3ZMjsh" value="true" />
+      <property role="1xYb8L" value="true" />
     </node>
     <node concept="ymko6" id="1k$QKsQSbAD" role="yp9Ks" />
     <node concept="3dmGyN" id="1VvRu3aCBhc" role="yp9Ks" />
@@ -4076,8 +4100,15 @@
     <node concept="3xdgjh" id="1k$QKsQSqY_" role="yp9Ks" />
     <node concept="ymko6" id="1k$QKsQSrun" role="yp9Ks" />
     <node concept="3xuwDp" id="1k$QKsQSs04" role="yp9Ks" />
+    <node concept="3xuwDp" id="3oTgvXnUVtc" role="yp9Ks">
+      <property role="1xYb8L" value="true" />
+    </node>
     <node concept="3xuwDp" id="7tyS2pKL2oU" role="yp9Ks">
       <property role="3ZMjsh" value="true" />
+    </node>
+    <node concept="3xuwDp" id="3oTgvXnUVva" role="yp9Ks">
+      <property role="3ZMjsh" value="true" />
+      <property role="1xYb8L" value="true" />
     </node>
     <node concept="ymko6" id="1k$QKsQSsvK" role="yp9Ks" />
     <node concept="2SZOu" id="1VvRu3aCBw1" role="yp9Ks" />
