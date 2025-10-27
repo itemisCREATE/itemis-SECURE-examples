@@ -116,30 +116,30 @@
         </node>
       </node>
       <node concept="3RtnZZ" id="1c2jTNFhLqa" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" resolve="A" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" />
       </node>
       <node concept="3RtnZZ" id="1c2jTNFhLqR" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQja" resolve="C" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQja" />
       </node>
       <node concept="3RtnZZ" id="1c2jTNFhLrn" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjc" resolve="I" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQjc" />
       </node>
       <node concept="13pXwX" id="1c2jTNFhLpO" role="3Rtpag" />
       <node concept="3RtpOr" id="1c2jTNFhLn2" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" resolve="AV" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBD" resolve="AV0" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBD" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFhLnn" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBy" resolve="AC" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBI" resolve="AC0" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBy" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBI" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFhLnB" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBz" resolve="PR" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBL" resolve="PR0" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBz" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBL" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFhLnM" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDB$" resolve="UI" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBO" resolve="UI0" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDB$" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBO" />
       </node>
     </node>
     <node concept="3Rgaea" id="1c2jTNFeW_y" role="3RoD5G">
@@ -156,30 +156,30 @@
         </node>
       </node>
       <node concept="3RtnZZ" id="1c2jTNFeW_Y" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" resolve="A" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" />
       </node>
       <node concept="3RtnZZ" id="1c2jTNFeWAN" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQja" resolve="C" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQja" />
       </node>
       <node concept="3RtnZZ" id="1c2jTNFeWBF" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjc" resolve="I" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQjc" />
       </node>
       <node concept="13pXwX" id="1c2jTNFeWXl" role="3Rtpag" />
       <node concept="3RtpOr" id="1c2jTNFeWNt" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" resolve="AV" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBE" resolve="AV1" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBE" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFeWP2" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBy" resolve="AC" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBI" resolve="AC0" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBy" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBI" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFeWQy" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBz" resolve="PR" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBL" resolve="PR0" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBz" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBL" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFeWRX" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDB$" resolve="UI" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBO" resolve="UI0" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDB$" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBO" />
       </node>
     </node>
   </node>
@@ -258,7 +258,7 @@
               </node>
               <node concept="3VMn$S" id="20HkN2s1rtg" role="3VMn$3">
                 <property role="3VMn$Y" value="CVSS 3.0 ISO/SAE 21434 Feasibility Model" />
-                <ref role="3VMn$Q" to="d1tk:5a5CPNXLDBw" resolve="CVSS 3.0 ISO/SAE 21434 Feasibility Model" />
+                <ref role="3VMn$Q" to="d1tk:5a5CPNXLDBw" />
               </node>
               <node concept="3VMn$7" id="20HkN2s1rtj" role="3VMn$3">
                 <property role="3VMn$Y" value="is" />
@@ -298,7 +298,7 @@
               </node>
               <node concept="3VMn$S" id="20HkN2s1rty" role="3VMn$3">
                 <property role="3VMn$Y" value="Risk Model" />
-                <ref role="3VMn$Q" to="nb9t:4CQftq3lQhv" resolve="Risk Model" />
+                <ref role="3VMn$Q" to="nb9t:4CQftq3lQhv" />
               </node>
               <node concept="3VMn$7" id="20HkN2s1rt_" role="3VMn$3">
                 <property role="3VMn$Y" value="uses" />
@@ -321,7 +321,7 @@
               <node concept="3VMn$S" id="20HkN2s1rEl" role="3VMn$3">
                 <property role="3VMn$Y" value="Acc_CVSS_3.0" />
                 <property role="3DWmGy" value="true" />
-                <ref role="3VMn$Q" to="nb9t:4ZGXb7g6ddn" resolve="Accumulation" />
+                <ref role="3VMn$Q" to="nb9t:4ZGXb7g6ddn" />
               </node>
               <node concept="3VMn$7" id="20HkN2s1rEd" role="3VMn$3">
                 <property role="3VMn$Y" value=")" />
