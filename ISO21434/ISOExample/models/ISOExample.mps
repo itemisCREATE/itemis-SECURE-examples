@@ -254,7 +254,7 @@
       <concept id="312446707538163886" name="de.itemis.vcs_text.tables.structure.SimpleCell" flags="ng" index="2mR0e">
         <child id="312446707538454950" name="entry" index="2hY46" />
       </concept>
-      <concept id="312446707540702486" name="de.itemis.vcs_text.tables.structure.HeaderNameCellEntry" flags="ng" index="2ozQQ" />
+      <concept id="312446707540702486" name="de.itemis.vcs_text.tables.structure.HeaderCell" flags="ng" index="2ozQQ" />
       <concept id="4299407153800462969" name="de.itemis.vcs_text.tables.structure.FreetextCellEntry" flags="ng" index="38D_9Z">
         <child id="4299407153800463780" name="value" index="38D_my" />
       </concept>
