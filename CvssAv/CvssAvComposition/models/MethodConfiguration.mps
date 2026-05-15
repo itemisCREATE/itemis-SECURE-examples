@@ -2,7 +2,7 @@
 <model ref="r:de8ef075-cdc4-41d4-bef5-8759fa7cb229(MethodConfiguration)">
   <persistence version="9" />
   <languages>
-    <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
+    <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(de.itemis.secure.devkit.iso21434)" />
   </languages>
   <imports>
     <import index="d1tk" ref="r:ec41ad6f-1a23-4b2d-9ff9-1d1ba85fe721(de.itemis.ysec.lib.av_cvss_ForISO21434)" />
