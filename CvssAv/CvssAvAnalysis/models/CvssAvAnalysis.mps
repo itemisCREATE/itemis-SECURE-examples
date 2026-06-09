@@ -22,7 +22,7 @@
         <property id="2498010886192733022" name="rootId" index="1ueiNO" />
         <child id="69042634962010500" name="layoutEntries" index="zGsxH" />
       </concept>
-      <concept id="280164805027066272" name="de.itemis.mps.xdiagram.structure.XDiagram" flags="ng" index="3xPMB7">
+      <concept id="280164805027066272" name="de.itemis.mps.xdiagram.structure.XDiagram" flags="ngI" index="3xPMB7">
         <child id="69042634962010512" name="layoutStorages" index="zGsxT" />
       </concept>
     </language>
@@ -111,16 +111,16 @@
       <concept id="8588388912954219383" name="com.moraad.reports.structure.DamageScenarioTableReportItem" flags="ng" index="3UIwP1" />
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
-      <concept id="7050052209586915341" name="de.itemis.ysec.commons.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
+      <concept id="7050052209586915341" name="de.itemis.ysec.commons.structure.IChunkWithDefaultContent" flags="ngI" index="2xH1$G">
         <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
       </concept>
-      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
+      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ngI" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
-      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ng" index="1ALOwD">
+      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ngI" index="1ALOwD">
         <child id="7057631560081871838" name="description" index="2JHqPs" />
       </concept>
-      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ng" index="1ALOwG">
+      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ngI" index="1ALOwG">
         <property id="1729603031951941283" name="title" index="DVXpC" />
       </concept>
     </language>
@@ -145,7 +145,7 @@
       <concept id="8926592809623411159" name="de.itemis.mps.editor.freetext.structure.Freetext" flags="ng" index="3VMn$a">
         <child id="8926592809623411163" name="paragraphs" index="3VMn$6" />
       </concept>
-      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
+      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ngI" index="3VMn$Z">
         <property id="8926592809623411171" name="text" index="3VMn$Y" />
       </concept>
     </language>
@@ -201,7 +201,7 @@
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
-      <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ng" index="KYrDd">
+      <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ngI" index="KYrDd">
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
       <concept id="3384350556523615565" name="com.moraad.core.structure.ThreatClassRef" flags="ng" index="122ZmF" />
@@ -209,7 +209,7 @@
       <concept id="3440241848481093318" name="com.moraad.core.structure.RefinedByRelation" flags="ng" index="37A2tX" />
       <concept id="3440241848481093317" name="com.moraad.core.structure.MitigatedByRelation" flags="ng" index="37A2tY" />
       <concept id="3440241848481093316" name="com.moraad.core.structure.ThreatenedByRelation" flags="ng" index="37A2tZ" />
-      <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ng" index="37AdO$">
+      <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ngI" index="37AdO$">
         <child id="3440241848481148064" name="expression" index="37AdOr" />
       </concept>
       <concept id="4601417698506916745" name="com.moraad.core.structure.EmptyAnalysisElement" flags="ng" index="19qcqd" />
@@ -248,7 +248,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -257,7 +257,7 @@
       <concept id="4903305818773971546" name="com.moraad.components.structure.TOEComponent" flags="ng" index="2lbezN">
         <child id="1808727333797819112" name="subComponents" index="1b_L45" />
       </concept>
-      <concept id="4903305818773998197" name="com.moraad.components.structure.ITOEElementContainer" flags="ng" index="2lbk3s">
+      <concept id="4903305818773998197" name="com.moraad.components.structure.ITOEElementContainer" flags="ngI" index="2lbk3s">
         <child id="4903305818773998200" name="elements" index="2lbk3h" />
       </concept>
       <concept id="3911760519739995188" name="com.moraad.components.structure.SystemDiagram" flags="ng" index="2ndE_3">

@@ -92,13 +92,13 @@
       </concept>
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
-      <concept id="6635950350405320702" name="de.itemis.ysec.commons.structure.IColored" flags="ng" index="b7xTh">
+      <concept id="6635950350405320702" name="de.itemis.ysec.commons.structure.IColored" flags="ngI" index="b7xTh">
         <child id="8150812653237852773" name="color" index="E7tE9" />
       </concept>
-      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ng" index="1ALOwD">
+      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ngI" index="1ALOwD">
         <child id="7057631560081871838" name="description" index="2JHqPs" />
       </concept>
-      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ng" index="1ALOwG">
+      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ngI" index="1ALOwG">
         <property id="1729603031951941283" name="title" index="DVXpC" />
       </concept>
       <concept id="4060178329350500277" name="de.itemis.ysec.commons.structure.TerminologyProfile" flags="ng" index="3XX4$o" />
@@ -114,12 +114,12 @@
       <concept id="8926592809623411159" name="de.itemis.mps.editor.freetext.structure.Freetext" flags="ng" index="3VMn$a">
         <child id="8926592809623411163" name="paragraphs" index="3VMn$6" />
       </concept>
-      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
+      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ngI" index="3VMn$Z">
         <property id="8926592809623411171" name="text" index="3VMn$Y" />
       </concept>
     </language>
     <language id="7181c8c9-3335-44a5-b8b8-c9883c6a4425" name="de.itemis.mps.terminology">
-      <concept id="4060178329348968423" name="de.itemis.mps.terminology.structure.ITerminologyProfile" flags="ng" index="3XNi_a">
+      <concept id="4060178329348968423" name="de.itemis.mps.terminology.structure.ITerminologyProfile" flags="ngI" index="3XNi_a">
         <reference id="4326626152485306882" name="baseProfile" index="3iLw6d" />
       </concept>
     </language>
@@ -214,7 +214,7 @@
       </concept>
       <concept id="1929268400528593250" name="com.moraad.core.structure.TransferedByRelation" flags="ng" index="1z8F81" />
       <concept id="1929268400528594018" name="com.moraad.core.structure.DataFlowRuleElement" flags="ng" index="1z8Fs1" />
-      <concept id="1272655975671937764" name="com.moraad.core.structure.IRiskTreatmentLeadsTo" flags="ng" index="3ABlGT">
+      <concept id="1272655975671937764" name="com.moraad.core.structure.IRiskTreatmentLeadsTo" flags="ngI" index="3ABlGT">
         <child id="1272655975671937765" name="leadsTo" index="3ABlGS" />
       </concept>
       <concept id="177583211455737119" name="com.moraad.core.structure.AEDTAggregatorRef" flags="ng" index="1I$CJy">
@@ -232,7 +232,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>

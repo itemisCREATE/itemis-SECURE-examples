@@ -13,7 +13,7 @@
     </language>
     <language id="77390b0e-ab69-4de7-a036-d557f81b479e" name="de.itemis.ysec.catalog.technologies">
       <concept id="43924267856615948" name="de.itemis.ysec.catalog.technologies.structure.EmptyTechnologiesCatalogContent" flags="ng" index="2e0drJ" />
-      <concept id="3517148917927860064" name="de.itemis.ysec.catalog.technologies.structure.ITaggedWithTechnologies" flags="ng" index="1jWzGI">
+      <concept id="3517148917927860064" name="de.itemis.ysec.catalog.technologies.structure.ITaggedWithTechnologies" flags="ngI" index="1jWzGI">
         <child id="3260991312724860420" name="technologies" index="1BQc1m" />
       </concept>
       <concept id="7473959397022733243" name="de.itemis.ysec.catalog.technologies.structure.TechnologiesCatalog" flags="ng" index="1EwOn2">
@@ -23,13 +23,13 @@
       <concept id="7473959397023084950" name="de.itemis.ysec.catalog.technologies.structure.TechnologyRef" flags="ng" index="1EY2vJ" />
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
-      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
+      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ngI" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
-      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ng" index="1ALOwD">
+      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ngI" index="1ALOwD">
         <child id="7057631560081871838" name="description" index="2JHqPs" />
       </concept>
-      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ng" index="1ALOwG">
+      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ngI" index="1ALOwG">
         <property id="1729603031951941283" name="title" index="DVXpC" />
       </concept>
     </language>
@@ -44,7 +44,7 @@
       <concept id="8926592809623411159" name="de.itemis.mps.editor.freetext.structure.Freetext" flags="ng" index="3VMn$a">
         <child id="8926592809623411163" name="paragraphs" index="3VMn$6" />
       </concept>
-      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
+      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ngI" index="3VMn$Z">
         <property id="8926592809623411171" name="text" index="3VMn$Y" />
       </concept>
     </language>
@@ -54,7 +54,7 @@
         <child id="8278271381841453214" name="architectureElements" index="1u4RdC" />
         <child id="8278271381841453213" name="protects" index="1u4RdF" />
       </concept>
-      <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ng" index="KYrDd">
+      <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ngI" index="KYrDd">
         <reference id="8591014732070591489" name="refines" index="323Bpw" />
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
@@ -78,7 +78,7 @@
       <concept id="8677481601268483478" name="com.moraad.core.structure.ChannelSecurityTarget" flags="ng" index="3WX1Ss" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>

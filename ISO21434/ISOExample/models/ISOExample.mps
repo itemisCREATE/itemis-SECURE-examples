@@ -15,7 +15,7 @@
       <concept id="6006699537885391512" name="de.itemis.ysec.methodConfiguration.structure.SecurityGoalClassRef" flags="ng" index="3RtnZZ" />
     </language>
     <language id="77390b0e-ab69-4de7-a036-d557f81b479e" name="de.itemis.ysec.catalog.technologies">
-      <concept id="3517148917927860064" name="de.itemis.ysec.catalog.technologies.structure.ITaggedWithTechnologies" flags="ng" index="1jWzGI">
+      <concept id="3517148917927860064" name="de.itemis.ysec.catalog.technologies.structure.ITaggedWithTechnologies" flags="ngI" index="1jWzGI">
         <child id="3260991312724860420" name="technologies" index="1BQc1m" />
       </concept>
       <concept id="7473959397023084950" name="de.itemis.ysec.catalog.technologies.structure.TechnologyRef" flags="ng" index="1EY2vJ" />
@@ -29,7 +29,7 @@
         <property id="2498010886192733022" name="rootId" index="1ueiNO" />
         <child id="69042634962010500" name="layoutEntries" index="zGsxH" />
       </concept>
-      <concept id="280164805027066272" name="de.itemis.mps.xdiagram.structure.XDiagram" flags="ng" index="3xPMB7">
+      <concept id="280164805027066272" name="de.itemis.mps.xdiagram.structure.XDiagram" flags="ngI" index="3xPMB7">
         <property id="4203221772503866156" name="lockPorts" index="2c4KN2" />
         <child id="69042634962010512" name="layoutStorages" index="zGsxT" />
       </concept>
@@ -115,7 +115,7 @@
       <concept id="8140327204157545254" name="com.moraad.reports.structure.TrustLevelsTableReportItem" flags="ng" index="fIxHg" />
       <concept id="288157383581295240" name="com.moraad.reports.structure.ImpactLevelsTableReportItem" flags="ng" index="kePWl" />
       <concept id="288157383577698444" name="com.moraad.reports.structure.SecurityPropertiesTableReportItem" flags="ng" index="ksrOh" />
-      <concept id="2889406642063639953" name="com.moraad.reports.structure.IHaveRationale" flags="ng" index="nKFAp">
+      <concept id="2889406642063639953" name="com.moraad.reports.structure.IHaveRationale" flags="ngI" index="nKFAp">
         <property id="2889406642063639954" name="exportRationale" index="nKFAq" />
         <property id="2889406642063639956" name="exportRationaleKeyword" index="nKFAs" />
       </concept>
@@ -183,16 +183,16 @@
       <concept id="9037100677490252154" name="com.moraad.reports.structure.ClaimTableReportItem" flags="ng" index="3Wlq9l" />
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
-      <concept id="7050052209586915341" name="de.itemis.ysec.commons.structure.IChunkWithDefaultContent" flags="ng" index="2xH1$G">
+      <concept id="7050052209586915341" name="de.itemis.ysec.commons.structure.IChunkWithDefaultContent" flags="ngI" index="2xH1$G">
         <child id="7050052209586915342" name="defaultContent" index="2xH1$J" />
       </concept>
-      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
+      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ngI" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
-      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ng" index="1ALOwD">
+      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ngI" index="1ALOwD">
         <child id="7057631560081871838" name="description" index="2JHqPs" />
       </concept>
-      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ng" index="1ALOwG">
+      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ngI" index="1ALOwG">
         <property id="1729603031951941283" name="title" index="DVXpC" />
       </concept>
     </language>
@@ -220,14 +220,14 @@
       <concept id="8926592809623411173" name="de.itemis.mps.editor.freetext.structure.LinkRun" flags="ng" index="3VMn$S">
         <reference id="8926592809623411179" name="target" index="3VMn$Q" />
       </concept>
-      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
+      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ngI" index="3VMn$Z">
         <property id="6594393893355296108" name="punctuationLeft" index="3DWmGy" />
         <property id="8926592809623411171" name="text" index="3VMn$Y" />
       </concept>
     </language>
     <language id="a97beefa-b088-4bdb-8ed8-6b4e554b6264" name="com.moraad.sequences">
       <concept id="339890543921791036" name="com.moraad.sequences.structure.LeftToRightDirection" flags="ng" index="ojCyq" />
-      <concept id="1745845303550716202" name="com.moraad.sequences.structure.ITransfersData" flags="ng" index="2APHgB">
+      <concept id="1745845303550716202" name="com.moraad.sequences.structure.ITransfersData" flags="ngI" index="2APHgB">
         <child id="8332226869043852857" name="data" index="2eWf89" />
       </concept>
       <concept id="8142618915233841375" name="com.moraad.sequences.structure.SequencesChunk" flags="ng" index="1YSUgs">
@@ -313,7 +313,7 @@
       <concept id="7050052209585848531" name="com.moraad.core.structure.AssumptionContentSelector" flags="ng" index="2xx57M" />
       <concept id="7050052209585848533" name="com.moraad.core.structure.RiskContentSelector" flags="ng" index="2xx57O" />
       <concept id="7050052209585848535" name="com.moraad.core.structure.ScenarioContentSelector" flags="ng" index="2xx57Q" />
-      <concept id="1223902958963665749" name="com.moraad.core.structure.ITransformDamage" flags="ng" index="2$q0ok">
+      <concept id="1223902958963665749" name="com.moraad.core.structure.ITransformDamage" flags="ngI" index="2$q0ok">
         <child id="1223902958963665858" name="effects" index="2$q0q3" />
       </concept>
       <concept id="1010266934659331885" name="com.moraad.core.structure.DamageScenario" flags="ng" index="2AH0t1">
@@ -323,7 +323,7 @@
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
-      <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ng" index="KYrDd">
+      <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ngI" index="KYrDd">
         <property id="481666006483525579" name="isImpossible" index="1muYt_" />
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
@@ -340,7 +340,7 @@
       <concept id="3440241848481093318" name="com.moraad.core.structure.RefinedByRelation" flags="ng" index="37A2tX" />
       <concept id="3440241848481093317" name="com.moraad.core.structure.MitigatedByRelation" flags="ng" index="37A2tY" />
       <concept id="3440241848481093316" name="com.moraad.core.structure.ThreatenedByRelation" flags="ng" index="37A2tZ" />
-      <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ng" index="37AdO$">
+      <concept id="3440241848481148063" name="com.moraad.core.structure.IPropagationRelation" flags="ngI" index="37AdO$">
         <child id="3440241848481148064" name="expression" index="37AdOr" />
       </concept>
       <concept id="6495719316977867921" name="com.moraad.core.structure.ConceptElement" flags="ng" index="3bfFbs">
@@ -350,7 +350,7 @@
       <concept id="709149415121875681" name="com.moraad.core.structure.DamageCriteriaForClassAssignments" flags="ng" index="3cP9l3">
         <child id="709149415121878132" name="damageCriteriaAssignments" index="3cP9Jm" />
       </concept>
-      <concept id="7659415166187772701" name="com.moraad.core.structure.IRiskTreatmentEntry" flags="ng" index="1d_MUu">
+      <concept id="7659415166187772701" name="com.moraad.core.structure.IRiskTreatmentEntry" flags="ngI" index="1d_MUu">
         <property id="7659415166187784301" name="rationale" index="1d_RRI" />
       </concept>
       <concept id="2137954257227948905" name="com.moraad.core.structure.CsConceptContentSelector" flags="ng" index="3dGa_S" />
@@ -414,7 +414,7 @@
         <property id="954825237966346050" name="groupId" index="2QNYWW" />
         <child id="954825237962042872" name="text" index="2Q3xm6" />
       </concept>
-      <concept id="954825237962042865" name="de.itemis.mps.todos.structure.ICanHaveTodos" flags="ng" index="2Q3xmf">
+      <concept id="954825237962042865" name="de.itemis.mps.todos.structure.ICanHaveTodos" flags="ngI" index="2Q3xmf">
         <child id="954825237966346035" name="todos" index="2QNYXd" />
       </concept>
     </language>
@@ -423,7 +423,7 @@
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -434,7 +434,7 @@
         <child id="1808727333797819112" name="subComponents" index="1b_L45" />
         <child id="1808727333797819114" name="storedData" index="1b_L47" />
       </concept>
-      <concept id="4903305818773998197" name="com.moraad.components.structure.ITOEElementContainer" flags="ng" index="2lbk3s">
+      <concept id="4903305818773998197" name="com.moraad.components.structure.ITOEElementContainer" flags="ngI" index="2lbk3s">
         <child id="4903305818773998200" name="elements" index="2lbk3h" />
       </concept>
       <concept id="5693834772128144381" name="com.moraad.components.structure.TrustZoneChunk" flags="ng" index="2lsSHN">
@@ -467,7 +467,7 @@
       <concept id="812298049876156433" name="com.moraad.components.structure.TrustZoneContentSelector" flags="ng" index="31QrNk" />
       <concept id="7296163292644697473" name="com.moraad.components.structure.TrustZoneRef" flags="ng" index="345sxq" />
       <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W" />
-      <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
+      <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ngI" index="1e0lug">
         <child id="6569433384300427095" name="assignedFunctions" index="lYIuc" />
       </concept>
       <concept id="3043868224835494635" name="com.moraad.components.structure.TOEChannelRef" flags="ng" index="3mlHNI" />
