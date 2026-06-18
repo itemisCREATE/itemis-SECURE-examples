@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="ISOExample" uuid="8cdc011b-33c1-488b-ab6f-ecd326955614" moduleVersion="0" compileInMPS="true">
+<solution name="ISOExample" uuid="8cdc011b-33c1-488b-ab6f-ecd326955614" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">ea36efc9-242c-402d-9cd6-9b37c96aac34(ISOComposition)</dependency>
   </dependencies>

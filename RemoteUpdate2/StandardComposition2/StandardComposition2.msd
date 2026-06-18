@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="StandardComposition2" uuid="79fb18c6-3846-4eb9-a413-143c6c735e81" moduleVersion="0" compileInMPS="true">
+<solution name="StandardComposition2" uuid="79fb18c6-3846-4eb9-a413-143c6c735e81" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">55293ae5-03b4-4178-ac73-d41d647b48ac(de.itemis.ysec.terminology.lib)</dependency>
   </dependencies>

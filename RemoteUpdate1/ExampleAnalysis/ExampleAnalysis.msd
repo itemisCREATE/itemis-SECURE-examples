@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="ExampleAnalysis" uuid="e5c88256-a8e9-4a75-9ca4-4863fca0d461" moduleVersion="0" compileInMPS="true">
+<solution name="ExampleAnalysis" uuid="e5c88256-a8e9-4a75-9ca4-4863fca0d461" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">fed5b234-fad3-4996-8ddc-1d3fd5d84092(StandardComposition)</dependency>
   </dependencies>
