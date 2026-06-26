@@ -20,13 +20,13 @@
       <concept id="7473959397022778362" name="de.itemis.ysec.catalog.technologies.structure.Technology" flags="ng" index="1Ex9m3" />
     </language>
     <language id="edd58c45-9999-4ad9-8f8a-e0d26da1cbc9" name="de.itemis.ysec.commons">
-      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
+      <concept id="3384350556523616640" name="de.itemis.ysec.commons.structure.ISecABasicElementRef" flags="ngI" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
-      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ng" index="1ALOwD">
+      <concept id="2596867816763073964" name="de.itemis.ysec.commons.structure.IDescribed" flags="ngI" index="1ALOwD">
         <child id="7057631560081871838" name="description" index="2JHqPs" />
       </concept>
-      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ng" index="1ALOwG">
+      <concept id="2596867816763073961" name="de.itemis.ysec.commons.structure.ITitled" flags="ngI" index="1ALOwG">
         <property id="1729603031951941283" name="title" index="DVXpC" />
       </concept>
     </language>
@@ -54,7 +54,7 @@
       <concept id="8926592809623411173" name="de.itemis.mps.editor.freetext.structure.LinkRun" flags="ng" index="3VMn$S">
         <reference id="8926592809623411179" name="target" index="3VMn$Q" />
       </concept>
-      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ng" index="3VMn$Z">
+      <concept id="8926592809623411170" name="de.itemis.mps.editor.freetext.structure.IRun" flags="ngI" index="3VMn$Z">
         <property id="6594393893355296108" name="punctuationLeft" index="3DWmGy" />
         <property id="8926592809623411171" name="text" index="3VMn$Y" />
       </concept>
@@ -77,7 +77,7 @@
       </concept>
     </language>
     <language id="2bca1aa3-c113-4542-8ac2-2a6a30636981" name="com.moraad.core">
-      <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ng" index="KYrDd">
+      <concept id="227120341088952050" name="com.moraad.core.structure.IAttackEffortRatedClass" flags="ngI" index="KYrDd">
         <child id="6006699537885399153" name="initialRiskFactors" index="3RtpOm" />
       </concept>
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
@@ -116,30 +116,30 @@
         </node>
       </node>
       <node concept="3RtnZZ" id="1c2jTNFhLqa" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" resolve="A" />
       </node>
       <node concept="3RtnZZ" id="1c2jTNFhLqR" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQja" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQja" resolve="C" />
       </node>
       <node concept="3RtnZZ" id="1c2jTNFhLrn" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjc" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQjc" resolve="I" />
       </node>
       <node concept="13pXwX" id="1c2jTNFhLpO" role="3Rtpag" />
       <node concept="3RtpOr" id="1c2jTNFhLn2" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBD" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" resolve="AV" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBD" resolve="AV0" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFhLnn" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBy" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBI" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBy" resolve="AC" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBI" resolve="AC0" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFhLnB" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBz" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBL" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBz" resolve="PR" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBL" resolve="PR0" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFhLnM" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDB$" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBO" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDB$" resolve="UI" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBO" resolve="UI0" />
       </node>
     </node>
     <node concept="3Rgaea" id="1c2jTNFeW_y" role="3RoD5G">
@@ -156,30 +156,30 @@
         </node>
       </node>
       <node concept="3RtnZZ" id="1c2jTNFeW_Y" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQjb" resolve="A" />
       </node>
       <node concept="3RtnZZ" id="1c2jTNFeWAN" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQja" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQja" resolve="C" />
       </node>
       <node concept="3RtnZZ" id="1c2jTNFeWBF" role="3Rtpal">
-        <ref role="122Z_O" to="nb9t:4CQftq3lQjc" />
+        <ref role="122Z_O" to="nb9t:4CQftq3lQjc" resolve="I" />
       </node>
       <node concept="13pXwX" id="1c2jTNFeWXl" role="3Rtpag" />
       <node concept="3RtpOr" id="1c2jTNFeWNt" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBE" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBx" resolve="AV" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBE" resolve="AV1" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFeWP2" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBy" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBI" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBy" resolve="AC" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBI" resolve="AC0" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFeWQy" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBz" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBL" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDBz" resolve="PR" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBL" resolve="PR0" />
       </node>
       <node concept="3RtpOr" id="1c2jTNFeWRX" role="3RtpOm">
-        <ref role="3RtpOq" to="d1tk:5a5CPNXLDB$" />
-        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBO" />
+        <ref role="3RtpOq" to="d1tk:5a5CPNXLDB$" resolve="UI" />
+        <ref role="3RtpRB" to="d1tk:5a5CPNXLDBO" resolve="UI0" />
       </node>
     </node>
   </node>
@@ -258,7 +258,7 @@
               </node>
               <node concept="3VMn$S" id="20HkN2s1rtg" role="3VMn$3">
                 <property role="3VMn$Y" value="CVSS 3.0 ISO/SAE 21434 Feasibility Model" />
-                <ref role="3VMn$Q" to="d1tk:5a5CPNXLDBw" />
+                <ref role="3VMn$Q" to="d1tk:5a5CPNXLDBw" resolve="CVSS 3.0 ISO/SAE 21434 Feasibility Model" />
               </node>
               <node concept="3VMn$7" id="20HkN2s1rtj" role="3VMn$3">
                 <property role="3VMn$Y" value="is" />
@@ -298,7 +298,7 @@
               </node>
               <node concept="3VMn$S" id="20HkN2s1rty" role="3VMn$3">
                 <property role="3VMn$Y" value="Risk Model" />
-                <ref role="3VMn$Q" to="nb9t:4CQftq3lQhv" />
+                <ref role="3VMn$Q" to="nb9t:4CQftq3lQhv" resolve="Risk Model" />
               </node>
               <node concept="3VMn$7" id="20HkN2s1rt_" role="3VMn$3">
                 <property role="3VMn$Y" value="uses" />
@@ -321,7 +321,7 @@
               <node concept="3VMn$S" id="20HkN2s1rEl" role="3VMn$3">
                 <property role="3VMn$Y" value="Acc_CVSS_3.0" />
                 <property role="3DWmGy" value="true" />
-                <ref role="3VMn$Q" to="nb9t:4ZGXb7g6ddn" />
+                <ref role="3VMn$Q" to="nb9t:4ZGXb7g6ddn" resolve="Accumulation" />
               </node>
               <node concept="3VMn$7" id="20HkN2s1rEd" role="3VMn$3">
                 <property role="3VMn$Y" value=")" />
