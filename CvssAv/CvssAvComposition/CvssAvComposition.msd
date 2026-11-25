@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="CvssAvComposition" uuid="440b241b-03fb-49dd-83b9-a5c49e6386e5" moduleVersion="0" compileInMPS="true">
+<solution name="CvssAvComposition" uuid="440b241b-03fb-49dd-83b9-a5c49e6386e5" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -10,7 +10,6 @@
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">d02fa6fa-263d-40d9-92d8-b0207ccaf7e0(de.itemis.ysec.lib)</dependency>
   </dependencies>
