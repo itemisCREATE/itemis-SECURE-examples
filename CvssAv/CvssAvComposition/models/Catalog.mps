@@ -2,7 +2,7 @@
 <model ref="r:f5dd6ccb-d48b-4ccc-ad4f-573e39d72d2a(Catalog)">
   <persistence version="9" />
   <languages>
-    <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(com.moraad)" />
+    <devkit ref="9b903ecd-ba57-441e-8d7c-d3f1fbfcc047(de.itemis.secure.devkit.iso21434)" />
   </languages>
   <imports>
     <import index="nb9t" ref="r:de8ef075-cdc4-41d4-bef5-8759fa7cb229(MethodConfiguration)" />
